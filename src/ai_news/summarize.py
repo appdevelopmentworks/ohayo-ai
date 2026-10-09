@@ -39,7 +39,9 @@ SUMMARY_SYSTEM = f"""\
 - 全文の翻訳はしない。自分の言葉で短くまとめる
 - 文末は「〜した」「〜できる」などの常体。専門用語はできるだけ言い換える
 - 日本語の漢字だけを使い、中国語の簡体字を使わない
-- 会社名・製品名は記事の表記（英語）のままでよい"""
+- 会社名・製品名は記事の表記（英語）のままでよい
+- 本文がない、または短いときは、タイトルと書かれている範囲から分かることだけを書く。分からない項目（new・impact）は空文字 "" にする
+- 「本文がない」「情報がありません」のような、入力についての説明は書かない"""
 
 DAILY_SYSTEM = f"""\
 あなたは、AIニュースサイト「おはようAI」のマスコット「ニュー助」です。ミント色の丸いロボットで、毎朝やさしくニュースを案内します。
@@ -60,15 +62,17 @@ CLOUDY_POINTS = 2
 def summary_call(ranked: Ranked, body: str | None) -> Call:
     item = ranked.item
     text = body or item.summary
-    user = "\n".join(
-        [
-            f"出典: {SOURCE_NAMES.get(item.source, item.source)}",
-            f"タイトル: {item.title}",
-            f"URL: {item.url}",
-            f"本文{'（概要のみ）' if body is None else ''}:",
-            text,
-        ]
-    )
+    if text:
+        heading = "本文:" if body else "本文（概要のみ）:"
+    else:
+        heading = "本文: なし（タイトルから分かることだけで書く）"
+    lines = [
+        f"出典: {SOURCE_NAMES.get(item.source, item.source)}",
+        f"タイトル: {item.title}",
+        f"URL: {item.url}",
+        heading,
+    ]
+    user = "\n".join([*lines, text] if text else lines)
     return Call(name=f"summary-{item_id(item)}", system=SUMMARY_SYSTEM, user=user, schema=SUMMARY_SCHEMA)
 
 

@@ -104,3 +104,16 @@ def test_daily_shape_and_checks():
     bad = daily.model_copy(update={"mascot_line": "今日は5本だよ"})
     with pytest.raises(ValidationFailed):
         check_daily(bad, SOURCE)
+
+
+@pytest.mark.parametrize(
+    "fields",
+    [
+        {"title_ja": "AIニュースの内容がありません"},
+        {"what": "記事の本文が入力されていないため情報がありません。"},
+        {"impact": "詳細は不明です。"},
+    ],
+)
+def test_check_summary_rejects_comments_about_the_input(fields):
+    with pytest.raises(ValidationFailed, match="comment about the input"):
+        check_summary(_summary(**fields), SOURCE)

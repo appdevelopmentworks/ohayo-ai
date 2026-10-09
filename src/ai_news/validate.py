@@ -103,10 +103,24 @@ def _reject_simplified(*texts: str) -> None:
         raise ValidationFailed(f"simplified Chinese characters: {''.join(dict.fromkeys(found))}")
 
 
+# Replies about the input instead of the news, e.g. when an article body could not be fetched.
+META_COMMENT = re.compile(
+    r"本文|記事の内容|情報がありません|情報がない|入力されて|提供されて|記載がない|記載されていない|"
+    r"内容がありません|内容が不明|詳細は不明|わかりません|分かりません"
+)
+
+
+def _reject_meta_comments(*texts: str) -> None:
+    for text in texts:
+        if match := META_COMMENT.search(text):
+            raise ValidationFailed(f"comment about the input instead of news: {match.group()!r} in {text!r}")
+
+
 def check_summary(summary: Summary, source_text: str) -> Summary:
     """Return a cleaned summary, or raise ValidationFailed."""
     term_texts = [summary.term.word, summary.term.note] if summary.term else []
     _reject_simplified(summary.title_ja, summary.what, summary.new, summary.impact, *term_texts)
+    _reject_meta_comments(summary.title_ja, summary.what, summary.new, summary.impact)
     known = source_numbers(source_text)
     if bad := unverified_numbers(summary.title_ja, known):
         raise ValidationFailed(f"title has numbers not in the source: {bad}")

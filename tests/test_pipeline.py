@@ -151,3 +151,13 @@ def test_ranking_prompt_rules_out_developer_tools_and_case_studies():
     system = select.ranking_call([_item("openai", "x")]).system
     assert "開発者だけが使う道具" in system and "企業の導入事例" in system
     assert "category は次の5つ" in system
+
+
+def test_summary_prompt_without_any_text_says_to_use_the_title():
+    from ai_news.summarize import summary_call
+
+    ranked = select.Ranked(_item("hn", "GPT-6 for everyone"), None)
+    user = summary_call(ranked, body=None).user
+    assert user.endswith("本文: なし（タイトルから分かることだけで書く）")
+    with_feed = summary_call(select.Ranked(_item("openai", "x").model_copy(update={"summary": "feed"}), None), None)
+    assert "本文（概要のみ）:\nfeed" in with_feed.user
