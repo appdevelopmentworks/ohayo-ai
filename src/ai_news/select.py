@@ -35,6 +35,8 @@ SOURCE_WEIGHT = {
 EXCERPT_CHARS = 200
 MIN_SCORE = 3  # scores 1-2 never make the page
 MAX_ARTICLES = 20
+# Product Hunt lists many launches a day; without a cap they crowd out the news.
+SELECT_PER_SOURCE = {"producthunt": 4}
 
 
 def normalize_url(url: str) -> str:
@@ -98,6 +100,9 @@ def dedupe(items: list[Item], seen: dict[str, str], today: date) -> DedupeResult
         if match is not None:
             if item.source != match.source:
                 match.also_in.setdefault(item.source, item.points)
+            if len(item.summary) > len(match.summary):
+                # An HN link has no text of its own; another source's description gives the LLM more to go on.
+                match.summary = item.summary
             result.merged += 1
             continue
         kept = item.model_copy(deep=True)
@@ -148,9 +153,14 @@ RANK_SYSTEM = """\
 score の基準:
 5 = 多くの人の仕事や生活に広く関わる大ニュース（主要AI企業の大型モデル発表、誰もが使うサービスの大きな変化など）
 4 = 知っておくべき重要な発表
-3 = 知っておくと得（試せる便利なツール、わかりやすい注目研究など）
+3 = 知っておくと得（エンジニアでなくても明日から試せるツール、わかりやすい注目研究など）
 2 = 専門家向けで、一般の読者への影響は小さい
-1 = 読者には関係が薄い（企業の導入事例の宣伝、AIと関係のない話題など）
+1 = 読者には関係が薄い（AIと関係のない話題など）
+
+次のものは、内容がよくても 2 以下にしてください:
+- 開発者だけが使う道具（コマンドライン、API、プログラミング支援、開発環境やテストの仕組み、監査・認証対応など）
+- 企業の導入事例や、ある会社が製品を使った宣伝記事
+- 個人の意見記事やまとめ記事で、新しい発表を含まないもの
 
 category は次の5つから1つ選びます:
 注目トピック = 業界の動き・規制・安全性・企業の発表など
@@ -202,5 +212,12 @@ def rank(items: list[Item], llm: LLM) -> list[Ranked]:
     for entry in llm.ask(ranking_call(items), parse).items:
         if 0 <= entry.id < len(items):
             entries.setdefault(entry.id, entry)
-    ranked = sorted(entries.items(), key=lambda pair: (-pair[1].score, pair[0]))
-    return [Ranked(items[i], entry) for i, entry in ranked if entry.score >= MIN_SCORE][:MAX_ARTICLES]
+    picked: list[Ranked] = []
+    per_source: dict[str, int] = {}
+    for i, entry in sorted(entries.items(), key=lambda pair: (-pair[1].score, pair[0])):
+        source = items[i].source
+        if entry.score < MIN_SCORE or per_source.get(source, 0) >= SELECT_PER_SOURCE.get(source, MAX_ARTICLES):
+            continue
+        per_source[source] = per_source.get(source, 0) + 1
+        picked.append(Ranked(items[i], entry))
+    return picked[:MAX_ARTICLES]

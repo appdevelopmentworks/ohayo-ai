@@ -77,3 +77,14 @@ def test_dedupe_skips_items_seen_on_earlier_days_only():
     result = dedupe(items, seen, TODAY)
     assert [i.title for i in result.items] == ["Rerun today"]
     assert result.skipped_seen == 1
+
+
+def test_dedupe_keeps_the_longest_description():
+    items = [
+        _item("hn", "GPT-6 for everyone", "https://openai.com/index/gpt-6/", 744),
+        _item("simonwillison", "GPT-6 for everyone", "https://openai.com/index/gpt-6/"),
+    ]
+    items[1].summary = "OpenAI released GPT-6 today with a new interface."
+    result = dedupe(items, seen={}, today=TODAY)
+    assert result.items[0].source == "hn"
+    assert result.items[0].summary == "OpenAI released GPT-6 today with a new interface."

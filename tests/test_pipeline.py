@@ -130,3 +130,24 @@ def test_failed_summary_drops_only_that_article(tmp_path):
     (tmp_path / f"summary-{dropped.id}.json").unlink()
     edition = _replay_run(llm=llm.LLM([llm.ReplayClient(tmp_path)])).edition
     assert [a.id for a in edition.articles] == [a.id for a in full.articles[:-1]]
+
+
+def test_rank_caps_product_hunt():
+    items = [_item("producthunt", f"tool {n}") for n in range(6)] + [_item("openai", "launch")]
+
+    class Answer:
+        name = "fake"
+
+        def request(self, call):
+            return {"items": [{"id": i, "score": 3, "category": "便利なツール"} for i in range(len(items))]}
+
+    picked = select.rank(items, llm.LLM([Answer()]))
+    sources = [r.item.source for r in picked]
+    assert sources.count("producthunt") == select.SELECT_PER_SOURCE["producthunt"]
+    assert "openai" in sources
+
+
+def test_ranking_prompt_rules_out_developer_tools_and_case_studies():
+    system = select.ranking_call([_item("openai", "x")]).system
+    assert "開発者だけが使う道具" in system and "企業の導入事例" in system
+    assert "category は次の5つ" in system
