@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ニュー助の表情</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0B7A65}a:hover{color:#075747}
+.rd{font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif}
+.mint{overflow:visible;display:block}
+.mint .mint-body,.mint .mint-eyes{transform-box:fill-box}
+.mint .mint-body{transform-origin:50% 100%;animation:mint-pop .65s cubic-bezier(.3,1.5,.5,1) both}
+.mint .mint-eyes{transform-origin:50% 50%;animation:mint-blink 4.5s ease-in-out 2s infinite}
+.d1 .mint-body{animation-delay:.1s}.d2 .mint-body{animation-delay:.25s}.d3 .mint-body{animation-delay:.4s}.d4 .mint-body{animation-delay:.55s}
+@keyframes mint-pop{0%{transform:translateY(36px) scale(.7);opacity:0}60%{transform:translateY(-6px) scale(1.04);opacity:1}100%{transform:none;opacity:1}}
+@keyframes mint-blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+@media (prefers-reduced-motion: reduce){.mint *{animation:none !important}}
+</style>
+</helmet>
+<div style="width: 880px; height: 560px; box-sizing: border-box; padding: 40px 48px; background: #F3FAF7; color: #1F2D2A; font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', Meiryo, sans-serif; display: flex; flex-direction: column; gap: 24px">
+<div>
+<p style="margin: 0; font-size: 14px; font-weight: 700; color: #0B7A65">おはようAI のマスコット</p>
+<h1 class="rd" style="margin: 2px 0 0; font-size: 34px; font-weight: 800; line-height: 1.3">ニュー助の4つの表情</h1>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+
+<div style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 24px; padding: 16px 16px 20px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<svg class="mint d1" viewBox="0 0 160 170" width="130" height="138" role="img" aria-label="ふつうの表情のニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes"><circle cx="64" cy="74" r="6" fill="#FFFFFF"></circle><circle cx="96" cy="74" r="6" fill="#FFFFFF"></circle></g>
+<path d="M72 86 Q80 93 88 86" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+</svg>
+<p class="rd" style="margin: 0; font-size: 20px; font-weight: 800">ふつう</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #4F615C">用語メモで説明するとき</p>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 24px; padding: 16px 16px 20px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<svg class="mint d2" viewBox="0 0 160 170" width="130" height="138" role="img" aria-label="びっくりした表情のニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes"><circle cx="64" cy="73" r="8.5" fill="#FFFFFF"></circle><circle cx="96" cy="73" r="8.5" fill="#FFFFFF"></circle></g>
+<path d="M76 89 Q80 82 84 89 Q80 96 76 89 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+</svg>
+<p class="rd" style="margin: 0; font-size: 20px; font-weight: 800">びっくり</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #4F615C">かみなり（大ニュース）の日</p>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 24px; padding: 16px 16px 20px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<svg class="mint d3" viewBox="0 0 160 170" width="130" height="138" role="img" aria-label="にっこりした表情のニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M57 77 Q64 68 71 77"></path><path d="M89 77 Q96 68 103 77"></path></g>
+<path d="M70 84 Q80 97 90 84 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+</svg>
+<p class="rd" style="margin: 0; font-size: 20px; font-weight: 800">にっこり</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #4F615C">はれの日・読み終わったとき</p>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 24px; padding: 16px 16px 20px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<svg class="mint d4" viewBox="0 0 160 170" width="130" height="138" role="img" aria-label="考え中の表情のニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes"><circle cx="67" cy="70" r="5" fill="#FFFFFF"></circle><circle cx="99" cy="70" r="5" fill="#FFFFFF"></circle></g>
+<path d="M74 89 L87 86" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+</svg>
+<p class="rd" style="margin: 0; font-size: 20px; font-weight: 800">考え中</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #4F615C">くもりの日・ニュースがないタブ</p>
+</div>
+
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 13px; color: #4F615C">
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; border-radius: 999px; background: #7FD9C2; border: 1.5px solid #1F2D2A"></span>ボディ #7FD9C2</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; border-radius: 999px; background: #1F2D2A; border: 1.5px solid #1F2D2A"></span>線・顔 #1F2D2A</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; border-radius: 999px; background: #FFB547; border: 1.5px solid #1F2D2A"></span>アンテナ #FFB547</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; border-radius: 999px; background: #FF8FA8; border: 1.5px solid #1F2D2A"></span>ほお #FF8FA8</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 20px; height: 20px; border-radius: 999px; background: #0B7A65; border: 1.5px solid #1F2D2A"></span>アクセント #0B7A65</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":880,"height":560}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

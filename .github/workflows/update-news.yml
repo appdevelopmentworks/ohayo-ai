@@ -1,0 +1,51 @@
+name: update-news
+
+# Phase 1 skeleton: manual runs only. Phase 5 adds the `17 21 * * *` schedule
+# (06:17 JST) and the commit-if-changed step.
+# Never add pull_request triggers: secrets must not reach forks.
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "Primary LLM provider"
+        type: choice
+        options: [gemini, groq]
+        default: gemini
+      dry_run:
+        description: "Use recorded fixtures (no network, no LLM calls)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Test
+        run: uv run pytest
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: ${{ inputs.provider }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: uv run ai-news ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # TODO(phase 5): commit data/ and public/ only if something changed
+      # (needs `permissions: contents: write`).

@@ -1,0 +1,9 @@
+// Cloudflare Workers: static assets only. No `main` script, nothing runs server-side.
+{
+  "name": "ohayo-ai",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}

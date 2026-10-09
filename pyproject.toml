@@ -1,0 +1,32 @@
+[project]
+name = "ohayo-ai"
+version = "0.1.0"
+description = "Daily beginner-friendly Japanese AI news, rebuilt every morning as a static site."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "openai>=3.26.1",
+    "pydantic>=2.14.0",
+    "trafilatura>=2.3.1",
+]
+
+[project.scripts]
+ai-news = "ai_news.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ai_news"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

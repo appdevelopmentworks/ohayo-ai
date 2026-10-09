@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>おはようAI トップ画面</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0B7A65}a:hover{color:#075747}
+.root *{box-sizing:border-box}
+.rd{font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif}
+button{font-family:inherit}
+button:focus-visible,a:focus-visible{outline:3px solid #FFB547;outline-offset:2px}
+.mint{overflow:visible;display:block}
+.mint .mint-body,.mint .mint-react,.mint .mint-arm-l,.mint .mint-arm-r,.mint .mint-eyes,.mint .mint-mouth{transform-box:fill-box}
+.mint .mint-body{transform-origin:50% 100%;animation:mint-pop .65s cubic-bezier(.3,1.5,.5,1) both}
+.mint .mint-react{transform-origin:50% 100%}
+.mint .mint-arm-l,.mint .mint-arm-r{transform-origin:50% 10%}
+.mint .mint-eyes{transform-origin:50% 50%;animation:mint-blink 4.5s ease-in-out 2s infinite}
+.mint .mint-mouth{transform-origin:50% 50%}
+.mint-hero .mint-arm-r{animation:mint-wave 1.1s ease-in-out .7s 1}
+.mint-thunder .mint-react{animation:mint-jump .9s ease-out 1.8s 1}
+.mint-cloudy .mint-react{animation:mint-tilt 1.2s ease-in-out 1.8s 1}
+.mint-sunny .mint-react{animation:mint-sway 1.2s ease-in-out 1.8s 1}
+.mint-cheer .mint-arm-l{transform:rotate(150deg)}
+.mint-cheer .mint-arm-r{transform:rotate(-150deg)}
+.mint-cheer.is-done .mint-arm-l{animation:cheer-l 1.2s ease-in-out .3s 1 both}
+.mint-cheer.is-done .mint-arm-r{animation:cheer-r 1.2s ease-in-out .3s 1 both}
+.mint-cheer.is-done .mint-react{animation:mint-jump .9s ease-out .3s 1}
+.mint-talk .mint-mouth{animation:mint-talk .18s ease-in-out .35s 6 alternate}
+.wx{transform-box:fill-box;transform-origin:50% 50%;animation:wx-in .6s cubic-bezier(.3,1.4,.5,1) .2s both}
+.wx-bolt{animation:bolt 1s steps(1,end) 1.2s 1}
+.say{animation:line-in .35s ease-out both}
+.say1{animation-delay:1s}.say2{animation-delay:1.3s}.say3{animation-delay:1.6s}
+.card{animation:card-in .5s ease-out both}
+@supports (animation-timeline: view()){.card{animation-timeline:view();animation-range:entry 0% entry 30%}}
+.list-a{animation:fade-a .3s ease-out}
+.list-b{animation:fade-b .3s ease-out}
+@property --sweep{syntax:"<angle>";inherits:false;initial-value:0deg}
+.top-card::after{content:"";position:absolute;inset:-2px;border-radius:24px;padding:3px;background:conic-gradient(from var(--sweep),transparent 0deg 270deg,#FFB547 320deg,transparent 360deg);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;opacity:0;animation:sweep 1.8s ease-in-out 1.8s 1 both}
+.conf{position:absolute;top:-16px;width:10px;height:14px;border-radius:3px;opacity:0;pointer-events:none}
+.is-done .conf{animation:conf-fall 1.8s ease-in 1 both}
+.sheet{animation:sheet-up .3s cubic-bezier(.2,.8,.2,1) both}
+.dim{animation:dim-in .2s ease-out both}
+@keyframes mint-pop{0%{transform:translateY(36px) scale(.7);opacity:0}60%{transform:translateY(-6px) scale(1.04);opacity:1}100%{transform:none;opacity:1}}
+@keyframes mint-wave{0%,100%{transform:rotate(0)}20%{transform:rotate(-150deg)}40%{transform:rotate(-120deg)}60%{transform:rotate(-150deg)}80%{transform:rotate(-120deg)}}
+@keyframes mint-blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+@keyframes mint-jump{0%,100%{transform:translateY(0)}30%{transform:translateY(-16px)}50%{transform:translateY(0) scaleY(.95)}65%{transform:translateY(-6px)}80%{transform:translateY(0)}}
+@keyframes mint-tilt{0%,100%{transform:rotate(0)}40%,60%{transform:rotate(-8deg)}}
+@keyframes mint-sway{0%,100%{transform:rotate(0)}25%{transform:rotate(-5deg)}75%{transform:rotate(5deg)}}
+@keyframes cheer-l{0%,100%{transform:rotate(150deg)}25%,75%{transform:rotate(175deg)}50%{transform:rotate(140deg)}}
+@keyframes cheer-r{0%,100%{transform:rotate(-150deg)}25%,75%{transform:rotate(-175deg)}50%{transform:rotate(-140deg)}}
+@keyframes mint-talk{from{transform:scaleY(1)}to{transform:scaleY(.4)}}
+@keyframes wx-in{from{transform:scale(.5) rotate(-25deg);opacity:0}to{transform:none;opacity:1}}
+@keyframes bolt{0%,40%,80%{opacity:1}20%,60%{opacity:.15}}
+@keyframes line-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes card-in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes fade-a{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes fade-b{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes sweep{0%{--sweep:0deg;opacity:1}85%{opacity:1}100%{--sweep:360deg;opacity:0}}
+@keyframes conf-fall{0%{opacity:1;transform:translateY(0) rotate(0)}100%{opacity:0;transform:translateY(260px) rotate(540deg)}}
+@keyframes sheet-up{from{transform:translateY(100%)}to{transform:none}}
+@keyframes dim-in{from{opacity:0}to{opacity:1}}
+.calm *,.calm *::after{animation:none !important}
+@media (prefers-reduced-motion: reduce){.root *,.root *::after{animation:none !important}}
+</style>
+</helmet>
+<div id="top" class="{{ rootClass }}" style="min-height: 100vh; background: #F3FAF7; color: #1F2D2A; font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', Meiryo, sans-serif; font-size: 16px; line-height: 1.8">
+
+<header style="max-width: 1120px; margin: 0 auto; padding: 16px 16px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+<a href="#top" style="display: inline-flex; align-items: center; gap: 10px; color: #1F2D2A; text-decoration: none">
+<svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><line x1="20" y1="7" x2="20" y2="2" stroke="#1F2D2A" stroke-width="2.5" stroke-linecap="round"></line><rect x="2" y="7" width="36" height="31" rx="15" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="2.5"></rect><rect x="8" y="13" width="24" height="15" rx="7" fill="#1F2D2A"></rect><circle cx="15" cy="20.5" r="2.4" fill="#FFFFFF"></circle><circle cx="25" cy="20.5" r="2.4" fill="#FFFFFF"></circle></svg>
+<span style="display: flex; flex-direction: column; line-height: 1.25">
+<span class="rd" style="font-size: 24px; font-weight: 800">おはようAI</span>
+<span style="font-size: 13px; color: #4F615C">毎朝7時、AIのニュースをやさしく</span>
+</span>
+</a>
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="text-align: right; line-height: 1.4">
+<div style="font-size: 15px; font-weight: 700">10月8日（木）</div>
+<div style="font-size: 13px; color: #4F615C">今朝 6:30 更新</div>
+</div>
+<a href="#how" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 16px; border-radius: 999px; border: 1.5px solid #CFE3DC; background: #FFFFFF; color: {{ accent }}; font-size: 14px; font-weight: 700; text-decoration: none">仕組み</a>
+</div>
+</header>
+
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 16px 40px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px">
+
+<aside style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<section aria-label="今日のAI天気" style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 28px; padding: 20px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 14px">
+<sc-if value="{{ isThunder }}" hint-placeholder-val="{{ true }}">
+<svg class="wx" viewBox="0 0 64 68" width="64" height="68" aria-hidden="true"><path class="wx-bolt" d="M34 42 L25 56 H32 L28 65 L41 50 H34 L38 42 Z" fill="#FFC542" stroke="#1F2D2A" stroke-width="2.5" stroke-linejoin="round"></path><path d="M20 48 H46 A10 10 0 0 0 47 28 A14 14 0 0 0 21 26 A11 11 0 0 0 20 48 Z" fill="#C9D6D2" stroke="#1F2D2A" stroke-width="3" stroke-linejoin="round"></path></svg>
+</sc-if>
+<sc-if value="{{ isCloudy }}" hint-placeholder-val="{{ false }}">
+<svg class="wx" viewBox="0 0 64 68" width="64" height="68" aria-hidden="true"><circle cx="44" cy="22" r="10" fill="#FFC542" stroke="#1F2D2A" stroke-width="3"></circle><path d="M20 52 H46 A10 10 0 0 0 47 32 A14 14 0 0 0 21 30 A11 11 0 0 0 20 52 Z" fill="#E9F0EE" stroke="#1F2D2A" stroke-width="3" stroke-linejoin="round"></path></svg>
+</sc-if>
+<sc-if value="{{ isSunny }}" hint-placeholder-val="{{ false }}">
+<svg class="wx" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true"><g stroke="#E8960C" stroke-width="4" stroke-linecap="round"><line x1="32" y1="10" x2="32" y2="3"></line><line x1="47.6" y1="16.4" x2="52.5" y2="11.5"></line><line x1="54" y1="32" x2="61" y2="32"></line><line x1="47.6" y1="47.6" x2="52.5" y2="52.5"></line><line x1="32" y1="54" x2="32" y2="61"></line><line x1="16.4" y1="47.6" x2="11.5" y2="52.5"></line><line x1="10" y1="32" x2="3" y2="32"></line><line x1="16.4" y1="16.4" x2="11.5" y2="11.5"></line></g><circle cx="32" cy="32" r="14" fill="#FFC542" stroke="#1F2D2A" stroke-width="3"></circle></svg>
+</sc-if>
+<div style="line-height: 1.35">
+<p style="margin: 0; font-size: 13px; font-weight: 700; color: #4F615C">今日のAI天気</p>
+<p class="rd" style="margin: 0; font-size: 30px; font-weight: 800">{{ wx.name }}</p>
+<p style="margin: 0; font-size: 14px; color: #4F615C">{{ wx.sub }}</p>
+</div>
+</div>
+
+<div style="display: flex; justify-content: center; padding-top: 4px">
+<svg class="{{ heroMintClass }}" viewBox="0 0 160 170" width="168" height="178" role="img" aria-label="マスコットのニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body"><g class="mint-react">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect class="mint-arm-l" x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect class="mint-arm-r" x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes" opacity="{{ hm.dots }}"><circle cx="{{ hm.lx }}" cy="{{ hm.ey }}" r="{{ hm.r }}" fill="#FFFFFF"></circle><circle cx="{{ hm.rx }}" cy="{{ hm.ey }}" r="{{ hm.r }}" fill="#FFFFFF"></circle></g>
+<g opacity="{{ hm.arcs }}" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M57 77 Q64 68 71 77"></path><path d="M89 77 Q96 68 103 77"></path></g>
+<path class="mint-mouth" d="{{ hm.mouth }}" fill="{{ hm.mf }}" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g></g>
+</svg>
+</div>
+
+<div style="position: relative; background: #EAF7F2; border-radius: 20px; padding: 16px 18px">
+<span aria-hidden="true" style="position: absolute; top: -8px; left: 50%; width: 18px; height: 18px; margin-left: -9px; background: #EAF7F2; transform: rotate(45deg); border-radius: 3px"></span>
+<p class="rd" style="position: relative; margin: 0 0 10px; font-size: 16px; font-weight: 700; line-height: 1.6">{{ wx.greet }}</p>
+<ol style="position: relative; list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px">
+<sc-for list="{{ summary }}" as="s" hint-placeholder-count="3">
+<li class="{{ s.cls }}" style="display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.7">
+<span style="flex: none; width: 24px; height: 24px; margin-top: 2px; border-radius: 999px; background: {{ accent }}; color: #FFFFFF; font-size: 13px; font-weight: 700; line-height: 1; display: flex; align-items: center; justify-content: center">{{ s.n }}</span>
+<span>{{ s.text }}</span>
+</li>
+</sc-for>
+</ol>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="background: #F3FAF7; border: 1px solid #D7EAE3; border-radius: 999px; padding: 4px 12px; font-size: 14px">今日のニュース <strong style="font-size: 16px">{{ newsCount }}</strong> 本</span>
+<span style="background: #F3FAF7; border: 1px solid #D7EAE3; border-radius: 999px; padding: 4px 12px; font-size: 14px">一次ソース <strong style="font-size: 16px">{{ sourceCount }}</strong> サイト</span>
+</div>
+</section>
+</aside>
+
+<main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px">
+<h2 class="rd" style="margin: 0; font-size: 24px; font-weight: 800; line-height: 1.4">今日のニュース</h2>
+<p style="margin: 0; font-size: 14px; color: #4F615C">大事な順にならんでいます</p>
+</div>
+
+<nav aria-label="カテゴリで絞り込む" style="display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 6px">
+<sc-for list="{{ tabs }}" as="t" hint-placeholder-count="6">
+<button type="button" onClick="{{ t.pick }}" aria-pressed="{{ t.pressed }}" style="flex: none; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid {{ t.bd }}; background: {{ t.bg }}; color: {{ t.fg }}; font-size: 15px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 8px">{{ t.label }}<span style="font-size: 12px; line-height: 1.6; min-width: 22px; padding: 0 7px; border-radius: 999px; background: {{ t.countBg }}; color: {{ t.countFg }}">{{ t.count }}</span></button>
+</sc-for>
+</nav>
+
+<div class="{{ listClass }}" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px">
+<sc-for list="{{ shown }}" as="item" hint-placeholder-count="6">
+<article class="{{ item.cls }}" style="grid-column: {{ item.span }}; position: relative; background: #FFFFFF; border: {{ item.border }}; border-radius: 22px; padding: 20px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px">
+<span style="background: {{ item.catBg }}; color: {{ item.catFg }}; font-size: 13px; font-weight: 700; line-height: 1.6; padding: 3px 12px; border-radius: 999px">{{ item.catLabel }}</span>
+<span style="display: inline-flex; align-items: center; gap: 4px; background: {{ item.rankBg }}; color: {{ item.rankFg }}; font-size: 13px; font-weight: 700; line-height: 1.6; padding: 3px 12px; border-radius: 999px">
+<sc-if value="{{ item.isTop }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" fill="#3D2600"></path></svg></sc-if>
+{{ item.rankLabel }}</span>
+</div>
+<h3 style="margin: 0; font-size: 20px; line-height: 1.55; font-weight: 800">{{ item.title }}</h3>
+<dl style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<div>
+<dt style="font-size: 13px; font-weight: 700; color: {{ accent }}; line-height: 1.5">どんなニュース？</dt>
+<dd style="margin: 2px 0 0; font-size: 16px; line-height: 1.8">{{ item.what }}</dd>
+</div>
+<div>
+<dt style="font-size: 13px; font-weight: 700; color: {{ accent }}; line-height: 1.5">何がすごいの？</dt>
+<dd style="margin: 2px 0 0; font-size: 16px; line-height: 1.8">{{ item.why }}</dd>
+</div>
+<div>
+<dt style="font-size: 13px; font-weight: 700; color: {{ accent }}; line-height: 1.5">どう変わる？</dt>
+<dd style="margin: 2px 0 0; font-size: 16px; line-height: 1.8">{{ item.how }}</dd>
+</div>
+</dl>
+<button type="button" onClick="{{ item.openTerm }}" style="display: flex; align-items: center; gap: 10px; width: 100%; min-height: 52px; text-align: left; background: #FFF8E8; border: 1.5px dashed #E3BF6B; border-radius: 14px; padding: 8px 14px; color: #1F2D2A; cursor: pointer">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7A5A12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"></path><path d="M10 21h4"></path><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"></path></svg>
+<span style="display: flex; flex-direction: column; line-height: 1.4">
+<span style="font-size: 12px; font-weight: 700; color: #6B4E0A">用語メモ</span>
+<span style="font-size: 15px; font-weight: 700">{{ item.term }}</span>
+</span>
+<span style="margin-left: auto; font-size: 13px; color: #6B4E0A; white-space: nowrap">タップで解説</span>
+</button>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px">
+<a href="{{ item.url }}" target="_blank" rel="noopener" style="min-height: 44px; display: inline-flex; align-items: center; gap: 6px; color: {{ accent }}; font-size: 15px; font-weight: 700; text-decoration: none">一次ソースを見る（英語）<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"></path><path d="M20 4l-9 9"></path><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"></path></svg></a>
+<span style="font-size: 12px; color: #4F615C">出典: {{ item.src }}・AIによる要約</span>
+</div>
+</article>
+</sc-for>
+</div>
+
+<sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+<div style="background: #FFFFFF; border: 1px solid #D7EAE3; border-radius: 22px; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<svg class="mint" viewBox="0 0 160 170" width="110" height="117" role="img" aria-label="考えるニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body"><g class="mint-react">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect class="mint-arm-l" x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect class="mint-arm-r" x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes" opacity="{{ em.dots }}"><circle cx="{{ em.lx }}" cy="{{ em.ey }}" r="{{ em.r }}" fill="#FFFFFF"></circle><circle cx="{{ em.rx }}" cy="{{ em.ey }}" r="{{ em.r }}" fill="#FFFFFF"></circle></g>
+<g opacity="{{ em.arcs }}" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M57 77 Q64 68 71 77"></path><path d="M89 77 Q96 68 103 77"></path></g>
+<path class="mint-mouth" d="{{ em.mouth }}" fill="{{ em.mf }}" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g></g>
+</svg>
+<p class="rd" style="margin: 0; font-size: 18px; font-weight: 800">今日は「{{ emptyLabel }}」のニュースはお休み</p>
+<p style="margin: 0; font-size: 15px; color: #4F615C">ほかのタブものぞいてみてね</p>
+</div>
+</sc-if>
+
+<section ref="{{ finishRef }}" class="{{ finishClass }}" aria-label="読了" style="position: relative; overflow: hidden; margin-top: 8px; background: #FFFFFF; border: 2px dashed #BFE5D8; border-radius: 28px; padding: 28px 20px 24px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center">
+<span class="conf" aria-hidden="true" style="left: 8%; background: #FFB547; animation-delay: 0s"></span>
+<span class="conf" aria-hidden="true" style="left: 18%; background: #7FD9C2; animation-delay: .15s"></span>
+<span class="conf" aria-hidden="true" style="left: 27%; background: #FF8FA8; animation-delay: .05s"></span>
+<span class="conf" aria-hidden="true" style="left: 36%; background: #8FB8FF; animation-delay: .25s"></span>
+<span class="conf" aria-hidden="true" style="left: 45%; background: #FFB547; animation-delay: .1s"></span>
+<span class="conf" aria-hidden="true" style="left: 55%; background: #7FD9C2; animation-delay: .3s"></span>
+<span class="conf" aria-hidden="true" style="left: 64%; background: #FF8FA8; animation-delay: .2s"></span>
+<span class="conf" aria-hidden="true" style="left: 73%; background: #8FB8FF; animation-delay: .05s"></span>
+<span class="conf" aria-hidden="true" style="left: 82%; background: #FFB547; animation-delay: .35s"></span>
+<span class="conf" aria-hidden="true" style="left: 91%; background: #7FD9C2; animation-delay: .15s"></span>
+<svg class="{{ finishMintClass }}" viewBox="0 0 160 170" width="140" height="149" role="img" aria-label="よろこぶニュー助">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body"><g class="mint-react">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect class="mint-arm-l" x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect class="mint-arm-r" x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes" opacity="{{ fm.dots }}"><circle cx="{{ fm.lx }}" cy="{{ fm.ey }}" r="{{ fm.r }}" fill="#FFFFFF"></circle><circle cx="{{ fm.rx }}" cy="{{ fm.ey }}" r="{{ fm.r }}" fill="#FFFFFF"></circle></g>
+<g opacity="{{ fm.arcs }}" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M57 77 Q64 68 71 77"></path><path d="M89 77 Q96 68 103 77"></path></g>
+<path class="mint-mouth" d="{{ fm.mouth }}" fill="{{ fm.mf }}" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g></g>
+</svg>
+<p class="rd" style="margin: 4px 0 0; font-size: 22px; font-weight: 800; line-height: 1.5">今日のAIニュース、読み終わり！</p>
+<p style="margin: 0; font-size: 15px; color: #4F615C">連続 <strong style="color: #1F2D2A">{{ streak }}</strong> 日目。明日の朝も、ここで待ってるね</p>
+</section>
+</main>
+</div>
+
+<footer id="how" style="background: #1F2D2A; color: #F3FAF7; padding: 40px 16px 32px">
+<div style="max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px">
+<div>
+<p style="margin: 0; font-size: 14px; font-weight: 700; color: #7FD9C2">このサイトの仕組み</p>
+<h2 class="rd" style="margin: 4px 0 0; font-size: 26px; font-weight: 800; line-height: 1.5">このページは、AIが毎朝自動で作っています</h2>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px">
+<li style="background: #2A3B37; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 28px; height: 28px; border-radius: 999px; background: #7FD9C2; color: #1F2D2A; font-size: 14px; font-weight: 800; line-height: 1; display: flex; align-items: center; justify-content: center">1</span>
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7FD9C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 10l5 5 5-5"></path><path d="M4 17v3h16v-3"></path></svg>
+<strong class="rd" style="font-size: 18px">あつめる</strong>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.7; color: #C9DDD6">海外の公式サイトなど10か所から、新しい情報を集めます</p>
+</li>
+<li style="background: #2A3B37; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 28px; height: 28px; border-radius: 999px; background: #7FD9C2; color: #1F2D2A; font-size: 14px; font-weight: 800; line-height: 1; display: flex; align-items: center; justify-content: center">2</span>
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7FD9C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 8v6l-4-2v-4z"></path></svg>
+<strong class="rd" style="font-size: 18px">えらぶ</strong>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.7; color: #C9DDD6">AIが世の中への影響で順位をつけ、大事な順に最大20本を選びます</p>
+</li>
+<li style="background: #2A3B37; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 28px; height: 28px; border-radius: 999px; background: #7FD9C2; color: #1F2D2A; font-size: 14px; font-weight: 800; line-height: 1; display: flex; align-items: center; justify-content: center">3</span>
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7FD9C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"></rect><path d="M9 8h6"></path><path d="M9 12h6"></path><path d="M9 16h4"></path></svg>
+<strong class="rd" style="font-size: 18px">まとめる</strong>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.7; color: #C9DDD6">1本ずつ、やさしい日本語の3行と用語メモにまとめます</p>
+</li>
+<li style="background: #2A3B37; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 28px; height: 28px; border-radius: 999px; background: #7FD9C2; color: #1F2D2A; font-size: 14px; font-weight: 800; line-height: 1; display: flex; align-items: center; justify-content: center">4</span>
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7FD9C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3L10 14"></path><path d="M21 3l-7 18-4-7-7-4z"></path></svg>
+<strong class="rd" style="font-size: 18px">とどける</strong>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.7; color: #C9DDD6">毎朝7時までに、このページを自動で作り直します</p>
+</li>
+</ol>
+<div style="background: #F3FAF7; color: #1F2D2A; border-radius: 24px; padding: 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<div style="flex: 1 1 320px; min-width: 0">
+<p class="rd" style="margin: 0; font-size: 20px; font-weight: 800; line-height: 1.5">あなたの業務も、こんなふうに自動化できます</p>
+<p style="margin: 4px 0 0; font-size: 15px; color: #4F615C">情報収集、資料づくり、毎日のくり返し作業。まずは気軽にご相談ください。</p>
+</div>
+<a href="#" style="flex: none; min-height: 52px; padding: 0 28px; border-radius: 999px; background: {{ accent }}; color: #FFFFFF; font-size: 16px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px">AILEAPに相談する<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.7; color: #A9C1B9">要約はAIが作成しています。正確な内容は、各記事の一次ソース（英語）でご確認ください。<br>© AILEAP</p>
+</div>
+</footer>
+
+<sc-if value="{{ sheetOpen }}" hint-placeholder-val="{{ false }}">
+<button type="button" class="dim" aria-label="用語メモを閉じる" onClick="{{ closeTerm }}" style="position: fixed; inset: 0; z-index: 50; width: 100%; border: 0; padding: 0; background: rgba(20, 32, 29, 0.45); cursor: pointer"></button>
+<div class="sheet" role="dialog" aria-modal="true" aria-label="用語メモ" style="position: fixed; left: 0; right: 0; bottom: 0; z-index: 51; display: flex; justify-content: center; pointer-events: none">
+<div style="pointer-events: auto; width: 100%; max-width: 560px; background: #FFFFFF; border-radius: 28px 28px 0 0; padding: 10px 20px 28px; display: flex; flex-direction: column; gap: 16px">
+<span aria-hidden="true" style="align-self: center; width: 44px; height: 5px; border-radius: 999px; background: #D7EAE3"></span>
+<div style="display: flex; align-items: flex-start; gap: 12px">
+<svg class="mint mint-talk" viewBox="0 0 160 170" width="84" height="89" role="img" aria-label="説明するニュー助" style="flex: none">
+<ellipse cx="80" cy="162" rx="40" ry="6" fill="#1F2D2A" fill-opacity="0.1"></ellipse>
+<g class="mint-body"><g class="mint-react">
+<line x1="80" y1="34" x2="80" y2="18" stroke="#1F2D2A" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="80" cy="14" r="7" fill="#FFB547" stroke="#1F2D2A" stroke-width="3"></circle>
+<ellipse cx="60" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<ellipse cx="100" cy="146" rx="14" ry="8" fill="#5FC4AB" stroke="#1F2D2A" stroke-width="3"></ellipse>
+<rect class="mint-arm-l" x="14" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect class="mint-arm-r" x="126" y="86" width="20" height="34" rx="10" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="26" y="32" width="108" height="112" rx="50" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="3"></rect>
+<rect x="42" y="50" width="76" height="50" rx="22" fill="#1F2D2A"></rect>
+<g class="mint-eyes" opacity="{{ sm.dots }}"><circle cx="{{ sm.lx }}" cy="{{ sm.ey }}" r="{{ sm.r }}" fill="#FFFFFF"></circle><circle cx="{{ sm.rx }}" cy="{{ sm.ey }}" r="{{ sm.r }}" fill="#FFFFFF"></circle></g>
+<g opacity="{{ sm.arcs }}" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M57 77 Q64 68 71 77"></path><path d="M89 77 Q96 68 103 77"></path></g>
+<path class="mint-mouth" d="{{ sm.mouth }}" fill="{{ sm.mf }}" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="44" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<circle cx="116" cy="112" r="6" fill="#FF8FA8" fill-opacity="0.65"></circle>
+<rect x="66" y="110" width="28" height="16" rx="6" fill="#FFFFFF" stroke="#1F2D2A" stroke-width="2"></rect>
+<path d="M69 118 H74 L77 113 L81 123 L84 117 H91" fill="none" stroke="#0B7A65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g></g>
+</svg>
+<div style="flex: 1 1 auto; min-width: 0; background: #FFF8E8; border-radius: 18px; padding: 14px 16px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; color: #6B4E0A">用語メモ</p>
+<p class="rd" style="margin: 2px 0 6px; font-size: 22px; font-weight: 800; line-height: 1.4">{{ termWord }}</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.8">{{ termNote }}</p>
+</div>
+</div>
+<button type="button" onClick="{{ closeTerm }}" style="min-height: 52px; border: 0; border-radius: 999px; background: {{ accent }}; color: #FFFFFF; font-size: 16px; font-weight: 700; cursor: pointer">わかった！</button>
+</div>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"weather":{"editor":"enum","options":["thunder","cloudy","sunny"],"default":"thunder","section":"表示"},"accent":{"editor":"color","options":["#0B7A65","#1D5C99","#B4530A"],"default":"#0B7A65","section":"表示"},"calm":{"editor":"boolean","default":false,"section":"表示"},"$preview":{"width":1280,"height":3600}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 'all', term: null, flip: false, done: false };
+    this.setFinish = (el) => { this.finishEl = el; };
+  }
+
+  componentDidMount() {
+    const finish = () => this.setState({ done: true });
+    try {
+      if (this.finishEl && typeof IntersectionObserver !== 'undefined') {
+        this.io = new IntersectionObserver((entries) => {
+          if (entries.some((e) => e.isIntersecting)) {
+            finish();
+            if (this.io) this.io.disconnect();
+          }
+        }, { threshold: 0.4 });
+        this.io.observe(this.finishEl);
+      } else {
+        finish();
+      }
+    } catch (e) {
+      finish();
+    }
+  }
+
+  componentWillUnmount() {
+    if (this.io) this.io.disconnect();
+  }
+
+  renderVals() {
+    const accent = this.props.accent ?? '#0B7A65';
+    const calm = this.props.calm ?? false;
+
+    const WX = {
+      thunder: { name: 'かみなり', sub: '大ニュースの日', mood: 'surprised', greet: 'おはよう！今日は大きなニュースの日。まずはこの3つを押さえよう' },
+      cloudy: { name: 'くもり', sub: 'ちょっと動きあり', mood: 'think', greet: 'おはよう！今日はちょっと動きあり。この3つをチェックしよう' },
+      sunny: { name: 'はれ', sub: 'おだやかな一日', mood: 'smile', greet: 'おはよう！今日はおだやかな日。この3つだけ読めば大丈夫' }
+    };
+    const weather = WX[this.props.weather] ? this.props.weather : 'thunder';
+    const wx = WX[weather];
+
+    const MOOD = {
+      normal: { dots: 1, arcs: 0, r: 6, lx: 64, rx: 96, ey: 74, mouth: 'M72 86 Q80 93 88 86', mf: 'none' },
+      surprised: { dots: 1, arcs: 0, r: 8.5, lx: 64, rx: 96, ey: 73, mouth: 'M76 89 Q80 82 84 89 Q80 96 76 89 Z', mf: '#FFFFFF' },
+      smile: { dots: 0, arcs: 1, r: 6, lx: 64, rx: 96, ey: 74, mouth: 'M70 84 Q80 97 90 84 Z', mf: '#FFFFFF' },
+      think: { dots: 1, arcs: 0, r: 5, lx: 67, rx: 99, ey: 70, mouth: 'M74 89 L87 86', mf: 'none' }
+    };
+
+    const CATS = {
+      topic: { label: '注目トピック', bg: '#FFEFD9', fg: '#8A4B00' },
+      image: { label: '画像・動画', bg: '#FFE6EF', fg: '#9A2E5A' },
+      tool: { label: '便利なツール', bg: '#E1F0FF', fg: '#1D5C99' },
+      model: { label: '新モデル', bg: '#EEE9FF', fg: '#4B3A99' },
+      research: { label: '研究・論文', bg: '#E3F5EA', fg: '#1F6B3A' }
+    };
+    const RANKS = {
+      5: { label: '今日いちばん', bg: '#FFB547', fg: '#3D2600' },
+      4: { label: '要チェック', bg: '#DDF3EC', fg: '#0B5E4E' },
+      3: { label: '知っておくと得', bg: '#EEF1F0', fg: '#44524E' }
+    };
+
+    const NEWS = [
+      { cat: 'model', score: 5, title: 'Anthropicが、速くて安いAI「Claude Haiku 5.5」を発表', what: 'Claudeシリーズで一番軽くて安いモデルの、新しい版が出た', why: '料金は入力100万トークンあたり0.10ドルからで、OpenAIのGPT-6 Lunaと同じ水準になった', how: 'AIを組み込んだアプリやサービスを、前より安く作りやすくなる', term: 'トークン', termNote: 'AIが文章を細かく区切って数える単位。AIの利用料金は、このトークンの数で決まることが多い', src: 'Anthropic', url: 'https://www.anthropic.com/claude-haiku-5-5' },
+      { cat: 'model', score: 4, title: 'フランスのMistralが、超大型AI「Mistral Large 4」を先行公開', what: 'パラメータ1兆の大型モデルを、まずAPIで使えるようにした', why: 'AIの中身（重み）も、今月末に公開すると予告している', how: '自分の会社のサーバーで動かせる、高性能なAIの選択肢が増える', term: 'オープンウェイト', termNote: 'AIの中身（重み）が公開されていて、誰でもダウンロードして自分の環境で動かせること', src: 'Mistral AI', url: 'https://mistral.ai/news/mistral-large-4/' },
+      { cat: 'image', score: 4, title: 'Googleの画像生成AI「Nano Banana 2.1」が登場', what: 'Googleが、画像を作るAIの新しいバージョンを出した', why: 'デザインがよりくっきりし、画像の一部だけを指定して直す「マスク編集」に対応した', how: '気になる部分だけ直せるので、画像を一から作り直す手間が減る', term: 'マスク編集', termNote: '画像の中で直したい部分だけを塗って指定し、そこだけをAIに描き変えてもらう方法', src: 'Product Hunt', url: 'https://www.producthunt.com/products/google' },
+      { cat: 'tool', score: 3, title: 'デザインツールFigmaに、話しかけて使える「Figma Agent」', what: '人気のデザインツールFigmaに、AIエージェント機能が加わった', why: '指示を書くだけで、画面のデザインを作ったり直したり、試作まで進められる', how: 'デザインに慣れていない人でも、画面のたたき台を作りやすくなる', term: 'AIエージェント', termNote: '指示を受けると、やることを自分で考えて、順番に作業を進めてくれるAI', src: 'Product Hunt', url: 'https://www.producthunt.com/products/figma' },
+      { cat: 'model', score: 3, title: 'Googleが、無料で使える小型AI「EmbeddingGemma 2」を公開', what: '文章や画像の「意味」を数字に変える、軽いAIを公開した', why: '中身が公開されていて、Apache 2.0ライセンスで自由に使える', how: '社内資料を「意味」で探せる検索を、手元のパソコンでも作りやすくなる', term: '埋め込み（エンベディング）', termNote: '言葉や画像の意味を、数字の並びに変える技術。似た意味のもの同士を探すときに使う', src: 'Google DeepMind', url: 'https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/' },
+      { cat: 'tool', score: 3, title: 'OpenAIが、判定だけを答えるAI「Decisions API」を公開', what: 'AIに「判定」だけをさせる専用の仕組みを、OpenAIが公開した', why: '答えを「はい・いいえ」「選択肢」「点数」の3つの形で返し、画像も読み取れる', how: '問い合わせの振り分けや投稿のチェックなど、判定作業を自動にしやすくなる', term: 'API', termNote: 'アプリやサービス同士が、機能をやり取りするための窓口のこと', src: 'OpenAI', url: 'https://developers.openai.com/api/docs/guides/decisions' }
+    ];
+
+    const all = NEWS.map((n) => {
+      const c = CATS[n.cat];
+      const r = RANKS[n.score];
+      const top = n.score === 5;
+      return Object.assign({}, n, {
+        catLabel: c.label, catBg: c.bg, catFg: c.fg,
+        rankLabel: r.label, rankBg: r.bg, rankFg: r.fg,
+        isTop: top,
+        cls: top ? 'card top-card' : 'card',
+        span: top ? '1 / -1' : 'auto',
+        border: top ? '2px solid #FFD38A' : '1px solid #D7EAE3',
+        openTerm: () => this.setState({ term: { word: n.term, note: n.termNote } })
+      });
+    });
+
+    const TABS = [
+      { key: 'all', label: 'すべて', test: () => true },
+      { key: 'hot', label: '注目', test: (n) => n.score >= 4 || n.cat === 'topic' },
+      { key: 'image', label: '画像・動画', test: (n) => n.cat === 'image' },
+      { key: 'tool', label: 'ツール', test: (n) => n.cat === 'tool' },
+      { key: 'model', label: '新モデル', test: (n) => n.cat === 'model' },
+      { key: 'research', label: '研究', test: (n) => n.cat === 'research' }
+    ];
+    const current = TABS.find((t) => t.key === this.state.tab) || TABS[0];
+    const tabs = TABS.map((t) => {
+      const on = t.key === current.key;
+      return {
+        label: t.label,
+        count: all.filter(t.test).length,
+        pressed: on ? 'true' : 'false',
+        bg: on ? accent : '#FFFFFF',
+        fg: on ? '#FFFFFF' : '#1F2D2A',
+        bd: on ? accent : '#CFE3DC',
+        countBg: on ? 'rgba(255,255,255,0.22)' : '#EAF7F2',
+        countFg: on ? '#FFFFFF' : '#0B5E4E',
+        pick: () => this.setState((s) => ({ tab: t.key, flip: !s.flip }))
+      };
+    });
+    const shown = all.filter(current.test);
+
+    const summary = [
+      'AnthropicとMistralから、新しいAIモデルが続けて登場',
+      'Googleは、画像を作るAIと無料の小型AIを公開',
+      'FigmaやOpenAIからも、仕事に役立つ新しい機能'
+    ].map((text, i) => ({ n: i + 1, text: text, cls: 'say say' + (i + 1) }));
+
+    const term = this.state.term;
+    const done = this.state.done;
+
+    return {
+      accent: accent,
+      rootClass: calm ? 'root calm' : 'root',
+      wx: wx,
+      isThunder: weather === 'thunder',
+      isCloudy: weather === 'cloudy',
+      isSunny: weather === 'sunny',
+      hm: MOOD[wx.mood],
+      fm: MOOD.smile,
+      sm: MOOD.normal,
+      em: MOOD.think,
+      heroMintClass: 'mint mint-hero mint-' + weather,
+      finishMintClass: done ? 'mint mint-cheer is-done' : 'mint mint-cheer',
+      finishClass: done ? 'finish is-done' : 'finish',
+      finishRef: this.setFinish,
+      streak: 1,
+      summary: summary,
+      tabs: tabs,
+      shown: shown,
+      isEmpty: shown.length === 0,
+      emptyLabel: current.label,
+      listClass: this.state.flip ? 'list-b' : 'list-a',
+      newsCount: all.length,
+      sourceCount: new Set(all.map((n) => n.src)).size,
+      sheetOpen: !!term,
+      termWord: term ? term.word : '',
+      termNote: term ? term.note : '',
+      closeTerm: () => this.setState({ term: null })
+    };
+  }
+}
+</script>
+</body>
+</html>
