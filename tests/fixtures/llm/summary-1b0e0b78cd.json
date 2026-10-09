@@ -1,0 +1,12 @@
+{
+  "title_ja": "ClaudeがGoogleドキュメントや表計算の中で使える",
+  "what": "AIのClaudeを、Googleのドキュメント・スプレッドシート・スライドで使える",
+  "new": "別の画面に切り替えず、作業中のファイルの中でAIに頼める",
+  "impact": "文書や表、資料づくりの手間を減らしやすくなる",
+  "term": {
+    "word": "Google Workspace",
+    "note": "Googleが提供する、文書や表計算、メールなどをまとめた仕事向けのサービス"
+  },
+  "category": "便利なツール",
+  "score": 4
+}

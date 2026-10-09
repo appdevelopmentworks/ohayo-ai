@@ -12,6 +12,7 @@ from ai_news.paths import DATA_DIR
 JST = timezone(timedelta(hours=9), "JST")
 SEEN_PATH = DATA_DIR / "seen.json"
 HEALTH_PATH = DATA_DIR / "source_health.json"
+DAILY_DIR = DATA_DIR / "daily"  # one edition per run date, the source of the archive
 SEEN_DAYS = 7
 HEALTH_DAYS = 7
 ZERO_DAYS_TO_FAIL = 2

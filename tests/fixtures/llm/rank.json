@@ -1,0 +1,189 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "score": 5,
+      "category": "新モデル"
+    },
+    {
+      "id": 1,
+      "score": 3,
+      "category": "画像・動画"
+    },
+    {
+      "id": 2,
+      "score": 5,
+      "category": "新モデル"
+    },
+    {
+      "id": 3,
+      "score": 3,
+      "category": "注目トピック"
+    },
+    {
+      "id": 4,
+      "score": 3,
+      "category": "注目トピック"
+    },
+    {
+      "id": 5,
+      "score": 3,
+      "category": "注目トピック"
+    },
+    {
+      "id": 6,
+      "score": 2,
+      "category": "注目トピック"
+    },
+    {
+      "id": 7,
+      "score": 3,
+      "category": "注目トピック"
+    },
+    {
+      "id": 8,
+      "score": 1,
+      "category": "注目トピック"
+    },
+    {
+      "id": 9,
+      "score": 1,
+      "category": "画像・動画"
+    },
+    {
+      "id": 10,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 11,
+      "score": 4,
+      "category": "注目トピック"
+    },
+    {
+      "id": 12,
+      "score": 2,
+      "category": "注目トピック"
+    },
+    {
+      "id": 13,
+      "score": 3,
+      "category": "新モデル"
+    },
+    {
+      "id": 14,
+      "score": 2,
+      "category": "研究・論文"
+    },
+    {
+      "id": 15,
+      "score": 3,
+      "category": "研究・論文"
+    },
+    {
+      "id": 16,
+      "score": 3,
+      "category": "研究・論文"
+    },
+    {
+      "id": 17,
+      "score": 3,
+      "category": "新モデル"
+    },
+    {
+      "id": 18,
+      "score": 2,
+      "category": "新モデル"
+    },
+    {
+      "id": 19,
+      "score": 3,
+      "category": "新モデル"
+    },
+    {
+      "id": 20,
+      "score": 2,
+      "category": "新モデル"
+    },
+    {
+      "id": 21,
+      "score": 2,
+      "category": "新モデル"
+    },
+    {
+      "id": 22,
+      "score": 3,
+      "category": "便利なツール"
+    },
+    {
+      "id": 23,
+      "score": 3,
+      "category": "画像・動画"
+    },
+    {
+      "id": 24,
+      "score": 4,
+      "category": "便利なツール"
+    },
+    {
+      "id": 25,
+      "score": 1,
+      "category": "便利なツール"
+    },
+    {
+      "id": 26,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 27,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 28,
+      "score": 3,
+      "category": "便利なツール"
+    },
+    {
+      "id": 29,
+      "score": 1,
+      "category": "便利なツール"
+    },
+    {
+      "id": 30,
+      "score": 1,
+      "category": "便利なツール"
+    },
+    {
+      "id": 31,
+      "score": 3,
+      "category": "便利なツール"
+    },
+    {
+      "id": 32,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 33,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 34,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 35,
+      "score": 2,
+      "category": "便利なツール"
+    },
+    {
+      "id": 36,
+      "score": 2,
+      "category": "便利なツール"
+    }
+  ]
+}

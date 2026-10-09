@@ -64,9 +64,10 @@ Finish and verify each phase before starting the next. Record real commands in a
 - `uv sync` — create `.venv` and install dependencies (CI uses `uv sync --locked`)
 - `uv add <pkg>` / `uv add --dev <pkg>` — add a dependency (updates `pyproject.toml` and `uv.lock`)
 - `uv run pytest` — run the test suite
-- `uv run ai-news --dry-run` — run the pipeline on fixtures; never writes `data/` (add `-v` to list candidates); also `uv run python -m ai_news`
-- `uv run ai-news` — live run: fetch all sources, update `data/seen.json` and `data/source_health.json`; exits 1 if a source returned 0 items two JST days in a row
-- `uv run ai-news --record-fixtures` — re-fetch every source into `tests/fixtures/sources/` (feeds trimmed to 40 entries); re-run `uv run pytest` afterwards
+- `uv run ai-news --dry-run` — run the pipeline on recorded sources and LLM answers (`tests/fixtures/`); never writes `data/` (add `-v` to list articles); also `uv run python -m ai_news`
+- `uv run ai-news` — live run (needs `GEMINI_API_KEY` and/or `GROQ_API_KEY`): writes `data/daily/<JST date>.json`, `data/seen.json`, `data/source_health.json`; exits 1 if no edition was made or a source returned 0 items two JST days in a row
+- `uv run ai-news --record-fixtures` — re-fetch every source into `tests/fixtures/sources/` (feeds trimmed to 40 entries); the LLM fixtures then no longer match, so follow with `--record-llm`
+- `uv run ai-news --record-llm` — call the real LLMs on the recorded sources (feed text as the body, like `--dry-run`) and save answers to `tests/fixtures/llm/`; delete stale `summary-*.json` first
 - `uv run ai-news --provider groq` — choose the primary LLM provider (default: `$LLM_PROVIDER` or `gemini`)
 
 ## Open items
