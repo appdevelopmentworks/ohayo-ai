@@ -208,6 +208,7 @@ ohayo-ai/                      # ローカルは C:\Dev\ohayo-ai
 ├── templates/                 # index / archive / glossary / behind / 404
 ├── data/
 │   ├── seen.json              # 過去7日分の取得済みURL
+│   ├── source_health.json     # ソースごとの取得件数（2日続けて0件なら失敗にする）
 │   ├── glossary.json          # 用語メモの蓄積
 │   └── daily/2026-10-08.json  # 日ごとの結果（アーカイブの元）
 ├── public/                    # 公開ルート（すべて生成物）
