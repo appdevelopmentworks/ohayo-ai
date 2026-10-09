@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T04:14:01.511128Z",
+  "weather": "cloudy",
+  "digest": [
+    "低価格で高速な新型AIモデルが続々と発表された。",
+    "便利なAIツールやエージェント機能が多数公開された。",
+    "音声認識や動画作成などの新機能が利用可能になった。"
+  ],
+  "mascot_line": "きょうはくもり空だけど、新しいAIモデルがいっぱいでワクワクするね！ニュー助と一緒にチェックしよう！",
+  "articles": [
+    {
+      "id": "1d78f09c64",
+      "title_ja": "Anthropic、低価格で高速な小型AI「Haiku 5.5」発表",
+      "what": "Anthropicが、安価で高速な小型AIモデル「Claude Haiku 5.5」を公開した。",
+      "new": "前モデルより約75%安くなり、コスト重視の大量処理に最適化された。",
+      "impact": "大量の要約や分類作業のコストが大幅に下がり、業務効率化が進む。",
+      "term": {
+        "word": "トークン",
+        "note": "AIが処理するテキストの最小単位。トークン数が多くなるほど利用料金が高くなる仕組み。"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "anthropic",
+      "source_name": "Anthropic News",
+      "title_en": "Introducing Claude Haiku 5.5",
+      "published": "2026-10-07T23:59:59Z",
+      "summary_only": false,
+      "also_in": [
+        "producthunt",
+        "hn",
+        "simonwillison"
+      ]
+    },
+    {
+      "id": "0ca1450969",
+      "title_ja": "OpenAI、GPT-6と誰でも使えるAI操作画面を公開",
+      "what": "OpenAIがGPT-6と、誰でも簡単に使えるAI操作画面を発表した",
+      "new": "誰でも使いやすい「インテリジェントUI」が導入された",
+      "impact": "直感的な操作でAIの能力を活用しやすくなる",
+      "term": {
+        "word": "インテリジェントUI",
+        "note": "ユーザーの意図を汲み取り、最適な操作や表示を自動で提案する画面設計のこと"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "GPT‑6 and Intelligent UI for everyone",
+      "published": "2026-10-07T18:00:58Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "8494b8dcf4",
+      "title_ja": "DeepSeek 4.1 Flashが低コストで高品質に",
+      "what": "DeepSeek 4.1 Flashが、最先端モデルと同等の性能を極めて低いコストで提供している。",
+      "new": "KVキャッシュを大幅に圧縮し、長時間の作業でもコストを極限まで抑えた。",
+      "impact": "月額10ドル程度で高品質なAI開発が可能になり、コスト負担が大幅に減る。",
+      "term": {
+        "word": "KVキャッシュ",
+        "note": "AIが会話の履歴を記憶するためのデータ領域。これを圧縮すると、同じ性能でも電気代やメモリ代が安くなる。"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "published": "2026-10-08T00:14:48Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "95120c22b8",
+      "title_ja": "Claude Opus 5.5が1プロンプトで3D都市を自動生成",
+      "what": "Claude Opus 5.5に小説の可視化を指示し、短時間で完成した体験を報告した",
+      "new": "",
+      "impact": "複雑なインタラクティブなWeb体験を、プロンプト1つで自動生成できる時代が来た",
+      "term": {
+        "word": "エージェント",
+        "note": "AIが指示されたタスクを、複数のサブエージェントを並列で実行しながら自律的に進める仕組みのこと"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "published": "2026-10-08T12:00:20Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "ca1ec6c6a1",
+      "title_ja": "Pollo AIが最新AIで動画広告を自動作成",
+      "what": "Pollo AIがOpenAIの最新モデルを使い、アイデアから動画広告を作る",
+      "new": "複数の最新AIモデルを組み合わせて、動画広告を自動生成する",
+      "impact": "プロの支援なしに、自分だけの動画広告を簡単に作れるようになる",
+      "term": {
+        "word": "生成AI",
+        "note": "画像や動画など、視覚的なコンテンツをAIが自動で作ってくれる技術のこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://openai.com/index/pollo-ai",
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "published": "2026-10-08T12:00:00Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "1b0e0b78cd",
+      "title_ja": "Google WorkspaceにClaudeが統合",
+      "what": "ClaudeがGoogle Docs、Sheets、Slidesに直接組み込まれた",
+      "new": "Google Workspaceの各アプリ内にClaudeを統合した",
+      "impact": "Google Workspace内でAIを直接使えるようになり、作業効率が高まる",
+      "term": null,
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Claude for Google Workspace",
+      "published": "2026-10-08T02:20:15Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "f9a7f01f51",
+      "title_ja": "スマホで動く16.9MBの軽量音声認識AI「Whistle」公開",
+      "what": "Cactus Computeが、モバイル機器向けに設計された軽量な音声認識モデル「Whistle」を公開した",
+      "new": "16.9MBという極小サイズで、既存のテキストAIと同じエンジンで動作する",
+      "impact": "スマホやロボットなど、ネット接続が不安定な環境でも音声認識が可能になる",
+      "term": {
+        "word": "オンデバイス処理",
+        "note": "音声認識モデルが動いているデバイスそのもので処理を行う技術。データを外部サーバーに送る必要がなく、プライバシー保護や低遅延が期待できる。"
+      },
+      "category": "新モデル",
+      "score": 3,
+      "url": "https://cactuscompute.com/blog/whistle",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Whistle: Speech to Text in 16.9 MB",
+      "published": "2026-10-08T16:59:39Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "b12a72fd6b",
+      "title_ja": "全デバイス対応のオープンソースAIエージェント「nanoMuse」公開",
+      "what": "MetaのMuseに対応する、自分の全デバイスで動くオープンソースAIエージェント「nanoMuse」が公開された",
+      "new": "MetaのMuseに対抗する、全デバイスで動くオープンソースの個人エージェント",
+      "impact": "自分のスマホやPCをAIが操作し、長期記憶を持つ個人向けエージェントが利用可能になる",
+      "term": {
+        "word": "オープンソース",
+        "note": "特定の企業に依存せず、誰でも自由に利用・改変できるソフトウェアの仕組み"
+      },
+      "category": "新モデル",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2610.08699",
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "title_en": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "published": "2026-10-08T00:00:00Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "0cf51752ce",
+      "title_ja": "AIが電話の発信と報告を自動で行うツール",
+      "what": "AIエージェントが電話の発信・保持・報告を代行するツール",
+      "new": "AIエージェントが電話の発信・保持・報告を自動で行う",
+      "impact": "電話対応の自動化で、手作業の負担を減らせる",
+      "term": {
+        "word": "AIエージェント",
+        "note": "人間のように電話に出たり、話したりするAIの機能のこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/clawcall",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "ClawCall",
+      "published": "2026-10-08T05:27:12Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "24cf7d9f66",
+      "title_ja": "曲の説明から編集可能なMIDIが作れる",
+      "what": "曲の特徴をテキストで入力すると、各パートが編集可能なMIDIデータとして生成される",
+      "new": "テキスト説明から編集可能なMIDIデータを生成できる",
+      "impact": "音楽制作で楽譜の編集や調整が簡単にできるようになる",
+      "term": {
+        "word": "MIDI",
+        "note": "音楽データをコンピュータで処理・編集するための標準的なファイル形式"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/tonefold",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Tonefold",
+      "published": "2026-10-08T04:28:14Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "a606f824bc",
+      "title_ja": "営業なしでSOC 2認証取得を支援",
+      "what": "Strac Complyが営業電話なしでSOC 2認証取得を支援",
+      "new": "営業電話なしでSOC 2認証取得を支援する",
+      "impact": "中小企業でも低コストでセキュリティ認証を取得しやすくなる",
+      "term": {
+        "word": "SOC 2",
+        "note": "情報セキュリティの管理状況が一定水準にあることを示す国際的な認証制度"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/strac-comply",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Strac Comply",
+      "published": "2026-10-08T01:39:46Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "26f16bb9b0",
+      "title_ja": "AIが実際のソフトウェアを操作できるツール登場",
+      "what": "AIエージェントが実際のソフトウェアに構造化アクセスできるツール",
+      "new": "AIエージェントが実際のソフトウェアに構造化アクセスできる",
+      "impact": "AIが実際のソフトウェアを操作し、作業を代行できるようになる",
+      "term": {
+        "word": "AIエージェント",
+        "note": "AIが人間のようにソフトウェアを操作し、タスクを自動実行する仕組み"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/semwright",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Semwright",
+      "published": "2026-10-08T01:08:23Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "ecfa65be2e",
+      "title_ja": "Vercelアプリの障害対応をAIが自動で",
+      "what": "Vercelアプリ向けのAIオンコールエンジニアツールが登場した",
+      "new": "Vercelアプリ専用に設計された、AIによるオンコール対応機能",
+      "impact": "Vercelアプリの障害対応をAIに任せ、エンジニアの負担を減らせる",
+      "term": {
+        "word": "オンコール",
+        "note": "システム障害時に、夜間や休日などいつでも対応できる当番体制のこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/polylane",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Polylane for Vercel",
+      "published": "2026-10-07T22:05:44Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "5570b9cf44",
+      "title_ja": "Macで任意のテキストを音声で聴けるアプリ登場",
+      "what": "Mac上で記事や文書などのテキストを音声として再生できるツールが公開された",
+      "new": "Mac上で任意のテキストや文書を音声として再生できる機能を備えている",
+      "impact": "Macで文章を読む時間を音声に切り替え、移動中や作業中に情報摂取できる",
+      "term": null,
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/epilude",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Epilude Narrator",
+      "published": "2026-10-07T21:03:10Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "d64bfc8426",
+      "title_ja": "AIの行動を判断する仕組みSimo登場",
+      "what": "ソフトウェアの行動を判断するためのツールSimoが公開された",
+      "new": "ソフトウェアの行動を判断・制御するレイヤーとして位置づけ",
+      "impact": "AIが行動する際、より安全で適切な判断を下せるようになる",
+      "term": {
+        "word": "判断レイヤー",
+        "note": "AIが実際に行動を起こす際、その判断を監視・制御する仕組みや層のこと"
+      },
+      "category": "研究・論文",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/simo-3",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Simo",
+      "published": "2026-10-07T20:38:11Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "8f26bd626d",
+      "title_ja": "AIエージェントチームを視覚的に管理できるClippo",
+      "what": "AIエージェントチームをビジュアルキャンバス上で編成できるツールが登場",
+      "new": "AIエージェントチームをビジュアルキャンバス上で編成できる",
+      "impact": "複雑なAIタスクを視覚的に管理し、作業効率を高められる",
+      "term": {
+        "word": "AIエージェント",
+        "note": "複数のAIが連携して作業を分担・実行するための仕組みやプラットフォームのこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/clippo-2",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Clippo",
+      "published": "2026-10-07T19:03:43Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "49ccafb294",
+      "title_ja": "24時間救助隊と連携した個人向け安全アプリ登場",
+      "what": "緊急時に24時間対応の出動サービスと連携する安全アプリが公開された",
+      "new": "24時間体制の緊急出動サービスと連携した個人向け安全アプリ",
+      "impact": "緊急時に専門の救助隊へ即座に連絡でき、身の安全が守られる",
+      "term": {
+        "word": "dispatch",
+        "note": "緊急時に警察や救急車などを迅速に現場へ派遣する専門のサービス"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/aegis-14",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "aegis",
+      "published": "2026-10-07T18:33:50Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "4212e6ea0f",
+      "title_ja": "ノッチからAIコーディング支援を一元管理",
+      "what": "Macのノッチから複数のコーディングエージェントを監視・応答できるツール",
+      "new": "ノッチ領域からすべてのコーディングエージェントを監視・応答できる",
+      "impact": "複数のAIエージェントを一元管理し、作業効率を高められる",
+      "term": {
+        "word": "コーディングエージェント",
+        "note": "AIがコードを書いたり修正したりする支援ツールを指す"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/hallmonitor",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Hallmonitor",
+      "published": "2026-10-07T16:49:17Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "c83bb01d10",
+      "title_ja": "AIが各プロンプトごとに競い合う新ツール登場",
+      "what": "複数のAIプロバイダーが各プロンプトごとに競い合うLLMルーターが登場した",
+      "new": "各AIプロバイダーが各プロンプトごとに競い合う仕組み",
+      "impact": "AI利用の費用を抑え、より良い回答を得やすくなる可能性がある",
+      "term": {
+        "word": "LLM router",
+        "note": "複数のAIサービスの中から、その時の質問内容に最も適したものを自動的に選んで処理する機能のこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/liquid-inference",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Liquid Inference",
+      "published": "2026-10-07T08:14:41Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "01fff2a2cb",
+      "title_ja": "iPhoneキーボードでトーンを保つ翻訳ツール登場",
+      "what": "iPhoneのキーボード内で翻訳を行い、元の文章のトーンを維持するツールが公開された。",
+      "new": "iPhoneのキーボード上で翻訳を行い、元のトーン（ニュアンス）を維持する機能を備えている。",
+      "impact": "iPhoneのキーボードで翻訳でき、元のニュアンスを保ったまま自然な文章を入力できる。",
+      "term": {
+        "word": "トーン",
+        "note": "文章の雰囲気や感情表現のこと。翻訳時に元の言葉のニュアンスを損なわないようにする技術。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/typeling",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Typeling",
+      "published": "2026-10-07T07:50:58Z",
+      "summary_only": true,
+      "also_in": []
+    }
+  ],
+  "stats": {
+    "collected": 41,
+    "candidates": 38,
+    "ranked": 37,
+    "selected": 20,
+    "llm_calls": 28,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "seconds": 706.1
+  }
+}
