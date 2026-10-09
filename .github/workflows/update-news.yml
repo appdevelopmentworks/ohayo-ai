@@ -1,9 +1,10 @@
 name: update-news
 
-# Phase 1 skeleton: manual runs only. Phase 5 adds the `17 21 * * *` schedule
-# (06:17 JST) and the commit-if-changed step.
+# Every morning at 06:17 JST (21:17 UTC; off the busy top of the hour), plus manual runs.
 # Never add pull_request triggers: secrets must not reach forks.
 on:
+  schedule:
+    - cron: "17 21 * * *"
   workflow_dispatch:
     inputs:
       provider:
@@ -12,12 +13,12 @@ on:
         options: [gemini, groq]
         default: gemini
       dry_run:
-        description: "Use recorded fixtures (no network, no LLM calls)"
+        description: "Use recorded fixtures only (nothing is committed)"
         type: boolean
-        default: true
+        default: false
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: update-news
@@ -25,6 +26,8 @@ concurrency:
 
 jobs:
   update:
+    # Forks get the workflow file but must not run it.
+    if: github.repository == 'appdevelopmentworks/ohayo-ai'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -35,17 +38,38 @@ jobs:
           enable-cache: true
 
       - name: Install dependencies
-        run: uv sync --locked
-
-      - name: Test
-        run: uv run pytest
+        run: uv sync --locked --no-dev
 
       - name: Run pipeline
+        id: pipeline
         env:
-          LLM_PROVIDER: ${{ inputs.provider }}
+          LLM_PROVIDER: ${{ inputs.provider || 'gemini' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: uv run ai-news ${{ inputs.dry_run && '--dry-run' || '' }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
+        # Keep going on failure so data/ (seen, source health) is still committed;
+        # the last step turns the run red, which sends GitHub's failure email.
+        run: |
+          set +e
+          uv run ai-news ${{ inputs.dry_run && '--dry-run' || '' }}
+          echo "status=$?" >> "$GITHUB_OUTPUT"
 
-      # TODO(phase 5): commit data/ and public/ only if something changed
-      # (needs `permissions: contents: write`).
+      - name: Commit if changed
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Update news for $(TZ=Asia/Tokyo date +%F)"
+          git push || { git pull --rebase && git push; }
+
+      - name: Report pipeline failure
+        if: steps.pipeline.outputs.status != '0'
+        run: |
+          echo "::error::ai-news exited with status ${{ steps.pipeline.outputs.status }}. See the 'Run pipeline' log."
+          exit 1

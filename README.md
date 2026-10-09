@@ -16,6 +16,7 @@
 ## ドキュメント
 
 - [要件定義 v2](docs/requirements.md)
+- [運用ガイド（初期設定・失敗したとき）](docs/operations.md)
 - [デザイン資料](docs/design/README.md)
 - [最初の案（v1）](docs/requirements-v1.md)
 

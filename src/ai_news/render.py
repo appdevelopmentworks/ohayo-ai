@@ -3,6 +3,7 @@
 import hashlib
 import json
 import logging
+import re
 import shutil
 from datetime import date, datetime
 from pathlib import Path
@@ -139,8 +140,14 @@ def load_editions(directory: Path) -> list[Edition]:
     return sorted(editions, key=lambda e: e.date)
 
 
+ANALYTICS_TOKEN = re.compile(r"^[0-9a-f]{32}$")
+
+
 class Site:
-    def __init__(self, out: Path, site_url: str | None):
+    def __init__(self, out: Path, site_url: str | None, analytics_token: str | None = None):
+        if analytics_token and not ANALYTICS_TOKEN.match(analytics_token):
+            log.warning("ignoring malformed Cloudflare Web Analytics token")
+            analytics_token = None
         self.out = out
         self.site_url = site_url.rstrip("/") if site_url else None
         self.env = Environment(
@@ -157,6 +164,7 @@ class Site:
             tagline=TAGLINE,
             moods=MOODS,
             asset_version=hashlib.sha1(assets).hexdigest()[:8],
+            analytics_token=analytics_token,
         )
         self.written: list[Path] = []
 
@@ -204,13 +212,14 @@ def render_site(
     glossary: dict[str, dict],
     out: Path = PUBLIC_DIR,
     site_url: str | None = None,
+    analytics_token: str | None = None,
 ) -> list[Path]:
     """Write every page. Returns the files written."""
     if not editions:
         raise ValueError("no edition to render")
     editions = sorted(editions, key=lambda e: e.date)
     latest = editions[-1]
-    site = Site(out, site_url)
+    site = Site(out, site_url, analytics_token)
 
     for name in ASSETS:
         target = out / "assets" / name

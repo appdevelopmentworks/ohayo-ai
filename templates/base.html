@@ -84,5 +84,9 @@
 <form method="dialog"><button class="button button--wide" type="submit">わかった！</button></form>
 </div>
 </dialog>
+{%- if analytics_token %}
+<!-- Cloudflare Web Analytics (no cookies) -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ analytics_token }}"}'></script>
+{%- endif %}
 </body>
 </html>

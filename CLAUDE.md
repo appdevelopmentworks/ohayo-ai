@@ -59,6 +59,14 @@ Mint-colored round robot with an antenna and a chest screen. Four moods (normal,
 
 Finish and verify each phase before starting the next. Record real commands in a "Commands" section here as they are created.
 
+## Operations
+
+`docs/operations.md` (Japanese, for the owner) covers first-time setup (Secrets, Workers Builds, `SITE_URL` and `CF_WEB_ANALYTICS_TOKEN` repository variables) and what to do when the morning run fails.
+
+- `.github/workflows/update-news.yml`: daily at `17 21 * * *` UTC and on manual dispatch. Runs `ai-news`, commits `data/` and `public/` only if they changed (even when the pipeline failed, so state keeps moving), then fails the run if `ai-news` exited non-zero. No tests here, so a test failure never blocks the morning edition. Dispatch with `dry_run` commits nothing.
+- `.github/workflows/ci.yml`: `pytest` on pushes to `main` that touch code. Bot commits made with `GITHUB_TOKEN` do not trigger it.
+- Both jobs only run in `appdevelopmentworks/ohayo-ai`; neither has a `pull_request` trigger.
+
 ## Commands
 
 - `uv sync` — create `.venv` and install dependencies (CI uses `uv sync --locked`)
@@ -68,6 +76,7 @@ Finish and verify each phase before starting the next. Record real commands in a
 - `uv run ai-news` — live run (needs `GEMINI_API_KEY` and/or `GROQ_API_KEY`): writes `data/daily/<JST date>.json`, `data/seen.json`, `data/source_health.json`, `data/glossary.json`, then renders `public/`; exits 1 if no edition was made or a source returned 0 items two JST days in a row
 - `uv run ai-news --render-only` — rebuild `public/` from `data/` (after template or CSS changes)
 - `SITE_URL=https://ohayo-ai.<account>.workers.dev` — env var for canonical and `og:image` URLs; without it those tags are omitted
+- `CF_WEB_ANALYTICS_TOKEN=<32 hex chars>` — env var that adds the Cloudflare Web Analytics beacon to every page; omitted when unset or malformed
 - `uv run python -m http.server 8000 --directory public` — preview the rendered site (also the `public` entry in `.claude/launch.json`)
 - `uv run ai-news --record-fixtures` — re-fetch every source into `tests/fixtures/sources/` (feeds trimmed to 40 entries); the LLM fixtures then no longer match, so follow with `--record-llm`
 - `uv run ai-news --record-llm` — call the real LLMs on the recorded sources (feed text as the body, like `--dry-run`) and save answers to `tests/fixtures/llm/`; delete stale `summary-*.json` first

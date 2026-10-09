@@ -177,3 +177,13 @@ def test_path_points():
     points, closed = ogp._path_points("M70 84 Q80 97 90 84 Z", steps=4)
     assert closed and points[0] == (70, 84) and points[-1] == (90, 84)
     assert ogp._path_points("M74 89 L87 86") == ([(74, 89), (87, 86)], False)
+
+
+def test_analytics_snippet_only_with_a_valid_token(tmp_path, edition):
+    token = "0123456789abcdef0123456789abcdef"
+    render.render_site([edition], {}, tmp_path / "with", analytics_token=token)
+    assert f'data-cf-beacon=\'{{"token": "{token}"}}\'' in _read(tmp_path / "with" / "index.html")
+    render.render_site([edition], {}, tmp_path / "bad", analytics_token='x"><script>')
+    render.render_site([edition], {}, tmp_path / "none")
+    for name in ("bad", "none"):
+        assert "cloudflareinsights" not in _read(tmp_path / name / "index.html")

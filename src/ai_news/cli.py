@@ -21,9 +21,17 @@ def site_url() -> str | None:
     return os.environ.get("SITE_URL") or None
 
 
+def analytics_token() -> str | None:
+    """Cloudflare Web Analytics site token (public; it ends up in every page)."""
+    return os.environ.get("CF_WEB_ANALYTICS_TOKEN") or None
+
+
 def render_from_data() -> None:
-    editions = render.load_editions(state.DAILY_DIR)
-    render.render_site(editions, state.load_json(state.GLOSSARY_PATH), PUBLIC_DIR, site_url())
+    render_editions(render.load_editions(state.DAILY_DIR), state.load_json(state.GLOSSARY_PATH))
+
+
+def render_editions(editions: list, glossary: dict) -> None:
+    render.render_site(editions, glossary, PUBLIC_DIR, site_url(), analytics_token())
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -147,7 +155,7 @@ def main(argv: list[str] | None = None) -> int:
         # Same site as a live run would build, without touching data/.
         editions = [e for e in render.load_editions(state.DAILY_DIR) if e.date != edition.date]
         glossary = state.update_glossary(state.load_json(state.GLOSSARY_PATH), edition)
-        render.render_site([*editions, edition], glossary, PUBLIC_DIR, site_url())
+        render_editions([*editions, edition], glossary)
 
     status = 0
     if result.error:
