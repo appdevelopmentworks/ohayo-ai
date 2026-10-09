@@ -6,44 +6,59 @@
 
 上から順に進めます。値はすべてGitHubとCloudflareの画面で設定し、リポジトリには書きません。
 
+公開URLは **https://ohayo-ai.aileap.workers.dev** です（workers.devのサブドメイン `aileap` は2026-10-09に登録済み。Worker `ohayo-ai` も手元からの `npx wrangler deploy` で作成済み）。
+
 ### 1. APIキーを登録する（GitHub Secrets）
 
-GitHubのリポジトリで **Settings → Secrets and variables → Actions → Secrets** を開き、次の2つを登録します。
+GitHubのリポジトリで **Settings → Secrets and variables → Actions → Secrets** を開き、次の2つを登録します。手元の `.env` はActionsからは見えないので、ここへの登録が別に必要です。
 
 | 名前 | 中身 |
 | --- | --- |
-| `GEMINI_API_KEY` | Google AI StudioのAPIキー（メイン） |
+| `GEMINI_API_KEY` | Google AI StudioのAPIキー（メイン。決済の登録なしの無料枠で動作確認済み） |
 | `GROQ_API_KEY` | GroqのAPIキー（予備。なくても動くが、Geminiが止まった日に記事が作れない） |
 
-### 2. 最初のニュースを作る（手動実行）
+### 2. 公開URLを登録する（GitHub Variables）
+
+同じ画面の **Variables** タブに次を登録します。秘密の値ではありません（ページのHTMLにそのまま出ます）。最初の実行より前に入れておくと、最初のページから共有用の画像（OGP）のタグが入ります。
+
+| 名前 | 中身 | 使い道 |
+| --- | --- | --- |
+| `SITE_URL` | `https://ohayo-ai.aileap.workers.dev`（最後の `/` なし） | XやLINEで共有したときの画像（OGP）と正式URL。未設定だとこれらのタグを出さない |
+
+### 3. 最初のニュースを作る（手動実行）
 
 **Actions → update-news → Run workflow** を押します（`dry_run` はオフのまま）。数分〜15分ほどで終わり（Groqに切り替わった日は長くなる）、`Update news for YYYY-MM-DD` というコミットが増えれば成功です。`public/` にページができます。
 
-### 3. Cloudflare Workersで公開する（Workers Builds）
+### 4. 毎朝の自動公開をつなぐ（Workers Builds）
 
-1. Cloudflareのダッシュボードで **Workers & Pages → 作成 → リポジトリをインポート（Import a repository）** を選び、GitHubと連携して `ohayo-ai` リポジトリを選ぶ
+必ず3の後に行います。先につなぐと、まだ空の `public/` で公開中のページが上書きされます。
+
+1. Cloudflareのダッシュボードで **Workers & Pages → ohayo-ai → Settings → Builds → Connect** を選び、GitHubと連携して `ohayo-ai` リポジトリを選ぶ（Workerはもうあるので「リポジトリをインポート」は使わない）
 2. 設定はこのとおりにする
-   - プロジェクト名（Worker名）: `ohayo-ai`（`wrangler.jsonc` の `name` と同じでないとビルドが失敗する）
    - 本番ブランチ: `main`
    - ビルドコマンド: 空欄
    - デプロイコマンド: `npx wrangler deploy`
    - ルートディレクトリ: `/`
-3. 保存すると最初のデプロイが走る。終わると `https://ohayo-ai.<アカウント名>.workers.dev` で見られる
+3. 保存後、最新のコミットでデプロイが走る。https://ohayo-ai.aileap.workers.dev が本物のニュースになっていれば完了
 
-これ以降は、毎朝のコミットのたびに自動で公開されます。
+これ以降は、毎朝のコミットのたびに自動で公開されます。Worker名は `wrangler.jsonc` の `name`（`ohayo-ai`）と同じでないとビルドが失敗します。
 
-### 4. 公開URLと解析を設定する（GitHub Variables）
+### 5. 閲覧数の計測（任意、Cloudflare Web Analytics）
 
-**Settings → Secrets and variables → Actions → Variables** に次を登録します。どちらも秘密の値ではありません（ページのHTMLにそのまま出ます）。
-
-| 名前 | 中身 | 使い道 |
-| --- | --- | --- |
-| `SITE_URL` | `https://ohayo-ai.<アカウント名>.workers.dev`（最後の `/` なし） | XやLINEで共有したときの画像（OGP）と正式URL。未設定だとこれらのタグを出さない |
-| `CF_WEB_ANALYTICS_TOKEN` | Web Analyticsのトークン（英数字32文字） | 閲覧数の計測。未設定だと計測タグを出さない |
-
-`CF_WEB_ANALYTICS_TOKEN` の取り方: Cloudflareの **Web Analytics → サイトを追加** でホスト名 `ohayo-ai.<アカウント名>.workers.dev` を登録し、表示されるJSスニペットの `"token": "..."` の部分をコピーします。スニペット自体を貼る必要はありません（毎朝のページ生成で自動で入ります）。
+1. Cloudflareの **Web Analytics → サイトを追加** でホスト名 `ohayo-ai.aileap.workers.dev` を登録する
+2. 表示されるJSスニペットの `"token": "..."` の部分（英数字32文字）をコピーする。スニペット自体を貼る必要はない
+3. GitHubの **Variables** に `CF_WEB_ANALYTICS_TOKEN` として登録する
 
 設定は次のページ生成から反映されます。すぐ反映したいときは、もう一度 **Run workflow** を押します。
+
+### 手元からの公開（Workers Buildsをつなぐ前の確認用）
+
+見本のページをCloudflareで確かめたいときは、手元から直接公開できます（要Node.js、初回は `npx wrangler login`）。Workers Buildsをつないだ後は、次のpushで上書きされます。
+
+```bash
+uv run ai-news --dry-run
+npx wrangler deploy
+```
 
 ## 毎日の動き
 

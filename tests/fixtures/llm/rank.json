@@ -8,7 +8,7 @@
     {
       "id": 1,
       "score": 3,
-      "category": "画像・動画"
+      "category": "便利なツール"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "score": 3,
+      "score": 4,
       "category": "注目トピック"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "id": 5,
-      "score": 3,
+      "score": 2,
       "category": "注目トピック"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "id": 7,
-      "score": 3,
+      "score": 2,
       "category": "注目トピック"
     },
     {
@@ -47,27 +47,27 @@
     },
     {
       "id": 9,
-      "score": 1,
+      "score": 3,
       "category": "画像・動画"
     },
     {
       "id": 10,
-      "score": 2,
-      "category": "便利なツール"
+      "score": 1,
+      "category": "注目トピック"
     },
     {
       "id": 11,
-      "score": 4,
+      "score": 3,
       "category": "注目トピック"
     },
     {
       "id": 12,
       "score": 2,
-      "category": "注目トピック"
+      "category": "新モデル"
     },
     {
       "id": 13,
-      "score": 3,
+      "score": 2,
       "category": "新モデル"
     },
     {
@@ -77,17 +77,17 @@
     },
     {
       "id": 15,
-      "score": 3,
+      "score": 2,
       "category": "研究・論文"
     },
     {
       "id": 16,
-      "score": 3,
+      "score": 2,
       "category": "研究・論文"
     },
     {
       "id": 17,
-      "score": 3,
+      "score": 2,
       "category": "新モデル"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "id": 19,
-      "score": 3,
+      "score": 2,
       "category": "新モデル"
     },
     {
@@ -118,7 +118,7 @@
     {
       "id": 23,
       "score": 3,
-      "category": "画像・動画"
+      "category": "便利なツール"
     },
     {
       "id": 24,
@@ -127,7 +127,7 @@
     },
     {
       "id": 25,
-      "score": 1,
+      "score": 2,
       "category": "便利なツール"
     },
     {
@@ -147,12 +147,12 @@
     },
     {
       "id": 29,
-      "score": 1,
+      "score": 2,
       "category": "便利なツール"
     },
     {
       "id": 30,
-      "score": 1,
+      "score": 2,
       "category": "便利なツール"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "id": 35,
-      "score": 2,
+      "score": 3,
       "category": "便利なツール"
     },
     {

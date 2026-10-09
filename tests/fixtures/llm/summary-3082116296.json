@@ -1,9 +1,12 @@
 {
-  "title_ja": "MetaとMicrosoft、社員のClaude利用を減らす動き",
-  "what": "MetaとMicrosoftが、社員によるClaudeの利用を減らす対応を取ったと報じられた",
-  "new": "",
-  "impact": "会社で使うAIのルールは、これからも変わる可能性がある",
-  "term": null,
+  "title_ja": "MetaとMicrosoftが社員のClaude利用を制限へ",
+  "what": "MetaとMicrosoftが社内でのClaude AIの利用を制限する動きを見せた。",
+  "new": "競合他社のAIであるClaudeの使用を管理・抑制する対策を取り始めたこと。",
+  "impact": "自社開発のAIツールや公式に認められたツールへの切り替えが進む可能性がある。",
+  "term": {
+    "word": "Claude AI",
+    "note": "Anthropic社が開発した対話型AIサービスの名称。"
+  },
   "category": "注目トピック",
   "score": 3
 }

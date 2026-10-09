@@ -61,6 +61,8 @@ Finish and verify each phase before starting the next. Record real commands in a
 
 ## Operations
 
+Public URL: https://ohayo-ai.aileap.workers.dev (workers.dev subdomain `aileap`; the `ohayo-ai` Worker was first created by a manual `npx wrangler deploy` on 2026-10-09, so Workers Builds is attached through the Worker's Settings → Builds → Connect).
+
 `docs/operations.md` (Japanese, for the owner) covers first-time setup (Secrets, Workers Builds, `SITE_URL` and `CF_WEB_ANALYTICS_TOKEN` repository variables) and what to do when the morning run fails.
 
 - `.github/workflows/update-news.yml`: daily at `17 21 * * *` UTC and on manual dispatch. Runs `ai-news`, commits `data/` and `public/` only if they changed (even when the pipeline failed, so state keeps moving), then fails the run if `ai-news` exited non-zero. No tests here, so a test failure never blocks the morning edition. Dispatch with `dry_run` commits nothing.
