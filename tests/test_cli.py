@@ -6,23 +6,34 @@ from ai_news import article, cli, fixtures, llm, paths, state
 
 
 @pytest.fixture
-def no_state_writes(monkeypatch):
+def isolated(monkeypatch, tmp_path):
+    """Point data/ and public/ at a temp dir."""
+    monkeypatch.setattr(state, "SEEN_PATH", tmp_path / "seen.json")
+    monkeypatch.setattr(state, "HEALTH_PATH", tmp_path / "health.json")
+    monkeypatch.setattr(state, "DAILY_DIR", tmp_path / "daily")
+    monkeypatch.setattr(state, "GLOSSARY_PATH", tmp_path / "glossary.json")
+    monkeypatch.setattr(cli, "PUBLIC_DIR", tmp_path / "public")
+    return tmp_path
+
+
+def test_dry_run_renders_without_saving_state(isolated, monkeypatch):
     def fail(*args, **kwargs):
         raise AssertionError("state must not be written")
 
     monkeypatch.setattr(state, "save_json", fail)
-
-
-def test_dry_run_exits_cleanly_without_saving_state(no_state_writes):
     assert cli.main(["--dry-run"]) == 0
+    assert (isolated / "public" / "index.html").is_file()
+    assert not (isolated / "daily").exists()
+
+
+def test_render_only_needs_data(isolated):
+    assert cli.main(["--render-only"]) == 1
 
 
 @pytest.fixture
-def live_offline(monkeypatch, tmp_path):
-    """A live run wired to fixtures, with state redirected to a temp dir."""
-    monkeypatch.setattr(state, "SEEN_PATH", tmp_path / "seen.json")
-    monkeypatch.setattr(state, "HEALTH_PATH", tmp_path / "health.json")
-    monkeypatch.setattr(state, "DAILY_DIR", tmp_path / "daily")
+def live_offline(monkeypatch, isolated):
+    """A live run wired to fixtures, with state and output redirected to a temp dir."""
+    tmp_path = isolated
     monkeypatch.setattr(cli, "utc_now", fixtures.recorded_at)
     monkeypatch.setattr(cli, "http_fetch", fixtures.fixture_fetch)
     monkeypatch.setattr(article, "fetch_body", article.feed_text_body)
@@ -37,6 +48,10 @@ def test_live_run_saves_state_and_edition(live_offline):
     assert edition["date"] == today and edition["articles"]
     assert state.load_json(state.SEEN_PATH)
     assert state.load_json(state.HEALTH_PATH)["openai"] == {today: 40}
+    assert state.load_json(state.GLOSSARY_PATH)
+    assert (live_offline / "public" / "index.html").is_file()
+    assert (live_offline / "public" / f"archive/{today}/index.html").is_file()
+    assert cli.main(["--render-only"]) == 0
 
 
 def test_live_run_fails_on_source_broken_two_days(live_offline, monkeypatch):

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{%- from "_macros.html" import mascot with context -%}
+
+{% block title %}ページが見つかりません | {{ site_name }}{% endblock %}
+{% block body_class %}page-404{% endblock %}
+
+{% block content %}
+<main class="page page--center">
+{{ mascot("think", "mint-hero", 140, "考えるニュー助") }}
+<h1 class="page-title rd">ページが見つかりませんでした</h1>
+<p class="page-lead">アドレスが変わったか、まだ作られていないページかもしれません。</p>
+<p><a class="button" href="/">今日のニュースへ</a></p>
+</main>
+{% endblock %}

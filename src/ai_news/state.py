@@ -13,6 +13,7 @@ JST = timezone(timedelta(hours=9), "JST")
 SEEN_PATH = DATA_DIR / "seen.json"
 HEALTH_PATH = DATA_DIR / "source_health.json"
 DAILY_DIR = DATA_DIR / "daily"  # one edition per run date, the source of the archive
+GLOSSARY_PATH = DATA_DIR / "glossary.json"
 SEEN_DAYS = 7
 HEALTH_DAYS = 7
 ZERO_DAYS_TO_FAIL = 2
@@ -70,3 +71,19 @@ def failing_sources(health: dict[str, dict[str, int]], today: date) -> list[str]
     """Sources that returned nothing on each of the last ZERO_DAYS_TO_FAIL run dates."""
     days = [(today - timedelta(days=n)).isoformat() for n in range(ZERO_DAYS_TO_FAIL)]
     return sorted(sid for sid, counts in health.items() if all(counts.get(d) == 0 for d in days))
+
+
+# glossary.json: {word: {note, date, article_id, title}}; the first explanation of a word is kept.
+
+
+def update_glossary(glossary: dict[str, dict], edition) -> dict[str, dict]:
+    updated = dict(glossary)
+    for article in edition.articles:
+        if article.term and article.term.word not in updated:
+            updated[article.term.word] = {
+                "note": article.term.note,
+                "date": edition.date.isoformat(),
+                "article_id": article.id,
+                "title": article.title_ja,
+            }
+    return updated

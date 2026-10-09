@@ -23,7 +23,7 @@ If code and docs disagree, ask before changing either.
 ## Stack and conventions
 
 - Python 3.12+, managed with **uv** (`pyproject.toml` + `uv.lock`). Never use pip or `requirements.txt`.
-- Planned libraries: feedparser, httpx, trafilatura, jinja2, pydantic, openai (OpenAI-compatible client for both Gemini and Groq).
+- Planned libraries: feedparser, httpx, trafilatura, jinja2, pydantic, openai (OpenAI-compatible client for both Gemini and Groq), lxml (HTML/feed parsing), pillow (daily OGP image, drawn with the bundled `templates/fonts/` M PLUS Rounded 1c, SIL OFL).
 - Frontend: hand-written CSS and vanilla JS. No Tailwind, no frameworks, no animation libraries.
 - Fonts: system Japanese gothic for body text; M PLUS Rounded 1c (Google Fonts, weights 700/800) for headings and mascot speech only.
 - All user-facing text is Japanese, aimed at non-engineers. Code, identifiers, comments and commit messages are English.
@@ -64,8 +64,11 @@ Finish and verify each phase before starting the next. Record real commands in a
 - `uv sync` — create `.venv` and install dependencies (CI uses `uv sync --locked`)
 - `uv add <pkg>` / `uv add --dev <pkg>` — add a dependency (updates `pyproject.toml` and `uv.lock`)
 - `uv run pytest` — run the test suite
-- `uv run ai-news --dry-run` — run the pipeline on recorded sources and LLM answers (`tests/fixtures/`); never writes `data/` (add `-v` to list articles); also `uv run python -m ai_news`
-- `uv run ai-news` — live run (needs `GEMINI_API_KEY` and/or `GROQ_API_KEY`): writes `data/daily/<JST date>.json`, `data/seen.json`, `data/source_health.json`; exits 1 if no edition was made or a source returned 0 items two JST days in a row
+- `uv run ai-news --dry-run` — run the pipeline on recorded sources and LLM answers (`tests/fixtures/`) and render `public/` from it plus existing `data/`; never writes `data/` (add `-v` to list articles); also `uv run python -m ai_news`. Do not commit the `public/` it produces
+- `uv run ai-news` — live run (needs `GEMINI_API_KEY` and/or `GROQ_API_KEY`): writes `data/daily/<JST date>.json`, `data/seen.json`, `data/source_health.json`, `data/glossary.json`, then renders `public/`; exits 1 if no edition was made or a source returned 0 items two JST days in a row
+- `uv run ai-news --render-only` — rebuild `public/` from `data/` (after template or CSS changes)
+- `SITE_URL=https://ohayo-ai.<account>.workers.dev` — env var for canonical and `og:image` URLs; without it those tags are omitted
+- `uv run python -m http.server 8000 --directory public` — preview the rendered site (also the `public` entry in `.claude/launch.json`)
 - `uv run ai-news --record-fixtures` — re-fetch every source into `tests/fixtures/sources/` (feeds trimmed to 40 entries); the LLM fixtures then no longer match, so follow with `--record-llm`
 - `uv run ai-news --record-llm` — call the real LLMs on the recorded sources (feed text as the body, like `--dry-run`) and save answers to `tests/fixtures/llm/`; delete stale `summary-*.json` first
 - `uv run ai-news --provider groq` — choose the primary LLM provider (default: `$LLM_PROVIDER` or `gemini`)

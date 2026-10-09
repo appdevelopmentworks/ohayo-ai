@@ -5,14 +5,25 @@ import logging
 import os
 from datetime import UTC, datetime
 
-from ai_news import article, fixtures, llm, pipeline, state
+from ai_news import article, fixtures, llm, pipeline, render, state
 from ai_news.fetch import http_fetch
+from ai_news.paths import PUBLIC_DIR
 
 log = logging.getLogger("ai_news")
 
 
 def utc_now() -> datetime:
     return datetime.now(UTC)
+
+
+def site_url() -> str | None:
+    """Public origin for canonical and OGP URLs, e.g. https://ohayo-ai.<account>.workers.dev"""
+    return os.environ.get("SITE_URL") or None
+
+
+def render_from_data() -> None:
+    editions = render.load_editions(state.DAILY_DIR)
+    render.render_site(editions, state.load_json(state.GLOSSARY_PATH), PUBLIC_DIR, site_url())
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -30,6 +41,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--record-fixtures",
         action="store_true",
         help="fetch every source live and overwrite tests/fixtures/sources/",
+    )
+    mode.add_argument(
+        "--render-only",
+        action="store_true",
+        help="rebuild public/ from data/ without collecting or calling any LLM",
     )
     mode.add_argument(
         "--record-llm",
@@ -88,6 +104,13 @@ def main(argv: list[str] | None = None) -> int:
     if args.record_fixtures:
         fixtures.record(http_fetch)
         return 0
+    if args.render_only:
+        try:
+            render_from_data()
+        except ValueError as exc:
+            log.error("%s", exc)
+            return 1
+        return 0
 
     offline = args.dry_run or args.record_llm
     try:
@@ -111,12 +134,20 @@ def main(argv: list[str] | None = None) -> int:
     result = pipeline.run(now, fetch, seen, health, client, body_fetch)
     report(result)
 
+    edition = result.edition
     if not offline:
         state.save_json(state.SEEN_PATH, result.seen)
         state.save_json(state.HEALTH_PATH, result.health)
-        if result.edition:
-            edition = result.edition
+        if edition:
             state.save_json(state.DAILY_DIR / f"{edition.date}.json", edition.model_dump(mode="json"))
+            glossary = state.update_glossary(state.load_json(state.GLOSSARY_PATH), edition)
+            state.save_json(state.GLOSSARY_PATH, glossary)
+            render_from_data()
+    elif args.dry_run and edition:
+        # Same site as a live run would build, without touching data/.
+        editions = [e for e in render.load_editions(state.DAILY_DIR) if e.date != edition.date]
+        glossary = state.update_glossary(state.load_json(state.GLOSSARY_PATH), edition)
+        render.render_site([*editions, edition], glossary, PUBLIC_DIR, site_url())
 
     status = 0
     if result.error:

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{%- from "_macros.html" import mascot, icon with context -%}
+
+{% block title %}このサイトの仕組み | {{ site_name }}{% endblock %}
+{% block description %}{{ site_name }}は、AIが毎朝自動でニュースを調べて、選んで、まとめて、ページを作っています。その仕組みを紹介します。{% endblock %}
+{% block body_class %}page-behind{% endblock %}
+{% block footer_lead %}{% endblock %}
+
+{% block content %}
+<main class="page">
+<div class="page-head page-head--mint">
+{{ mascot("smile", "mint-hero", 110, "ニュー助") }}
+<div>
+<p class="page-kicker">このサイトの裏側</p>
+<h1 class="page-title rd">このサイトは、AIが毎朝自動で調べて、まとめて、作っています</h1>
+<p class="page-lead">人の手を入れずに、毎朝6時すぎから動き出し、7時までにこのサイトを作り直しています。</p>
+</div>
+</div>
+
+<section class="stats" aria-label="今朝の実績">
+<h2 class="block-title rd">今朝の実績</h2>
+<p class="block-lead">{{ date_label }}の朝に動いた結果です。</p>
+<p class="stats-lead rd">今朝は <strong>{{ stats.collected }}</strong> 件から <strong>{{ stats.selected }}</strong> 本を選びました</p>
+<ul class="stat-grid">
+<li><span class="stat-value rd">{{ stats.collected }}<small>件</small></span><span class="stat-label">集めたニュース</span></li>
+<li><span class="stat-value rd">{{ stats.ranked }}<small>件</small></span><span class="stat-label">AIが読み比べた候補</span></li>
+<li><span class="stat-value rd">{{ stats.selected }}<small>本</small></span><span class="stat-label">選んでまとめた記事</span></li>
+<li><span class="stat-value rd">{{ duration }}</span><span class="stat-label">処理時間</span></li>
+</ul>
+</section>
+
+<section class="flow" aria-label="毎朝の流れ">
+<h2 class="block-title rd">毎朝の流れ</h2>
+<ol class="flow-steps">
+{%- for step in steps %}
+<li class="flow-step" style="--i: {{ loop.index0 }}">
+<span class="flow-icon">{{ icon(step.icon, 26) }}</span>
+<span class="flow-n">{{ loop.index }}</span>
+<strong class="flow-name rd">{{ step.name }}</strong>
+<span class="flow-text">{{ step.text }}</span>
+</li>
+{%- endfor %}
+</ol>
+</section>
+
+<section class="sources-block" aria-label="情報源">
+<h2 class="block-title rd">巡回している{{ sources | length }}か所</h2>
+<p class="block-lead">公式ブログや論文サイトなど、もとの情報が出る場所（一次ソース）を中心に見ています。</p>
+<ul class="source-list">
+{%- for s in sources %}
+<li><a href="{{ s.home }}" target="_blank" rel="noopener">{{ s.name }}</a><span>{{ s.role }}</span></li>
+{%- endfor %}
+</ul>
+</section>
+
+<section class="cost-block" aria-label="運用費">
+<h2 class="block-title rd">運用費は0円</h2>
+<p class="block-lead">すべて無料の範囲で動いています。</p>
+<ul class="cost-list">
+<li><strong>GitHub Actions</strong>毎朝の収集・要約・ページ作り</li>
+<li><strong>Gemini API（予備: Groq）</strong>ニュースの選別と要約</li>
+<li><strong>Cloudflare Workers</strong>ページの公開</li>
+</ul>
+</section>
+
+<section class="cta" aria-label="ご相談">
+<div class="cta-text">
+<p class="cta-title rd">あなたの業務も、こんなふうに自動化できます</p>
+<p class="cta-lead">情報収集、資料づくり、毎日のくり返し作業。まずは気軽にご相談ください。</p>
+</div>
+{%- if contact_url %}
+<a class="button button--cta" href="{{ contact_url }}">AILEAPに相談する{{ icon("arrow") }}</a>
+{%- else %}
+<p class="cta-soon">お問い合わせ窓口は準備中です</p>
+{%- endif %}
+</section>
+</main>
+{% endblock %}

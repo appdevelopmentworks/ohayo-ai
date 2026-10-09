@@ -1,0 +1,88 @@
+{%- from "_macros.html" import mascot, icon with context -%}
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ tagline }}{% endblock %}">
+<meta name="theme-color" content="#F3FAF7">
+<link rel="icon" href="/assets/nyusuke.svg" type="image/svg+xml">
+{%- if canonical %}
+<link rel="canonical" href="{{ canonical }}">
+{%- endif %}
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+{%- if canonical %}
+<meta property="og:url" content="{{ canonical }}">
+{%- endif %}
+{%- if og_image %}
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+{%- endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&amp;display=swap">
+<link rel="stylesheet" href="/assets/style.css?v={{ asset_version }}">
+<script src="/assets/app.js?v={{ asset_version }}" defer></script>
+</head>
+<body class="{% block body_class %}{% endblock %}">
+<a class="skip" href="#content">本文へ移動</a>
+<header class="site-header">
+<a class="brand" href="/">
+<svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><line x1="20" y1="7" x2="20" y2="2" stroke="#1F2D2A" stroke-width="2.5" stroke-linecap="round"/><rect x="2" y="7" width="36" height="31" rx="15" fill="#7FD9C2" stroke="#1F2D2A" stroke-width="2.5"/><rect x="8" y="13" width="24" height="15" rx="7" fill="#1F2D2A"/><circle cx="15" cy="20.5" r="2.4" fill="#FFFFFF"/><circle cx="25" cy="20.5" r="2.4" fill="#FFFFFF"/></svg>
+<span class="brand-text"><span class="brand-name rd">{{ site_name }}</span><span class="brand-tagline">{{ tagline }}</span></span>
+</a>
+<div class="header-side">
+{% block header_status %}{% endblock %}
+<nav class="header-nav" aria-label="サイト内のページ">
+<a class="pill" href="/archive/">過去のニュース</a>
+<a class="pill" href="/behind/">仕組み</a>
+</nav>
+</div>
+</header>
+
+<div id="content">
+{% block content %}{% endblock %}
+</div>
+
+<footer class="site-footer">
+<div class="footer-inner">
+{% block footer_lead %}
+<div class="footer-lead">
+<p class="footer-kicker">このサイトについて</p>
+<p class="footer-title rd">このサイトは、AIが毎朝自動で調べて、まとめて、作っています</p>
+<a class="button button--light" href="/behind/">仕組みを見る{{ icon("arrow") }}</a>
+</div>
+{% endblock %}
+<nav class="footer-nav" aria-label="フッター">
+<a href="/">今日のニュース</a>
+<a href="/archive/">過去のニュース</a>
+<a href="/glossary/">用語集</a>
+<a href="/behind/">このサイトの仕組み</a>
+</nav>
+<p class="footer-note">要約はAIが作成しています。正確な内容は、各記事の一次ソース（英語）でご確認ください。<br>© AILEAP</p>
+</div>
+</footer>
+
+<dialog class="sheet" id="term-sheet" aria-labelledby="term-sheet-word">
+<div class="sheet-panel">
+<span class="sheet-handle" aria-hidden="true"></span>
+<div class="sheet-body">
+{{ mascot("normal", "mint-talk sheet-mint", 84, "説明するニュー助") }}
+<div class="sheet-text">
+<p class="term-kicker">用語メモ</p>
+<p class="sheet-word rd" id="term-sheet-word"></p>
+<p class="sheet-note"></p>
+</div>
+</div>
+<form method="dialog"><button class="button button--wide" type="submit">わかった！</button></form>
+</div>
+</dialog>
+</body>
+</html>

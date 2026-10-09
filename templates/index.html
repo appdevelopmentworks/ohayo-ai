@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{%- from "_macros.html" import mascot, weather_icon, card, icon with context -%}
+
+{% block title %}{% if is_archive %}{{ date_label }}のAIニュース | {{ site_name }}{% else %}{{ site_name }} | {{ tagline }}{% endif %}{% endblock %}
+{% block description %}{{ digest | join("。") }}。{% endblock %}
+{% block body_class %}page-edition{% endblock %}
+
+{% block header_status %}
+<div class="edition-date">
+<div class="edition-day">{{ date_label }}</div>
+<div class="edition-time">{{ updated_label }}</div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="layout"{% if not is_archive %} data-edition-date="{{ edition.date }}"{% endif %}>
+
+<aside class="side">
+<section class="panel weather-panel" aria-label="{{ '今日' if not is_archive else 'この日' }}のAI天気">
+<div class="weather-row">
+{{ weather_icon(edition.weather) }}
+<div class="weather-text">
+<p class="weather-kicker">{{ '今日' if not is_archive else 'この日' }}のAI天気</p>
+<p class="weather-name rd">{{ wx.name }}</p>
+<p class="weather-sub">{{ wx.sub }}</p>
+</div>
+</div>
+<div class="hero-mint">{{ mascot(wx.mood, "mint-hero mint-" ~ edition.weather, 168) }}</div>
+<div class="bubble">
+<p class="bubble-greet rd">{{ wx.greet }}</p>
+<ol class="digest">
+{%- for line in digest %}
+<li class="say say{{ loop.index }}"><span class="digest-n" aria-hidden="true">{{ loop.index }}</span><span>{{ line }}</span></li>
+{%- endfor %}
+</ol>
+<p class="mascot-line rd">{{ edition.mascot_line }}<span class="mascot-name">― ニュー助</span></p>
+</div>
+<div class="chips">
+<span class="chip">{{ '今日' if not is_archive else 'この日' }}のニュース <strong>{{ articles | length }}</strong> 本</span>
+<span class="chip">一次ソース <strong>{{ site_count }}</strong> サイト</span>
+</div>
+</section>
+</aside>
+
+<main class="main">
+<div class="section-head">
+<h1 class="section-title rd">{% if is_archive %}{{ date_label }}のニュース{% else %}今日のニュース{% endif %}</h1>
+<p class="section-note">大事な順にならんでいます</p>
+</div>
+
+<nav class="tabs" aria-label="カテゴリで絞り込む" hidden>
+{%- for tab in tabs %}
+<button class="tab" type="button" data-tab="{{ tab.key }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ tab.label }}<span class="tab-count">{{ tab.count }}</span></button>
+{%- endfor %}
+</nav>
+
+<div class="cards">
+{%- for a in articles %}
+{{ card(a) }}
+{%- endfor %}
+</div>
+
+<div class="empty" hidden>
+{{ mascot("think", "", 110, "考えるニュー助") }}
+<p class="empty-title rd">今日は「<span class="empty-label"></span>」のニュースはお休み</p>
+<p class="empty-note">ほかのタブものぞいてみてね</p>
+</div>
+
+{%- if is_archive %}
+<section class="finish finish--archive" aria-label="ほかの日">
+<p class="finish-title rd">この日のニュースは以上です</p>
+<p class="finish-note"><a href="/">今日のニュースを見る</a> ・ <a href="/archive/">ほかの日を見る</a></p>
+</section>
+{%- else %}
+<section class="finish" aria-label="読了">
+{%- for c in confetti %}
+<span class="conf" aria-hidden="true" style="left: {{ c.left }}%; background: {{ c.color }}; animation-delay: {{ c.delay }}s"></span>
+{%- endfor %}
+{{ mascot("smile", "mint-cheer", 140, "よろこぶニュー助") }}
+<p class="finish-title rd">今日のAIニュース、読み終わり！</p>
+<p class="finish-note"><span class="streak" hidden>連続 <strong data-streak>1</strong> 日目。</span>明日の朝も、ここで待ってるね</p>
+</section>
+{%- endif %}
+</main>
+</div>
+{% endblock %}

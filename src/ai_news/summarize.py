@@ -132,4 +132,8 @@ def daily_call(articles: list[Article], weather: Weather) -> Call:
 
 def daily_summary(articles: list[Article], weather: Weather, llm: LLM) -> Daily:
     source_text = article_digest_text(articles)
-    return llm.ask(daily_call(articles, weather), lambda data: check_daily(Daily.model_validate(data), source_text))
+
+    def parse(data: dict) -> Daily:
+        return check_daily(Daily.model_validate(data), source_text)
+
+    return llm.ask(daily_call(articles, weather), parse)

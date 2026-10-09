@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{%- from "_macros.html" import weather_icon with context -%}
+
+{% block title %}過去のニュース | {{ site_name }}{% endblock %}
+{% block description %}{{ site_name }}がこれまでに届けた、毎朝のAIニュースの一覧です。{% endblock %}
+{% block body_class %}page-archive{% endblock %}
+
+{% block content %}
+<main class="page">
+<div class="page-head">
+<h1 class="page-title rd">過去のニュース</h1>
+<p class="page-lead">これまでの朝に届けたニュースです。日付を選ぶと、その日のページが開きます。</p>
+</div>
+<ol class="archive-list">
+{%- for day in days %}
+<li>
+<a class="archive-item" href="/archive/{{ day.date }}/">
+{{ weather_icon(day.weather, 48) }}
+<span class="archive-text">
+<span class="archive-date rd">{{ day.label }}</span>
+<span class="archive-meta">{{ day.weather_name }}・{{ day.count }}本</span>
+<span class="archive-digest">{{ day.digest | join(" / ") }}</span>
+</span>
+</a>
+</li>
+{%- endfor %}
+</ol>
+</main>
+{% endblock %}
