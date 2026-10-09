@@ -1,265 +1,161 @@
 {
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T04:46:15.811225Z",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-09T23:08:12.150210Z",
   "weather": "cloudy",
   "digest": [
-    "アンソロピックやディープシークから安価な新モデルが登場した。",
-    "グーグル文書作成アプリでクロードが使えるようになった。",
-    "AIによる不正な世論工作をオープンエーアイが阻止した。"
+    "OpenAIの年間売上高判明と研究員解雇の公開書簡",
+    "マイクロソフトの新型PCやGoogle等の便利ツール",
+    "画像生成AIターボの公開などAIの新しい動き"
   ],
-  "mascot_line": "今日はくもり空だけど、新しいAIモデルが続々と登場してワクワクするね！一緒に楽しくチェックしよう！",
+  "mascot_line": "今日はくもり空だけど、新しいパソコンやAIツールで楽しく進もうね！ニュー助だよ！",
   "articles": [
     {
-      "id": "1d78f09c64",
-      "title_ja": "Anthropicが高速で安価な新モデルClaude Haiku 5.5を発表",
-      "what": "Anthropicが最も安く高速な小型AIモデルClaude Haiku 5.5を公開した。",
-      "new": "従来モデルより約75パーセント安くなり、調整機能が初めて追加された。",
-      "impact": "チャット対応やデータ整理などの日常的な業務コストを大幅に削減できる。",
+      "id": "3b1c539c25",
+      "title_ja": "OpenAIの年間売上高が約500億ドルと判明",
+      "what": "OpenAIの年間の売上高が約500億ドルに達したと投資家に伝えた。",
+      "new": "これまで報じられていた金額より低く、売上の計算方法の違いが明らかになった。",
+      "impact": "AI関連企業の株価が下がり、今後の市場への影響が注目されている。",
       "term": {
-        "word": "API",
-        "note": "外部のシステムやアプリからAIの機能を利用するための仕組みのこと。"
+        "word": "IPO",
+        "note": "株式を一般の人や投資家に向けて新たに売り出し、証券取引所に上場すること。"
       },
-      "category": "新モデル",
+      "category": "注目トピック",
       "score": 4,
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "source": "anthropic",
-      "source_name": "Anthropic News",
-      "title_en": "Introducing Claude Haiku 5.5",
-      "published": "2026-10-07T23:59:59Z",
-      "summary_only": false,
-      "also_in": [
-        "producthunt",
-        "hn",
-        "simonwillison"
-      ]
-    },
-    {
-      "id": "8494b8dcf4",
-      "title_ja": "破格の安さと性能を持つDeepSeek 4.1 Flash",
-      "what": "DeepSeek 4.1 Flashが高性能かつ非常に安価であると紹介された。",
-      "new": "最上位モデル並みの性能を保ちながら、コストを大幅に抑えることに成功している。",
-      "impact": "開発作業のコストが劇的に下がり、AIをより気軽に何度でも使えるようになる。",
-      "term": {
-        "word": "KVキャッシュ",
-        "note": "AIが過去の会話や文脈を記憶し、処理を速くするための仕組みのこと。"
-      },
-      "category": "新モデル",
-      "score": 4,
-      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "published": "2026-10-08T00:14:48Z",
+      "title_en": "OpenAI annualised revenues $20B less than previously signalled",
+      "published": "2026-10-08T16:45:58Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "1b0e0b78cd",
-      "title_ja": "Googleの文書作成アプリでClaudeが使えるように",
-      "what": "GoogleのドキュメントやスプレッドシートなどでClaudeを使えるようになった。",
-      "new": "いつものGoogleの作業画面から離れずにClaudeを呼び出せるようになった。",
-      "impact": "資料作りや表計算の作業をAIと一緒に効率よく進められるようになる。",
+      "id": "da8173525b",
+      "title_ja": "マイクロソフトが手元で巨大AIを動かせる新PCを発表",
+      "what": "手元のPCで大規模なAIモデルを動かせる新しいSurfaceが登場した。",
+      "new": "120Bという非常に大きなAIモデルをローカル環境で実行できる点が新しい。",
+      "impact": "インターネット接続を気にせず、手元で高精度なAIがスムーズに使えるようになる。",
       "term": {
-        "word": "Google Workspace",
-        "note": "Googleが提供する文書作成や表計算などの仕事用アプリをまとめたサービスのこと。"
+        "word": "120BのAIモデル",
+        "note": "1200億個のパラメータを持つ、非常に頭が良く大規模なAIのこと。"
       },
       "category": "便利なツール",
       "score": 4,
-      "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+      "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Claude for Google Workspace",
-      "published": "2026-10-08T02:20:15Z",
+      "title_en": "Microsoft Surface Laptop Ultra",
+      "published": "2026-10-08T02:29:49Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "0ca1450969",
-      "title_ja": "AIニュースの内容がありません",
-      "what": "記事の本文が入力されていないため情報がありません。",
-      "new": "記事の本文が入力されていないため情報がありません。",
-      "impact": "記事の本文が入力されていないため情報がありません。",
-      "term": null,
+      "id": "301544ff1a",
+      "title_ja": "OpenAI、安全研究員の解雇をめぐり公開書簡で反論される",
+      "what": "OpenAIを解雇された安全研究員3人が、規則違反の主張を否定する公開書簡を発表した。",
+      "new": "解雇された研究員らが社内の安全文化の萎縮を懸念し、外部との協力を正当化する公開書簡を出したこと。",
+      "impact": "AIの安全性確保に向けたオープンな議論や外部監査のあり方に影響を与える可能性がある。",
+      "term": {
+        "word": "公開書簡",
+        "note": "特定の個人や組織に向けて、その主張や意見を広く社会に伝えるために一般公開される手紙のこと。"
+      },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "GPT‑6 and Intelligent UI for everyone",
-      "published": "2026-10-07T18:00:58Z",
+      "title_en": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "published": "2026-10-09T10:00:26Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "3572ade808",
+      "title_ja": "GoogleのAIで簡単にゲームが作れる",
+      "what": "Google AIを使って自分だけのゲームを作り、遊んで共有できるサービスが登場した。",
+      "new": "専門的な知識がなくても、AIの力でオリジナルゲームを手軽に作成できる。",
+      "impact": "個人でもアイデア次第で簡単にゲーム開発を体験できるようになる。",
+      "term": null,
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/google-labs",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Playground by Google Labs",
+      "published": "2026-10-08T03:24:04Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "ca1ec6c6a1",
-      "title_ja": "Pollo AIがOpenAIの最新AIで動画や画像広告を作成",
-      "what": "Pollo AIが、OpenAIの技術を使ってアイデアを画像や動画広告にする機能を提供した。",
-      "new": "複数の新しいAIモデルを組み合わせて、詳細な画像や映画のような動画広告を作れるようになった。",
-      "impact": "クリエイターや個人事業主が、直感的なアイデアから手軽に質の高い広告や動画を作れるようになる。",
+      "id": "7941af6584",
+      "title_ja": "画像生成AI「Qwen-Image-2.1-Turbo」公開",
+      "what": "テキストから画像を作ったり編集したりできる「Qwen-Image-2.1-Turbo」が公開された。",
+      "new": "少ない処理回数で高速に画像を生成できるようになった。",
+      "impact": "開発者やクリエイターが、より素早く画像を生成・編集できるようになる。",
       "term": {
-        "word": "GPT",
-        "note": "人間の質問に答えたり文章を作ったりする、AIの頭脳にあたるシステムのこと。"
+        "word": "テキストから画像",
+        "note": "文字で指示した内容に合わせた画像をAIが自動で作り出す技術のこと。"
       },
       "category": "画像・動画",
       "score": 3,
-      "url": "https://openai.com/index/pollo-ai",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "published": "2026-10-08T12:00:00Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "f9a7f01f51",
-      "title_ja": "超軽量な音声認識AI「Whistle」が公開",
-      "what": "スマホや小型機器で動く16.9MBの超軽量な音声認識AIモデル「Whistle」が公開された。",
-      "new": "わずか16.9MBのファイルサイズでありながら、CPUだけで動作し文字起こしや音声分析ができる点。",
-      "impact": "インターネット接続なしで、スマートフォンや家電などの小型機器でも高速な音声認識が使えるようになる。",
-      "term": {
-        "word": "音声認識",
-        "note": "人間の話した音声を機械が聞き取って、自動でテキスト（文字）に変換する技術のこと。"
-      },
-      "category": "新モデル",
-      "score": 3,
-      "url": "https://cactuscompute.com/blog/whistle",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Whistle: Speech to Text in 16.9 MB",
-      "published": "2026-10-08T16:59:39Z",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "title_en": "Qwen/Qwen-Image-2.1-Turbo",
+      "published": "2026-10-09T04:50:01Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "95120c22b8",
-      "title_ja": "AIで文学作品のインタラクティブな街の可視化を実現",
-      "what": "小説の詩的な都市をAIに一度の指示で可視化させた。",
-      "new": "最新のAIモデルを使い、長時間の自動処理で高度なデザイン作品を作り出せた。",
-      "impact": "複雑なデザインやインタラクティブな表現をAIに任せやすくなる。",
-      "term": {
-        "word": "ビジュアル",
-        "note": "目で見える形やデザインのこと。ここでは画面上の見た目を指す。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-      "published": "2026-10-08T12:00:20Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "077dea1e8a",
-      "title_ja": "OpenAIがAIを使った偽の世論工作を阻止",
-      "what": "OpenAIがAIを利用した2件の不正な情報工作を阻止した。",
-      "new": "偽のジャーナリストやシンクタンクを装ったAIによる世論工作を特定して停止させた。",
-      "impact": "AIが悪用されて世論を誘導するリスクへの対策が強化される。",
-      "term": {
-        "word": "情報工作",
-        "note": "世論を自分たちの都合の良い方向に誘導するため、偽の情報などを意図的に広める行為のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Disrupting AI-enabled “false front” operations",
-      "published": "2026-10-08T00:00:00Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "b12a72fd6b",
-      "title_ja": "自分の全端末で動く無料の個人向けAI公開",
-      "what": "スマホやパソコンなど自分の全端末で動く公開用の個人向けAI「nanoMuse」が発表された。",
-      "new": "誰でも使えるオープンソースとして開発され、記憶を自分で確認できる点やモデルを自由に選べる点が新しい。",
-      "impact": "自分の好きなAIを使って、複数の端末で連動する便利な個人アシスタントを安全に利用できるようになる。",
-      "term": {
-        "word": "オープンソース",
-        "note": "誰でも自由に中身を見たり、使ったり、改良したりできるように公開されたソフトウェアや仕組みのこと。"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2610.08699",
-      "source": "hf_papers",
-      "source_name": "HF Daily Papers",
-      "title_en": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
-      "published": "2026-10-08T00:00:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "0cf51752ce",
-      "title_ja": "AIが代わりに電話をかけて用事を済ませるツール",
-      "what": "AIエージェントが電話をかけて保留に対応し結果を報告する。",
-      "new": "AIが人間の代わりに電話をかけ、通話のやり取りを行える。",
-      "impact": "お店の予約や問い合わせなどの電話業務をAIに任せられる。",
+      "id": "9e74ad5029",
+      "title_ja": "好きなAIモデルを使えるオープンソースのデスクトップAIエージェント",
+      "what": "任意のモデルを選んで使えるオープンソースのデスクトップAIエージェントが登場した。",
+      "new": "好みのAIモデルを自由に選んでデスクトップ上で操作できる点が新しい。",
+      "impact": "自分の目的に合わせて最適なAIをパソコン上で手軽に活用できるようになる。",
       "term": {
         "word": "AIエージェント",
-        "note": "人間の指示を受けて、自分で考えて仕事を実行してくれるAIのこと。"
+        "note": "人間の代わりに指示を理解し、自律的に作業を進めてくれるAIのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/clawcall",
+      "url": "https://www.producthunt.com/products/openpilot",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "ClawCall",
-      "published": "2026-10-08T05:27:12Z",
+      "title_en": "OpenPilot",
+      "published": "2026-10-09T05:53:51Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "24cf7d9f66",
-      "title_ja": "楽曲の描写から編集可能な音楽データを作成するAIツール",
-      "what": "曲のイメージを説明するだけで、編集できる音楽データを作成できる。",
-      "new": "言葉による説明から、すべてのパートの音楽データを直接生成できる。",
-      "impact": "音楽制作のアイデア出しや、楽器演奏ができない人の作曲が簡単になる。",
+      "id": "ee0bde307d",
+      "title_ja": "MacBookのノッチに潜むAIアシスタント登場",
+      "what": "MacBookのノッチ部分に常駐するAIアシスタントが公開された。",
+      "new": "パソコンのカメラ周辺のスペースを活用してAIを呼び出せる。",
+      "impact": "作業中の画面を邪魔せずに、すばやくAI機能へアクセスできるようになる。",
       "term": {
-        "word": "MIDI",
-        "note": "音の高さや長さなどの演奏情報を記録する、パソコン用の音楽データのことです。"
+        "word": "ノッチ",
+        "note": "ノートパソコンなどの画面上部にある、カメラが埋め込まれた黒い切り欠き部分のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/tonefold",
+      "url": "https://www.producthunt.com/products/assist-5",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Tonefold",
-      "published": "2026-10-08T04:28:14Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "5570b9cf44",
-      "title_ja": "Macで文章を音声で聴けるツールが登場",
-      "what": "Macで記事や文書などのテキストを音声で聴くことができるツールが公開された。",
-      "new": "Mac上で任意の文章を手軽に音声化して聴くことができる機能を提供する点。",
-      "impact": "長い文章を目で読むだけでなく、耳で聴いて情報収集できるようになる。",
-      "term": {
-        "word": "テキスト",
-        "note": "パソコンやスマートフォン画面に表示される文字や文章のこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/epilude",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Epilude Narrator",
-      "published": "2026-10-07T21:03:10Z",
+      "title_en": "Assist",
+      "published": "2026-10-09T02:44:37Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 41,
-    "candidates": 38,
-    "ranked": 37,
-    "selected": 12,
-    "llm_calls": 14,
+    "collected": 38,
+    "candidates": 22,
+    "ranked": 22,
+    "selected": 7,
+    "llm_calls": 9,
     "providers": [
       "gemini"
     ],
-    "seconds": 68.3
+    "seconds": 43.1
   }
 }

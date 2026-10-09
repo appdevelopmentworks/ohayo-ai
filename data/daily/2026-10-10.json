@@ -1,0 +1,161 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "3b1c539c25",
+      "impact": "AI関連企業の株価が下がり、今後の市場への影響が注目されている。",
+      "new": "これまで報じられていた金額より低く、売上の計算方法の違いが明らかになった。",
+      "published": "2026-10-08T16:45:58Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "株式を一般の人や投資家に向けて新たに売り出し、証券取引所に上場すること。",
+        "word": "IPO"
+      },
+      "title_en": "OpenAI annualised revenues $20B less than previously signalled",
+      "title_ja": "OpenAIの年間売上高が約500億ドルと判明",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "what": "OpenAIの年間の売上高が約500億ドルに達したと投資家に伝えた。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "da8173525b",
+      "impact": "インターネット接続を気にせず、手元で高精度なAIがスムーズに使えるようになる。",
+      "new": "120Bという非常に大きなAIモデルをローカル環境で実行できる点が新しい。",
+      "published": "2026-10-08T02:29:49Z",
+      "score": 4,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "1200億個のパラメータを持つ、非常に頭が良く大規模なAIのこと。",
+        "word": "120BのAIモデル"
+      },
+      "title_en": "Microsoft Surface Laptop Ultra",
+      "title_ja": "マイクロソフトが手元で巨大AIを動かせる新PCを発表",
+      "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra",
+      "what": "手元のPCで大規模なAIモデルを動かせる新しいSurfaceが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "301544ff1a",
+      "impact": "AIの安全性確保に向けたオープンな議論や外部監査のあり方に影響を与える可能性がある。",
+      "new": "解雇された研究員らが社内の安全文化の萎縮を懸念し、外部との協力を正当化する公開書簡を出したこと。",
+      "published": "2026-10-09T10:00:26Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "特定の個人や組織に向けて、その主張や意見を広く社会に伝えるために一般公開される手紙のこと。",
+        "word": "公開書簡"
+      },
+      "title_en": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "title_ja": "OpenAI、安全研究員の解雇をめぐり公開書簡で反論される",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "what": "OpenAIを解雇された安全研究員3人が、規則違反の主張を否定する公開書簡を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3572ade808",
+      "impact": "個人でもアイデア次第で簡単にゲーム開発を体験できるようになる。",
+      "new": "専門的な知識がなくても、AIの力でオリジナルゲームを手軽に作成できる。",
+      "published": "2026-10-08T03:24:04Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Playground by Google Labs",
+      "title_ja": "GoogleのAIで簡単にゲームが作れる",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "what": "Google AIを使って自分だけのゲームを作り、遊んで共有できるサービスが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "7941af6584",
+      "impact": "開発者やクリエイターが、より素早く画像を生成・編集できるようになる。",
+      "new": "少ない処理回数で高速に画像を生成できるようになった。",
+      "published": "2026-10-09T04:50:01Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "文字で指示した内容に合わせた画像をAIが自動で作り出す技術のこと。",
+        "word": "テキストから画像"
+      },
+      "title_en": "Qwen/Qwen-Image-2.1-Turbo",
+      "title_ja": "画像生成AI「Qwen-Image-2.1-Turbo」公開",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "what": "テキストから画像を作ったり編集したりできる「Qwen-Image-2.1-Turbo」が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "9e74ad5029",
+      "impact": "自分の目的に合わせて最適なAIをパソコン上で手軽に活用できるようになる。",
+      "new": "好みのAIモデルを自由に選んでデスクトップ上で操作できる点が新しい。",
+      "published": "2026-10-09T05:53:51Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに指示を理解し、自律的に作業を進めてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "OpenPilot",
+      "title_ja": "好きなAIモデルを使えるオープンソースのデスクトップAIエージェント",
+      "url": "https://www.producthunt.com/products/openpilot",
+      "what": "任意のモデルを選んで使えるオープンソースのデスクトップAIエージェントが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "ee0bde307d",
+      "impact": "作業中の画面を邪魔せずに、すばやくAI機能へアクセスできるようになる。",
+      "new": "パソコンのカメラ周辺のスペースを活用してAIを呼び出せる。",
+      "published": "2026-10-09T02:44:37Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ノートパソコンなどの画面上部にある、カメラが埋め込まれた黒い切り欠き部分のこと。",
+        "word": "ノッチ"
+      },
+      "title_en": "Assist",
+      "title_ja": "MacBookのノッチに潜むAIアシスタント登場",
+      "url": "https://www.producthunt.com/products/assist-5",
+      "what": "MacBookのノッチ部分に常駐するAIアシスタントが公開された。"
+    }
+  ],
+  "date": "2026-10-10",
+  "digest": [
+    "OpenAIの年間売上高判明と研究員解雇の公開書簡",
+    "マイクロソフトの新型PCやGoogle等の便利ツール",
+    "画像生成AIターボの公開などAIの新しい動き"
+  ],
+  "generated_at": "2026-10-09T23:08:12.150210Z",
+  "mascot_line": "今日はくもり空だけど、新しいパソコンやAIツールで楽しく進もうね！ニュー助だよ！",
+  "stats": {
+    "candidates": 22,
+    "collected": 38,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 22,
+    "seconds": 43.1,
+    "selected": 7
+  },
+  "weather": "cloudy"
+}
