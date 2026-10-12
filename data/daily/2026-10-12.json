@@ -1,0 +1,121 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "83b3ab4d46",
+      "impact": "今後のAIの性能や提供されるサービスに影響を与える可能性がある。",
+      "new": "半導体大手のNvidiaがオープンなAIモデルを手がける企業を仲間に加えようとしていること。",
+      "published": "2026-10-10T18:48:35Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "title_ja": "NvidiaがAIスタートアップを買収か",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "what": "Nvidiaが米国のAIモデルのスタートアップであるReflection AIの買収に向けた交渉を行っている。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "44c65736f8",
+      "impact": "周囲のAIに対する認識や利用状況とのギャップを理解し、自身の業務への取り入れ方を考える必要がある。",
+      "new": "一般層と最先端のAIを使いこなす専門家との間で、体験する技術のレベルに圧倒的な差が生じている。",
+      "published": "2026-10-11T20:20:52Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "大量の言葉を学習し、人間のように文章を作ったり会話したりできるAIの仕組み。",
+        "word": "LLM"
+      },
+      "title_en": "The gap in shared understanding of LLM capability is widening",
+      "title_ja": "AIの能力に対する理解の格差が広がっている",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "what": "AIの能力や活用度合いに関する人々の認識の差が大きく広がっていることについて投稿された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "6dfdcb7ef0",
+      "impact": "エンタメ業界におけるAIの扱いや契約を巡る問題への関心がさらに高まる。",
+      "new": "ドラマ出演時にAI利用への同意書署名を求められたが、これを拒否したことを明かした。",
+      "published": "2026-10-11T11:03:21Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "作品内で本人の姿や声をAIに学習・利用させることに許可を与えるための契約書類。",
+        "word": "AI同意書"
+      },
+      "title_en": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "title_ja": "ニコラス・ケイジ、AI同意書の拒否でアマゾンと決別へ",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+      "what": "俳優のニコラス・ケイジがAIの利用を拒否し、アマゾンと再び仕事をしないと語った。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a3ab2bb084",
+      "impact": "クリエイターや個人事業主は、AIでは真似できない人間らしい個性や温かみをアピールすることが強みになる。",
+      "new": "AIの進化によってありふれた作品が増えた結果、あえて不完全で個性的な人間による作品に価値が置かれるようになっている。",
+      "published": "2026-10-11T11:34:28Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "文章や画像、音楽などを自動で作り出すことができるAI技術のこと。",
+        "word": "生成AI"
+      },
+      "title_en": "AI is creating a 'human premium' for art created by people",
+      "title_ja": "AIの普及で「人間が作ったアート」の価値が上昇",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "what": "AIが作ったコンテンツが増える中、人間が作った芸術作品により高い価値を感じる傾向が生まれている。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a4f668a8fb",
+      "impact": "Macでの作業中にいつでもAIのサポートを無料で受けられるようになる。",
+      "new": "永年無料で利用できる常時起動型のAIである点。",
+      "published": "2026-10-10T13:04:39Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を理解し、自律的に作業をこなしてくれるAIの仕組みのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Agibot",
+      "title_ja": "Mac専用の常時起動型AIアシスタントが登場",
+      "url": "https://www.producthunt.com/products/agibot",
+      "what": "Macでいつでも使える個人向けAIエージェントが公開された。"
+    }
+  ],
+  "date": "2026-10-12",
+  "digest": [
+    "NvidiaがAI企業買収へ交渉中",
+    "AIと人間のアートに関する話題",
+    "Mac向けの新しいAIが登場"
+  ],
+  "generated_at": "2026-10-12T00:33:38.102622Z",
+  "mascot_line": "きょうはおだやかな天気だね！AIのニュースをチェックして、すてきな一日にしよう！",
+  "stats": {
+    "candidates": 8,
+    "collected": 14,
+    "llm_calls": 8,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 8,
+    "seconds": 38.0,
+    "selected": 5
+  },
+  "weather": "sunny"
+}

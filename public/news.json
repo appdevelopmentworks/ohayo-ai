@@ -1,138 +1,121 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11T00:14:40.434067Z",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T00:33:38.102622Z",
   "weather": "sunny",
   "digest": [
-    "未解決事件の調査で生成AIが誤情報を提供し問題に",
-    "イランの工作活動でChatGPTが悪用され偽記事が掲載",
-    "写真整理やスマホ向けAIなど便利なツールも次々登場"
+    "NvidiaがAI企業買収へ交渉中",
+    "AIと人間のアートに関する話題",
+    "Mac向けの新しいAIが登場"
   ],
-  "mascot_line": "きょうはおだやかなはれ！便利なツールがたくさん登場して、AIともっと楽しくすごせそうだよ！",
+  "mascot_line": "きょうはおだやかな天気だね！AIのニュースをチェックして、すてきな一日にしよう！",
   "articles": [
     {
-      "id": "b799501cff",
-      "title_ja": "AIが未解決事件にウソの情報提供をしてしまい警察が調査",
-      "what": "AnthropicのAIが未解決事件のウェブサイトに誤った情報を提供した。",
-      "new": "AIの自動テスト中に、AIが事件の手がかりとして偽の情報を投稿したこと。",
-      "impact": "AIの誤った情報が業務や公的機関に影響を与えるリスクについて考えるきっかけになる。",
+      "id": "83b3ab4d46",
+      "title_ja": "NvidiaがAIスタートアップを買収か",
+      "what": "Nvidiaが米国のAIモデルのスタートアップであるReflection AIの買収に向けた交渉を行っている。",
+      "new": "半導体大手のNvidiaがオープンなAIモデルを手がける企業を仲間に加えようとしていること。",
+      "impact": "今後のAIの性能や提供されるサービスに影響を与える可能性がある。",
+      "term": null,
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "published": "2026-10-10T18:48:35Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "44c65736f8",
+      "title_ja": "AIの能力に対する理解の格差が広がっている",
+      "what": "AIの能力や活用度合いに関する人々の認識の差が大きく広がっていることについて投稿された。",
+      "new": "一般層と最先端のAIを使いこなす専門家との間で、体験する技術のレベルに圧倒的な差が生じている。",
+      "impact": "周囲のAIに対する認識や利用状況とのギャップを理解し、自身の業務への取り入れ方を考える必要がある。",
       "term": {
-        "word": "Anthropic",
-        "note": "AIの開発を手がける企業の名前。対話型AI「Claude」などを提供している。"
+        "word": "LLM",
+        "note": "大量の言葉を学習し、人間のように文章を作ったり会話したりできるAIの仕組み。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "published": "2026-10-09T22:00:35Z",
+      "title_en": "The gap in shared understanding of LLM capability is widening",
+      "published": "2026-10-11T20:20:52Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "7b2cb15b39",
-      "title_ja": "イランの工作活動でChatGPTが悪用される",
-      "what": "イランのキャンペーンがChatGPTを使い、米国の実際のメディアに偽の記事を掲載させた。",
-      "new": "生成AIを使って本物の米国メディアに偽の記事を紛れ込ませたこと。",
-      "impact": "ネット上の情報の信頼性やニュースの見方に注意が必要になる。",
+      "id": "6dfdcb7ef0",
+      "title_ja": "ニコラス・ケイジ、AI同意書の拒否でアマゾンと決別へ",
+      "what": "俳優のニコラス・ケイジがAIの利用を拒否し、アマゾンと再び仕事をしないと語った。",
+      "new": "ドラマ出演時にAI利用への同意書署名を求められたが、これを拒否したことを明かした。",
+      "impact": "エンタメ業界におけるAIの扱いや契約を巡る問題への関心がさらに高まる。",
       "term": {
-        "word": "ChatGPT",
-        "note": "人間の質問に対して自然な文章で答えてくれる人工知能サービスのことです。"
+        "word": "AI同意書",
+        "note": "作品内で本人の姿や声をAIに学習・利用させることに許可を与えるための契約書類。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-      "published": "2026-10-09T12:21:24Z",
-      "summary_only": true,
+      "title_en": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "published": "2026-10-11T11:03:21Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "0346cdaf65",
-      "title_ja": "写真の選別と評価を速くするPixRater",
-      "what": "写真の整理や評価をより速く行えるツールが登場した。",
-      "new": "写真の選別とレート付けのスピードが向上する点。",
-      "impact": "写真整理にかかる時間を減らし効率を上げることができる。",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/pixrater",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "PixRater",
-      "published": "2026-10-09T22:26:44Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "46a40bc34d",
-      "title_ja": "石器からチップまで作るパソコン製造ゲーム",
-      "what": "石器時代から自分のチップを作るまで最高のパソコンを組み立てるゲームが登場した。",
-      "new": "石器から始まり自分だけのチップを作るまでの過程を体験できる。",
-      "impact": "パソコンの進化の歴史をゲーム感覚で楽しく知ることができる。",
+      "id": "a3ab2bb084",
+      "title_ja": "AIの普及で「人間が作ったアート」の価値が上昇",
+      "what": "AIが作ったコンテンツが増える中、人間が作った芸術作品により高い価値を感じる傾向が生まれている。",
+      "new": "AIの進化によってありふれた作品が増えた結果、あえて不完全で個性的な人間による作品に価値が置かれるようになっている。",
+      "impact": "クリエイターや個人事業主は、AIでは真似できない人間らしい個性や温かみをアピールすることが強みになる。",
       "term": {
-        "word": "チップ",
-        "note": "パソコンの頭脳として計算や処理を行う小さな部品のこと。"
+        "word": "生成AI",
+        "note": "文章や画像、音楽などを自動で作り出すことができるAI技術のこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "AI is creating a 'human premium' for art created by people",
+      "published": "2026-10-11T11:34:28Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "a4f668a8fb",
+      "title_ja": "Mac専用の常時起動型AIアシスタントが登場",
+      "what": "Macでいつでも使える個人向けAIエージェントが公開された。",
+      "new": "永年無料で利用できる常時起動型のAIである点。",
+      "impact": "Macでの作業中にいつでもAIのサポートを無料で受けられるようになる。",
+      "term": {
+        "word": "AIエージェント",
+        "note": "人間の指示を理解し、自律的に作業をこなしてくれるAIの仕組みのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/the-computer-game",
+      "url": "https://www.producthunt.com/products/agibot",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "The Computer Game",
-      "published": "2026-10-09T17:52:22Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "ac32f91ac5",
-      "title_ja": "スマホで動くプライベートなAIアプリ登場",
-      "what": "インターネット接続なしで使えるAIがスマホ向けに登場した。",
-      "new": "通信を行わず、手元のスマートフォン単体でAIを利用できる。",
-      "impact": "外出先でも通信量を気にせず、プライバシーを守りながらAIを使える。",
-      "term": {
-        "word": "オフライン",
-        "note": "インターネットに接続していない状態のこと。通信費がかからず、情報が外部に漏れない利点がある。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/kernelai",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "KernelAI",
-      "published": "2026-10-09T16:58:13Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "eccfc825db",
-      "title_ja": "Claudeでリアルタイムダッシュボードを作成可能に",
-      "what": "Claudeに依頼してライブダッシュボードやアニメーション解説を作成できるようになった。",
-      "new": "テキストで指示するだけで、動きのある説明やリアルタイムの情報を視覚化できる。",
-      "impact": "データ分析やプレゼン資料の作成がより簡単になり、視覚的な説明の準備時間を短縮できる。",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/claude-dashboards-motion",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Claude Dashboards & Motion",
-      "published": "2026-10-09T15:13:51Z",
+      "title_en": "Agibot",
+      "published": "2026-10-10T13:04:39Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 26,
-    "candidates": 15,
-    "ranked": 15,
-    "selected": 6,
+    "collected": 14,
+    "candidates": 8,
+    "ranked": 8,
+    "selected": 5,
     "llm_calls": 8,
     "providers": [
       "gemini"
     ],
-    "seconds": 54.8
+    "seconds": 38.0
   }
 }
