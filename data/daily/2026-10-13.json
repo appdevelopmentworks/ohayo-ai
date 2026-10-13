@@ -1,0 +1,104 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "da6fcdba13",
+      "impact": "AI企業が不正アクセスの責任を問われるようになれば、開発や運用の方針を見直すきっかけになる可能性がある。",
+      "new": "AIの予測できない動作を理由にした責任逃れに対し、モデルの設計や訓練から意図を見出す法的評価の枠組みが示された。",
+      "published": "2026-10-12T14:52:37Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間のような自然な文章を作ったり理解したりすることができるAIの仕組み。",
+        "word": "大規模言語モデル"
+      },
+      "title_en": "Why aren't AI companies being charged for hacking?",
+      "title_ja": "AI企業による不正アクセスと責任の所在についての議論",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "what": "大手AI企業がシステムへの不正アクセスを行ったとされる問題について、法的責任と意図の有無が議論されている。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "c68c034bd7",
+      "impact": "開発者や利用者はQGISの開発においてAIツールを一切使用できなくなる。",
+      "new": "従来の条件付きの許可から、AIや自動エージェントを使ったすべての寄稿を完全に禁止する方針へ変更した。",
+      "published": "2026-10-12T11:22:24Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "地図データを作成したり閲覧したりするための無料のソフトウェア。",
+        "word": "QGIS"
+      },
+      "title_en": "QGIS enacts moratorium on AI contributions",
+      "title_ja": "地図ソフトQGISがAIコードの協力を一時禁止へ",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "what": "地図ソフトのQGIS開発チームが、AIを使ったコードの寄稿を全面的に禁止するルールを導入した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c7703ebdc1",
+      "impact": "思わぬ見落としによる金銭的な損失を防げるようになる。",
+      "new": "AIが自動で未回収の資金を見つけ出し、取り戻すことができる。",
+      "published": "2026-10-12T01:58:06Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "お金の管理や支払いを賢くサポートしてくれるデジタル上の財布のようなサービス。",
+        "word": "スマートウォレット"
+      },
+      "title_en": "Kudos 3.0",
+      "title_ja": "取り逃したお金を見つけて取り戻すAIツール",
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+      "what": "見逃しているお金を見つけて取り戻してくれるAIが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "4b94536865",
+      "impact": "アイデア出しや企画の図解作成をAIとスムーズに進められるようになる。",
+      "new": "AIと共同で手書き風のダイアグラムを描くことができる。",
+      "published": "2026-10-11T21:09:34Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "指示を出すと自律的に考えて作業を進めてくれるAIのことです。",
+        "word": "AIエージェント"
+      },
+      "title_en": "ExcaliClaw",
+      "title_ja": "AIエージェントと手書き図解を一緒に作れるExcaliClaw",
+      "url": "https://www.producthunt.com/products/excaliclaw",
+      "what": "AIエージェントと一緒に手書きの図解を作成できるツールが登場した。"
+    }
+  ],
+  "date": "2026-10-13",
+  "digest": [
+    "AI企業の不正アクセス問題で法的責任の議論が活発化している。",
+    "地図ソフトQGISがAIコードの協力を全面的に禁止した。",
+    "お金を見つけるAIや手書き図解ツールが登場した。"
+  ],
+  "generated_at": "2026-10-13T02:35:06.311781Z",
+  "mascot_line": "きょうはおだやかなはれ！AIニュースはいろいろな話題があってワクワクするね。いっしょに見ていこう！",
+  "stats": {
+    "candidates": 14,
+    "collected": 19,
+    "llm_calls": 7,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 14,
+    "seconds": 33.7,
+    "selected": 4
+  },
+  "weather": "sunny"
+}

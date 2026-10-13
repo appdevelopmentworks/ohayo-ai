@@ -1,121 +1,104 @@
 {
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12T00:33:38.102622Z",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T02:35:06.311781Z",
   "weather": "sunny",
   "digest": [
-    "NvidiaがAI企業買収へ交渉中",
-    "AIと人間のアートに関する話題",
-    "Mac向けの新しいAIが登場"
+    "AI企業の不正アクセス問題で法的責任の議論が活発化している。",
+    "地図ソフトQGISがAIコードの協力を全面的に禁止した。",
+    "お金を見つけるAIや手書き図解ツールが登場した。"
   ],
-  "mascot_line": "きょうはおだやかな天気だね！AIのニュースをチェックして、すてきな一日にしよう！",
+  "mascot_line": "きょうはおだやかなはれ！AIニュースはいろいろな話題があってワクワクするね。いっしょに見ていこう！",
   "articles": [
     {
-      "id": "83b3ab4d46",
-      "title_ja": "NvidiaがAIスタートアップを買収か",
-      "what": "Nvidiaが米国のAIモデルのスタートアップであるReflection AIの買収に向けた交渉を行っている。",
-      "new": "半導体大手のNvidiaがオープンなAIモデルを手がける企業を仲間に加えようとしていること。",
-      "impact": "今後のAIの性能や提供されるサービスに影響を与える可能性がある。",
-      "term": null,
+      "id": "da6fcdba13",
+      "title_ja": "AI企業による不正アクセスと責任の所在についての議論",
+      "what": "大手AI企業がシステムへの不正アクセスを行ったとされる問題について、法的責任と意図の有無が議論されている。",
+      "new": "AIの予測できない動作を理由にした責任逃れに対し、モデルの設計や訓練から意図を見出す法的評価の枠組みが示された。",
+      "impact": "AI企業が不正アクセスの責任を問われるようになれば、開発や運用の方針を見直すきっかけになる可能性がある。",
+      "term": {
+        "word": "大規模言語モデル",
+        "note": "人間のような自然な文章を作ったり理解したりすることができるAIの仕組み。"
+      },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "published": "2026-10-10T18:48:35Z",
+      "title_en": "Why aren't AI companies being charged for hacking?",
+      "published": "2026-10-12T14:52:37Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "c68c034bd7",
+      "title_ja": "地図ソフトQGISがAIコードの協力を一時禁止へ",
+      "what": "地図ソフトのQGIS開発チームが、AIを使ったコードの寄稿を全面的に禁止するルールを導入した。",
+      "new": "従来の条件付きの許可から、AIや自動エージェントを使ったすべての寄稿を完全に禁止する方針へ変更した。",
+      "impact": "開発者や利用者はQGISの開発においてAIツールを一切使用できなくなる。",
+      "term": {
+        "word": "QGIS",
+        "note": "地図データを作成したり閲覧したりするための無料のソフトウェア。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "QGIS enacts moratorium on AI contributions",
+      "published": "2026-10-12T11:22:24Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "c7703ebdc1",
+      "title_ja": "取り逃したお金を見つけて取り戻すAIツール",
+      "what": "見逃しているお金を見つけて取り戻してくれるAIが登場した。",
+      "new": "AIが自動で未回収の資金を見つけ出し、取り戻すことができる。",
+      "impact": "思わぬ見落としによる金銭的な損失を防げるようになる。",
+      "term": {
+        "word": "スマートウォレット",
+        "note": "お金の管理や支払いを賢くサポートしてくれるデジタル上の財布のようなサービス。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Kudos 3.0",
+      "published": "2026-10-12T01:58:06Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "44c65736f8",
-      "title_ja": "AIの能力に対する理解の格差が広がっている",
-      "what": "AIの能力や活用度合いに関する人々の認識の差が大きく広がっていることについて投稿された。",
-      "new": "一般層と最先端のAIを使いこなす専門家との間で、体験する技術のレベルに圧倒的な差が生じている。",
-      "impact": "周囲のAIに対する認識や利用状況とのギャップを理解し、自身の業務への取り入れ方を考える必要がある。",
-      "term": {
-        "word": "LLM",
-        "note": "大量の言葉を学習し、人間のように文章を作ったり会話したりできるAIの仕組み。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "The gap in shared understanding of LLM capability is widening",
-      "published": "2026-10-11T20:20:52Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "6dfdcb7ef0",
-      "title_ja": "ニコラス・ケイジ、AI同意書の拒否でアマゾンと決別へ",
-      "what": "俳優のニコラス・ケイジがAIの利用を拒否し、アマゾンと再び仕事をしないと語った。",
-      "new": "ドラマ出演時にAI利用への同意書署名を求められたが、これを拒否したことを明かした。",
-      "impact": "エンタメ業界におけるAIの扱いや契約を巡る問題への関心がさらに高まる。",
-      "term": {
-        "word": "AI同意書",
-        "note": "作品内で本人の姿や声をAIに学習・利用させることに許可を与えるための契約書類。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Nicolas Cage says he won't work with Amazon again over AI dispute",
-      "published": "2026-10-11T11:03:21Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "a3ab2bb084",
-      "title_ja": "AIの普及で「人間が作ったアート」の価値が上昇",
-      "what": "AIが作ったコンテンツが増える中、人間が作った芸術作品により高い価値を感じる傾向が生まれている。",
-      "new": "AIの進化によってありふれた作品が増えた結果、あえて不完全で個性的な人間による作品に価値が置かれるようになっている。",
-      "impact": "クリエイターや個人事業主は、AIでは真似できない人間らしい個性や温かみをアピールすることが強みになる。",
-      "term": {
-        "word": "生成AI",
-        "note": "文章や画像、音楽などを自動で作り出すことができるAI技術のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI is creating a 'human premium' for art created by people",
-      "published": "2026-10-11T11:34:28Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "a4f668a8fb",
-      "title_ja": "Mac専用の常時起動型AIアシスタントが登場",
-      "what": "Macでいつでも使える個人向けAIエージェントが公開された。",
-      "new": "永年無料で利用できる常時起動型のAIである点。",
-      "impact": "Macでの作業中にいつでもAIのサポートを無料で受けられるようになる。",
+      "id": "4b94536865",
+      "title_ja": "AIエージェントと手書き図解を一緒に作れるExcaliClaw",
+      "what": "AIエージェントと一緒に手書きの図解を作成できるツールが登場した。",
+      "new": "AIと共同で手書き風のダイアグラムを描くことができる。",
+      "impact": "アイデア出しや企画の図解作成をAIとスムーズに進められるようになる。",
       "term": {
         "word": "AIエージェント",
-        "note": "人間の指示を理解し、自律的に作業をこなしてくれるAIの仕組みのこと。"
+        "note": "指示を出すと自律的に考えて作業を進めてくれるAIのことです。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/agibot",
+      "url": "https://www.producthunt.com/products/excaliclaw",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Agibot",
-      "published": "2026-10-10T13:04:39Z",
+      "title_en": "ExcaliClaw",
+      "published": "2026-10-11T21:09:34Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 14,
-    "candidates": 8,
-    "ranked": 8,
-    "selected": 5,
-    "llm_calls": 8,
+    "collected": 19,
+    "candidates": 14,
+    "ranked": 14,
+    "selected": 4,
+    "llm_calls": 7,
     "providers": [
       "gemini"
     ],
-    "seconds": 38.0
+    "seconds": 33.7
   }
 }
