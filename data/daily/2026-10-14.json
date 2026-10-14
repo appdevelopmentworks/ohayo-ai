@@ -1,0 +1,207 @@
+{
+  "articles": [
+    {
+      "also_in": [
+        "deepmind",
+        "hn"
+      ],
+      "category": "新モデル",
+      "id": "66cb1e6884",
+      "impact": "専門的な業務やプログラム開発の効率が大幅に向上し、複雑な作業を短時間で終えられるようになる。",
+      "new": "複数のステップを正確にこなす深い思考力を持ち、専門分野のベンチマークで1位を獲得したこと。",
+      "published": "2026-10-13T16:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "外部のシステムやアプリからAIの機能を手軽に呼び出して利用できるようにする仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "Gemini 4 Argon: Built to solve your hardest problems",
+      "title_ja": "Googleが高度な複雑作業向けAI「Gemini 4 Argon」を発表",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "what": "プログラミングや金融、法律などの複雑な作業を得意とする新モデル「Gemini 4 Argon」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "25432b6b09",
+      "impact": "医療機関のシステムなどの脆弱性を見つけて修正する作業を、より高度かつ安全に行えるようになる。",
+      "new": "サイバー攻撃の防止や生物学的リスクへの対策として、3層のリアルタイム保護機能などの新しい安全対策を導入した。",
+      "published": "2026-10-13T19:43:07Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "コンピュータのシステムやソフトウェアにある、セキュリティ上の弱点や欠陥のこと。",
+        "word": "脆弱性"
+      },
+      "title_en": "Developing Gemini 4 Argon responsibly and safely",
+      "title_ja": "Googleが新AI「Gemini 4 Argon」を発表",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "what": "Googleが、複雑な実務やサイバー防衛などの能力を高めた新モデル「Gemini 4 Argon」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "ffc748cb8d",
+      "impact": "動画制作にかかる時間や手間が減り、個人でも長いストーリー動画を作りやすくなる。",
+      "new": "1分未満だったAI動画の生成を10分以上に延ばし、音声機能への道を開いたこと。",
+      "published": "2026-10-13T12:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "音声を使った動画制作を可能にするための機能や技術。",
+        "word": "GPT-Live"
+      },
+      "title_en": "Higgsfield takes AI video from 1 minute to over 10",
+      "title_ja": "HiggsfieldがAI動画の長さを10分以上に拡張",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "what": "Higgsfieldが、長時間の動画作成や音声機能などを提供するアップデートを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "8b0463614a",
+      "impact": "将来的に、家庭や職場で人間の指示通りにロボットが複雑な作業をこなせるようになる。",
+      "new": "3D環境の空間問題を解くベンチマークでトップの性能を記録し、多様なロボット操作をこなせる点が新しい。",
+      "published": "2026-10-13T16:01:58Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "AIがカメラの映像などを元に判断し、ロボットの腕や足を動かして作業を行わせること。",
+        "word": "ロボット制御"
+      },
+      "title_en": "Gemini 4 Argon for Robotics",
+      "title_ja": "Googleがロボット制御向けAI「Gemini 4 Argon」を発表",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "what": "Google DeepMindが、物理的な理解やロボット制御に特化した「Gemini 4 Argon」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "9202dbf6ee",
+      "impact": "AIを使う際に丸投げするのではなく、人間が目的を持って正しく指示を出す重要性を意識できるようになる。",
+      "new": "AIの予測不可能性や自動化の性質は道具の定義を否定せず、重要なのは人間の操作や判断力であると示した。",
+      "published": "2026-10-12T21:40:18Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "大量の文章を学習し、人間のように自然な対話や文章作成ができるAIの仕組みのこと。",
+        "word": "LLM"
+      },
+      "title_en": "AI is a tool and using it well takes skill",
+      "title_ja": "AIを使いこなすには人間のスキルと判断力が大切",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "what": "AIは自動化ではなく人間が使う道具であり、上手に使うには専門的なスキルが必要だと主張している。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "910d8d4ce5",
+      "impact": "ファイル整理やデータ処理にかかる手間を減らせる。",
+      "new": "自分のファイルを使った作業をAIが代行してくれる点。",
+      "published": "2026-10-13T05:39:15Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて仕事を進めてくれるAIのことです。",
+        "word": "AIエージェント"
+      },
+      "title_en": "The Drive AI",
+      "title_ja": "ファイル作業を代行するAIエージェント登場",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2",
+      "what": "ファイルの作業を自動でこなしてくれるAIエージェントが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "9b6bacb8f6",
+      "impact": "転職活動や面接の準備をいつでも一人で手軽に行えるようになる。",
+      "new": "AIが相手役となり、本番さながらの面接練習ができる点。",
+      "published": "2026-10-13T02:51:31Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "本番の面接に備えて、実際のやり取りを事前に練習すること。",
+        "word": "模擬面接"
+      },
+      "title_en": "Toby",
+      "title_ja": "AIの採用担当とリアルな模擬面接ができるToby",
+      "url": "https://www.producthunt.com/products/toby-5",
+      "what": "AIの採用担当者とリアルな模擬面接ができるサービスが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "dce7c54c27",
+      "impact": "個人の作業をサポートするAIエージェントの能力が向上する。",
+      "new": "個人向けに最適化された高い性能を持つAIモデルであること。",
+      "published": "2026-10-12T16:59:33Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "個人の好みを学習し、スケジュール管理や調べ物などの作業を代わりに行うAIのこと。",
+        "word": "パーソナルエージェント"
+      },
+      "title_en": "Muse Wonder",
+      "title_ja": "Metaがパーソナルエージェント向けの高性能モデルを発表",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "what": "Metaが個人向けエージェントのための最も優れたモデルを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c23a6f9914",
+      "impact": "自分のパソコン内で安全にAIを活用した作業ができるようになる。",
+      "new": "外部のサーバーではなく自分のパソコン上で直接実行できる点が新しい。",
+      "published": "2026-10-12T08:12:38Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "誰でも自由に中身を見たり使ったりできるように公開されているプログラムのこと。",
+        "word": "オープンソース"
+      },
+      "title_en": "Xiryn",
+      "title_ja": "自分のパソコンで動く個人用AIエージェント",
+      "url": "https://www.producthunt.com/products/xiryn",
+      "what": "自分のパソコン上で動く、オープンソースの個人用AIエージェントが登場した。"
+    }
+  ],
+  "date": "2026-10-14",
+  "digest": [
+    "Googleが高度な複雑作業向けAI「Gemini 4 Argon」を発表",
+    "Googleが新AI「Gemini 4 Argon」を発表",
+    "HiggsfieldがAI動画の長さを10分以上に拡張"
+  ],
+  "generated_at": "2026-10-14T00:18:51.969757Z",
+  "mascot_line": "今日はちょっと動きあり。気になるものからどうぞ",
+  "stats": {
+    "candidates": 18,
+    "collected": 27,
+    "llm_calls": 14,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 18,
+    "seconds": 89.3,
+    "selected": 9
+  },
+  "weather": "cloudy"
+}
