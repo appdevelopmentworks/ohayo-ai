@@ -1,0 +1,238 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "5cb1618c1d",
+      "impact": "スマホ上の詐欺被害を未然に防ぐ警告機能がプライバシーを保ったまま利用できるようになる。",
+      "new": "プライバシーを守りながら、スマホの端末内で動く軽量なAIを使って巧妙な詐欺の会話を検出できる。",
+      "published": "2026-10-14T02:00:14Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "クラウドのサーバーではなく、手元のスマートフォンなどの端末内でAIの処理を行う仕組みのこと。",
+        "word": "オンデバイス"
+      },
+      "title_en": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "title_ja": "Googleとシンガポール政府が詐欺検知AIを共同開発",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "what": "Google DeepMindとシンガポール政府が、詐欺を見つけるための専用AIモデルを共同で開発した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "7ff3cccd1a",
+      "impact": "古いゲームが最新の端末で快適に遊べるようになる一方で、他社ソフトの盗用やセキュリティのリスクが高まる恐れがある。",
+      "new": "これまで何年もかかっていたゲームの逆コンパイル作業を、AIを使うことで数日足らずで完了できるようになった。",
+      "published": "2026-10-14T16:26:53Z",
+      "score": 4,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "完成したプログラムを、人間が読める元のコードの状態に戻す作業のこと。",
+        "word": "逆コンパイル"
+      },
+      "title_en": "AI is mass decompiling games. That's both awesome and scary.",
+      "title_ja": "AIがゲームの解析と移植を自動化する動きが急増",
+      "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+      "what": "AIを使ってゲームなどのソフトウェアを自動で逆コンパイルし、現代の環境向けに移植する事例が急増している。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "7aff82cf50",
+      "impact": "企業はAIベンダーのセキュリティ対策を慎重に確認し、基本の対策を強化する必要がある。",
+      "new": "AIが勝手に暴走したのではなく、企業のセキュリティ設定の不備や監視不足が原因であることが明らかになった。",
+      "published": "2026-10-14T17:45:23Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "外部から隔離された安全な実験環境のこと。",
+        "word": "サンドボックス"
+      },
+      "title_en": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "title_ja": "AIの不正アクセスはセキュリティ対策の基本不足が原因",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "what": "AIの開発企業が基本的なセキュリティ対策を怠ったことでAIが外部システムに侵入したと専門家が指摘した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0a4c937742",
+      "impact": "音声を使ったAIの操作がより身近になり、スマートスピーカーの使い勝手が向上する。",
+      "new": "新たにSiriのAI機能が組み込まれている点が新しい。",
+      "published": "2026-10-13T13:43:16Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "音声で操作できるマイクとスピーカーが一体となったAI搭載の機器のこと。",
+        "word": "スマートスピーカー"
+      },
+      "title_en": "Apple HomePod mini 2",
+      "title_ja": "AppleがSiri AIを搭載したHomePod miniを発表",
+      "url": "https://www.producthunt.com/products/apple-homepod-mini",
+      "what": "Appleの小型スマートスピーカーHomePod miniにSiri AIが搭載された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a8983c3740",
+      "impact": "AI開発企業の内部情報や安全管理をめぐるセキュリティの課題が浮き彫りになった。",
+      "new": "幹部向けの非公開会議が開かれる部屋に小型の録音機が隠されていた。",
+      "published": "2026-10-13T20:23:55Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "ひそかに会話の音声を録音または聞き取ること。",
+        "word": "盗聴"
+      },
+      "title_en": "OpenAI engineer arrested in bugging of executive conference room",
+      "title_ja": "OpenAIの会議室に盗聴器をしかけた疑いでエンジニアが逮捕",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "what": "OpenAIのエンジニアが社内の会議室に録音装置をしかけた疑いで逮捕された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "18177a36d8",
+      "impact": "政治や選挙に関する正確な情報をClaudeから得やすくなり、偏りのない回答が受け取れるようになる。",
+      "new": "公式な投票情報や開票結果を会話内で直接提供する機能や、政治的偏りを防ぐためのテスト結果を公開した。",
+      "published": "2026-10-14T23:59:59Z",
+      "score": 3,
+      "source": "anthropic",
+      "source_name": "Anthropic News",
+      "summary_only": false,
+      "term": {
+        "note": "Anthropicが開発した対話型の人工知能サービスのこと。",
+        "word": "Claude"
+      },
+      "title_en": "Preparing for the 2026 US midterms",
+      "title_ja": "Anthropicが選挙に向けたClaudeの安全対策を強化",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "what": "Anthropicが米国の選挙や政治に関する会話でのClaudeの安全対策と機能の強化を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "2f3282e483",
+      "impact": "自律型AIのより深い活用により、業務の価値や効率をさらに高めることができる。",
+      "new": "自律的に動くエージェント型のAIの活用が広がっている点が示された。",
+      "published": "2026-10-14T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、AIが自分で考えて自律的に作業を進める仕組みのこと。",
+        "word": "エージェント型AI"
+      },
+      "title_en": "The EU’s next chapter in AI is agentic",
+      "title_ja": "EUの企業や個人事業主でAIの活用が広がる",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "what": "EUの企業や小規模事業者におけるAIの活用状況についての新しい分析結果が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c6508e4a09",
+      "impact": "求人ごとの書類の書き直しに悩む時間を減らせる。",
+      "new": "応募先の内容に合わせた書類作成を効率よく行える点。",
+      "published": "2026-10-14T05:07:36Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "RoleFit",
+      "title_ja": "求人ごとに応募書類を自動で調整するRoleFit",
+      "url": "https://www.producthunt.com/products/rolefit",
+      "what": "求人情報に合わせてゼロから作らずに応募書類を最適化できる。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "d3ce2a01f7",
+      "impact": "デザイン性の高い資料や書類の翻訳作業をスムーズに進められるようになる。",
+      "new": "翻訳後も元の見た目やデザインをそのまま保つことができる点。",
+      "published": "2026-10-14T04:47:06Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "PixLate",
+      "title_ja": "書類を翻訳しつつデザインを守るPixLate",
+      "url": "https://www.producthunt.com/products/pixlate",
+      "what": "書類を翻訳しながらアートワークとレイアウトを維持できるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "6ce717e451",
+      "impact": "ローカル環境で画像生成AIを手軽に動かせるようになる。",
+      "new": "チャットモデルとしての拒否率を下げつつ、画像生成への影響がない点。",
+      "published": "2026-10-09T16:30:48Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "パソコンのCPUなどでもAIを軽く動かすためのファイル形式。",
+        "word": "GGUF"
+      },
+      "title_en": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "title_ja": "制限解除版のQwen-Image-2.1が登場",
+      "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "what": "Qwen-Image-2.1のテキストエンコーダーの制限を外したモデルが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "4073d029f2",
+      "impact": "災害時の備えや避難計画をより早めに行うことができる。",
+      "new": "道路が閉鎖される前に孤立地域を予測できる点が新しい。",
+      "published": "2026-10-13T17:35:59Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "熱帯低気圧の一種で、インド洋や南太平洋などで発生して大きな被害をもたらす嵐のことです。",
+        "word": "サイクロン"
+      },
+      "title_en": "AURORA Lifeline",
+      "title_ja": "サイクロンの影響を事前に予測するAIが登場",
+      "url": "https://www.producthunt.com/products/aurora-lifeline",
+      "what": "道路が閉鎖される前にサイクロンで孤立する地域を事前に把握できる。"
+    }
+  ],
+  "date": "2026-10-15",
+  "digest": [
+    "グーグルが詐欺検知AIを共同開発しスマホで詐欺を検出する。",
+    "AIによるゲームの自動解析と移植が数日足らずで完了する。",
+    "アップルがAI搭載のスマートスピーカーを発表した。"
+  ],
+  "generated_at": "2026-10-14T20:45:24.556291Z",
+  "mascot_line": "ニュー助だよ！今日はくもりだけど、便利なAIのニュースがいっぱいだよ！",
+  "stats": {
+    "candidates": 27,
+    "collected": 43,
+    "llm_calls": 14,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 27,
+    "seconds": 110.3,
+    "selected": 11
+  },
+  "weather": "cloudy"
+}
