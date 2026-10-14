@@ -16,7 +16,7 @@
 
 ```mermaid
 flowchart LR
-  S["一次ソース<br>公式ブログ・API（10ソース）"] --> A["GitHub Actions<br>毎朝6:17（JST）<br>収集・選別・HTML生成"]
+  S["一次ソース<br>公式ブログ・API（10ソース）"] --> A["GitHub Actions<br>毎朝2:17〜6:17（JST）<br>収集・選別・HTML生成"]
   A <-->|1日22回| L["LLM（要約・選別）<br>Gemini 3.5 Flash-Lite<br>予備: Groq Qwen3.8-27B"]
   A --> R["public リポジトリ<br>HTMLとJSONを保存・過去分も残る"]
   R -->|pushで自動デプロイ| W["Cloudflare Workers<br>*.workers.dev で公開"]
@@ -26,7 +26,7 @@ flowchart LR
 読者が見るのは事前に生成した静的ページだけなので、表示が速く、サーバー費用もかからない。
 
 - リポジトリ: public。Actionsの標準ランナーが無料・無制限になる。APIキーはSecretsに置くので公開されない
-- 実行: cron `17 21 * * *`（JST 6:17）と手動実行（workflow_dispatch）
+- 実行: cron `17 17,18,19,20,21 * * *`（JST 2:17〜6:17の毎時）と手動実行（workflow_dispatch）。その日のページを最初に作れた回だけが処理し、後の回はすぐ終わる（AIの呼び出しは1日分のまま）
 - 配信: Cloudflare Workers（静的アセット）。Workers Builds でリポジトリと連携し、pushのたびに `public/` を自動デプロイして `ohayo-ai.<アカウント名>.workers.dev` で公開する。プログラムは置かず、静的ファイルの配信だけに使う
 
 ## 情報ソース一覧
@@ -197,7 +197,7 @@ Pythonはuvで管理し、生成物は `public/` にだけ出す。Cloudflare Wo
 ```
 ohayo-ai/                      # ローカルは C:\Dev\ohayo-ai
 ├── .github/workflows/
-│   └── update-news.yml        # 毎朝 21:17 UTC（JST 6:17）＋手動実行
+│   └── update-news.yml        # 毎朝 JST 2:17〜6:17 の毎時＋手動実行
 ├── src/ai_news/
 │   ├── sources/               # ソースごとの取得（rss / anthropic / hf / hn / producthunt）
 │   ├── select.py              # 重複除去・一次絞り込み・ランク付け
@@ -249,7 +249,7 @@ Cloudflareの画面でGitHubリポジトリを接続し、ビルドコマンド�
 | リスク | 対策 |
 | --- | --- |
 | 定期実行が止まる（publicリポジトリは60日間活動がないと停止） | 毎日コミットが出るので通常は問題ない。取得失敗が続いてもログを `data/` にコミットし、活動を切らさない |
-| 実行の遅れ（毎時0分は混雑しやすい） | 21:17 UTC に設定して7時に間に合わせる。`workflow_dispatch` で手動実行もできるようにする |
+| 実行の遅れ（毎時0分は混雑しやすい。実測では予約より3〜5時間遅れて起動する） | 毎時17分にずらし、JST 2:17〜6:17に5回起動して最初の1回でページを作る。作れなかった回の次の回が再挑戦になる。`workflow_dispatch` で手動実行もできるようにする |
 | サイト構造の変更で取得が0件になる（特にAnthropicのHTML解析） | 同じソースが2日続けて0件ならActionsを失敗扱いにして通知 |
 | 要約の誤り・盛りすぎ | 数字の照合チェック。カードに「AIによる要約です」と小さく表示し、一次ソースへ誘導 |
 | 著作権 | 本文の全訳はしない。要約は自分の言葉で短く、一次ソースへのリンクを必ず付ける。元記事の画像は使わない |

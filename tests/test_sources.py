@@ -85,6 +85,12 @@ def test_source_url_placeholders():
     assert source_url(papers, NOW).endswith("date=2026-10-09")
     early = datetime(2026, 10, 9, 2, 0, tzinfo=UTC)
     assert source_url(papers, early).endswith("date=2026-10-08")
+    saturday = datetime(2026, 10, 10, 20, 0, tzinfo=UTC)
+    sunday = datetime(2026, 10, 11, 20, 0, tzinfo=UTC)
+    monday = datetime(2026, 10, 12, 20, 0, tzinfo=UTC)
+    assert source_url(papers, saturday).endswith("date=2026-10-09")  # no lists on weekends
+    assert source_url(papers, sunday).endswith("date=2026-10-09")
+    assert source_url(papers, monday).endswith("date=2026-10-12")
     since = int((NOW - timedelta(hours=36)).timestamp())
     assert f"created_at_i>{since}" in source_url(hn_source, NOW)
 

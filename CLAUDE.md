@@ -55,7 +55,7 @@ Mint-colored round robot with an antenna and a chest screen. Four moods (normal,
 2. **Collectors**: one module per source, each with fixtures and tests; dedupe and state files in `data/`.
 3. **LLM layer**: provider abstraction, schemas, ranking, summarizing, validation, dry-run with recorded responses.
 4. **Rendering**: port `docs/design/top-page.dc.html` to Jinja2 templates + `public/assets/style.css` + `app.js`; then archive, glossary, `/behind/`, 404 and the daily OGP image.
-5. **Automation**: schedule the workflow (`17 21 * * *` UTC = 06:17 JST), commit-if-changed, connect Workers Builds, add the Web Analytics snippet.
+5. **Automation**: schedule the workflow (now `17 17,18,19,20,21 * * *` UTC = 02:17–06:17 JST), commit-if-changed, connect Workers Builds, add the Web Analytics snippet.
 
 Finish and verify each phase before starting the next. Record real commands in a "Commands" section here as they are created.
 
@@ -65,7 +65,7 @@ Public URL: https://ohayo-ai.aileap.workers.dev (workers.dev subdomain `aileap`;
 
 `docs/operations.md` (Japanese, for the owner) covers first-time setup (Secrets, Workers Builds, `SITE_URL` and `CF_WEB_ANALYTICS_TOKEN` repository variables) and what to do when the morning run fails.
 
-- `.github/workflows/update-news.yml`: daily at `17 21 * * *` UTC and on manual dispatch. Runs `ai-news`, commits `data/` and `public/` only if they changed (even when the pipeline failed, so state keeps moving), then fails the run if `ai-news` exited non-zero. No tests here, so a test failure never blocks the morning edition. Dispatch with `dry_run` commits nothing.
+- `.github/workflows/update-news.yml`: `17 17,18,19,20,21 * * *` UTC (hourly 02:17–06:17 JST, because GitHub starts scheduled runs 3–5 h late) and on manual dispatch. A scheduled run stops at once if `data/daily/<JST date>.json` already exists on `main` (checkout uses `ref: main`, not the run's commit); a run that made no edition leaves no file, so the next slot retries. Runs `ai-news`, commits `data/` and `public/` only if they changed (even when the pipeline failed, so state keeps moving), then fails the run if `ai-news` exited non-zero. No tests here, so a test failure never blocks the morning edition. Dispatch with `dry_run` commits nothing.
 - `.github/workflows/ci.yml`: `pytest` on pushes to `main` that touch code. Bot commits made with `GITHUB_TOKEN` do not trigger it.
 - Both jobs only run in `appdevelopmentworks/ohayo-ai`; neither has a `pull_request` trigger.
 

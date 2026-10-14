@@ -1,10 +1,14 @@
 name: update-news
 
-# Every morning at 06:17 JST (21:17 UTC; off the busy top of the hour), plus manual runs.
+# Scheduled runs on GitHub start hours late (observed 3-5 h), so the morning edition is
+# attempted every hour from 02:17 to 06:17 JST (17:17-21:17 UTC, off the busy top of the hour).
+# The first run of the JST day that makes data/daily/<date>.json wins; later scheduled runs
+# see it and stop within seconds, so the LLM budget is used once a day. A run that failed to
+# make an edition leaves no file, so the next slot retries. Manual runs always rebuild.
 # Never add pull_request triggers: secrets must not reach forks.
 on:
   schedule:
-    - cron: "17 21 * * *"
+    - cron: "17 17,18,19,20,21 * * *"
   workflow_dispatch:
     inputs:
       provider:
@@ -32,16 +36,32 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The branch tip, not the commit the run was created at: a delayed run must see
+          # the edition an earlier run already committed.
+          ref: main
+
+      - name: Skip if today's edition exists
+        id: check
+        run: |
+          today=$(TZ=Asia/Tokyo date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/daily/$today.json" ]; then
+            echo "Edition for $today already exists; nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        if: steps.check.outputs.skip != 'true'
         with:
           enable-cache: true
 
       - name: Install dependencies
+        if: steps.check.outputs.skip != 'true'
         run: uv sync --locked --no-dev
 
       - name: Run pipeline
         id: pipeline
+        if: steps.check.outputs.skip != 'true'
         env:
           LLM_PROVIDER: ${{ inputs.provider || 'gemini' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -56,7 +76,7 @@ jobs:
           echo "status=$?" >> "$GITHUB_OUTPUT"
 
       - name: Commit if changed
-        if: ${{ !inputs.dry_run }}
+        if: steps.check.outputs.skip != 'true' && !inputs.dry_run
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -69,7 +89,7 @@ jobs:
           git push || { git pull --rebase && git push; }
 
       - name: Report pipeline failure
-        if: steps.pipeline.outputs.status != '0'
+        if: steps.check.outputs.skip != 'true' && steps.pipeline.outputs.status != '0'
         run: |
           echo "::error::ai-news exited with status ${{ steps.pipeline.outputs.status }}. See the 'Run pipeline' log."
           exit 1

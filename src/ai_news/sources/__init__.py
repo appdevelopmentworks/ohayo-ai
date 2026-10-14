@@ -7,7 +7,7 @@ A failing source never stops the run; it is reported with zero items instead.
 import logging
 from collections.abc import Callable
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 from ai_news.models import Item
 from ai_news.sources import anthropic, hf, hn, producthunt, rss, simonwillison
@@ -94,9 +94,15 @@ class SourceResult:
     error: str | None = None
 
 
+def papers_date(now: datetime) -> date:
+    """The Daily Papers list to read. There are no lists on weekends, so use Friday's then."""
+    day = (now - PAPERS_DATE_LAG).date()
+    return day - timedelta(days=max(day.weekday() - 4, 0))
+
+
 def source_url(source: Source, now: datetime) -> str:
     return source.url.format(
-        date=(now - PAPERS_DATE_LAG).date().isoformat(),
+        date=papers_date(now).isoformat(),
         since=int((now - WINDOW).timestamp()),
     )
 
