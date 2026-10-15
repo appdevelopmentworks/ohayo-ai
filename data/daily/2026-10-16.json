@@ -1,0 +1,218 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "3733c75a28",
+      "impact": "狙い通りの位置に被す物を配置したり、画像を細かく編集したりする作業が効率的になる。",
+      "new": "テキストからの画像生成だけでなく、複数の参考画像を使った編集や位置を指定したレイアウト制御ができる。",
+      "published": "2026-10-15T00:00:00Z",
+      "score": 4,
+      "source": "hf_blog",
+      "source_name": "Hugging Face Blog",
+      "summary_only": false,
+      "term": {
+        "note": "AIモデルの動きを調整し、特定の画風やキャラクターを学習させるための小さな追加データのこと。",
+        "word": "LoRA"
+      },
+      "title_en": "Welcome FLUX.3 Image Klein in Diffusers",
+      "title_ja": "画像生成AI「FLUX.3」が公開",
+      "url": "https://huggingface.co/blog/flux-3",
+      "what": "Black Forest Labsが新しい画像生成AIモデル「FLUX.3 Image Klein」を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f6cba50134",
+      "impact": "AI分野への融資や資金調達の条件が厳しくなり、今後の投資に影響が出る可能性がある。",
+      "new": "銀行が融資の限度額に達し、AI向け借入金の売却やリスク移転を模索していること。",
+      "published": "2026-10-14T18:32:52Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの計算や大量のデータを処理・保存するための巨大な建物や設備の集まり。",
+        "word": "データセンター"
+      },
+      "title_en": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "title_ja": "銀行がAIデータセンター向けの借入金を手放し始めている",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "what": "大手銀行がAI向け融資のリスクを外部の投資家に移そうと動き出している。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "e714928647",
+      "impact": "AI企業の業績が伸びている様子が分かり、今後のAIサービスの展開やビジネスへの影響を予想しやすくなる。",
+      "new": "第1四半期から第3四半期にかけての売上高の大幅な伸びが明らかになったこと。",
+      "published": "2026-10-15T13:04:03Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": true,
+      "term": {
+        "note": "株式を証券取引所に公開し、一般の人が株を買えるようにすること。",
+        "word": "IPO"
+      },
+      "title_en": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "title_ja": "Anthropicの四半期売上高が約50%増加",
+      "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
+      "what": ""
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "9d251ac683",
+      "impact": "開発者が画像や音声も使いながら、より高度なプログラミングの自動化や修正を行えるようになる。",
+      "new": "複数の専門家AIを効率よく組み合わせる仕組みを採用し、高い性能と高速な動作を両立した。",
+      "published": "2026-10-15T00:00:00Z",
+      "score": 3,
+      "source": "hf_blog",
+      "source_name": "Hugging Face Blog",
+      "summary_only": false,
+      "term": {
+        "note": "複数の専門家AIを切り替えながら使い、効率よく高度な処理を行う仕組みのこと。",
+        "word": "Mixture-of-Experts"
+      },
+      "title_en": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "title_ja": "Metaが開発した大規模なオープンAIモデル「Muse Spark Open」",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "what": "Metaが画像や音声、動画も扱える大規模なプログラミング向けAIモデルを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "1d4cff712a",
+      "impact": "医療や創薬の研究にかかる時間が大幅に短縮され、新しい抗生物質の発見につながる。",
+      "new": "複数のデータベース検索や構造解析を一つの作業台でAIと協働しながら行える点が新しい。",
+      "published": "2026-10-15T16:08:03Z",
+      "score": 3,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "細菌などの病原体を攻撃する自然由来の小さなタンパク質で、新しい抗菌薬の候補として注目されている。",
+        "word": "抗菌ペプチド"
+      },
+      "title_en": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "title_ja": "Googleが新薬探索を支援するAI基盤を発表",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "what": "Googleが新しい抗菌ペプチドの探索を効率化するプラットフォームGoogle Antigravityを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "fa14b8f7db",
+      "impact": "教育現場でAIを活用した段階的な学習サポートが進む可能性がある。",
+      "new": "ブラジルポルトガル語に対応した教師向けAIの活用法が示されたこと。",
+      "published": "2026-10-15T13:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIが直接答えを教えず、質問を投げかけることで生徒自身に考えさせる学習機能。",
+        "word": "スタディモード"
+      },
+      "title_en": "Teaching students to think and learn through questions",
+      "title_ja": "OpenAIが教師向けに質問を通じた学びを支援する機能を紹介",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "what": "教師の日を記念して、質問を通じて生徒の学びを支えるスタディモードなどが紹介された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "6781a354f1",
+      "impact": "キーボード入力の手間が減り、声だけでスムーズにパソコン作業を進められるようになる。",
+      "new": "音声入力を使って、手軽にMacへ作業を指示できるようになる。",
+      "published": "2026-10-14T21:14:44Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Atticus",
+      "title_ja": "キーを押して話すだけでMacを操作できるAtticus",
+      "url": "https://www.producthunt.com/products/atticus",
+      "what": "キーを押しながら話しかけるだけで、Macに要望を伝えて操作してもらえるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3de6193c0a",
+      "impact": "顧客への連絡タイミングを逃さず、営業活動を効率化できる。",
+      "new": "顧客へのアプローチ機会を自動で識別できる点が新しい。",
+      "published": "2026-10-14T19:22:19Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Superdraft",
+      "title_ja": "顧客へのメール送信チャンスを自動で見つけるツール",
+      "url": "https://www.producthunt.com/products/superdraft",
+      "what": "顧客にメールを送るべきタイミングを自動で見つけ出すツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "8b16d67ae3",
+      "impact": "専門知識がなくても、アイデアを簡単に基板の形にできるようになる。",
+      "new": "テキストで指示するだけで、回路基板の設計ができるようになる点。",
+      "published": "2026-10-14T16:06:31Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "電子部品を載せて電気的につなぐための板のこと。",
+        "word": "回路基板"
+      },
+      "title_en": "siliXon",
+      "title_ja": "英語でアイデアを伝えるだけで基板を作成できるツール",
+      "url": "https://www.producthunt.com/products/silixon",
+      "what": "英語のアイデアから注文可能な回路基板を作ることができる。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f45c4d8bd2",
+      "impact": "顧客からの問い合わせ対応をより効率的におこなえる。",
+      "new": "質問に応じてAIが自ら改善していく仕組みが新しい。",
+      "published": "2026-10-14T15:36:37Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "よくある質問と、それに対する答えをまとめたページのこと。",
+        "word": "FAQ"
+      },
+      "title_en": "Actually Asked",
+      "title_ja": "自分で成長するブランド向けAI質問集ページ",
+      "url": "https://www.producthunt.com/products/actually-asked",
+      "what": "自動で賢くなるブランド向けのAI質問集ページが登場した。"
+    }
+  ],
+  "date": "2026-10-16",
+  "digest": [
+    "画像生成AIの新モデルFLUX.3が公開された。",
+    "Metaの大規模なオープンAIモデルが発表された。",
+    "銀行がAIデータセンター向けの借入金を手放し始めた。"
+  ],
+  "generated_at": "2026-10-15T20:22:53.134496Z",
+  "mascot_line": "今日は晴れでおだやかな一日だね！新しいAIのニュースをチェックして楽しく過ごそう！",
+  "stats": {
+    "candidates": 26,
+    "collected": 39,
+    "llm_calls": 12,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 26,
+    "seconds": 58.2,
+    "selected": 10
+  },
+  "weather": "sunny"
+}
