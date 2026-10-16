@@ -1,0 +1,121 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7d3e4d8df2",
+      "impact": "契約書業務の手間が減り、確認漏れを防いでスムーズに進められるようになる。",
+      "new": "契約書作成だけでなくリスク確認から署名の手配までをまとめて代行できる点。",
+      "published": "2026-10-15T02:37:55Z",
+      "score": 4,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて作業を自動で進めてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Dottr",
+      "title_ja": "契約書の作成から署名までを自動化するAI",
+      "url": "https://www.producthunt.com/products/dottr",
+      "what": "契約書のドラフト作成やリスクの指摘、署名までを行うAIエージェントが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "1345f06390",
+      "impact": "数学の研究や基礎科学の分野でAIを使った新しい手法が取り入れやすくなり、研究の進め方が大きく変わる。",
+      "new": "AI企業と財団が協力し、数学の研究者が新しいAIツールを学び評価するための資金や資源を提供する点。",
+      "published": "2026-10-15T14:58:48Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの開発や研究を行っている企業の名前です。",
+        "word": "Anthropic"
+      },
+      "title_en": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "title_ja": "サイモンズ財団が数学者のAI活用を支援する基金を設立",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "what": "サイモンズ財団、Anthropic、OpenAIが数学者のAI活用支援に1,500万ドルを拠出すると発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "368feff4c4",
+      "impact": "位置を指定した細かい画像編集や、高品質な画像生成を手元のパソコンで行いやすくなる。",
+      "new": "1つのモデルで画像生成と単数・複数の参考画像を使った編集の両方を行えるようになった。",
+      "published": "2026-10-14T12:00:13Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "画面上で部品をつなげて自分好みの画像生成AIの仕組みを作れる無料のソフトウエア。",
+        "word": "ComfyUI"
+      },
+      "title_en": "black-forest-labs/flux-3-image-klein-comfy",
+      "title_ja": "画像生成AI「FLUX 3 Image Klein」公開",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "what": "文章からの画像生成や複数の参考画像を使った編集ができる新しいAIモデルが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3089694495",
+      "impact": "防犯カメラの映像から目的の人や車を探す作業の時間が大幅に短縮できる。",
+      "new": "映像の中から特定の人物や車両をわずか数秒で素早く見つけられる点。",
+      "published": "2026-10-15T11:36:40Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ネットワーク・ビデオ・レコーダーの略で、防犯カメラの映像を記録して保存する機器のこと。",
+        "word": "NVR"
+      },
+      "title_en": "Grablo Spot",
+      "title_ja": "人物や車両を数秒で探せるAI防犯カメラツール",
+      "url": "https://www.producthunt.com/products/grablo-spot",
+      "what": "数秒で人や車を見つけ出せる無料のAI防犯カメラシステムが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3afd26c799",
+      "impact": "PC作業の効率が上がり、手を動かさずに簡単な操作ができるようになる。",
+      "new": "文字入力ではなく音声で、あらゆる画面からMacを操作できる点が新しい。",
+      "published": "2026-10-14T23:06:13Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Mermaid",
+      "title_ja": "Macに話しかけてどこからでも操作できるツール",
+      "url": "https://www.producthunt.com/products/mermaid",
+      "what": "Macに向けて話しかけることで、どこからでも指示を出せるツールが登場した。"
+    }
+  ],
+  "date": "2026-10-17",
+  "digest": [
+    "契約書の作成から署名までを自動化するAIが登場した",
+    "数学者のAI活用支援に一千五百万ドルが拠出される",
+    "画像生成や音声操作の新ツールが公開された"
+  ],
+  "generated_at": "2026-10-16T19:58:50.448461Z",
+  "mascot_line": "きょうは穏やかな晴れ！便利なAIツールがたくさん登場して、わくわくするね。",
+  "stats": {
+    "candidates": 24,
+    "collected": 36,
+    "llm_calls": 11,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 24,
+    "seconds": 86.2,
+    "selected": 5
+  },
+  "weather": "sunny"
+}
