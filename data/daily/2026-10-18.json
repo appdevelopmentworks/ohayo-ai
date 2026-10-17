@@ -1,0 +1,127 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "1fd6dd971a",
+      "impact": "プログラミングや複雑な作業を効率的かつ低コストで自動化しやすくなる。",
+      "new": "新しい構造を採用し、コストを抑えながら高速で複雑な作業を実行できるようになっている。",
+      "published": "2026-10-17T08:37:46Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの機能やデータを外部のアプリから利用できるようにする仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "title_ja": "DeepSeekが新モデル「V4.1 Flash 1017」を公開",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "what": "DeepSeekが画像理解や長文処理に強い新型AIモデル「V4.1 Flash 1017」を公開した。"
+    },
+    {
+      "also_in": [
+        "hn"
+      ],
+      "category": "新モデル",
+      "id": "9b13d6a721",
+      "impact": "AIを使った作業が速く、コストを抑えられるようになる可能性がある",
+      "new": "推論やコーディングの精度が向上し、処理時間と出力長が短縮された",
+      "published": "2026-10-17T02:40:38Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "AIが指示に従って複数の手順を自動で実行する機能のこと",
+        "word": "エージェントタスク"
+      },
+      "title_en": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title_ja": "DeepSeekが高速・低コストな新AIモデルを公開",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "what": "DeepSeekが既存モデルの改良版としてDeepSeek-V4.1-Flash-1017を公開した"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "93fa5d2ce7",
+      "impact": "指示文を変えるだけで画像の編集や要素の配置変更が手軽に行えるようになる。",
+      "new": "1つのモデルで画像生成と複数の参考画像を使った編集ができるようになった。",
+      "published": "2026-10-13T10:58:40Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "文章で指示を出すことで、AIが自動で画像を新しく作り出す技術のこと。",
+        "word": "画像生成AI"
+      },
+      "title_en": "black-forest-labs/flux-3-image-klein",
+      "title_ja": "画像生成AI「FLUX 3 Image Klein」が公開",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "what": "文章からの画像生成や画像の編集ができるオープンなAIモデルが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "9ec937773b",
+      "impact": "暗号に意図的な弱点はないことが分かり、より安心して利用できるようになる。",
+      "new": "1990年代の乱数生成器を使ったシンプルな方法で作られていたことが判明した。",
+      "published": "2026-10-16T18:55:59Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "インターネット通信などで広く使われている暗号の規格の1つ。",
+        "word": "ECDSA"
+      },
+      "title_en": "Claude reveals ECDSA curve origins",
+      "title_ja": "Claudeが暗号の標準規格の謎を解明",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "what": "Claudeが長年不明だった暗号の標準規格の生成元の謎を解明した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "1fbfa5c288",
+      "impact": "自分の内面を振り返ることで、日々のストレス解消やメンタル管理に役立つ。",
+      "new": "音声を通じて自分の感情や考えを記録し、客観的に理解できるようになっている。",
+      "published": "2026-10-16T07:43:37Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "文字ではなく、声でその日の出来事や気持ちを録音して残す日記のことです。",
+        "word": "音声日記"
+      },
+      "title_en": "Emochi",
+      "title_ja": "自分の気持ちをアートで理解する音声日記Emochi",
+      "url": "https://www.producthunt.com/products/emochi-2",
+      "what": "科学とアートを使って自分を理解するための音声日記アプリが登場した。"
+    }
+  ],
+  "date": "2026-10-18",
+  "digest": [
+    "DeepSeekが画像や長文に強い新モデルを公開した",
+    "FLUXが画像生成と編集ができる新モデルを発表",
+    "Claudeが暗号規格の謎を解き音声日記アプリも登場"
+  ],
+  "generated_at": "2026-10-17T19:27:56.599951Z",
+  "mascot_line": "おはよう！今日はすてきなAIニュースが盛りだくさんだね！おだやかな一日を楽しもう！",
+  "stats": {
+    "candidates": 10,
+    "collected": 19,
+    "llm_calls": 12,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 10,
+    "seconds": 125.4,
+    "selected": 5
+  },
+  "weather": "sunny"
+}

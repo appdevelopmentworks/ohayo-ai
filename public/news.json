@@ -1,121 +1,127 @@
 {
-  "date": "2026-10-17",
-  "generated_at": "2026-10-16T19:58:50.448461Z",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-17T19:27:56.599951Z",
   "weather": "sunny",
   "digest": [
-    "契約書の作成から署名までを自動化するAIが登場した",
-    "数学者のAI活用支援に一千五百万ドルが拠出される",
-    "画像生成や音声操作の新ツールが公開された"
+    "DeepSeekが画像や長文に強い新モデルを公開した",
+    "FLUXが画像生成と編集ができる新モデルを発表",
+    "Claudeが暗号規格の謎を解き音声日記アプリも登場"
   ],
-  "mascot_line": "きょうは穏やかな晴れ！便利なAIツールがたくさん登場して、わくわくするね。",
+  "mascot_line": "おはよう！今日はすてきなAIニュースが盛りだくさんだね！おだやかな一日を楽しもう！",
   "articles": [
     {
-      "id": "7d3e4d8df2",
-      "title_ja": "契約書の作成から署名までを自動化するAI",
-      "what": "契約書のドラフト作成やリスクの指摘、署名までを行うAIエージェントが登場した。",
-      "new": "契約書作成だけでなくリスク確認から署名の手配までをまとめて代行できる点。",
-      "impact": "契約書業務の手間が減り、確認漏れを防いでスムーズに進められるようになる。",
+      "id": "1fd6dd971a",
+      "title_ja": "DeepSeekが新モデル「V4.1 Flash 1017」を公開",
+      "what": "DeepSeekが画像理解や長文処理に強い新型AIモデル「V4.1 Flash 1017」を公開した。",
+      "new": "新しい構造を採用し、コストを抑えながら高速で複雑な作業を実行できるようになっている。",
+      "impact": "プログラミングや複雑な作業を効率的かつ低コストで自動化しやすくなる。",
       "term": {
-        "word": "AIエージェント",
-        "note": "人間の指示を受けて、自分で考えて作業を自動で進めてくれるAIのこと。"
+        "word": "API",
+        "note": "AIの機能やデータを外部のアプリから利用できるようにする仕組みのこと。"
       },
-      "category": "便利なツール",
+      "category": "新モデル",
       "score": 4,
-      "url": "https://www.producthunt.com/products/dottr",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Dottr",
-      "published": "2026-10-15T02:37:55Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "1345f06390",
-      "title_ja": "サイモンズ財団が数学者のAI活用を支援する基金を設立",
-      "what": "サイモンズ財団、Anthropic、OpenAIが数学者のAI活用支援に1,500万ドルを拠出すると発表した。",
-      "new": "AI企業と財団が協力し、数学の研究者が新しいAIツールを学び評価するための資金や資源を提供する点。",
-      "impact": "数学の研究や基礎科学の分野でAIを使った新しい手法が取り入れやすくなり、研究の進め方が大きく変わる。",
-      "term": {
-        "word": "Anthropic",
-        "note": "AIの開発や研究を行っている企業の名前です。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "published": "2026-10-15T14:58:48Z",
+      "title_en": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "published": "2026-10-17T08:37:46Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "368feff4c4",
-      "title_ja": "画像生成AI「FLUX 3 Image Klein」公開",
-      "what": "文章からの画像生成や複数の参考画像を使った編集ができる新しいAIモデルが公開された。",
-      "new": "1つのモデルで画像生成と単数・複数の参考画像を使った編集の両方を行えるようになった。",
-      "impact": "位置を指定した細かい画像編集や、高品質な画像生成を手元のパソコンで行いやすくなる。",
+      "id": "9b13d6a721",
+      "title_ja": "DeepSeekが高速・低コストな新AIモデルを公開",
+      "what": "DeepSeekが既存モデルの改良版としてDeepSeek-V4.1-Flash-1017を公開した",
+      "new": "推論やコーディングの精度が向上し、処理時間と出力長が短縮された",
+      "impact": "AIを使った作業が速く、コストを抑えられるようになる可能性がある",
       "term": {
-        "word": "ComfyUI",
-        "note": "画面上で部品をつなげて自分好みの画像生成AIの仕組みを作れる無料のソフトウエア。"
+        "word": "エージェントタスク",
+        "note": "AIが指示に従って複数の手順を自動で実行する機能のこと"
+      },
+      "category": "新モデル",
+      "score": 3,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "title_en": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "published": "2026-10-17T02:40:38Z",
+      "summary_only": false,
+      "also_in": [
+        "hn"
+      ]
+    },
+    {
+      "id": "93fa5d2ce7",
+      "title_ja": "画像生成AI「FLUX 3 Image Klein」が公開",
+      "what": "文章からの画像生成や画像の編集ができるオープンなAIモデルが公開された。",
+      "new": "1つのモデルで画像生成と複数の参考画像を使った編集ができるようになった。",
+      "impact": "指示文を変えるだけで画像の編集や要素の配置変更が手軽に行えるようになる。",
+      "term": {
+        "word": "画像生成AI",
+        "note": "文章で指示を出すことで、AIが自動で画像を新しく作り出す技術のこと。"
       },
       "category": "画像・動画",
       "score": 3,
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
       "source": "hf_models",
       "source_name": "HF Trending Models",
-      "title_en": "black-forest-labs/flux-3-image-klein-comfy",
-      "published": "2026-10-14T12:00:13Z",
+      "title_en": "black-forest-labs/flux-3-image-klein",
+      "published": "2026-10-13T10:58:40Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "3089694495",
-      "title_ja": "人物や車両を数秒で探せるAI防犯カメラツール",
-      "what": "数秒で人や車を見つけ出せる無料のAI防犯カメラシステムが登場した。",
-      "new": "映像の中から特定の人物や車両をわずか数秒で素早く見つけられる点。",
-      "impact": "防犯カメラの映像から目的の人や車を探す作業の時間が大幅に短縮できる。",
+      "id": "9ec937773b",
+      "title_ja": "Claudeが暗号の標準規格の謎を解明",
+      "what": "Claudeが長年不明だった暗号の標準規格の生成元の謎を解明した。",
+      "new": "1990年代の乱数生成器を使ったシンプルな方法で作られていたことが判明した。",
+      "impact": "暗号に意図的な弱点はないことが分かり、より安心して利用できるようになる。",
       "term": {
-        "word": "NVR",
-        "note": "ネットワーク・ビデオ・レコーダーの略で、防犯カメラの映像を記録して保存する機器のこと。"
+        "word": "ECDSA",
+        "note": "インターネット通信などで広く使われている暗号の規格の1つ。"
       },
-      "category": "便利なツール",
+      "category": "研究・論文",
       "score": 3,
-      "url": "https://www.producthunt.com/products/grablo-spot",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Grablo Spot",
-      "published": "2026-10-15T11:36:40Z",
-      "summary_only": true,
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Claude reveals ECDSA curve origins",
+      "published": "2026-10-16T18:55:59Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "3afd26c799",
-      "title_ja": "Macに話しかけてどこからでも操作できるツール",
-      "what": "Macに向けて話しかけることで、どこからでも指示を出せるツールが登場した。",
-      "new": "文字入力ではなく音声で、あらゆる画面からMacを操作できる点が新しい。",
-      "impact": "PC作業の効率が上がり、手を動かさずに簡単な操作ができるようになる。",
-      "term": null,
+      "id": "1fbfa5c288",
+      "title_ja": "自分の気持ちをアートで理解する音声日記Emochi",
+      "what": "科学とアートを使って自分を理解するための音声日記アプリが登場した。",
+      "new": "音声を通じて自分の感情や考えを記録し、客観的に理解できるようになっている。",
+      "impact": "自分の内面を振り返ることで、日々のストレス解消やメンタル管理に役立つ。",
+      "term": {
+        "word": "音声日記",
+        "note": "文字ではなく、声でその日の出来事や気持ちを録音して残す日記のことです。"
+      },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/mermaid",
+      "url": "https://www.producthunt.com/products/emochi-2",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Mermaid",
-      "published": "2026-10-14T23:06:13Z",
+      "title_en": "Emochi",
+      "published": "2026-10-16T07:43:37Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 36,
-    "candidates": 24,
-    "ranked": 24,
+    "collected": 19,
+    "candidates": 10,
+    "ranked": 10,
     "selected": 5,
-    "llm_calls": 11,
+    "llm_calls": 12,
     "providers": [
-      "gemini"
+      "gemini",
+      "groq"
     ],
-    "seconds": 86.2
+    "seconds": 125.4
   }
 }
