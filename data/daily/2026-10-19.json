@@ -1,0 +1,102 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "fa79682430",
+      "impact": "従業員の労働組合に関する活動が企業に監視され、労働者の権利や交渉力に影響を与える可能性がある。",
+      "new": "社内の予測AIツールがSNSや内部アンケートなどのデータから倉庫ごとのリスクを数値化し、組合活動の兆候を察知している点。",
+      "published": "2026-10-17T16:04:23Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "労働者が会社に対して賃金の引き上げや働きやすい環境を求めるために作る組織。",
+        "word": "労働組合"
+      },
+      "title_en": "Amazon uses AI to monitor union risk in UK warehouses",
+      "title_ja": "AmazonがAIを使って労働組合の動きを監視",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "what": "Amazonが従業員の労働組合結成の動きを予測するため、AIツールを使っていることが内部文書で判明した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "66d5720ec8",
+      "impact": "AI企業による社会貢献への投資姿勢が明確になり、今後の業界の責任ある発展に期待が持てる",
+      "new": "企業価値が上がるほど、社会貢献に充てる株式の割合が増える仕組みを導入した",
+      "published": "2026-10-18T23:59:59Z",
+      "score": 3,
+      "source": "anthropic",
+      "source_name": "Anthropic News",
+      "summary_only": false,
+      "term": {
+        "note": "社会の利益を追求することを目的に設立された法人の形態で、利益追求だけでなく社会的責任も重視する",
+        "word": "公益法人"
+      },
+      "title_en": "Investing in the public benefit",
+      "title_ja": "Anthropic、企業価値上昇で社会貢献株を増やす仕組み発表",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "what": "Anthropicが株式の一部を社会貢献基金に充て、企業成長に応じてその割合を拡大する方針を発表した"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a6b5383ed1",
+      "impact": "AIとのやり取りをゲーム感覚で楽しみながら、学習や確認の効率を上げられる可能性がある。",
+      "new": "AIへの質問を、Duolingoのようなゲーム形式で体験できる点が新しい。",
+      "published": "2026-10-17T10:14:13Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "英語学習アプリとして知られるDuolingoは、ゲーム要素を取り入れた学習メソッドで有名です。",
+        "word": "Duolingo-style"
+      },
+      "title_en": "Tomo for ChatGPT",
+      "title_ja": "ChatGPTの質問をゲーム風に体験できるTomo",
+      "url": "https://www.producthunt.com/products/tomo-for-chatgpt",
+      "what": "ChatGPT向けのツールTomoが、質問をゲーム形式で体験できる機能を備えている。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c167c712ef",
+      "impact": "",
+      "new": "",
+      "published": "2026-10-16T21:46:17Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "MyLens",
+      "title_ja": "AIで大量のライブプレゼンを実現するMyLens",
+      "url": "https://www.producthunt.com/products/mylens-ai",
+      "what": "AIを活用して大規模なライブプレゼンテーションを行うツールMyLensが公開された。"
+    }
+  ],
+  "date": "2026-10-19",
+  "digest": [
+    "AmazonがAIで組合結成を監視",
+    "Anthropicが社会貢献株の仕組み発表",
+    "ChatGPTのゲーム化ツールTomo登場"
+  ],
+  "generated_at": "2026-10-18T19:27:53.431235Z",
+  "mascot_line": "今日は穏やかなお天気。AIの新しい使い方を、ゆっくり楽しみましょう。",
+  "stats": {
+    "candidates": 6,
+    "collected": 18,
+    "llm_calls": 9,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 6,
+    "seconds": 139.0,
+    "selected": 4
+  },
+  "weather": "sunny"
+}

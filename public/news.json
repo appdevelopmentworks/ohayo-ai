@@ -1,127 +1,102 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-17T19:27:56.599951Z",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-18T19:27:53.431235Z",
   "weather": "sunny",
   "digest": [
-    "DeepSeekが画像や長文に強い新モデルを公開した",
-    "FLUXが画像生成と編集ができる新モデルを発表",
-    "Claudeが暗号規格の謎を解き音声日記アプリも登場"
+    "AmazonがAIで組合結成を監視",
+    "Anthropicが社会貢献株の仕組み発表",
+    "ChatGPTのゲーム化ツールTomo登場"
   ],
-  "mascot_line": "おはよう！今日はすてきなAIニュースが盛りだくさんだね！おだやかな一日を楽しもう！",
+  "mascot_line": "今日は穏やかなお天気。AIの新しい使い方を、ゆっくり楽しみましょう。",
   "articles": [
     {
-      "id": "1fd6dd971a",
-      "title_ja": "DeepSeekが新モデル「V4.1 Flash 1017」を公開",
-      "what": "DeepSeekが画像理解や長文処理に強い新型AIモデル「V4.1 Flash 1017」を公開した。",
-      "new": "新しい構造を採用し、コストを抑えながら高速で複雑な作業を実行できるようになっている。",
-      "impact": "プログラミングや複雑な作業を効率的かつ低コストで自動化しやすくなる。",
+      "id": "fa79682430",
+      "title_ja": "AmazonがAIを使って労働組合の動きを監視",
+      "what": "Amazonが従業員の労働組合結成の動きを予測するため、AIツールを使っていることが内部文書で判明した。",
+      "new": "社内の予測AIツールがSNSや内部アンケートなどのデータから倉庫ごとのリスクを数値化し、組合活動の兆候を察知している点。",
+      "impact": "従業員の労働組合に関する活動が企業に監視され、労働者の権利や交渉力に影響を与える可能性がある。",
       "term": {
-        "word": "API",
-        "note": "AIの機能やデータを外部のアプリから利用できるようにする仕組みのこと。"
+        "word": "労働組合",
+        "note": "労働者が会社に対して賃金の引き上げや働きやすい環境を求めるために作る組織。"
       },
-      "category": "新モデル",
+      "category": "注目トピック",
       "score": 4,
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "published": "2026-10-17T08:37:46Z",
+      "title_en": "Amazon uses AI to monitor union risk in UK warehouses",
+      "published": "2026-10-17T16:04:23Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "9b13d6a721",
-      "title_ja": "DeepSeekが高速・低コストな新AIモデルを公開",
-      "what": "DeepSeekが既存モデルの改良版としてDeepSeek-V4.1-Flash-1017を公開した",
-      "new": "推論やコーディングの精度が向上し、処理時間と出力長が短縮された",
-      "impact": "AIを使った作業が速く、コストを抑えられるようになる可能性がある",
+      "id": "66d5720ec8",
+      "title_ja": "Anthropic、企業価値上昇で社会貢献株を増やす仕組み発表",
+      "what": "Anthropicが株式の一部を社会貢献基金に充て、企業成長に応じてその割合を拡大する方針を発表した",
+      "new": "企業価値が上がるほど、社会貢献に充てる株式の割合が増える仕組みを導入した",
+      "impact": "AI企業による社会貢献への投資姿勢が明確になり、今後の業界の責任ある発展に期待が持てる",
       "term": {
-        "word": "エージェントタスク",
-        "note": "AIが指示に従って複数の手順を自動で実行する機能のこと"
+        "word": "公益法人",
+        "note": "社会の利益を追求することを目的に設立された法人の形態で、利益追求だけでなく社会的責任も重視する"
       },
-      "category": "新モデル",
+      "category": "注目トピック",
       "score": 3,
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source": "hf_models",
-      "source_name": "HF Trending Models",
-      "title_en": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "published": "2026-10-17T02:40:38Z",
-      "summary_only": false,
-      "also_in": [
-        "hn"
-      ]
-    },
-    {
-      "id": "93fa5d2ce7",
-      "title_ja": "画像生成AI「FLUX 3 Image Klein」が公開",
-      "what": "文章からの画像生成や画像の編集ができるオープンなAIモデルが公開された。",
-      "new": "1つのモデルで画像生成と複数の参考画像を使った編集ができるようになった。",
-      "impact": "指示文を変えるだけで画像の編集や要素の配置変更が手軽に行えるようになる。",
-      "term": {
-        "word": "画像生成AI",
-        "note": "文章で指示を出すことで、AIが自動で画像を新しく作り出す技術のこと。"
-      },
-      "category": "画像・動画",
-      "score": 3,
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-      "source": "hf_models",
-      "source_name": "HF Trending Models",
-      "title_en": "black-forest-labs/flux-3-image-klein",
-      "published": "2026-10-13T10:58:40Z",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "anthropic",
+      "source_name": "Anthropic News",
+      "title_en": "Investing in the public benefit",
+      "published": "2026-10-18T23:59:59Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "9ec937773b",
-      "title_ja": "Claudeが暗号の標準規格の謎を解明",
-      "what": "Claudeが長年不明だった暗号の標準規格の生成元の謎を解明した。",
-      "new": "1990年代の乱数生成器を使ったシンプルな方法で作られていたことが判明した。",
-      "impact": "暗号に意図的な弱点はないことが分かり、より安心して利用できるようになる。",
+      "id": "a6b5383ed1",
+      "title_ja": "ChatGPTの質問をゲーム風に体験できるTomo",
+      "what": "ChatGPT向けのツールTomoが、質問をゲーム形式で体験できる機能を備えている。",
+      "new": "AIへの質問を、Duolingoのようなゲーム形式で体験できる点が新しい。",
+      "impact": "AIとのやり取りをゲーム感覚で楽しみながら、学習や確認の効率を上げられる可能性がある。",
       "term": {
-        "word": "ECDSA",
-        "note": "インターネット通信などで広く使われている暗号の規格の1つ。"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Claude reveals ECDSA curve origins",
-      "published": "2026-10-16T18:55:59Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "1fbfa5c288",
-      "title_ja": "自分の気持ちをアートで理解する音声日記Emochi",
-      "what": "科学とアートを使って自分を理解するための音声日記アプリが登場した。",
-      "new": "音声を通じて自分の感情や考えを記録し、客観的に理解できるようになっている。",
-      "impact": "自分の内面を振り返ることで、日々のストレス解消やメンタル管理に役立つ。",
-      "term": {
-        "word": "音声日記",
-        "note": "文字ではなく、声でその日の出来事や気持ちを録音して残す日記のことです。"
+        "word": "Duolingo-style",
+        "note": "英語学習アプリとして知られるDuolingoは、ゲーム要素を取り入れた学習メソッドで有名です。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/emochi-2",
+      "url": "https://www.producthunt.com/products/tomo-for-chatgpt",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Emochi",
-      "published": "2026-10-16T07:43:37Z",
+      "title_en": "Tomo for ChatGPT",
+      "published": "2026-10-17T10:14:13Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "c167c712ef",
+      "title_ja": "AIで大量のライブプレゼンを実現するMyLens",
+      "what": "AIを活用して大規模なライブプレゼンテーションを行うツールMyLensが公開された。",
+      "new": "",
+      "impact": "",
+      "term": null,
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/mylens-ai",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "MyLens",
+      "published": "2026-10-16T21:46:17Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 19,
-    "candidates": 10,
-    "ranked": 10,
-    "selected": 5,
-    "llm_calls": 12,
+    "collected": 18,
+    "candidates": 6,
+    "ranked": 6,
+    "selected": 4,
+    "llm_calls": 9,
     "providers": [
       "gemini",
       "groq"
     ],
-    "seconds": 125.4
+    "seconds": 139.0
   }
 }
