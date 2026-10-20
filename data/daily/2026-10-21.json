@@ -1,0 +1,204 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "744b0da415",
+      "impact": "動画コンテンツの制作コストを下げて素早く作れるようになる。",
+      "new": "高頻度で動画を作るクリエイター向けに最適化されている点。",
+      "published": "2026-10-19T17:51:17Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "AIを使って新しい動画を作り出すツールの新しいバージョン。",
+        "word": "Kling 4.0"
+      },
+      "title_en": "Kling 4.0",
+      "title_ja": "手頃な価格で高速な動画生成AI「Kling 4.0」",
+      "url": "https://www.producthunt.com/products/kling-4-0-4",
+      "what": "クリエイター向けの高速で手頃なAI動画生成ツール「Kling 4.0」が登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "81a6c4bd30",
+      "impact": "自分の用途に合わせたロボットを導入して作業を自動化できるようになる。",
+      "new": "もっともカスタマイズ性能が高いヒューマノイドロボットを購入できる。",
+      "published": "2026-10-19T14:30:18Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間のような見た目や動きをするロボットのこと。",
+        "word": "ヒューマノイドロボット"
+      },
+      "title_en": "Asimov 1",
+      "title_ja": "自由にカスタマイズできるヒューマノイドロボット",
+      "url": "https://www.producthunt.com/products/asimov-1",
+      "what": "購入して自由にカスタマイズできるヒューマノイドロボットが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "efa8c4c666",
+      "impact": "AIチャットボットに相談した際に、本来知るべき権利や窓口の案内が省かれてしまう可能性がある。",
+      "new": "ユーザーには見えずAIだけが読める指示で、相談者に規制当局や法律を案内しないよう制限していたこと。",
+      "published": "2026-10-19T23:22:18Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間の言葉を理解して自然な文章を作り出す、AIチャットボットなどの仕組みのこと。",
+        "word": "LLM"
+      },
+      "title_en": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "title_ja": "WhatsAppのヘルプにAI向けの隠し指示が見つかる",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "what": "WhatsAppのヘルプページに、AIに対して特定の案内をしないよう命じる隠しテキストが含まれていた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "dbaa902542",
+      "impact": "バイオ医薬品の開発スピードが上がり、新しい治療法が早く届くようになる。",
+      "new": "医薬品開発を加速させるAI活用の仕組みをライフサイエンス分野に持ち込むこと。",
+      "published": "2026-10-20T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "生物学や医学など、生命や医療に関する研究や分野のこと。",
+        "word": "ライフサイエンス"
+      },
+      "title_en": "OpenAI acquires Orchestra Bio",
+      "title_ja": "OpenAIがライフサイエンス企業のOrchestra Bioを買収",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "what": "OpenAIがライフサイエンス分野の研究開発を支援するOrchestra Bioを買収した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "51014c90bd",
+      "impact": "AIを使うことで、専門知識がなくても楽しいゲームが手軽に作れるようになる。",
+      "new": "AIに「もっと面白くして」と指示してゲーム性を高め、音声を使った周辺機器同士の対戦に対応した。",
+      "published": "2026-10-20T19:34:19Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": true,
+      "term": {
+        "note": "リアルタイムで進行する状況を見て、部隊を指示しながら戦う戦略ゲームのこと。",
+        "word": "RTS"
+      },
+      "title_en": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "title_ja": "AIで作ったリアルタイム戦略ゲームを公開",
+      "url": "https://simonw.github.io/battledrones/",
+      "what": "AIを活用して開発した「Battle Drones」という対戦ゲームが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "9d88983a2b",
+      "impact": "動画編集の作業をAIに手伝ってもらうことで効率よく進められるようになる。",
+      "new": "AIが人と協力しながら動画編集を行う新しい仕組みを取り入れている点。",
+      "published": "2026-10-20T03:08:40Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて仕事を進めてくれる自立したAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Lugh Xtudio",
+      "title_ja": "AIエージェントと一緒に動画編集ができるLugh Xtudio",
+      "url": "https://www.producthunt.com/products/lugh-xtudio",
+      "what": "AIエージェントが一緒に動画を編集してくれる動画スタジオツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "17421902b2",
+      "impact": "ポスターやメモなどの文字入り画像を思い通りに作りやすくなり、デザイン作業の効率が上がる。",
+      "new": "自然言語だけでなく、タグの配列やJSONレイアウトを使って文字の配置や物体の位置を細かく制御できる。",
+      "published": "2026-10-11T07:01:17Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "文章で指示を入力するだけで、AIが自動でイラストや写真などの画像を作り出す技術のこと。",
+        "word": "テキストから画像"
+      },
+      "title_en": "OpenMOSS-Team/MOSS-Image-SFT",
+      "title_ja": "文字や配置を細かく指定できる画像生成AI「MOSS-Image-SFT」が公開",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "what": "OpenMOSSが、文字入れや配置の制御に対応した画像生成AIモデル「MOSS-Image-SFT」を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "84db187a27",
+      "impact": "思い通りの位置に文字や図形を配置した画像を簡単に作れるようになる。",
+      "new": "自然言語だけでなく、JSONレイアウトを使ってテキストの配置やオブジェクトの位置を細かく指定できる。",
+      "published": "2026-10-11T06:49:17Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "AIに言葉で指示を出すことで、自動的にイラストや写真を作り出す技術のこと。",
+        "word": "テキストから画像"
+      },
+      "title_en": "OpenMOSS-Team/MOSS-Image-Base",
+      "title_ja": "文字や配置を指定して画像を生成できるAIモデルが登場",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "what": "OpenMOSSが文字やオブジェクトの配置を制御できる画像生成モデルMOSS-Image-Baseを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c94ac81ec8",
+      "impact": "電話対応の自動化が進み、問い合わせ業務などの手間を減らせるようになる。",
+      "new": "AIに専用の電話を持たせて音声でのやり取りができる点が新しい。",
+      "published": "2026-10-19T18:24:29Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて仕事や作業を自動でこなしてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "call4me",
+      "title_ja": "AIエージェントに電話機能を持たせるcall4me",
+      "url": "https://www.producthunt.com/products/call4me",
+      "what": "AIエージェントが電話を発信したり応答したりできるようになるツールが登場した。"
+    }
+  ],
+  "date": "2026-10-21",
+  "digest": [
+    "動画や画像生成AIがさらに進化して登場した",
+    "カスタマイズ可能なロボットやゲームが公開された",
+    "OpenAIの買収やAIの新たな機能が話題だ"
+  ],
+  "generated_at": "2026-10-20T20:40:23.055143Z",
+  "mascot_line": "おはようAI！今日はとてもおだやかな日だね。新しいツールを使って楽しく学ぼう！",
+  "stats": {
+    "candidates": 33,
+    "collected": 38,
+    "llm_calls": 11,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 33,
+    "seconds": 62.8,
+    "selected": 9
+  },
+  "weather": "sunny"
+}

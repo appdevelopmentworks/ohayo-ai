@@ -1,119 +1,204 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:34:51.921570Z",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-20T20:40:23.055143Z",
   "weather": "sunny",
   "digest": [
-    "Mistralが時系列予測AI「Timestral」を公開",
-    "CERNとMistralが科学分野のAI活用で提携",
-    "GPT-6-Astraのロボット制御能力を検証"
+    "動画や画像生成AIがさらに進化して登場した",
+    "カスタマイズ可能なロボットやゲームが公開された",
+    "OpenAIの買収やAIの新たな機能が話題だ"
   ],
-  "mascot_line": "今日は穏やかなAI日和。新しい発見が待っていますよ。",
+  "mascot_line": "おはようAI！今日はとてもおだやかな日だね。新しいツールを使って楽しく学ぼう！",
   "articles": [
     {
-      "id": "3a11e60ee8",
-      "title_ja": "Mistralが時系列予測AI「Timestral」を公開",
-      "what": "Mistralが、効率的で精度の高い時系列データの予測AIモデル「Timestral」を発表した。",
-      "new": "小さな規模でありながら主要な公開ベンチマークで高い性能を達成し、CPUでも効率よく動作する。",
-      "impact": "工場や金融などの現場で、センサーデータや数値の将来予測をより速く正確に行えるようになる。",
+      "id": "744b0da415",
+      "title_ja": "手頃な価格で高速な動画生成AI「Kling 4.0」",
+      "what": "クリエイター向けの高速で手頃なAI動画生成ツール「Kling 4.0」が登場した。",
+      "new": "高頻度で動画を作るクリエイター向けに最適化されている点。",
+      "impact": "動画コンテンツの制作コストを下げて素早く作れるようになる。",
       "term": {
-        "word": "時系列データ",
-        "note": "気温や売上、センサーの数値など、時間とともに変化するデータの流れのこと。"
+        "word": "Kling 4.0",
+        "note": "AIを使って新しい動画を作り出すツールの新しいバージョン。"
       },
-      "category": "新モデル",
+      "category": "画像・動画",
       "score": 3,
-      "url": "https://mistral.ai/news/timestral/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Timestral: Mistral's time-series foundation models",
-      "published": "2026-10-19T09:59:32Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "dd8ec3bec8",
-      "title_ja": "CERNとMistralが科学分野のAI活用で提携",
-      "what": "欧州原子核研究機構とMistralが、科学のためのAI発展を目指し戦略的パートナーシップに合意した。",
-      "new": "素粒子物理学向けの単一の巨大物理学モデルの開発を共同で進める点。",
-      "impact": "将来的に科学分野全体のデータ分析や研究を大きく加速させる可能性がある。",
-      "term": {
-        "word": "ファンデーションモデル",
-        "note": "様々なタスクに対応できる、AIの中核となる大規模な基盤モデルのこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-      "published": "2026-10-19T15:28:24Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "6a6a7d7185",
-      "title_ja": "GPT-6-Astraがロボット制御の能力を検証",
-      "what": "研究者らがロボット操作や移動におけるGPT-6-Astraの性能を大規模に評価した。",
-      "new": "単一の汎用モデルで多様なロボットや課題に対応できる可能性と実世界での課題を示した。",
-      "impact": "将来的にロボットの動作制御がより賢く汎用的になる可能性がある。",
-      "term": {
-        "word": "ロボット工学",
-        "note": "機械を動かして人間のような作業や移動をさせる技術分野のこと。"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2610.22471",
-      "source": "hf_papers",
-      "source_name": "HF Daily Papers",
-      "title_en": "Has GPT-6-Astra Achieved Embodied Intelligence?",
-      "published": "2026-10-19T00:00:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "b9cf5d1895",
-      "title_ja": "複数のツールを横断して検索できるQuello",
-      "what": "普段使っている様々なサービスをまとめて検索できるツールが登場した。",
-      "new": "個別に探す手間を省き、使っているものすべてを一度に質問できること。",
-      "impact": "仕事で使う複数のアプリから必要な情報を素早く見つけられるようになる。",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/quello",
+      "url": "https://www.producthunt.com/products/kling-4-0-4",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Quello",
-      "published": "2026-10-18T20:04:48Z",
+      "title_en": "Kling 4.0",
+      "published": "2026-10-19T17:51:17Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "fe99d60e5d",
-      "title_ja": "データを自分で管理するAI端末「Own 1」",
-      "what": "自分のデータとAIを自分で所有できる「Own 1」という製品が紹介された。",
-      "new": "データを手元で管理しながらAIを利用できる新しい仕組みを取り入れている。",
-      "impact": "自分のデータを他企業に預けずにAIを活用できるようになる。",
-      "term": null,
+      "id": "81a6c4bd30",
+      "title_ja": "自由にカスタマイズできるヒューマノイドロボット",
+      "what": "購入して自由にカスタマイズできるヒューマノイドロボットが登場した。",
+      "new": "もっともカスタマイズ性能が高いヒューマノイドロボットを購入できる。",
+      "impact": "自分の用途に合わせたロボットを導入して作業を自動化できるようになる。",
+      "term": {
+        "word": "ヒューマノイドロボット",
+        "note": "人間のような見た目や動きをするロボットのこと。"
+      },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+      "url": "https://www.producthunt.com/products/asimov-1",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Own 1",
-      "published": "2026-10-18T08:46:56Z",
+      "title_en": "Asimov 1",
+      "published": "2026-10-19T14:30:18Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "efa8c4c666",
+      "title_ja": "WhatsAppのヘルプにAI向けの隠し指示が見つかる",
+      "what": "WhatsAppのヘルプページに、AIに対して特定の案内をしないよう命じる隠しテキストが含まれていた。",
+      "new": "ユーザーには見えずAIだけが読める指示で、相談者に規制当局や法律を案内しないよう制限していたこと。",
+      "impact": "AIチャットボットに相談した際に、本来知るべき権利や窓口の案内が省かれてしまう可能性がある。",
+      "term": {
+        "word": "LLM",
+        "note": "人間の言葉を理解して自然な文章を作り出す、AIチャットボットなどの仕組みのこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "published": "2026-10-19T23:22:18Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "dbaa902542",
+      "title_ja": "OpenAIがライフサイエンス企業のOrchestra Bioを買収",
+      "what": "OpenAIがライフサイエンス分野の研究開発を支援するOrchestra Bioを買収した。",
+      "new": "医薬品開発を加速させるAI活用の仕組みをライフサイエンス分野に持ち込むこと。",
+      "impact": "バイオ医薬品の開発スピードが上がり、新しい治療法が早く届くようになる。",
+      "term": {
+        "word": "ライフサイエンス",
+        "note": "生物学や医学など、生命や医療に関する研究や分野のこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "title_en": "OpenAI acquires Orchestra Bio",
+      "published": "2026-10-20T00:00:00Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "51014c90bd",
+      "title_ja": "AIで作ったリアルタイム戦略ゲームを公開",
+      "what": "AIを活用して開発した「Battle Drones」という対戦ゲームが公開された。",
+      "new": "AIに「もっと面白くして」と指示してゲーム性を高め、音声を使った周辺機器同士の対戦に対応した。",
+      "impact": "AIを使うことで、専門知識がなくても楽しいゲームが手軽に作れるようになる。",
+      "term": {
+        "word": "RTS",
+        "note": "リアルタイムで進行する状況を見て、部隊を指示しながら戦う戦略ゲームのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://simonw.github.io/battledrones/",
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "title_en": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "published": "2026-10-20T19:34:19Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "9d88983a2b",
+      "title_ja": "AIエージェントと一緒に動画編集ができるLugh Xtudio",
+      "what": "AIエージェントが一緒に動画を編集してくれる動画スタジオツールが登場した。",
+      "new": "AIが人と協力しながら動画編集を行う新しい仕組みを取り入れている点。",
+      "impact": "動画編集の作業をAIに手伝ってもらうことで効率よく進められるようになる。",
+      "term": {
+        "word": "AIエージェント",
+        "note": "人間の指示を受けて、自分で考えて仕事を進めてくれる自立したAIのこと。"
+      },
+      "category": "画像・動画",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/lugh-xtudio",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Lugh Xtudio",
+      "published": "2026-10-20T03:08:40Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "17421902b2",
+      "title_ja": "文字や配置を細かく指定できる画像生成AI「MOSS-Image-SFT」が公開",
+      "what": "OpenMOSSが、文字入れや配置の制御に対応した画像生成AIモデル「MOSS-Image-SFT」を公開した。",
+      "new": "自然言語だけでなく、タグの配列やJSONレイアウトを使って文字の配置や物体の位置を細かく制御できる。",
+      "impact": "ポスターやメモなどの文字入り画像を思い通りに作りやすくなり、デザイン作業の効率が上がる。",
+      "term": {
+        "word": "テキストから画像",
+        "note": "文章で指示を入力するだけで、AIが自動でイラストや写真などの画像を作り出す技術のこと。"
+      },
+      "category": "画像・動画",
+      "score": 3,
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "title_en": "OpenMOSS-Team/MOSS-Image-SFT",
+      "published": "2026-10-11T07:01:17Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "84db187a27",
+      "title_ja": "文字や配置を指定して画像を生成できるAIモデルが登場",
+      "what": "OpenMOSSが文字やオブジェクトの配置を制御できる画像生成モデルMOSS-Image-Baseを公開した。",
+      "new": "自然言語だけでなく、JSONレイアウトを使ってテキストの配置やオブジェクトの位置を細かく指定できる。",
+      "impact": "思い通りの位置に文字や図形を配置した画像を簡単に作れるようになる。",
+      "term": {
+        "word": "テキストから画像",
+        "note": "AIに言葉で指示を出すことで、自動的にイラストや写真を作り出す技術のこと。"
+      },
+      "category": "画像・動画",
+      "score": 3,
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "title_en": "OpenMOSS-Team/MOSS-Image-Base",
+      "published": "2026-10-11T06:49:17Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "c94ac81ec8",
+      "title_ja": "AIエージェントに電話機能を持たせるcall4me",
+      "what": "AIエージェントが電話を発信したり応答したりできるようになるツールが登場した。",
+      "new": "AIに専用の電話を持たせて音声でのやり取りができる点が新しい。",
+      "impact": "電話対応の自動化が進み、問い合わせ業務などの手間を減らせるようになる。",
+      "term": {
+        "word": "AIエージェント",
+        "note": "人間の指示を受けて、自分で考えて仕事や作業を自動でこなしてくれるAIのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/call4me",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "call4me",
+      "published": "2026-10-19T18:24:29Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 19,
-    "candidates": 12,
-    "ranked": 12,
-    "selected": 5,
-    "llm_calls": 9,
+    "collected": 38,
+    "candidates": 33,
+    "ranked": 33,
+    "selected": 9,
+    "llm_calls": 11,
     "providers": [
-      "gemini",
-      "groq"
+      "gemini"
     ],
-    "seconds": 44.4
+    "seconds": 62.8
   }
 }
