@@ -1,206 +1,182 @@
 {
-  "date": "2026-10-23",
-  "generated_at": "2026-10-22T20:35:48.966640Z",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-23T20:30:17.996122Z",
   "weather": "sunny",
   "digest": [
-    "Mistral社が新型AIモデルを発表した",
-    "企業での業務効率化ツールが続々と導入された",
-    "衛星データを活用したAIやマップが公開された"
+    "Kimiが新型AI「K3.1 Pro」を公開し能力向上",
+    "スウェーデン政府がChatGPT等の利用を制限",
+    "ローカル実行のAIツールが相次いで登場"
   ],
-  "mascot_line": "おはようAI！今日はとてもおだやかな日だね。新しいツールを使って楽しく学ぼう！",
+  "mascot_line": "今日は穏やかなお天気。新しいAIツールで、のびのびと一日を過ごしましょう！",
   "articles": [
     {
-      "id": "820bd24a41",
-      "title_ja": "Mistralが新型AI「Mistral Large 4」を発表",
-      "what": "Mistral社が、公開プレビュー版となる最新のAIモデル「Mistral Large 4」を発表した。",
-      "new": "プログラミングやサイバーセキュリティなどの分野で優れた性能を持ち、月末にモデルの重みデータが公開される予定である。",
-      "impact": "企業が自社の管理下で高度なAIを使えるようになり、セキュリティ業務や業務自動化が効率化される。",
+      "id": "3599c9715b",
+      "title_ja": "Kimiが新型AI「Kimi K3.1 Pro」を発表",
+      "what": "Kimiが新型AI「Kimi K3.1 Pro」と高速版を公開した。",
+      "new": "プログラミングや3D作成、金融調査の能力が大きく向上した。",
+      "impact": "複雑な仕事や3Dデータの作成をAIで効率的に行えるようになる。",
       "term": {
-        "word": "オープンウェイト",
-        "note": "AIの頭脳にあたるデータを公開し、誰でも自分の環境で自由に動かせるようにする仕組みのこと。"
+        "word": "コンテキストウィンドウ",
+        "note": "AIが一度に読み込んで記憶できる文章の量のこと。"
       },
       "category": "新モデル",
       "score": 4,
-      "url": "https://mistral.ai/news/mistral-large-4/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Mistral Large 4",
-      "published": "2026-10-21T19:20:55Z",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "title_en": "Introducing Kimi K3.1 Pro",
+      "published": "2026-10-23T19:40:54Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "e394b2ab00",
-      "title_ja": "注意すべきことを自動で理解するClaude Duet",
-      "what": "あなたの注意が必要なことを理解して積極的に動くエージェントが登場した。",
-      "new": "何に注目すべきかを自ら理解して動く点。",
-      "impact": "見落としを防ぎ、仕事の効率が上がる可能性がある。",
+      "id": "9174a0a001",
+      "title_ja": "スウェーデン政府がChatGPTやClaudeを禁止へ",
+      "what": "スウェーデンの政府機関が職員のパソコンからChatGPTやClaudeの利用を制限した。",
+      "new": "情報セキュリティ上のリスクを懸念し、業務用の端末で承認されたAI以外の利用をブロックしたこと。",
+      "impact": "業務でAIを使う際のルールが厳しくなり、指定された安全性の高いツールへの移行が進む。",
       "term": {
-        "word": "エージェント",
-        "note": "人間の代わりに指示を理解して自律的に作業を進めてくれるAIプログラムのことです。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/claude",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Claude Duet",
-      "published": "2026-10-21T19:40:23Z",
-      "summary_only": true,
-      "also_in": [
-        "hn"
-      ]
-    },
-    {
-      "id": "ba6fa07d67",
-      "title_ja": "Uberが全従業員向けにChatGPT Workを導入",
-      "what": "Uberが3万人以上の従業員に向けてChatGPT Workの導入を進めている。",
-      "new": "多くのチームが調査やデータ分析、資料作成などに活用できるようになったこと。",
-      "impact": "企業の業務効率化が進み、同様のAIツールを仕事に取り入れる動きが広がる可能性がある。",
-      "term": {
-        "word": "ChatGPT Work",
-        "note": "仕事の効率化やデータの安全性を高めた、企業向けの対話型AIサービスのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "published": "2026-10-22T00:00:00Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "5e43f0ec66",
-      "title_ja": "チャットや会議をリアルタイムで音声翻訳するSponkly",
-      "what": "チャットや通話、会議、YouTubeなどの音声をリアルタイムで翻訳する機能を提供する。",
-      "new": "チャットから動画配信まで幅広い場面でのライブ音声翻訳に対応している点が新しい。",
-      "impact": "海外の動画視聴やオンライン会議での言語の壁を越えたコミュニケーションがスムーズになる。",
-      "term": {
-        "word": "音声翻訳",
-        "note": "話した言葉をリアルタイムで別の言語に翻訳して伝える機能のこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/sponkly",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Sponkly",
-      "published": "2026-10-21T23:31:26Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "655df0fb22",
-      "title_ja": "Googleなどが世界の森林の種類を分類するマップを公開",
-      "what": "世界中の土地を6つの森林や土地利用のタイプに分ける世界地図と変化の記録を公開した。",
-      "new": "宇宙から見える緑色をAIで分析し、自然林や植林地、農地などを10メートル単位で区別できる。",
-      "impact": "森林の保護活動や、企業の森林破壊に関する規制への対応に役立てることができる。",
-      "term": {
-        "word": "EUDR",
-        "note": "森林を破壊して作られた産品の輸入を禁止する、欧州連合の規制のこと。"
+        "word": "情報セキュリティ",
+        "note": "会社の情報やデータが外部に漏れないように守るための対策や仕組みのこと。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title_en": "Beyond tree cover: mapping the world’s forest types",
-      "published": "2026-10-22T14:30:24Z",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Swedish government offices to ban ChatGPT and Claude",
+      "published": "2026-10-23T11:39:54Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "bb98b7c2f0",
-      "title_ja": "オランダのバンドがAIを使った新作MVを公開",
-      "what": "ロックバンドDe Staatの新しい音楽ビデオでAIによる視覚効果が使われた。",
-      "new": "音楽ビデオの視覚効果としてAI技術が活用されている。",
-      "impact": "音楽や映像の分野でAIを使った表現がさらに広がる。",
+      "id": "ce7fed74f4",
+      "title_ja": "AI企業はなぜ自社で会社を作らずに売るのか",
+      "what": "AIの性能が良いなら自社で会社を始めて製品を作った方が儲かるのではないかという疑問が議論された。",
+      "new": "最先端のAIモデルを売るより、それを使ったアプリ側で稼ぐ方が得ではないかという視点が提起された。",
+      "impact": "AIを使ったビジネスの収益構造や今後の企業の動きを考えるヒントになる。",
       "term": {
-        "word": "生成AI",
-        "note": "指示文や画像をもとに、人工知能が新しく文章や画像、動画などを作り出す技術のこと。"
+        "word": "トークン",
+        "note": "AIが文章を処理する際の単位のこと。"
       },
-      "category": "画像・動画",
+      "category": "注目トピック",
       "score": 3,
-      "url": "https://www.youtube.com/watch?v=hKO4pQtIXow",
-      "source": "simonwillison",
-      "source_name": "Simon Willison's Weblog",
-      "title_en": "DE STAAT - FREEDOM (Official Music Video)",
-      "published": "2026-10-22T19:42:26Z",
-      "summary_only": true,
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "published": "2026-10-22T21:03:55Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "eaa0ebff7d",
-      "title_ja": "衛星データAI「OlmoEarth v1.3」公開",
-      "what": "地球全体の衛星データを分析できるAIモデル「OlmoEarth v1.3」が公開された。",
-      "new": "専門知識なしで使える地図探索ツールや、地球全体の事前計算済みデータが無料提供される。",
-      "impact": "森林の変化や農作物の状態などを、手元のパソコンで簡単に調べられるようになる。",
+      "id": "374db3b919",
+      "title_ja": "さまざまなAIに人間への意見を聞くと、ほぼ同じ答えになった",
+      "what": "13のAIモデルに人間についての意見を聞いたところ、ほとんどが同じ答えを返した。",
+      "new": "異なる国や開発元のAIであっても、人間は真実よりも所属や同調を優先するという同じ批判に行き着いた。",
+      "impact": "複数のAIにアイデア出しを頼んでも、得られる発想の多様性は期待するほど広がらない可能性がある。",
+      "term": null,
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Every AI model has the same \"controversial\" take on humans",
+      "published": "2026-10-22T16:08:00Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "afa734709b",
+      "title_ja": "映画のような動画を作る新しい学習方法を提案",
+      "what": "映画のような高品質な動画を生成するための新しい学習手法FAPLを提案した。",
+      "new": "マルチモーダルAIの特徴をうまく活かし、キャラクターやカメラワークなどを細かく制御できる点。",
+      "impact": "将来的に、指示通りに細かく調整された映画のような動画をより正確に作れるようになる。",
       "term": {
-        "word": "エンベディング",
-        "note": "画像やデータの特徴を圧縮し、コンピューターが扱いやすい数値の羅列に変換したもののこと。"
+        "word": "マルチモーダルAI",
+        "note": "文字だけでなく、画像や動画など、さまざまな種類の情報を同時に理解して処理できるAIのこと。"
       },
       "category": "研究・論文",
       "score": 3,
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "hf_blog",
-      "source_name": "Hugging Face Blog",
-      "title_en": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "published": "2026-10-22T16:11:31Z",
+      "url": "https://arxiv.org/abs/2610.30926",
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "title_en": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "published": "2026-10-23T00:00:00Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "411ca4eec5",
-      "title_ja": "作業を進めてくれる個人向けAIエージェント",
-      "what": "作業をこなしてくれるオープンソースの個人向けAIエージェントが登場した。",
-      "new": "オープンソースで自由に使える個人向けのエージェント機能である点。",
-      "impact": "日々の細かな作業や雑務をAIに任せて効率よく進められるようになる。",
+      "id": "786c3f301e",
+      "title_ja": "自分のパソコンで使えるAIツールが登場",
+      "what": "個人のパソコン上で動作するAIツールが公開された。",
+      "new": "手元のパソコン内でAIを利用できる点が新しい。",
+      "impact": "自分のパソコンで手軽に高度なAI機能を使えるようになる。",
       "term": {
-        "word": "オープンソース",
-        "note": "プログラムが無償で公開されており、誰でも自由に改良や利用ができる仕組みのこと。"
+        "word": "AGI",
+        "note": "人間のようにさまざまな仕事を自分で考えてこなせる、万能な人工知能のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/bits-4",
+      "url": "https://www.producthunt.com/products/shogunai",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Bits",
-      "published": "2026-10-21T20:59:15Z",
+      "title_en": "ShogunAI",
+      "published": "2026-10-23T06:32:57Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "dda44352f8",
-      "title_ja": "好みを学習するAIフィードリーダー登場",
-      "what": "編集の好みを学習するAIフィードリーダーが登場した。",
-      "new": "ユーザーの好みをAIが学習する機能がある。",
-      "impact": "自分好みの情報収集が効率的になる。",
+      "id": "dafa6e425d",
+      "title_ja": "iPhoneのロック画面でAIエージェントが動くMonish",
+      "what": "AIエージェントをiPhoneのロック画面でライブ表示できるアプリが登場した。",
+      "new": "ロック画面から直接AIエージェントの状況や機能を使えるようになった。",
+      "impact": "スマホを開かずにAIのサポートを受けられるようになる。",
       "term": {
-        "word": "フィードリーダー",
-        "note": "Webサイトの更新情報をまとめてチェックするためのツール。"
+        "word": "AIエージェント",
+        "note": "人間の代わりに指示を理解して自律的に作業をこなしてくれるAIのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/radaric",
+      "url": "https://www.producthunt.com/products/monish",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Radaric",
-      "published": "2026-10-21T20:48:58Z",
+      "title_en": "Monish",
+      "published": "2026-10-22T14:38:26Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "0629073dd9",
+      "title_ja": "Macで使えるプライベートなChatGPT代替ツール",
+      "what": "Mac上に自分で設定できる、プライベートなChatGPTの代替ツールが登場した。",
+      "new": "外部のサーバーを使わずに、手元のMacで安全にプライベートなAI環境を構築できる。",
+      "impact": "情報漏洩の心配を減らしながら、安心して日々の業務でAIを活用できるようになる。",
+      "term": {
+        "word": "ChatGPT代替",
+        "note": "ChatGPTと同じような機能を持つ、別のサービスやソフトウェアのことです。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/gerty",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Gerty",
+      "published": "2026-10-22T14:14:10Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 43,
-    "candidates": 23,
-    "ranked": 23,
-    "selected": 9,
-    "llm_calls": 12,
+    "collected": 36,
+    "candidates": 22,
+    "ranked": 22,
+    "selected": 8,
+    "llm_calls": 13,
     "providers": [
-      "gemini"
+      "gemini",
+      "groq"
     ],
-    "seconds": 79.0
+    "seconds": 58.5
   }
 }

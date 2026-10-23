@@ -1,0 +1,182 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "3599c9715b",
+      "impact": "複雑な仕事や3Dデータの作成をAIで効率的に行えるようになる。",
+      "new": "プログラミングや3D作成、金融調査の能力が大きく向上した。",
+      "published": "2026-10-23T19:40:54Z",
+      "score": 4,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "AIが一度に読み込んで記憶できる文章の量のこと。",
+        "word": "コンテキストウィンドウ"
+      },
+      "title_en": "Introducing Kimi K3.1 Pro",
+      "title_ja": "Kimiが新型AI「Kimi K3.1 Pro」を発表",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "what": "Kimiが新型AI「Kimi K3.1 Pro」と高速版を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "9174a0a001",
+      "impact": "業務でAIを使う際のルールが厳しくなり、指定された安全性の高いツールへの移行が進む。",
+      "new": "情報セキュリティ上のリスクを懸念し、業務用の端末で承認されたAI以外の利用をブロックしたこと。",
+      "published": "2026-10-23T11:39:54Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "会社の情報やデータが外部に漏れないように守るための対策や仕組みのこと。",
+        "word": "情報セキュリティ"
+      },
+      "title_en": "Swedish government offices to ban ChatGPT and Claude",
+      "title_ja": "スウェーデン政府がChatGPTやClaudeを禁止へ",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "what": "スウェーデンの政府機関が職員のパソコンからChatGPTやClaudeの利用を制限した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "ce7fed74f4",
+      "impact": "AIを使ったビジネスの収益構造や今後の企業の動きを考えるヒントになる。",
+      "new": "最先端のAIモデルを売るより、それを使ったアプリ側で稼ぐ方が得ではないかという視点が提起された。",
+      "published": "2026-10-22T21:03:55Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが文章を処理する際の単位のこと。",
+        "word": "トークン"
+      },
+      "title_en": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "title_ja": "AI企業はなぜ自社で会社を作らずに売るのか",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "what": "AIの性能が良いなら自社で会社を始めて製品を作った方が儲かるのではないかという疑問が議論された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "374db3b919",
+      "impact": "複数のAIにアイデア出しを頼んでも、得られる発想の多様性は期待するほど広がらない可能性がある。",
+      "new": "異なる国や開発元のAIであっても、人間は真実よりも所属や同調を優先するという同じ批判に行き着いた。",
+      "published": "2026-10-22T16:08:00Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": null,
+      "title_en": "Every AI model has the same \"controversial\" take on humans",
+      "title_ja": "さまざまなAIに人間への意見を聞くと、ほぼ同じ答えになった",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "what": "13のAIモデルに人間についての意見を聞いたところ、ほとんどが同じ答えを返した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "afa734709b",
+      "impact": "将来的に、指示通りに細かく調整された映画のような動画をより正確に作れるようになる。",
+      "new": "マルチモーダルAIの特徴をうまく活かし、キャラクターやカメラワークなどを細かく制御できる点。",
+      "published": "2026-10-23T00:00:00Z",
+      "score": 3,
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "summary_only": false,
+      "term": {
+        "note": "文字だけでなく、画像や動画など、さまざまな種類の情報を同時に理解して処理できるAIのこと。",
+        "word": "マルチモーダルAI"
+      },
+      "title_en": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "title_ja": "映画のような動画を作る新しい学習方法を提案",
+      "url": "https://arxiv.org/abs/2610.30926",
+      "what": "映画のような高品質な動画を生成するための新しい学習手法FAPLを提案した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "786c3f301e",
+      "impact": "自分のパソコンで手軽に高度なAI機能を使えるようになる。",
+      "new": "手元のパソコン内でAIを利用できる点が新しい。",
+      "published": "2026-10-23T06:32:57Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間のようにさまざまな仕事を自分で考えてこなせる、万能な人工知能のこと。",
+        "word": "AGI"
+      },
+      "title_en": "ShogunAI",
+      "title_ja": "自分のパソコンで使えるAIツールが登場",
+      "url": "https://www.producthunt.com/products/shogunai",
+      "what": "個人のパソコン上で動作するAIツールが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "dafa6e425d",
+      "impact": "スマホを開かずにAIのサポートを受けられるようになる。",
+      "new": "ロック画面から直接AIエージェントの状況や機能を使えるようになった。",
+      "published": "2026-10-22T14:38:26Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに指示を理解して自律的に作業をこなしてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Monish",
+      "title_ja": "iPhoneのロック画面でAIエージェントが動くMonish",
+      "url": "https://www.producthunt.com/products/monish",
+      "what": "AIエージェントをiPhoneのロック画面でライブ表示できるアプリが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0629073dd9",
+      "impact": "情報漏洩の心配を減らしながら、安心して日々の業務でAIを活用できるようになる。",
+      "new": "外部のサーバーを使わずに、手元のMacで安全にプライベートなAI環境を構築できる。",
+      "published": "2026-10-22T14:14:10Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ChatGPTと同じような機能を持つ、別のサービスやソフトウェアのことです。",
+        "word": "ChatGPT代替"
+      },
+      "title_en": "Gerty",
+      "title_ja": "Macで使えるプライベートなChatGPT代替ツール",
+      "url": "https://www.producthunt.com/products/gerty",
+      "what": "Mac上に自分で設定できる、プライベートなChatGPTの代替ツールが登場した。"
+    }
+  ],
+  "date": "2026-10-24",
+  "digest": [
+    "Kimiが新型AI「K3.1 Pro」を公開し能力向上",
+    "スウェーデン政府がChatGPT等の利用を制限",
+    "ローカル実行のAIツールが相次いで登場"
+  ],
+  "generated_at": "2026-10-23T20:30:17.996122Z",
+  "mascot_line": "今日は穏やかなお天気。新しいAIツールで、のびのびと一日を過ごしましょう！",
+  "stats": {
+    "candidates": 22,
+    "collected": 36,
+    "llm_calls": 13,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 22,
+    "seconds": 58.5,
+    "selected": 8
+  },
+  "weather": "sunny"
+}
