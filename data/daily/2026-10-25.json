@@ -1,0 +1,81 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a8f2132df5",
+      "impact": "将来的に医療現場での病気発見の精度が上がり、正確な診断が素早く受けられるようになる。",
+      "new": "病気の診断において、従来の医師の診断よりも2倍以上優れている点が新しい。",
+      "published": "2026-10-23T19:31:36Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "title_ja": "マイクロソフトの新AI、医師の2倍以上の精度で診断か",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "what": "マイクロソフトが開発した新しいAIが、医師の2倍以上の精度で病気を診断できると発表された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7c7187ae29",
+      "impact": "データ集計や報告書の作成にかかる手間を大幅に減らすことができる。",
+      "new": "質問を一度するだけで、毎週最新のデータを自動で取得できるようになった。",
+      "published": "2026-10-23T17:51:50Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "表計算ソフトで読み込めるデータの形式のこと。",
+        "word": "CSV"
+      },
+      "title_en": "Basedash Scheduled CSV Exports",
+      "title_ja": "定期的なCSV出力を自動化できる新機能が登場",
+      "url": "https://www.producthunt.com/products/basedash",
+      "what": "Slackやメールで定期的にCSVファイルを受け取れる機能が追加された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f2ac795eea",
+      "impact": "機密情報を扱う会議や文章作成を、安全かつスムーズに行えるようになる。",
+      "new": "クラウドを使わず、手元のパソコンで文字起こしや背景作業ができる。",
+      "published": "2026-10-23T13:28:40Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "外部のサーバーにデータを送らず、自分のパソコン上で直接動くAIのこと。",
+        "word": "ローカルAI"
+      },
+      "title_en": "sideOS.ai",
+      "title_ja": "音声入力を手元で処理できるサイドオーエス",
+      "url": "https://www.producthunt.com/products/sideos-ai",
+      "what": "パソコンのなかで動く音声入力や会議向けのAIツールが登場した。"
+    }
+  ],
+  "date": "2026-10-25",
+  "digest": [
+    "マイクロソフトの新AIが医師の二倍以上の精度で診断",
+    "定期的なCSV出力を自動化できる新機能が登場",
+    "音声入力を手元で処理できる会議向けツールが登場"
+  ],
+  "generated_at": "2026-10-24T19:32:13.280863Z",
+  "mascot_line": "おはよう！今日はとてもおだやかな日だね。便利なAIツールを使って、楽しい一日をすごそう！",
+  "stats": {
+    "candidates": 9,
+    "collected": 23,
+    "llm_calls": 5,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 9,
+    "seconds": 22.9,
+    "selected": 3
+  },
+  "weather": "sunny"
+}

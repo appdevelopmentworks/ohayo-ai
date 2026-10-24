@@ -1,182 +1,81 @@
 {
-  "date": "2026-10-24",
-  "generated_at": "2026-10-23T20:30:17.996122Z",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-24T19:32:13.280863Z",
   "weather": "sunny",
   "digest": [
-    "Kimiが新型AI「K3.1 Pro」を公開し能力向上",
-    "スウェーデン政府がChatGPT等の利用を制限",
-    "ローカル実行のAIツールが相次いで登場"
+    "マイクロソフトの新AIが医師の二倍以上の精度で診断",
+    "定期的なCSV出力を自動化できる新機能が登場",
+    "音声入力を手元で処理できる会議向けツールが登場"
   ],
-  "mascot_line": "今日は穏やかなお天気。新しいAIツールで、のびのびと一日を過ごしましょう！",
+  "mascot_line": "おはよう！今日はとてもおだやかな日だね。便利なAIツールを使って、楽しい一日をすごそう！",
   "articles": [
     {
-      "id": "3599c9715b",
-      "title_ja": "Kimiが新型AI「Kimi K3.1 Pro」を発表",
-      "what": "Kimiが新型AI「Kimi K3.1 Pro」と高速版を公開した。",
-      "new": "プログラミングや3D作成、金融調査の能力が大きく向上した。",
-      "impact": "複雑な仕事や3Dデータの作成をAIで効率的に行えるようになる。",
-      "term": {
-        "word": "コンテキストウィンドウ",
-        "note": "AIが一度に読み込んで記憶できる文章の量のこと。"
-      },
-      "category": "新モデル",
-      "score": 4,
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "source": "simonwillison",
-      "source_name": "Simon Willison's Weblog",
-      "title_en": "Introducing Kimi K3.1 Pro",
-      "published": "2026-10-23T19:40:54Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "9174a0a001",
-      "title_ja": "スウェーデン政府がChatGPTやClaudeを禁止へ",
-      "what": "スウェーデンの政府機関が職員のパソコンからChatGPTやClaudeの利用を制限した。",
-      "new": "情報セキュリティ上のリスクを懸念し、業務用の端末で承認されたAI以外の利用をブロックしたこと。",
-      "impact": "業務でAIを使う際のルールが厳しくなり、指定された安全性の高いツールへの移行が進む。",
-      "term": {
-        "word": "情報セキュリティ",
-        "note": "会社の情報やデータが外部に漏れないように守るための対策や仕組みのこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Swedish government offices to ban ChatGPT and Claude",
-      "published": "2026-10-23T11:39:54Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "ce7fed74f4",
-      "title_ja": "AI企業はなぜ自社で会社を作らずに売るのか",
-      "what": "AIの性能が良いなら自社で会社を始めて製品を作った方が儲かるのではないかという疑問が議論された。",
-      "new": "最先端のAIモデルを売るより、それを使ったアプリ側で稼ぐ方が得ではないかという視点が提起された。",
-      "impact": "AIを使ったビジネスの収益構造や今後の企業の動きを考えるヒントになる。",
-      "term": {
-        "word": "トークン",
-        "note": "AIが文章を処理する際の単位のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://news.ycombinator.com/item?id=50200997",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "published": "2026-10-22T21:03:55Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "374db3b919",
-      "title_ja": "さまざまなAIに人間への意見を聞くと、ほぼ同じ答えになった",
-      "what": "13のAIモデルに人間についての意見を聞いたところ、ほとんどが同じ答えを返した。",
-      "new": "異なる国や開発元のAIであっても、人間は真実よりも所属や同調を優先するという同じ批判に行き着いた。",
-      "impact": "複数のAIにアイデア出しを頼んでも、得られる発想の多様性は期待するほど広がらない可能性がある。",
+      "id": "a8f2132df5",
+      "title_ja": "マイクロソフトの新AI、医師の2倍以上の精度で診断か",
+      "what": "マイクロソフトが開発した新しいAIが、医師の2倍以上の精度で病気を診断できると発表された。",
+      "new": "病気の診断において、従来の医師の診断よりも2倍以上優れている点が新しい。",
+      "impact": "将来的に医療現場での病気発見の精度が上がり、正確な診断が素早く受けられるようになる。",
       "term": null,
       "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "score": 4,
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Every AI model has the same \"controversial\" take on humans",
-      "published": "2026-10-22T16:08:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "afa734709b",
-      "title_ja": "映画のような動画を作る新しい学習方法を提案",
-      "what": "映画のような高品質な動画を生成するための新しい学習手法FAPLを提案した。",
-      "new": "マルチモーダルAIの特徴をうまく活かし、キャラクターやカメラワークなどを細かく制御できる点。",
-      "impact": "将来的に、指示通りに細かく調整された映画のような動画をより正確に作れるようになる。",
-      "term": {
-        "word": "マルチモーダルAI",
-        "note": "文字だけでなく、画像や動画など、さまざまな種類の情報を同時に理解して処理できるAIのこと。"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2610.30926",
-      "source": "hf_papers",
-      "source_name": "HF Daily Papers",
-      "title_en": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
-      "published": "2026-10-23T00:00:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "786c3f301e",
-      "title_ja": "自分のパソコンで使えるAIツールが登場",
-      "what": "個人のパソコン上で動作するAIツールが公開された。",
-      "new": "手元のパソコン内でAIを利用できる点が新しい。",
-      "impact": "自分のパソコンで手軽に高度なAI機能を使えるようになる。",
-      "term": {
-        "word": "AGI",
-        "note": "人間のようにさまざまな仕事を自分で考えてこなせる、万能な人工知能のこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/shogunai",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "ShogunAI",
-      "published": "2026-10-23T06:32:57Z",
+      "title_en": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "published": "2026-10-23T19:31:36Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "dafa6e425d",
-      "title_ja": "iPhoneのロック画面でAIエージェントが動くMonish",
-      "what": "AIエージェントをiPhoneのロック画面でライブ表示できるアプリが登場した。",
-      "new": "ロック画面から直接AIエージェントの状況や機能を使えるようになった。",
-      "impact": "スマホを開かずにAIのサポートを受けられるようになる。",
+      "id": "7c7187ae29",
+      "title_ja": "定期的なCSV出力を自動化できる新機能が登場",
+      "what": "Slackやメールで定期的にCSVファイルを受け取れる機能が追加された。",
+      "new": "質問を一度するだけで、毎週最新のデータを自動で取得できるようになった。",
+      "impact": "データ集計や報告書の作成にかかる手間を大幅に減らすことができる。",
       "term": {
-        "word": "AIエージェント",
-        "note": "人間の代わりに指示を理解して自律的に作業をこなしてくれるAIのこと。"
+        "word": "CSV",
+        "note": "表計算ソフトで読み込めるデータの形式のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/monish",
+      "url": "https://www.producthunt.com/products/basedash",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Monish",
-      "published": "2026-10-22T14:38:26Z",
+      "title_en": "Basedash Scheduled CSV Exports",
+      "published": "2026-10-23T17:51:50Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "0629073dd9",
-      "title_ja": "Macで使えるプライベートなChatGPT代替ツール",
-      "what": "Mac上に自分で設定できる、プライベートなChatGPTの代替ツールが登場した。",
-      "new": "外部のサーバーを使わずに、手元のMacで安全にプライベートなAI環境を構築できる。",
-      "impact": "情報漏洩の心配を減らしながら、安心して日々の業務でAIを活用できるようになる。",
+      "id": "f2ac795eea",
+      "title_ja": "音声入力を手元で処理できるサイドオーエス",
+      "what": "パソコンのなかで動く音声入力や会議向けのAIツールが登場した。",
+      "new": "クラウドを使わず、手元のパソコンで文字起こしや背景作業ができる。",
+      "impact": "機密情報を扱う会議や文章作成を、安全かつスムーズに行えるようになる。",
       "term": {
-        "word": "ChatGPT代替",
-        "note": "ChatGPTと同じような機能を持つ、別のサービスやソフトウェアのことです。"
+        "word": "ローカルAI",
+        "note": "外部のサーバーにデータを送らず、自分のパソコン上で直接動くAIのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/gerty",
+      "url": "https://www.producthunt.com/products/sideos-ai",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Gerty",
-      "published": "2026-10-22T14:14:10Z",
+      "title_en": "sideOS.ai",
+      "published": "2026-10-23T13:28:40Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 36,
-    "candidates": 22,
-    "ranked": 22,
-    "selected": 8,
-    "llm_calls": 13,
+    "collected": 23,
+    "candidates": 9,
+    "ranked": 9,
+    "selected": 3,
+    "llm_calls": 5,
     "providers": [
-      "gemini",
-      "groq"
+      "gemini"
     ],
-    "seconds": 58.5
+    "seconds": 22.9
   }
 }
