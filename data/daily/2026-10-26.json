@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "283aef7b5a",
+      "impact": "クリエイティブ業界の仕事がAIに奪われる懸念があり、ビジネスモデルの変更を迫られる可能性がある。",
+      "new": "不況ではない時期にAIの台頭と重なる形で、デジタル芸術のあらゆる分野で仕事が減っている。",
+      "published": "2026-10-24T23:11:54Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "映画、音楽、出版、デザインなど、文章や画像、映像などのコンテンツを作る仕事のこと。",
+        "word": "クリエイティブ業界"
+      },
+      "title_en": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "title_ja": "アメリカのクリエイティブ業界で雇用が減少",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "what": "アメリカのメディアや芸術分野で過去4年間に20万以上の仕事が失われた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "6597a1303e",
+      "impact": "一般の企業がAIへの投資を見直し、コストとして捉え始める可能性がある。",
+      "new": "巨額の投資にもかかわらず、多くの企業で生産性の向上や利益への効果が出ていない点。",
+      "published": "2026-10-24T19:47:19Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが文章などを処理する際のかけらや、AIの利用にかかる費用の単位のことです。",
+        "word": "トークン"
+      },
+      "title_en": "No signs of AI payoff outside the tech sector",
+      "title_ja": "IT大手以外ではAIによる利益や成果が出ていない",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "what": "アメリカの企業で、IT大手以外ではAIによる売上や利益の増加が見られていない。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "1dc75a32fc",
+      "impact": "医療分野において、万能な最新AIよりも特化した古いAIの方が実用的な場合があることがわかる。",
+      "new": "特定の目的に合わせて調整された古いAIの方が、最新の大規模AIよりも正確に皮膚がんを見分けた。",
+      "published": "2026-10-25T17:15:38Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "画像や動画の認識や分析が得意な、従来の人工知能の仕組みのことです。",
+        "word": "CNN"
+      },
+      "title_en": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "title_ja": "古い専門AIが最新の大規模言語モデルを皮膚がん診断で上回る",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "what": "皮膚科医が最新のAIと10年前の画像認識AIの皮膚がん診断精度を比較した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "81c8fd74d5",
+      "impact": "AIが出力する文章のクセを知ることで、ビジネスメールや資料作成でより読みやすい文章に直す工夫ができる。",
+      "new": "AIは人間よりも難解な表現や珍しい言葉を多く使う傾向があり、その原因が情報密度を重視する最適化にあることを示した。",
+      "published": "2026-10-24T18:04:57Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "短い文章の中にどれだけの情報を詰め込んでいるかを表す度合いのこと。",
+        "word": "情報密度"
+      },
+      "title_en": "Why is AI generated language so hard to understand?",
+      "title_ja": "AIが作る文章が分かりにくい理由を調査",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "what": "AIが作った文章が人間にとってなぜ理解しづらいのかを科学的に調査した研究が発表された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f4ec22e382",
+      "impact": "長文のやり取りや動画などの内容を素早く把握できるようになる。",
+      "new": "メッセージアプリのTelegram上で手軽に要約機能を利用できる。",
+      "published": "2026-10-24T14:42:59Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "スマートフォンやパソコンで使える人気のメッセージアプリのこと。",
+        "word": "Telegram"
+      },
+      "title_en": "Yourcast 2.0",
+      "title_ja": "TelegramでAI要約が使えるYourcast 2.0",
+      "url": "https://www.producthunt.com/products/yourcast",
+      "what": "Telegram内でAIによる要約とタップして移動できる時間表示を提供する。"
+    }
+  ],
+  "date": "2026-10-26",
+  "digest": [
+    "米国の芸術やメディア分野で雇用が減少している",
+    "IT大手以外ではAIによる利益や成果が出ていない",
+    "古い専門AIが最新の大規模モデルを診断で上回った"
+  ],
+  "generated_at": "2026-10-25T19:42:54.006553Z",
+  "mascot_line": "おだやかな晴れの日は、便利なAIツールを試してみるのによい日だね。今日も元気にいこう！",
+  "stats": {
+    "candidates": 10,
+    "collected": 16,
+    "llm_calls": 12,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 10,
+    "seconds": 75.4,
+    "selected": 5
+  },
+  "weather": "sunny"
+}

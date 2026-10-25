@@ -1,81 +1,124 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-24T19:32:13.280863Z",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-25T19:42:54.006553Z",
   "weather": "sunny",
   "digest": [
-    "マイクロソフトの新AIが医師の二倍以上の精度で診断",
-    "定期的なCSV出力を自動化できる新機能が登場",
-    "音声入力を手元で処理できる会議向けツールが登場"
+    "米国の芸術やメディア分野で雇用が減少している",
+    "IT大手以外ではAIによる利益や成果が出ていない",
+    "古い専門AIが最新の大規模モデルを診断で上回った"
   ],
-  "mascot_line": "おはよう！今日はとてもおだやかな日だね。便利なAIツールを使って、楽しい一日をすごそう！",
+  "mascot_line": "おだやかな晴れの日は、便利なAIツールを試してみるのによい日だね。今日も元気にいこう！",
   "articles": [
     {
-      "id": "a8f2132df5",
-      "title_ja": "マイクロソフトの新AI、医師の2倍以上の精度で診断か",
-      "what": "マイクロソフトが開発した新しいAIが、医師の2倍以上の精度で病気を診断できると発表された。",
-      "new": "病気の診断において、従来の医師の診断よりも2倍以上優れている点が新しい。",
-      "impact": "将来的に医療現場での病気発見の精度が上がり、正確な診断が素早く受けられるようになる。",
-      "term": null,
+      "id": "283aef7b5a",
+      "title_ja": "アメリカのクリエイティブ業界で雇用が減少",
+      "what": "アメリカのメディアや芸術分野で過去4年間に20万以上の仕事が失われた。",
+      "new": "不況ではない時期にAIの台頭と重なる形で、デジタル芸術のあらゆる分野で仕事が減っている。",
+      "impact": "クリエイティブ業界の仕事がAIに奪われる懸念があり、ビジネスモデルの変更を迫られる可能性がある。",
+      "term": {
+        "word": "クリエイティブ業界",
+        "note": "映画、音楽、出版、デザインなど、文章や画像、映像などのコンテンツを作る仕事のこと。"
+      },
       "category": "注目トピック",
-      "score": 4,
-      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "score": 3,
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
-      "published": "2026-10-23T19:31:36Z",
-      "summary_only": true,
+      "title_en": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "published": "2026-10-24T23:11:54Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "7c7187ae29",
-      "title_ja": "定期的なCSV出力を自動化できる新機能が登場",
-      "what": "Slackやメールで定期的にCSVファイルを受け取れる機能が追加された。",
-      "new": "質問を一度するだけで、毎週最新のデータを自動で取得できるようになった。",
-      "impact": "データ集計や報告書の作成にかかる手間を大幅に減らすことができる。",
+      "id": "6597a1303e",
+      "title_ja": "IT大手以外ではAIによる利益や成果が出ていない",
+      "what": "アメリカの企業で、IT大手以外ではAIによる売上や利益の増加が見られていない。",
+      "new": "巨額の投資にもかかわらず、多くの企業で生産性の向上や利益への効果が出ていない点。",
+      "impact": "一般の企業がAIへの投資を見直し、コストとして捉え始める可能性がある。",
       "term": {
-        "word": "CSV",
-        "note": "表計算ソフトで読み込めるデータの形式のこと。"
+        "word": "トークン",
+        "note": "AIが文章などを処理する際のかけらや、AIの利用にかかる費用の単位のことです。"
       },
-      "category": "便利なツール",
+      "category": "注目トピック",
       "score": 3,
-      "url": "https://www.producthunt.com/products/basedash",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Basedash Scheduled CSV Exports",
-      "published": "2026-10-23T17:51:50Z",
-      "summary_only": true,
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "No signs of AI payoff outside the tech sector",
+      "published": "2026-10-24T19:47:19Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "f2ac795eea",
-      "title_ja": "音声入力を手元で処理できるサイドオーエス",
-      "what": "パソコンのなかで動く音声入力や会議向けのAIツールが登場した。",
-      "new": "クラウドを使わず、手元のパソコンで文字起こしや背景作業ができる。",
-      "impact": "機密情報を扱う会議や文章作成を、安全かつスムーズに行えるようになる。",
+      "id": "1dc75a32fc",
+      "title_ja": "古い専門AIが最新の大規模言語モデルを皮膚がん診断で上回る",
+      "what": "皮膚科医が最新のAIと10年前の画像認識AIの皮膚がん診断精度を比較した。",
+      "new": "特定の目的に合わせて調整された古いAIの方が、最新の大規模AIよりも正確に皮膚がんを見分けた。",
+      "impact": "医療分野において、万能な最新AIよりも特化した古いAIの方が実用的な場合があることがわかる。",
       "term": {
-        "word": "ローカルAI",
-        "note": "外部のサーバーにデータを送らず、自分のパソコン上で直接動くAIのこと。"
+        "word": "CNN",
+        "note": "画像や動画の認識や分析が得意な、従来の人工知能の仕組みのことです。"
+      },
+      "category": "研究・論文",
+      "score": 3,
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "published": "2026-10-25T17:15:38Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "81c8fd74d5",
+      "title_ja": "AIが作る文章が分かりにくい理由を調査",
+      "what": "AIが作った文章が人間にとってなぜ理解しづらいのかを科学的に調査した研究が発表された。",
+      "new": "AIは人間よりも難解な表現や珍しい言葉を多く使う傾向があり、その原因が情報密度を重視する最適化にあることを示した。",
+      "impact": "AIが出力する文章のクセを知ることで、ビジネスメールや資料作成でより読みやすい文章に直す工夫ができる。",
+      "term": {
+        "word": "情報密度",
+        "note": "短い文章の中にどれだけの情報を詰め込んでいるかを表す度合いのこと。"
+      },
+      "category": "研究・論文",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2610.29162",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Why is AI generated language so hard to understand?",
+      "published": "2026-10-24T18:04:57Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "f4ec22e382",
+      "title_ja": "TelegramでAI要約が使えるYourcast 2.0",
+      "what": "Telegram内でAIによる要約とタップして移動できる時間表示を提供する。",
+      "new": "メッセージアプリのTelegram上で手軽に要約機能を利用できる。",
+      "impact": "長文のやり取りや動画などの内容を素早く把握できるようになる。",
+      "term": {
+        "word": "Telegram",
+        "note": "スマートフォンやパソコンで使える人気のメッセージアプリのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/sideos-ai",
+      "url": "https://www.producthunt.com/products/yourcast",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "sideOS.ai",
-      "published": "2026-10-23T13:28:40Z",
+      "title_en": "Yourcast 2.0",
+      "published": "2026-10-24T14:42:59Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 23,
-    "candidates": 9,
-    "ranked": 9,
-    "selected": 3,
-    "llm_calls": 5,
+    "collected": 16,
+    "candidates": 10,
+    "ranked": 10,
+    "selected": 5,
+    "llm_calls": 12,
     "providers": [
       "gemini"
     ],
-    "seconds": 22.9
+    "seconds": 75.4
   }
 }
