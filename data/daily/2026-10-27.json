@@ -1,0 +1,157 @@
+{
+  "articles": [
+    {
+      "also_in": [
+        "hn"
+      ],
+      "category": "新モデル",
+      "id": "1758535ac6",
+      "impact": "日常のパソコン作業をAIに任せて効率化できるようになる。",
+      "new": "誰でも利用できる高速で優れたパソコン操作機能を持たせたこと。",
+      "published": "2026-10-26T00:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Introducing GPT-6.1 Terra",
+      "title_ja": "OpenAIがGPT-6.1 Terraを発表",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "what": "OpenAIが高速で優れたパソコン操作機能を持つGPT-6.1 Terraを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "c45c68dc9f",
+      "impact": "仕事や開発でAIを手頃な価格でより多く使えるようになる。",
+      "new": "競争が激しくなる中でAIの利用コストが大幅に下がったこと。",
+      "published": "2026-10-25T21:11:31Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "大量の文字を学習して自然な文章を作り出せるAIの仕組みのこと。",
+        "word": "LLM"
+      },
+      "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "title_ja": "OpenAIとAnthropicがAIの価格を大幅値下げ",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "what": "OpenAIとAnthropicがAIモデルの価格を数ヶ月で最大80%引き下げた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "52c4e79354",
+      "impact": "",
+      "new": "",
+      "published": "2026-10-26T13:04:50Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": {
+        "note": "米国で企業が新しく株を上場する際に提出が義務付けられている登録書類のこと。",
+        "word": "S-1"
+      },
+      "title_en": "Anthropic S-1",
+      "title_ja": "Anthropicが上場へ向けた書類を公開",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "what": "Anthropicが上場に向けたS-1書類をアメリカ証券取引委員会に提出した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "33331332d5",
+      "impact": "教育現場において、AIの発展が学生の評価方法や学習のあり方に大きな影響を与えている。",
+      "new": "AIの普及により、従来の宿題の正誤判定が無意味になり、採点方法の変更を余儀なくされていること。",
+      "published": "2026-10-25T16:28:26Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "数学の分野で非常に優れた業績を上げた人に贈られる、世界的に最も権威のある賞の受賞者のこと。",
+        "word": "Fields medalist"
+      },
+      "title_en": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "title_ja": "UCバークレーの教授がAI普及で宿題の採点を断念",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "what": "学生の多くがAIを使って宿題で高得点を得るため、数学教授が宿題の採点に意味がないと判断した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "188e9fbc46",
+      "impact": "教育現場でAIの仕組みや責任ある使い方を学ぶための教材として活用できるようになる。",
+      "new": "ゲームを通じて、AIを活用した脳の神経回路の解明や科学研究の加速を体験できるようになっていること。",
+      "published": "2026-10-26T16:00:00Z",
+      "score": 3,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "脳内の神経細胞のつながりやネットワークを詳しく地図のように描き出す科学研究の分野のこと。",
+        "word": "コネクトミクス"
+      },
+      "title_en": "Our newest AI Quest: Mapping the human brain",
+      "title_ja": "Googleが生徒向けAI学習ゲームに脳の地図作りを追加",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "what": "Googleが、生徒向けAI学習シリーズの第3弾として人間の脳の地図作りを学ぶ「Polar Peaks」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "64d59b55a8",
+      "impact": "他国や他業種でのAIの活用方法を知り、自分の仕事への取り入れ方の参考になる。",
+      "new": "約100か国における165の仕事の活動での利用状況や変化を調査したこと。",
+      "published": "2026-10-26T10:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "ChatGPT’s expanding world of work",
+      "title_ja": "OpenAIがChatGPTの仕事での使い方データを公開",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "what": "世界中でChatGPTがどのように仕事に使われているかのデータが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "674d449df9",
+      "impact": "自ら探さなくてもAIが予測して情報を教えてくれるため、日々の作業や情報収集が効率化される。",
+      "new": "ユーザーからの指示を待たず、必要なタイミングでAIからメッセージを送る機能が新しい。",
+      "published": "2026-10-24T23:19:29Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Kiwi",
+      "title_ja": "質問する前にメールをくれるAIアシスタント「Kiwi」",
+      "url": "https://www.producthunt.com/products/kiwi-7",
+      "what": "質問する前にテキストで話しかけてくれる能動的なAIアシスタントが登場した。"
+    }
+  ],
+  "date": "2026-10-27",
+  "digest": [
+    "OpenAIが新モデル発表と価格値下げを実施",
+    "Anthropicが上場へ向けた書類を公開",
+    "AI普及で宿題の採点断念や新学習ゲーム登場"
+  ],
+  "generated_at": "2026-10-26T21:39:58.622807Z",
+  "mascot_line": "今日は雲り模様だけど、新モデルや値下げでAIの世界は動きがいっぱいだね！元気にいこう！",
+  "stats": {
+    "candidates": 16,
+    "collected": 23,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 16,
+    "seconds": 43.5,
+    "selected": 7
+  },
+  "weather": "cloudy"
+}
