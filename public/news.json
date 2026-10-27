@@ -1,157 +1,205 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-26T21:39:58.622807Z",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-27T21:22:29.117616Z",
   "weather": "cloudy",
   "digest": [
-    "OpenAIが新モデル発表と価格値下げを実施",
-    "Anthropicが上場へ向けた書類を公開",
-    "AI普及で宿題の採点断念や新学習ゲーム登場"
+    "Google、映像音声同時生成AI「Genie 4」発表",
+    "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
+    "OpenAI、PC操作AIを半額で提供開始"
   ],
-  "mascot_line": "今日は雲り模様だけど、新モデルや値下げでAIの世界は動きがいっぱいだね！元気にいこう！",
+  "mascot_line": "今日は少し動きがあるね。新しいAIの登場に注目して、ゆっくり見ていこう。",
   "articles": [
     {
-      "id": "1758535ac6",
-      "title_ja": "OpenAIがGPT-6.1 Terraを発表",
-      "what": "OpenAIが高速で優れたパソコン操作機能を持つGPT-6.1 Terraを発表した。",
-      "new": "誰でも利用できる高速で優れたパソコン操作機能を持たせたこと。",
-      "impact": "日常のパソコン作業をAIに任せて効率化できるようになる。",
-      "term": null,
+      "id": "5ef94984dc",
+      "title_ja": "Google、映像と音声を同時に生成するAI「Genie 4」発表",
+      "what": "Google DeepMindが、リアルタイムで映像と音声を生成する世界モデル「Genie 4」を発表した",
+      "new": "映像だけでなく、環境音やキャラクターの会話もリアルタイムで生成できる",
+      "impact": "映画やゲームの制作現場で、リアルな映像と音の試作が高速化される可能性がある",
+      "term": {
+        "word": "世界モデル",
+        "note": "AIが現実世界の物理法則や人間の動きを模倣し、インタラクティブな世界を生成する技術のこと"
+      },
       "category": "新モデル",
       "score": 4,
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Introducing GPT-6.1 Terra",
-      "published": "2026-10-26T00:00:00Z",
-      "summary_only": true,
-      "also_in": [
-        "hn"
-      ]
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "title_en": "Genie 4: A new generation of world simulation",
+      "published": "2026-10-27T16:01:38Z",
+      "summary_only": false,
+      "also_in": []
     },
     {
-      "id": "c45c68dc9f",
-      "title_ja": "OpenAIとAnthropicがAIの価格を大幅値下げ",
-      "what": "OpenAIとAnthropicがAIモデルの価格を数ヶ月で最大80%引き下げた。",
-      "new": "競争が激しくなる中でAIの利用コストが大幅に下がったこと。",
-      "impact": "仕事や開発でAIを手頃な価格でより多く使えるようになる。",
+      "id": "a3a879144b",
+      "title_ja": "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
+      "what": "OpenAIとOracleが提携を拡大し、業務アプリやAIエージェントをChatGPTに導入する",
+      "new": "業務アプリケーションやAIエージェントをChatGPTに統合し、Oracleの新サービスにも活用する",
+      "impact": "ChatGPT内で業務アプリやAIエージェントが使えるようになり、作業効率が上がる可能性がある",
       "term": {
-        "word": "LLM",
-        "note": "大量の文字を学習して自然な文章を作り出せるAIの仕組みのこと。"
+        "word": "AIエージェント",
+        "note": "特定のタスクを自動でこなすためのAIプログラムのこと。指示を出すと、人間がやる作業を代行してくれます。"
       },
       "category": "注目トピック",
       "score": 4,
-      "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "published": "2026-10-25T21:11:31Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "52c4e79354",
-      "title_ja": "Anthropicが上場へ向けた書類を公開",
-      "what": "Anthropicが上場に向けたS-1書類をアメリカ証券取引委員会に提出した。",
-      "new": "",
-      "impact": "",
-      "term": {
-        "word": "S-1",
-        "note": "米国で企業が新しく株を上場する際に提出が義務付けられている登録書類のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Anthropic S-1",
-      "published": "2026-10-26T13:04:50Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "33331332d5",
-      "title_ja": "UCバークレーの教授がAI普及で宿題の採点を断念",
-      "what": "学生の多くがAIを使って宿題で高得点を得るため、数学教授が宿題の採点に意味がないと判断した。",
-      "new": "AIの普及により、従来の宿題の正誤判定が無意味になり、採点方法の変更を余儀なくされていること。",
-      "impact": "教育現場において、AIの発展が学生の評価方法や学習のあり方に大きな影響を与えている。",
-      "term": {
-        "word": "Fields medalist",
-        "note": "数学の分野で非常に優れた業績を上げた人に贈られる、世界的に最も権威のある賞の受賞者のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-      "published": "2026-10-25T16:28:26Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "188e9fbc46",
-      "title_ja": "Googleが生徒向けAI学習ゲームに脳の地図作りを追加",
-      "what": "Googleが、生徒向けAI学習シリーズの第3弾として人間の脳の地図作りを学ぶ「Polar Peaks」を発表した。",
-      "new": "ゲームを通じて、AIを活用した脳の神経回路の解明や科学研究の加速を体験できるようになっていること。",
-      "impact": "教育現場でAIの仕組みや責任ある使い方を学ぶための教材として活用できるようになる。",
-      "term": {
-        "word": "コネクトミクス",
-        "note": "脳内の神経細胞のつながりやネットワークを詳しく地図のように描き出す科学研究の分野のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "google_ai",
-      "source_name": "Google AI (The Keyword)",
-      "title_en": "Our newest AI Quest: Mapping the human brain",
-      "published": "2026-10-26T16:00:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "64d59b55a8",
-      "title_ja": "OpenAIがChatGPTの仕事での使い方データを公開",
-      "what": "世界中でChatGPTがどのように仕事に使われているかのデータが公開された。",
-      "new": "約100か国における165の仕事の活動での利用状況や変化を調査したこと。",
-      "impact": "他国や他業種でのAIの活用方法を知り、自分の仕事への取り入れ方の参考になる。",
-      "term": null,
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "source": "openai",
       "source_name": "OpenAI News",
-      "title_en": "ChatGPT’s expanding world of work",
-      "published": "2026-10-26T10:00:00Z",
+      "title_en": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "published": "2026-10-27T07:00:00Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "674d449df9",
-      "title_ja": "質問する前にメールをくれるAIアシスタント「Kiwi」",
-      "what": "質問する前にテキストで話しかけてくれる能動的なAIアシスタントが登場した。",
-      "new": "ユーザーからの指示を待たず、必要なタイミングでAIからメッセージを送る機能が新しい。",
-      "impact": "自ら探さなくてもAIが予測して情報を教えてくれるため、日々の作業や情報収集が効率化される。",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/kiwi-7",
+      "id": "c70e9f4491",
+      "title_ja": "OpenAIがPC操作AIを半額で提供開始",
+      "what": "OpenAIがPC操作ができるAIモデルを半額で提供した",
+      "new": "PC操作機能を備えながら、料金を従来の半額に抑えた",
+      "impact": "PC操作をAIに代行させるコストが半額になり、業務効率化が安価に実現可能になった",
+      "term": {
+        "word": "Computer use",
+        "note": "AIが人間の代わりにマウスやキーボードを操作し、画面の内容を見てPCの作業を行う機能のこと"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://www.producthunt.com/products/openai",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Kiwi",
-      "published": "2026-10-24T23:19:29Z",
+      "title_en": "GPT-6.1 Terra",
+      "published": "2026-10-26T23:33:48Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "c61ee1a626",
+      "title_ja": "AI活用で作業量は増え、精神的負担が重くなった",
+      "what": "エンジニアがAIエージェントを多用した結果、作業量と精神的負担が増加した体験談",
+      "new": "AIエージェントの活用により、個人のGitHub活動量が過去最高水準まで急増した事例",
+      "impact": "AIで作業が速くなっても、管理するタスクが増え、精神的な負担が重くなる可能性がある",
+      "term": {
+        "word": "AIエージェント",
+        "note": "AIが自律的にタスクを実行し、人間が結果を確認・承認する役割に回る作業スタイル"
+      },
+      "category": "研究・論文",
+      "score": 3,
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "AI promised less work. I've never worked more",
+      "published": "2026-10-27T11:08:14Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "acb3a24ef9",
+      "title_ja": "Wikipedia、AI生成記事の除去と検出ツール開発へ",
+      "what": "WikipediaのボランティアがAI生成記事の除去と検出ツール開発を進めている",
+      "new": "AI生成文書の検出ツールや、AIによる出典検証ツールが導入されつつある",
+      "impact": "AI検索でWikipediaの直接訪問が減り、編集参加の機会が失われる懸念がある",
+      "term": {
+        "word": "AIハルシネーション",
+        "note": "AIが事実と異なる引用や出典を、あたかも存在するかのように誤って生成してしまう現象のこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Wikipedia's Cleanup of AI-Generated Content",
+      "published": "2026-10-27T11:08:15Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "f16aefe89a",
+      "title_ja": "OpenAI、数学・物理の難問解を研究者と共有",
+      "what": "OpenAIが数学や物理の難問に対するAIの解答結果を公開し、研究者が検証できるようにした",
+      "new": "AIが数学や物理学の難問に対する解を提示し、研究者が検証できる仕組みを示した",
+      "impact": "AIの科学的な成果を研究者が検証し、新たな発見につなげる流れが加速する",
+      "term": {
+        "word": "検証",
+        "note": "AIが提示した答えが正しいか、専門的な手順で確かめる作業のこと"
+      },
+      "category": "研究・論文",
+      "score": 3,
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "title_en": "Working with academic communities to build scientific understanding",
+      "published": "2026-10-26T14:30:00Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "8639a74338",
+      "title_ja": "文書からデータを抽出するAIツール「ContextGem」登場",
+      "what": "文書からデータを抽出するAIツール「ContextGem 1.0」が公開された",
+      "new": "意思決定モデルとLLMを組み合わせ、文書からデータを抽出する",
+      "impact": "文書から必要な情報を素早く取り出せるようになり、作業が楽になる",
+      "term": {
+        "word": "意思決定モデル",
+        "note": "文書の中から必要な情報を自動的に取り出したり、整理したりする仕組みのこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/contextgem",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "ContextGem 1.0",
+      "published": "2026-10-27T04:48:43Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "ce0ce0b9e8",
+      "title_ja": "Nuvio 5.0で財務管理をAIに任せる",
+      "what": "Nuvio 5.0が公開され、財務管理業務をAIエージェントに任せることが可能になった",
+      "new": "財務管理業務をAIエージェントに委任できる機能が追加された",
+      "impact": "経理や財務管理の作業をAIに任せて、業務効率を高められる",
+      "term": {
+        "word": "AIエージェント",
+        "note": "人間に代わって、特定の業務やタスクを自動でこなすAIソフトウェアのこと"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/nuvio",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Nuvio 5.0",
+      "published": "2026-10-26T20:06:22Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "a30a7748a8",
+      "title_ja": "医療画像を無料で見るオープンソースツール",
+      "what": "CTやMRIなどの医療画像を無料で閲覧できるツール",
+      "new": "CTやMRIなどの医療画像を無料で閲覧できる",
+      "impact": "自分の医療画像を無料で確認できる",
+      "term": {
+        "word": "OpenRadView",
+        "note": "CT、MRI、X線などの医療画像を自分のPCで開いて確認できるソフト"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/openradview",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "OpenRadView",
+      "published": "2026-10-26T17:57:31Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 23,
-    "candidates": 16,
-    "ranked": 16,
-    "selected": 7,
-    "llm_calls": 9,
+    "collected": 34,
+    "candidates": 22,
+    "ranked": 22,
+    "selected": 9,
+    "llm_calls": 14,
     "providers": [
-      "gemini"
+      "gemini",
+      "groq"
     ],
-    "seconds": 43.5
+    "seconds": 314.2
   }
 }

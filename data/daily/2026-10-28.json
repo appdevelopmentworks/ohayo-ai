@@ -1,0 +1,205 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "5ef94984dc",
+      "impact": "映画やゲームの制作現場で、リアルな映像と音の試作が高速化される可能性がある",
+      "new": "映像だけでなく、環境音やキャラクターの会話もリアルタイムで生成できる",
+      "published": "2026-10-27T16:01:38Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "AIが現実世界の物理法則や人間の動きを模倣し、インタラクティブな世界を生成する技術のこと",
+        "word": "世界モデル"
+      },
+      "title_en": "Genie 4: A new generation of world simulation",
+      "title_ja": "Google、映像と音声を同時に生成するAI「Genie 4」発表",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "what": "Google DeepMindが、リアルタイムで映像と音声を生成する世界モデル「Genie 4」を発表した"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a3a879144b",
+      "impact": "ChatGPT内で業務アプリやAIエージェントが使えるようになり、作業効率が上がる可能性がある",
+      "new": "業務アプリケーションやAIエージェントをChatGPTに統合し、Oracleの新サービスにも活用する",
+      "published": "2026-10-27T07:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "特定のタスクを自動でこなすためのAIプログラムのこと。指示を出すと、人間がやる作業を代行してくれます。",
+        "word": "AIエージェント"
+      },
+      "title_en": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "title_ja": "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "what": "OpenAIとOracleが提携を拡大し、業務アプリやAIエージェントをChatGPTに導入する"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "c70e9f4491",
+      "impact": "PC操作をAIに代行させるコストが半額になり、業務効率化が安価に実現可能になった",
+      "new": "PC操作機能を備えながら、料金を従来の半額に抑えた",
+      "published": "2026-10-26T23:33:48Z",
+      "score": 4,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "AIが人間の代わりにマウスやキーボードを操作し、画面の内容を見てPCの作業を行う機能のこと",
+        "word": "Computer use"
+      },
+      "title_en": "GPT-6.1 Terra",
+      "title_ja": "OpenAIがPC操作AIを半額で提供開始",
+      "url": "https://www.producthunt.com/products/openai",
+      "what": "OpenAIがPC操作ができるAIモデルを半額で提供した"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "c61ee1a626",
+      "impact": "AIで作業が速くなっても、管理するタスクが増え、精神的な負担が重くなる可能性がある",
+      "new": "AIエージェントの活用により、個人のGitHub活動量が過去最高水準まで急増した事例",
+      "published": "2026-10-27T11:08:14Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが自律的にタスクを実行し、人間が結果を確認・承認する役割に回る作業スタイル",
+        "word": "AIエージェント"
+      },
+      "title_en": "AI promised less work. I've never worked more",
+      "title_ja": "AI活用で作業量は増え、精神的負担が重くなった",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "what": "エンジニアがAIエージェントを多用した結果、作業量と精神的負担が増加した体験談"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "acb3a24ef9",
+      "impact": "AI検索でWikipediaの直接訪問が減り、編集参加の機会が失われる懸念がある",
+      "new": "AI生成文書の検出ツールや、AIによる出典検証ツールが導入されつつある",
+      "published": "2026-10-27T11:08:15Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが事実と異なる引用や出典を、あたかも存在するかのように誤って生成してしまう現象のこと。",
+        "word": "AIハルシネーション"
+      },
+      "title_en": "Wikipedia's Cleanup of AI-Generated Content",
+      "title_ja": "Wikipedia、AI生成記事の除去と検出ツール開発へ",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "what": "WikipediaのボランティアがAI生成記事の除去と検出ツール開発を進めている"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "f16aefe89a",
+      "impact": "AIの科学的な成果を研究者が検証し、新たな発見につなげる流れが加速する",
+      "new": "AIが数学や物理学の難問に対する解を提示し、研究者が検証できる仕組みを示した",
+      "published": "2026-10-26T14:30:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIが提示した答えが正しいか、専門的な手順で確かめる作業のこと",
+        "word": "検証"
+      },
+      "title_en": "Working with academic communities to build scientific understanding",
+      "title_ja": "OpenAI、数学・物理の難問解を研究者と共有",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "what": "OpenAIが数学や物理の難問に対するAIの解答結果を公開し、研究者が検証できるようにした"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "8639a74338",
+      "impact": "文書から必要な情報を素早く取り出せるようになり、作業が楽になる",
+      "new": "意思決定モデルとLLMを組み合わせ、文書からデータを抽出する",
+      "published": "2026-10-27T04:48:43Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "文書の中から必要な情報を自動的に取り出したり、整理したりする仕組みのこと",
+        "word": "意思決定モデル"
+      },
+      "title_en": "ContextGem 1.0",
+      "title_ja": "文書からデータを抽出するAIツール「ContextGem」登場",
+      "url": "https://www.producthunt.com/products/contextgem",
+      "what": "文書からデータを抽出するAIツール「ContextGem 1.0」が公開された"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "ce0ce0b9e8",
+      "impact": "経理や財務管理の作業をAIに任せて、業務効率を高められる",
+      "new": "財務管理業務をAIエージェントに委任できる機能が追加された",
+      "published": "2026-10-26T20:06:22Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間に代わって、特定の業務やタスクを自動でこなすAIソフトウェアのこと",
+        "word": "AIエージェント"
+      },
+      "title_en": "Nuvio 5.0",
+      "title_ja": "Nuvio 5.0で財務管理をAIに任せる",
+      "url": "https://www.producthunt.com/products/nuvio",
+      "what": "Nuvio 5.0が公開され、財務管理業務をAIエージェントに任せることが可能になった"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a30a7748a8",
+      "impact": "自分の医療画像を無料で確認できる",
+      "new": "CTやMRIなどの医療画像を無料で閲覧できる",
+      "published": "2026-10-26T17:57:31Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "CT、MRI、X線などの医療画像を自分のPCで開いて確認できるソフト",
+        "word": "OpenRadView"
+      },
+      "title_en": "OpenRadView",
+      "title_ja": "医療画像を無料で見るオープンソースツール",
+      "url": "https://www.producthunt.com/products/openradview",
+      "what": "CTやMRIなどの医療画像を無料で閲覧できるツール"
+    }
+  ],
+  "date": "2026-10-28",
+  "digest": [
+    "Google、映像音声同時生成AI「Genie 4」発表",
+    "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
+    "OpenAI、PC操作AIを半額で提供開始"
+  ],
+  "generated_at": "2026-10-27T21:22:29.117616Z",
+  "mascot_line": "今日は少し動きがあるね。新しいAIの登場に注目して、ゆっくり見ていこう。",
+  "stats": {
+    "candidates": 22,
+    "collected": 34,
+    "llm_calls": 14,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 22,
+    "seconds": 314.2,
+    "selected": 9
+  },
+  "weather": "cloudy"
+}
