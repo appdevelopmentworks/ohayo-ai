@@ -1,205 +1,186 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-27T21:22:29.117616Z",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-28T21:43:15.083971Z",
   "weather": "cloudy",
   "digest": [
-    "Google、映像音声同時生成AI「Genie 4」発表",
-    "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
-    "OpenAI、PC操作AIを半額で提供開始"
+    "グーグルが新AIを発表し、小型モデルも登場しました",
+    "裁判所がAI学習での違法な書籍利用を禁じました",
+    "災害用AIやブラウザで動く便利なツールが登場しました"
   ],
-  "mascot_line": "今日は少し動きがあるね。新しいAIの登場に注目して、ゆっくり見ていこう。",
+  "mascot_line": "今日はくもり空だけど、新しいAIや便利なツールで元気にいこうね！",
   "articles": [
     {
-      "id": "5ef94984dc",
-      "title_ja": "Google、映像と音声を同時に生成するAI「Genie 4」発表",
-      "what": "Google DeepMindが、リアルタイムで映像と音声を生成する世界モデル「Genie 4」を発表した",
-      "new": "映像だけでなく、環境音やキャラクターの会話もリアルタイムで生成できる",
-      "impact": "映画やゲームの制作現場で、リアルな映像と音の試作が高速化される可能性がある",
+      "id": "34b0bf3f94",
+      "title_ja": "Googleが高度な新AI「Gemini 4 Carbon」を発表",
+      "what": "Googleが、セキュリティと複雑な作業に強い新しいAIモデル「Gemini 4 Carbon」を発表した。",
+      "new": "サイバーセキュリティ防衛の能力や、数日間にわたる複雑なエンジニアリング作業をこなす性能が大幅に向上した。",
+      "impact": "専門的なシステム開発やセキュリティ対策の作業効率が上がり、より安全なコードの作成ができるようになる。",
       "term": {
-        "word": "世界モデル",
-        "note": "AIが現実世界の物理法則や人間の動きを模倣し、インタラクティブな世界を生成する技術のこと"
+        "word": "サイバーセキュリティ",
+        "note": "コンピュータやネットワークをサイバー攻撃から守り、安全な状態を保つための対策のこと。"
       },
       "category": "新モデル",
       "score": 4,
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
-      "title_en": "Genie 4: A new generation of world simulation",
-      "published": "2026-10-27T16:01:38Z",
+      "title_en": "Gemini 4 Carbon: Our next frontier model",
+      "published": "2026-10-28T17:00:58Z",
+      "summary_only": false,
+      "also_in": [
+        "hn"
+      ]
+    },
+    {
+      "id": "a4c44e96b0",
+      "title_ja": "Anthropicが許可なく書籍をAI学習に使用した裁判で判決",
+      "what": "裁判所はAnthropicがAI学習に違法に取得した書籍を使うことを禁じた。",
+      "new": "裁判官はAIの学習用としての書籍の合法的な取得はフェアユースと認めつつも違法な海賊版の利用は禁じた。",
+      "impact": "AI開発における著作物の利用ルールや作家への補償をめぐる動きがさらに活発になる。",
+      "term": {
+        "word": "フェアユース",
+        "note": "著作権者の許可がなくても、一定の条件を満たしていれば著作物を使えるアメリカの法律の仕組み。"
+      },
+      "category": "注目トピック",
+      "score": 4,
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "published": "2026-10-27T15:28:26Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "a3a879144b",
-      "title_ja": "OpenAIとOracle、ChatGPTに業務アプリ導入へ",
-      "what": "OpenAIとOracleが提携を拡大し、業務アプリやAIエージェントをChatGPTに導入する",
-      "new": "業務アプリケーションやAIエージェントをChatGPTに統合し、Oracleの新サービスにも活用する",
-      "impact": "ChatGPT内で業務アプリやAIエージェントが使えるようになり、作業効率が上がる可能性がある",
+      "id": "c8202906d1",
+      "title_ja": "文字から動く世界を生成するGenie 4",
+      "what": "指示文を入力するだけで操作可能な世界を作り出すAIが登場した。",
+      "new": "プロンプトから生き生きとした動く世界を生成して操作できる点。",
+      "impact": "アイデアを視覚的なバーチャル空間として手軽に表現できるようになる。",
       "term": {
-        "word": "AIエージェント",
-        "note": "特定のタスクを自動でこなすためのAIプログラムのこと。指示を出すと、人間がやる作業を代行してくれます。"
+        "word": "プロンプト",
+        "note": "AIに対する指示や命令のテキストのこと。"
       },
-      "category": "注目トピック",
-      "score": 4,
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "published": "2026-10-27T07:00:00Z",
+      "category": "画像・動画",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Genie 4",
+      "published": "2026-10-27T16:08:37Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "c70e9f4491",
-      "title_ja": "OpenAIがPC操作AIを半額で提供開始",
-      "what": "OpenAIがPC操作ができるAIモデルを半額で提供した",
-      "new": "PC操作機能を備えながら、料金を従来の半額に抑えた",
-      "impact": "PC操作をAIに代行させるコストが半額になり、業務効率化が安価に実現可能になった",
+      "id": "f6df93ac15",
+      "title_ja": "インターネットなしで動く災害用AI「Survival LLM」",
+      "what": "インターネットがつなげない環境でも自分のパソコン上で動き続ける、無料のAIアシスタントと防災資料集が公開された。",
+      "new": "医療情報や防災マニュアルなどの膨大な資料を内蔵し、ネット接続なしで信頼できる情報源をもとに回答できる。",
+      "impact": "災害時やネットが使えない場所でも、パソコンから安全対策や応急処置の方法を調べられるようになる。",
       "term": {
-        "word": "Computer use",
-        "note": "AIが人間の代わりにマウスやキーボードを操作し、画面の内容を見てPCの作業を行う機能のこと"
+        "word": "LLM",
+        "note": "大量の文章を学習し、人間のように自然な対話や文章作成ができるAIの仕組みのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.brangus.io/survival-llm",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "published": "2026-10-27T19:55:06Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "0dc3cf0b7c",
+      "title_ja": "組織図に入るAIの未来と働き方の変化",
+      "what": "AIが組織図のなかでどのように位置づけられるかについて公開された。",
+      "new": "AIが人間の下や横、その間にどのように入り込むのかが示されたこと。",
+      "impact": "今後の仕事や会社組織の中でAIとの付きめ方が変わる可能性がある。",
+      "term": {
+        "word": "組織図",
+        "note": "会社の部署や役職の関係をわかりやすく図にしたもののこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "title_en": "The future of the firm",
+      "published": "2026-10-28T10:00:00Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "cf4e6b9f71",
+      "title_ja": "ブラウザで動くAI機能「WebAI by Opera」",
+      "what": "ウェブサイトが自分のパソコン上で動くAIを使える機能が登場した。",
+      "new": "外部のサーバーではなく、手元のパソコンでAIを動かせる点。",
+      "impact": "プライバシーを守りながら、AIを使った便利な機能がウェブサイト上で使えるようになる。",
+      "term": {
+        "word": "WebAI",
+        "note": "ブラウザ上で直接AIを動かす技術のことで、通信の手間が少なく安全に使えるメリットがある。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/opera",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "WebAI by Opera",
+      "published": "2026-10-28T06:46:15Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "04abf7f036",
+      "title_ja": "Macで使えるSpotlight風AIチャット",
+      "what": "MacでSpotlightのように使えるAIチャットが登場した。",
+      "new": "Macの検索バーのような操作感でAIチャットを呼び出せる。",
+      "impact": "パソコン作業の途中で手軽にAIへ質問できるようになる。",
+      "term": {
+        "word": "Spotlight",
+        "note": "Macの画面全体でファイルやアプリを素早く探すための検索機能のこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/boltbar",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Boltbar",
+      "published": "2026-10-27T18:33:40Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "299687b86f",
+      "title_ja": "Liquid AIがスマートフォン向けの小型AIモデルを公開",
+      "what": "スマートフォンやパソコン、ロボットで動く軽量なAIモデルが公開された。",
+      "new": "小さな端末でも動く2Bクラスのモデルを6つ提供している点。",
+      "impact": "手元の端末でAIが手軽に使えるようになる。",
+      "term": {
+        "word": "2Bクラス",
+        "note": "AIの規模を表す言葉で、約20億のパラメータを持つモデルのこと。"
       },
       "category": "新モデル",
-      "score": 4,
-      "url": "https://www.producthunt.com/products/openai",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/lfm2",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "GPT-6.1 Terra",
-      "published": "2026-10-26T23:33:48Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "c61ee1a626",
-      "title_ja": "AI活用で作業量は増え、精神的負担が重くなった",
-      "what": "エンジニアがAIエージェントを多用した結果、作業量と精神的負担が増加した体験談",
-      "new": "AIエージェントの活用により、個人のGitHub活動量が過去最高水準まで急増した事例",
-      "impact": "AIで作業が速くなっても、管理するタスクが増え、精神的な負担が重くなる可能性がある",
-      "term": {
-        "word": "AIエージェント",
-        "note": "AIが自律的にタスクを実行し、人間が結果を確認・承認する役割に回る作業スタイル"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://oioannou.com/blog/ai-promised-less-work/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI promised less work. I've never worked more",
-      "published": "2026-10-27T11:08:14Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "acb3a24ef9",
-      "title_ja": "Wikipedia、AI生成記事の除去と検出ツール開発へ",
-      "what": "WikipediaのボランティアがAI生成記事の除去と検出ツール開発を進めている",
-      "new": "AI生成文書の検出ツールや、AIによる出典検証ツールが導入されつつある",
-      "impact": "AI検索でWikipediaの直接訪問が減り、編集参加の機会が失われる懸念がある",
-      "term": {
-        "word": "AIハルシネーション",
-        "note": "AIが事実と異なる引用や出典を、あたかも存在するかのように誤って生成してしまう現象のこと。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Wikipedia's Cleanup of AI-Generated Content",
-      "published": "2026-10-27T11:08:15Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "f16aefe89a",
-      "title_ja": "OpenAI、数学・物理の難問解を研究者と共有",
-      "what": "OpenAIが数学や物理の難問に対するAIの解答結果を公開し、研究者が検証できるようにした",
-      "new": "AIが数学や物理学の難問に対する解を提示し、研究者が検証できる仕組みを示した",
-      "impact": "AIの科学的な成果を研究者が検証し、新たな発見につなげる流れが加速する",
-      "term": {
-        "word": "検証",
-        "note": "AIが提示した答えが正しいか、専門的な手順で確かめる作業のこと"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Working with academic communities to build scientific understanding",
-      "published": "2026-10-26T14:30:00Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "8639a74338",
-      "title_ja": "文書からデータを抽出するAIツール「ContextGem」登場",
-      "what": "文書からデータを抽出するAIツール「ContextGem 1.0」が公開された",
-      "new": "意思決定モデルとLLMを組み合わせ、文書からデータを抽出する",
-      "impact": "文書から必要な情報を素早く取り出せるようになり、作業が楽になる",
-      "term": {
-        "word": "意思決定モデル",
-        "note": "文書の中から必要な情報を自動的に取り出したり、整理したりする仕組みのこと"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/contextgem",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "ContextGem 1.0",
-      "published": "2026-10-27T04:48:43Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "ce0ce0b9e8",
-      "title_ja": "Nuvio 5.0で財務管理をAIに任せる",
-      "what": "Nuvio 5.0が公開され、財務管理業務をAIエージェントに任せることが可能になった",
-      "new": "財務管理業務をAIエージェントに委任できる機能が追加された",
-      "impact": "経理や財務管理の作業をAIに任せて、業務効率を高められる",
-      "term": {
-        "word": "AIエージェント",
-        "note": "人間に代わって、特定の業務やタスクを自動でこなすAIソフトウェアのこと"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/nuvio",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Nuvio 5.0",
-      "published": "2026-10-26T20:06:22Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "a30a7748a8",
-      "title_ja": "医療画像を無料で見るオープンソースツール",
-      "what": "CTやMRIなどの医療画像を無料で閲覧できるツール",
-      "new": "CTやMRIなどの医療画像を無料で閲覧できる",
-      "impact": "自分の医療画像を無料で確認できる",
-      "term": {
-        "word": "OpenRadView",
-        "note": "CT、MRI、X線などの医療画像を自分のPCで開いて確認できるソフト"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/openradview",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "OpenRadView",
-      "published": "2026-10-26T17:57:31Z",
+      "title_en": "LFM3 by Liquid AI",
+      "published": "2026-10-27T17:20:52Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
     "collected": 34,
-    "candidates": 22,
-    "ranked": 22,
-    "selected": 9,
-    "llm_calls": 14,
+    "candidates": 19,
+    "ranked": 19,
+    "selected": 8,
+    "llm_calls": 11,
     "providers": [
-      "gemini",
-      "groq"
+      "gemini"
     ],
-    "seconds": 314.2
+    "seconds": 53.4
   }
 }
