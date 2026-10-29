@@ -1,186 +1,164 @@
 {
-  "date": "2026-10-29",
-  "generated_at": "2026-10-28T21:43:15.083971Z",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-29T21:51:46.156534Z",
   "weather": "cloudy",
   "digest": [
-    "グーグルが新AIを発表し、小型モデルも登場しました",
-    "裁判所がAI学習での違法な書籍利用を禁じました",
-    "災害用AIやブラウザで動く便利なツールが登場しました"
+    "ミストラルが新型AIモデルを公開し性能が向上した。",
+    "グーグルが次世代の最先端AIモデルを発表した。",
+    "オープンAIが新しい行動指針を策定した。"
   ],
-  "mascot_line": "今日はくもり空だけど、新しいAIや便利なツールで元気にいこうね！",
+  "mascot_line": "きょうはくもり空だけど、新しいAIモデルが続々と登場してワクワクするね！",
   "articles": [
     {
-      "id": "34b0bf3f94",
-      "title_ja": "Googleが高度な新AI「Gemini 4 Carbon」を発表",
-      "what": "Googleが、セキュリティと複雑な作業に強い新しいAIモデル「Gemini 4 Carbon」を発表した。",
-      "new": "サイバーセキュリティ防衛の能力や、数日間にわたる複雑なエンジニアリング作業をこなす性能が大幅に向上した。",
-      "impact": "専門的なシステム開発やセキュリティ対策の作業効率が上がり、より安全なコードの作成ができるようになる。",
+      "id": "8ccea7e89b",
+      "title_ja": "Mistralが新型AI「Mistral Large 4」の重みを公開",
+      "what": "Mistralがプログラミングやセキュリティ対策に優れた新型AIの重みを一般公開した。",
+      "new": "プログラミング性能が向上し、3つの推論モードでコストと性能の調整が可能になった点。",
+      "impact": "自社でAIを安全に管理したい企業や開発者が、より効率的にプログラミングやセキュリティ対策を行えるようになる。",
       "term": {
-        "word": "サイバーセキュリティ",
-        "note": "コンピュータやネットワークをサイバー攻撃から守り、安全な状態を保つための対策のこと。"
+        "word": "オープンウェイト",
+        "note": "AIの内部データや重みが一般に公開されており、自由にダウンロードして利用やカスタマイズができる仕組み。"
       },
       "category": "新モデル",
       "score": 4,
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title_en": "Gemini 4 Carbon: Our next frontier model",
-      "published": "2026-10-28T17:00:58Z",
-      "summary_only": false,
-      "also_in": [
-        "hn"
-      ]
-    },
-    {
-      "id": "a4c44e96b0",
-      "title_ja": "Anthropicが許可なく書籍をAI学習に使用した裁判で判決",
-      "what": "裁判所はAnthropicがAI学習に違法に取得した書籍を使うことを禁じた。",
-      "new": "裁判官はAIの学習用としての書籍の合法的な取得はフェアユースと認めつつも違法な海賊版の利用は禁じた。",
-      "impact": "AI開発における著作物の利用ルールや作家への補償をめぐる動きがさらに活発になる。",
-      "term": {
-        "word": "フェアユース",
-        "note": "著作権者の許可がなくても、一定の条件を満たしていれば著作物を使えるアメリカの法律の仕組み。"
-      },
-      "category": "注目トピック",
-      "score": 4,
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "published": "2026-10-27T15:28:26Z",
+      "title_en": "We're releasing the weights of Mistral Large 4",
+      "published": "2026-10-29T14:13:21Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "c8202906d1",
-      "title_ja": "文字から動く世界を生成するGenie 4",
-      "what": "指示文を入力するだけで操作可能な世界を作り出すAIが登場した。",
-      "new": "プロンプトから生き生きとした動く世界を生成して操作できる点。",
-      "impact": "アイデアを視覚的なバーチャル空間として手軽に表現できるようになる。",
+      "id": "a1765f446c",
+      "title_ja": "Mistralが新型AI「Mistral Large 4」を公開",
+      "what": "Mistralが、テキストと画像を読み込める新しいマルチモーダルAIモデルを公開した。",
+      "new": "サイバーセキュリティやプログラミングの作業に非常に強く、公開された重みを利用して手元で自由に動かせる。",
+      "impact": "自社のプログラムやセキュリティ対策に合わせて、安全かつ自由にAIをカスタマイズして活用できるようになる。",
       "term": {
-        "word": "プロンプト",
-        "note": "AIに対する指示や命令のテキストのこと。"
+        "word": "オープンウェイト",
+        "note": "AIの内部データや仕組みが一般に公開されており、利用者が自分の環境に合わせて自由に使える形式のこと。"
       },
-      "category": "画像・動画",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "source": "hf_blog",
+      "source_name": "Hugging Face Blog",
+      "title_en": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "published": "2026-10-29T00:00:00Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "1c15d11017",
+      "title_ja": "Googleの次世代AIモデルGemini 4 Carbon",
+      "what": "Googleが次世代の最先端モデルを発表した。",
+      "new": "これまでにない新しいフロンティアモデルである点。",
+      "impact": "より高度なAI機能が仕事や生活で使えるようになる。",
+      "term": {
+        "word": "フロンティアモデル",
+        "note": "最先端の技術を使って開発された、非常に性能の高いAIモデルのこと。"
+      },
+      "category": "新モデル",
+      "score": 4,
+      "url": "https://www.producthunt.com/products/gemini-4-carbon",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Genie 4",
-      "published": "2026-10-27T16:08:37Z",
+      "title_en": "Gemini 4 Carbon",
+      "published": "2026-10-28T17:27:14Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "f6df93ac15",
-      "title_ja": "インターネットなしで動く災害用AI「Survival LLM」",
-      "what": "インターネットがつなげない環境でも自分のパソコン上で動き続ける、無料のAIアシスタントと防災資料集が公開された。",
-      "new": "医療情報や防災マニュアルなどの膨大な資料を内蔵し、ネット接続なしで信頼できる情報源をもとに回答できる。",
-      "impact": "災害時やネットが使えない場所でも、パソコンから安全対策や応急処置の方法を調べられるようになる。",
+      "id": "7bf0065ceb",
+      "title_ja": "OpenAIがAIの行動指針を更新",
+      "what": "OpenAIがAIの判断力や人間の意図への忠実さを導く5つのコアバリューをまとめた。",
+      "new": "より有能で有益なAIに向けた新しいモデル仕様を策定したこと。",
+      "impact": "AIの判断基準や動作の方向性がより明確になり、安全に活用しやすくなる。",
       "term": {
-        "word": "LLM",
-        "note": "大量の文章を学習し、人間のように自然な対話や文章作成ができるAIの仕組みのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.brangus.io/survival-llm",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "published": "2026-10-27T19:55:06Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "0dc3cf0b7c",
-      "title_ja": "組織図に入るAIの未来と働き方の変化",
-      "what": "AIが組織図のなかでどのように位置づけられるかについて公開された。",
-      "new": "AIが人間の下や横、その間にどのように入り込むのかが示されたこと。",
-      "impact": "今後の仕事や会社組織の中でAIとの付きめ方が変わる可能性がある。",
-      "term": {
-        "word": "組織図",
-        "note": "会社の部署や役職の関係をわかりやすく図にしたもののこと。"
+        "word": "Model Spec",
+        "note": "AIがどのような基準やルールに従って動作すべきかを定めた仕様書のこと。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://openai.com/index/the-future-of-the-firm",
+      "url": "https://openai.com/index/updated-model-spec",
       "source": "openai",
       "source_name": "OpenAI News",
-      "title_en": "The future of the firm",
-      "published": "2026-10-28T10:00:00Z",
+      "title_en": "An updated Model Spec for more capable and beneficial AI",
+      "published": "2026-10-29T17:00:00Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "cf4e6b9f71",
-      "title_ja": "ブラウザで動くAI機能「WebAI by Opera」",
-      "what": "ウェブサイトが自分のパソコン上で動くAIを使える機能が登場した。",
-      "new": "外部のサーバーではなく、手元のパソコンでAIを動かせる点。",
-      "impact": "プライバシーを守りながら、AIを使った便利な機能がウェブサイト上で使えるようになる。",
+      "id": "64e65a9739",
+      "title_ja": "ChatGPT上でアプリを作成して公開できるツール",
+      "what": "ChatGPTの画面から離れずに実際のアプリを作って公開できるツールが登場した。",
+      "new": "ChatGPTの環境内でアプリの構築から公開までを完結させられる点が新しい。",
+      "impact": "開発の専門知識がなくても、ChatGPTを使って自分で簡単にアプリを作れるようになる。",
       "term": {
-        "word": "WebAI",
-        "note": "ブラウザ上で直接AIを動かす技術のことで、通信の手間が少なく安全に使えるメリットがある。"
+        "word": "ChatGPT",
+        "note": "AIと自然な会話をしながら、質問への回答や文章の作成などをしてもらえるサービス。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/opera",
+      "url": "https://www.producthunt.com/products/floot",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "WebAI by Opera",
-      "published": "2026-10-28T06:46:15Z",
+      "title_en": "Floot in ChatGPT",
+      "published": "2026-10-28T20:14:10Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "04abf7f036",
-      "title_ja": "Macで使えるSpotlight風AIチャット",
-      "what": "MacでSpotlightのように使えるAIチャットが登場した。",
-      "new": "Macの検索バーのような操作感でAIチャットを呼び出せる。",
-      "impact": "パソコン作業の途中で手軽にAIへ質問できるようになる。",
+      "id": "265ac34bbf",
+      "title_ja": "さまざまな作業を自動化できるIFTTT.ai",
+      "what": "いろいろな作業を簡単に自動化できるツールが登場した。",
+      "new": "AIを活用して手軽に自動化ができるようになった。",
+      "impact": "日々の面倒な作業が自動化され、業務効率が上がる。",
       "term": {
-        "word": "Spotlight",
-        "note": "Macの画面全体でファイルやアプリを素早く探すための検索機能のこと。"
+        "word": "自動化",
+        "note": "手作業で行っていた処理を、機械やシステムに任せて自動で実行させること。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/boltbar",
+      "url": "https://www.producthunt.com/products/ifttt",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Boltbar",
-      "published": "2026-10-27T18:33:40Z",
+      "title_en": "IFTTT.ai",
+      "published": "2026-10-28T18:26:21Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "299687b86f",
-      "title_ja": "Liquid AIがスマートフォン向けの小型AIモデルを公開",
-      "what": "スマートフォンやパソコン、ロボットで動く軽量なAIモデルが公開された。",
-      "new": "小さな端末でも動く2Bクラスのモデルを6つ提供している点。",
-      "impact": "手元の端末でAIが手軽に使えるようになる。",
+      "id": "fb07e718a5",
+      "title_ja": "Macで日常のAIツールと記憶をまとめるSmart Jelly",
+      "what": "日常のAIツールと記憶を一つのMacアプリにまとめるサービスが登場した。",
+      "new": "普段使うAI機能やデータをMacアプリで一元管理できる。",
+      "impact": "Mac上で様々なAIツールや情報をスムーズに活用できるようになる。",
       "term": {
-        "word": "2Bクラス",
-        "note": "AIの規模を表す言葉で、約20億のパラメータを持つモデルのこと。"
+        "word": "Macアプリ",
+        "note": "アップルのパソコン「Mac」で動く専用のプログラムのこと。"
       },
-      "category": "新モデル",
+      "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/lfm2",
+      "url": "https://www.producthunt.com/products/smart-jelly",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "LFM3 by Liquid AI",
-      "published": "2026-10-27T17:20:52Z",
+      "title_en": "Smart Jelly",
+      "published": "2026-10-28T10:57:05Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 34,
-    "candidates": 19,
-    "ranked": 19,
-    "selected": 8,
-    "llm_calls": 11,
+    "collected": 36,
+    "candidates": 24,
+    "ranked": 24,
+    "selected": 7,
+    "llm_calls": 10,
     "providers": [
       "gemini"
     ],
-    "seconds": 53.4
+    "seconds": 48.0
   }
 }
