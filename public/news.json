@@ -1,164 +1,161 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-29T21:51:46.156534Z",
-  "weather": "cloudy",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-30T21:33:26.429106Z",
+  "weather": "sunny",
   "digest": [
-    "ミストラルが新型AIモデルを公開し性能が向上した。",
-    "グーグルが次世代の最先端AIモデルを発表した。",
-    "オープンAIが新しい行動指針を策定した。"
+    "オープンAIが安全性や学習拒否設定に対応した。",
+    "音声操作や自動作成などの便利な新ツールが登場。",
+    "デザイン編集AIや不自然な文章への注意喚起。"
   ],
-  "mascot_line": "きょうはくもり空だけど、新しいAIモデルが続々と登場してワクワクするね！",
+  "mascot_line": "きょうはおだやかなはれ！AIニュースを楽しくチェックしていってね！",
   "articles": [
     {
-      "id": "8ccea7e89b",
-      "title_ja": "Mistralが新型AI「Mistral Large 4」の重みを公開",
-      "what": "Mistralがプログラミングやセキュリティ対策に優れた新型AIの重みを一般公開した。",
-      "new": "プログラミング性能が向上し、3つの推論モードでコストと性能の調整が可能になった点。",
-      "impact": "自社でAIを安全に管理したい企業や開発者が、より効率的にプログラミングやセキュリティ対策を行えるようになる。",
-      "term": {
-        "word": "オープンウェイト",
-        "note": "AIの内部データや重みが一般に公開されており、自由にダウンロードして利用やカスタマイズができる仕組み。"
-      },
-      "category": "新モデル",
-      "score": 4,
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "We're releasing the weights of Mistral Large 4",
-      "published": "2026-10-29T14:13:21Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "a1765f446c",
-      "title_ja": "Mistralが新型AI「Mistral Large 4」を公開",
-      "what": "Mistralが、テキストと画像を読み込める新しいマルチモーダルAIモデルを公開した。",
-      "new": "サイバーセキュリティやプログラミングの作業に非常に強く、公開された重みを利用して手元で自由に動かせる。",
-      "impact": "自社のプログラムやセキュリティ対策に合わせて、安全かつ自由にAIをカスタマイズして活用できるようになる。",
-      "term": {
-        "word": "オープンウェイト",
-        "note": "AIの内部データや仕組みが一般に公開されており、利用者が自分の環境に合わせて自由に使える形式のこと。"
-      },
-      "category": "新モデル",
-      "score": 4,
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "source": "hf_blog",
-      "source_name": "Hugging Face Blog",
-      "title_en": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "published": "2026-10-29T00:00:00Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "1c15d11017",
-      "title_ja": "Googleの次世代AIモデルGemini 4 Carbon",
-      "what": "Googleが次世代の最先端モデルを発表した。",
-      "new": "これまでにない新しいフロンティアモデルである点。",
-      "impact": "より高度なAI機能が仕事や生活で使えるようになる。",
-      "term": {
-        "word": "フロンティアモデル",
-        "note": "最先端の技術を使って開発された、非常に性能の高いAIモデルのこと。"
-      },
-      "category": "新モデル",
-      "score": 4,
-      "url": "https://www.producthunt.com/products/gemini-4-carbon",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Gemini 4 Carbon",
-      "published": "2026-10-28T17:27:14Z",
+      "id": "c7606af40d",
+      "title_ja": "OpenAIがChatGPTの安全性と十代向けの保護を強化",
+      "what": "OpenAIがChatGPTの暴力防止策や十代向けの保護機能を強化した。",
+      "new": "安全性の確認方法を広げ、より早い段階での対応や新しい公的報告への取り組みを導入した。",
+      "impact": "十代の利用者がより安全にChatGPTを使える環境が整う。",
+      "term": null,
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "title_en": "Community safety report and new protections for teens",
+      "published": "2026-10-30T09:00:00Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "7bf0065ceb",
-      "title_ja": "OpenAIがAIの行動指針を更新",
-      "what": "OpenAIがAIの判断力や人間の意図への忠実さを導く5つのコアバリューをまとめた。",
-      "new": "より有能で有益なAIに向けた新しいモデル仕様を策定したこと。",
-      "impact": "AIの判断基準や動作の方向性がより明確になり、安全に活用しやすくなる。",
+      "id": "739e0b5535",
+      "title_ja": "AI特有の不自然な文章に注意しよう",
+      "what": "AIが書いた文章に特有の不自然さや気味の悪さについて考察している。",
+      "new": "AIに下書きや文章作成を頼むと、人間らしさが失われ読者の読む気が失せる原因になる。",
+      "impact": "自分で文章を考えることで思考力も磨かれるため、AIに文章作成をすべて任せないことが大切である。",
       "term": {
-        "word": "Model Spec",
-        "note": "AIがどのような基準やルールに従って動作すべきかを定めた仕様書のこと。"
+        "word": "LLM",
+        "note": "人間の言葉を理解して自然な文章を作ることができるAIの仕組みのこと。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://openai.com/index/updated-model-spec",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "LLM Voice",
+      "published": "2026-10-29T14:57:55Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "25cc4c9bb2",
+      "title_ja": "OpenAIがウェブサイトのAI学習拒否設定に対応",
+      "what": "OpenAIは、ウェブサイト運営者がAIの学習拒否を伝えやすくする共通の仕組みに対応すると発表した。",
+      "new": "共通のrobots.txtの仕組みを使って、AIの学習にサイトのデータを使わせない設定がしやすくなった。",
+      "impact": "自分のホームページやブログのデータ勝手にAIに使われたくない場合、簡単に拒否できるようになる。",
+      "term": {
+        "word": "robots.txt",
+        "note": "ウェブサイトの管理者が、検索エンジンのロボットなどにアクセスしてほしいページや、してほしくないページを伝えるためのファイルです。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "source": "openai",
       "source_name": "OpenAI News",
-      "title_en": "An updated Model Spec for more capable and beneficial AI",
-      "published": "2026-10-29T17:00:00Z",
+      "title_en": "Making it easier for websites to express AI training preferences",
+      "published": "2026-10-30T09:30:00Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "64e65a9739",
-      "title_ja": "ChatGPT上でアプリを作成して公開できるツール",
-      "what": "ChatGPTの画面から離れずに実際のアプリを作って公開できるツールが登場した。",
-      "new": "ChatGPTの環境内でアプリの構築から公開までを完結させられる点が新しい。",
-      "impact": "開発の専門知識がなくても、ChatGPTを使って自分で簡単にアプリを作れるようになる。",
+      "id": "edaa514e97",
+      "title_ja": "OpenAIが有料プラン向けにAPI利用枠を付与",
+      "what": "高額なChatGPTの定期購入プランに、同じ金額分のAPI利用枠が追加された。",
+      "new": "月額100ドルなどのプラン契約者が、追加費用なしでAPIも利用できるようになった点。",
+      "impact": "高額なChatGPTプランを使っている人は、お得にAIを使ったシステム開発などが試せるようになる。",
       "term": {
-        "word": "ChatGPT",
-        "note": "AIと自然な会話をしながら、質問への回答や文章の作成などをしてもらえるサービス。"
+        "word": "API",
+        "note": "外部のプログラムからAI機能やデータを呼び出して利用するための仕組みのこと。"
       },
-      "category": "便利なツール",
+      "category": "注目トピック",
       "score": 3,
-      "url": "https://www.producthunt.com/products/floot",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Floot in ChatGPT",
-      "published": "2026-10-28T20:14:10Z",
+      "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "title_en": "API credits benefit for eligible ChatGPT subscriptions",
+      "published": "2026-10-29T22:48:29Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "265ac34bbf",
-      "title_ja": "さまざまな作業を自動化できるIFTTT.ai",
-      "what": "いろいろな作業を簡単に自動化できるツールが登場した。",
-      "new": "AIを活用して手軽に自動化ができるようになった。",
-      "impact": "日々の面倒な作業が自動化され、業務効率が上がる。",
+      "id": "26d1c3bcda",
+      "title_ja": "Canvaがデザインを編集できるAIモデルを発表",
+      "what": "画像と言葉を一緒に理解してデザインを編集できるAIモデルが登場した。",
+      "new": "言葉の指示だけでデザインの編集ができるようになったこと。",
+      "impact": "直感的な操作でデザインの調整や修正が簡単にできるようになる。",
       "term": {
-        "word": "自動化",
-        "note": "手作業で行っていた処理を、機械やシステムに任せて自動で実行させること。"
+        "word": "ビジョン・言語モデル",
+        "note": "画像とテキストの両方を同時に理解し、指示に合わせた処理を行うAIのことです。"
       },
-      "category": "便利なツール",
+      "category": "新モデル",
       "score": 3,
-      "url": "https://www.producthunt.com/products/ifttt",
+      "url": "https://www.producthunt.com/products/canva",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "IFTTT.ai",
-      "published": "2026-10-28T18:26:21Z",
+      "title_en": "Canva Brush",
+      "published": "2026-10-29T19:23:23Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "fb07e718a5",
-      "title_ja": "Macで日常のAIツールと記憶をまとめるSmart Jelly",
-      "what": "日常のAIツールと記憶を一つのMacアプリにまとめるサービスが登場した。",
-      "new": "普段使うAI機能やデータをMacアプリで一元管理できる。",
-      "impact": "Mac上で様々なAIツールや情報をスムーズに活用できるようになる。",
+      "id": "389540bdf6",
+      "title_ja": "音声で作業を指示できるSpeakON Agent",
+      "what": "自然な話し言葉をAIエージェントの実際の仕事に変えるツールが登場した。",
+      "new": "音声を使ってAIエージェントに直接作業を指示できる点が新しい。",
+      "impact": "タイピングの手間を減らし、声だけでスムーズに作業を進められるようになる。",
       "term": {
-        "word": "Macアプリ",
-        "note": "アップルのパソコン「Mac」で動く専用のプログラムのこと。"
+        "word": "AIエージェント",
+        "note": "人間の代わりに自律的に考えて作業を実行してくれるAIプログラムのこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/smart-jelly",
+      "url": "https://www.producthunt.com/products/speakon",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Smart Jelly",
-      "published": "2026-10-28T10:57:05Z",
+      "title_en": "SpeakON Agent",
+      "published": "2026-10-29T10:44:31Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "58655cb29b",
+      "title_ja": "Macの活動や作業内容に合わせて動くウィジェット",
+      "what": "Macでの活動や作業内容に合わせたウィジェットを自動で作成できる。",
+      "new": "自分で書く必要がなく、ウィジェットが自動で作成される点。",
+      "impact": "Macでの作業状況の確認や情報整理がより便利になる。",
+      "term": {
+        "word": "ウィジェット",
+        "note": "パソコンの画面上で情報を表示したり操作したりする小さな機能画面のこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/chopstick",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Chopstick",
+      "published": "2026-10-29T07:38:23Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 36,
-    "candidates": 24,
-    "ranked": 24,
+    "collected": 28,
+    "candidates": 20,
+    "ranked": 20,
     "selected": 7,
-    "llm_calls": 10,
+    "llm_calls": 9,
     "providers": [
       "gemini"
     ],
-    "seconds": 48.0
+    "seconds": 42.6
   }
 }

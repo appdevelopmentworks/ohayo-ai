@@ -1,0 +1,161 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "c7606af40d",
+      "impact": "十代の利用者がより安全にChatGPTを使える環境が整う。",
+      "new": "安全性の確認方法を広げ、より早い段階での対応や新しい公的報告への取り組みを導入した。",
+      "published": "2026-10-30T09:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Community safety report and new protections for teens",
+      "title_ja": "OpenAIがChatGPTの安全性と十代向けの保護を強化",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "what": "OpenAIがChatGPTの暴力防止策や十代向けの保護機能を強化した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "739e0b5535",
+      "impact": "自分で文章を考えることで思考力も磨かれるため、AIに文章作成をすべて任せないことが大切である。",
+      "new": "AIに下書きや文章作成を頼むと、人間らしさが失われ読者の読む気が失せる原因になる。",
+      "published": "2026-10-29T14:57:55Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間の言葉を理解して自然な文章を作ることができるAIの仕組みのこと。",
+        "word": "LLM"
+      },
+      "title_en": "LLM Voice",
+      "title_ja": "AI特有の不自然な文章に注意しよう",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "what": "AIが書いた文章に特有の不自然さや気味の悪さについて考察している。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "25cc4c9bb2",
+      "impact": "自分のホームページやブログのデータ勝手にAIに使われたくない場合、簡単に拒否できるようになる。",
+      "new": "共通のrobots.txtの仕組みを使って、AIの学習にサイトのデータを使わせない設定がしやすくなった。",
+      "published": "2026-10-30T09:30:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "ウェブサイトの管理者が、検索エンジンのロボットなどにアクセスしてほしいページや、してほしくないページを伝えるためのファイルです。",
+        "word": "robots.txt"
+      },
+      "title_en": "Making it easier for websites to express AI training preferences",
+      "title_ja": "OpenAIがウェブサイトのAI学習拒否設定に対応",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "what": "OpenAIは、ウェブサイト運営者がAIの学習拒否を伝えやすくする共通の仕組みに対応すると発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "edaa514e97",
+      "impact": "高額なChatGPTプランを使っている人は、お得にAIを使ったシステム開発などが試せるようになる。",
+      "new": "月額100ドルなどのプラン契約者が、追加費用なしでAPIも利用できるようになった点。",
+      "published": "2026-10-29T22:48:29Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": true,
+      "term": {
+        "note": "外部のプログラムからAI機能やデータを呼び出して利用するための仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "API credits benefit for eligible ChatGPT subscriptions",
+      "title_ja": "OpenAIが有料プラン向けにAPI利用枠を付与",
+      "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "what": "高額なChatGPTの定期購入プランに、同じ金額分のAPI利用枠が追加された。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "26d1c3bcda",
+      "impact": "直感的な操作でデザインの調整や修正が簡単にできるようになる。",
+      "new": "言葉の指示だけでデザインの編集ができるようになったこと。",
+      "published": "2026-10-29T19:23:23Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "画像とテキストの両方を同時に理解し、指示に合わせた処理を行うAIのことです。",
+        "word": "ビジョン・言語モデル"
+      },
+      "title_en": "Canva Brush",
+      "title_ja": "Canvaがデザインを編集できるAIモデルを発表",
+      "url": "https://www.producthunt.com/products/canva",
+      "what": "画像と言葉を一緒に理解してデザインを編集できるAIモデルが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "389540bdf6",
+      "impact": "タイピングの手間を減らし、声だけでスムーズに作業を進められるようになる。",
+      "new": "音声を使ってAIエージェントに直接作業を指示できる点が新しい。",
+      "published": "2026-10-29T10:44:31Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに自律的に考えて作業を実行してくれるAIプログラムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "SpeakON Agent",
+      "title_ja": "音声で作業を指示できるSpeakON Agent",
+      "url": "https://www.producthunt.com/products/speakon",
+      "what": "自然な話し言葉をAIエージェントの実際の仕事に変えるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "58655cb29b",
+      "impact": "Macでの作業状況の確認や情報整理がより便利になる。",
+      "new": "自分で書く必要がなく、ウィジェットが自動で作成される点。",
+      "published": "2026-10-29T07:38:23Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "パソコンの画面上で情報を表示したり操作したりする小さな機能画面のこと。",
+        "word": "ウィジェット"
+      },
+      "title_en": "Chopstick",
+      "title_ja": "Macの活動や作業内容に合わせて動くウィジェット",
+      "url": "https://www.producthunt.com/products/chopstick",
+      "what": "Macでの活動や作業内容に合わせたウィジェットを自動で作成できる。"
+    }
+  ],
+  "date": "2026-10-31",
+  "digest": [
+    "オープンAIが安全性や学習拒否設定に対応した。",
+    "音声操作や自動作成などの便利な新ツールが登場。",
+    "デザイン編集AIや不自然な文章への注意喚起。"
+  ],
+  "generated_at": "2026-10-30T21:33:26.429106Z",
+  "mascot_line": "きょうはおだやかなはれ！AIニュースを楽しくチェックしていってね！",
+  "stats": {
+    "candidates": 20,
+    "collected": 28,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 20,
+    "seconds": 42.6,
+    "selected": 7
+  },
+  "weather": "sunny"
+}
