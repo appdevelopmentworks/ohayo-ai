@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b329cc4aaa",
+      "impact": "",
+      "new": "",
+      "published": "2026-10-30T17:27:25Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": {
+        "note": "債券などの信用度が高く、安全に投資できると認められる状態のこと。",
+        "word": "投資適格"
+      },
+      "title_en": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "title_ja": "Anthropicの上場後の格付けに懸念の声",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "what": "Anthropicが上場後に投資適格の格付けを得られない可能性があるとBlackstoneが指摘した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "58bdc6b4d6",
+      "impact": "AIの内部メモリや状態の仕組みを応用した、ユニークなコンピュータの実験として活用できる。",
+      "new": "追加の学習なしで、AIの仕組みだけでファミコンのゲームを正確に動かせる点が新しい。",
+      "published": "2026-10-30T21:59:22Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "ゲームソフトなどのデータを記録しており、中身の書き換えができない読み出し専用の記憶回路のこと。",
+        "word": "ROM"
+      },
+      "title_en": "dbreunig/nesformer",
+      "title_ja": "AIの重みにファミコンのCPUを埋め込むことに成功",
+      "url": "https://github.com/dbreunig/nesformer",
+      "what": "コンパイラを使って、AIモデルの内部にファミコンのCPUとメモリを直接再現した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f98c91185b",
+      "impact": "毎日のメールのやり取りや管理の仕方が変わる可能性がある。",
+      "new": "AI機能が最初から組み込まれている点や、ソースコードが公開されている点が新しい。",
+      "published": "2026-10-31T03:45:26Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ソフトウェアの設計図が一般に公開されており、誰でも自由に改良や利用ができること。",
+        "word": "オープンソース"
+      },
+      "title_en": "Godwit",
+      "title_ja": "オープンソースのAIメールソフトが登場",
+      "url": "https://www.producthunt.com/products/godwit",
+      "what": "AIを前提に作られたオープンソースのメールソフトが公開された。"
+    }
+  ],
+  "date": "2026-11-01",
+  "digest": [
+    "アンソロピックの上場後格付けに懸念の声があがっている",
+    "AIの重みにファミコンのCPUを埋め込むことに成功した",
+    "オープンソースでAI機能付きのメールソフトが登場した"
+  ],
+  "generated_at": "2026-10-31T20:29:04.727632Z",
+  "mascot_line": "きょうは晴れでおだやかな一日だね。新しいAIのニュースをチェックして楽しくすごそう！",
+  "stats": {
+    "candidates": 14,
+    "collected": 23,
+    "llm_calls": 5,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 14,
+    "seconds": 23.1,
+    "selected": 3
+  },
+  "weather": "sunny"
+}
