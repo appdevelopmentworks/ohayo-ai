@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a9ce9215ef",
+      "impact": "悪意あるリンクを開くだけで個人情報や会話内容が盗まれる危険性があった（現在は修正済み）。",
+      "new": "特別なアプリの導入や設定なしで、共有リンクを開くだけで被害者の認証情報にアクセスできる点。",
+      "published": "2026-10-31T10:30:11Z",
+      "score": 5,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "プログラムのセキュリティ上の欠陥や不具合のこと。悪用されると不正アクセスなどの原因になる。",
+        "word": "脆弱性"
+      },
+      "title_en": "Do the math: How we took over ChatGPT accounts",
+      "title_ja": "ChatGPTの脆弱性を突きアカウント乗っ取りが可能に",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "what": "研究チームがChatGPTの機能の隙を突いてリンクを踏ませるだけでアカウントを乗っ取る方法を発見した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "2a10a176a3",
+      "impact": "業務でAIを使う際、不正な操作やルールの悪用に対する法的責任が厳しく問われるようになる。",
+      "new": "裁判文書へのプロンプトインジェクションに対して司法が下した世界初の判断とされる。",
+      "published": "2026-11-01T02:19:53Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIへの指示文を書き換えて、意図しない動作をさせようとする不正な攻撃のこと。",
+        "word": "プロンプトインジェクション"
+      },
+      "title_en": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "title_ja": "裁判所のAIを隠し文字で不正に操作した弁護士が罰金を科された",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "what": "ブラジルの裁判所で、弁護士がAIをだます隠し文字を書類に仕込み、処分された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "5b0ac3b976",
+      "impact": "個人の情報が盗まれた際、AIによってより巧妙に標的としての価値が判断される危険がある。",
+      "new": "AIがサイバー犯罪の分析官として使われ、大量の個人情報を自動でランク付けする点が新しい。",
+      "published": "2026-10-31T14:29:03Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "パソコンやスマートフォンに害を与える悪意あるプログラム全般のこと。",
+        "word": "マルウェア"
+      },
+      "title_en": "Malware uses LLMs to rank victims by how much they're worth",
+      "title_ja": "AIを使って標的の価値を評価する新種マルウェア",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "what": "盗んだ情報から被害者の資産価値をAIにランク付けさせる新種のマルウェアが見つかった。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "e07ec5d69c",
+      "impact": "研究や開発でAIを利用している人が、突然アカウントを止められるリスクがある。",
+      "new": "モデルの学習や調整に関わる作業を行うと、アカウントが制限されるようになったこと。",
+      "published": "2026-10-31T19:39:19Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIに追加の学習をさせて、より望ましい受け答えができるようにする調整方法のこと。",
+        "word": "SFT"
+      },
+      "title_en": "Anthropic blocks users for anything touching training larger models",
+      "title_ja": "AnthropicがAI学習関連の利用者を次々ブロック",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "what": "Anthropicが競合の学習につながる作業をしたとして利用者をブロックした。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "ee64b63051",
+      "impact": "プロのクリエイターが、指示通りに動く高品質な動画と音声を素早く作成できるようになる。",
+      "new": "複数の画像や動画を参考にしながら、カメラワークや音声を指定して動画を作れる点が新しい。",
+      "published": "2026-10-29T17:08:44Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "AIモデルの動きを調整し、特定のスタイルや機能を追加するための軽量な追加データのこと。",
+        "word": "LoRA"
+      },
+      "title_en": "Pika-Labs/Pika-H3-Flex",
+      "title_ja": "Pika-Labsが「Pika-H3-Flex」を公開",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "what": "Pika-Labsが、音声付きの動画を生成できる新しいAIモデル「Pika-H3-Flex」を公開した。"
+    }
+  ],
+  "date": "2026-11-02",
+  "digest": [
+    "チャットGPTに脆弱性が見つかりアカウント乗っ取りが可能に",
+    "裁判所のAIを隠し文字で不正に操作した弁護士が罰金を科された",
+    "AIで資産価値を評価する新種マルウェアや新モデルが登場した"
+  ],
+  "generated_at": "2026-11-01T21:14:28.813712Z",
+  "mascot_line": "今日はくもり空だけど、AIの世界はいろんな動きがあって目が離せないね！しっかりチェックしよう！",
+  "stats": {
+    "candidates": 8,
+    "collected": 18,
+    "llm_calls": 7,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 8,
+    "seconds": 32.7,
+    "selected": 5
+  },
+  "weather": "cloudy"
+}
