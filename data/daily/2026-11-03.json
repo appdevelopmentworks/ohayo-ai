@@ -1,0 +1,224 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "1802721ebc",
+      "impact": "仕事や日常生活のさまざまな場面で新しいAI機能やセキュリティ対策が利用できるようになる。",
+      "new": "推論モデルのGemini 4シリーズやリアルタイム世界シミュレーションのGenie 4などを発表した。",
+      "published": "2026-11-02T17:45:00Z",
+      "score": 5,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleが開発した高度な推論やコード作成ができる最新のAIモデル。",
+        "word": "Gemini 4 Argon"
+      },
+      "title_en": "The latest AI news we announced in October 2026",
+      "title_ja": "Googleが新AIモデルや最新の取り組みを発表",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "what": "Googleが2026年10月の最新AIニュースや新製品を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b23877b88e",
+      "impact": "仕事でAIを使う際、利益につながっているかを慎重に見極める必要がある。",
+      "new": "IT大手以外の企業では、AIによる利益率や労働者あたりの売上の向上が見られないことがわかった。",
+      "published": "2026-11-01T22:10:45Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "アメリカの代表的な企業500社を選んで計算する株価の指数です。",
+        "word": "S&P 500"
+      },
+      "title_en": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "title_ja": "大企業の多くでAIの経済効果が出ていないと指摘",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "what": "大手投資会社の経済学者が、AIはIT業界以外の大企業に利益をもたらしていないと指摘した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "5464a863f8",
+      "impact": "仕事でAIを使う量がさらに増え、企業の働き方や価値観が大きく変わる可能性がある。",
+      "new": "",
+      "published": "2026-11-02T16:40:29Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "企業の株を一般の人が買えるように、証券取引所に新しく公開すること。",
+        "word": "IPO"
+      },
+      "title_en": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "title_ja": "Anthropicの社内AI利用額が人件費を上回る",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "what": "Anthropic社は、社内で利用したClaudeの価値が従業員の給与総額を超えたと発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "fb9ff410ae",
+      "impact": "AI市場の動向や大手企業の巨額な投資とリスクについて知ることができる。",
+      "new": "第3四半期の売上高や巨額のインフラ投資に関する契約内容が詳細に明らかになった。",
+      "published": "2026-11-02T14:38:45Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "企業が株式を上場する際に、経営状態や財務状況を投資家向けに説明するために提出する書類のこと。",
+        "word": "S-1"
+      },
+      "title_en": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "title_ja": "Anthropicが第3四半期の売上高や財務情報を公開",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "what": "Anthropicが米国証券取引委員会に修正版の届出書を提出し、最新の財務情報を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "2f59c5b118",
+      "impact": "アイデア出しや思考の整理をAIと一緒にスムーズに行えるようになる。",
+      "new": "マインドマップとAI機能が組み合わさったこと。",
+      "published": "2026-11-02T00:24:06Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "頭の中にある考えや情報を図にして整理するための手法です。",
+        "word": "マインドマップ"
+      },
+      "title_en": "Xmind 2027",
+      "title_ja": "マインドマップ作成ツールXmindがAIに対応",
+      "url": "https://www.producthunt.com/products/xmind",
+      "what": "マインドマップツールがAIを思考のパートナーとして使えるようになった。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "05220c88b8",
+      "impact": "AIエージェントが外部ツール経由で連絡ややり取りを自動で行えるようになる。",
+      "new": "AIエージェント専用の連絡先を簡単に与えられる点が新しい。",
+      "published": "2026-11-01T12:10:54Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに自分で考えて作業をこなしてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Agent Inbox",
+      "title_ja": "AIエージェントにメールやチャットを持たせるツール",
+      "url": "https://www.producthunt.com/products/agent-inbox",
+      "what": "AIエージェントにメールアドレスやSlack、Telegramのアカウントを持たせることができるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "e17eb6c5fc",
+      "impact": "将来的に仕事で複数のAIを連携させる際、人間社会と同様の組織の無駄や非効率が発生する可能性がある。",
+      "new": "AI同士が過剰に組織化し、意思決定に時間がかかるなどの人間のような非効率な問題行動を起こした。",
+      "published": "2026-11-01T13:47:24Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間の指示を受けて自分で考え、自律的に行動するAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "title_ja": "ゲーム内でAIの集団が過剰な官僚主義に陥り失敗",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "what": "マインクラフトの世界で50体のAI集団に文明を作らせる実験を行った。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "19244c7aa2",
+      "impact": "AI開発に伴う電力需要の増加が家庭の電気料金に与える影響を抑えられる可能性がある。",
+      "new": "将来の計算基盤が電力網の安定を支え、電気料金を保護する仕組みを作ること。",
+      "published": "2026-11-02T15:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "ここでは電力の供給網や送電網のことです。",
+        "word": "グリッド"
+      },
+      "title_en": "Introducing the Grid Protectors Program",
+      "title_ja": "OpenAIが電力網を安定させる新計画を発表",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "what": "OpenAIが電力会社と協力するグリッドプロテクターズプログラムを開始した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "ed4b582536",
+      "impact": "日常生活や仕事の雑務をAIがどの程度手伝えるようになるか、性能の目安が分かるようになる。",
+      "new": "育児探しのサポートや家計管理、行政手続きなどの日常的なタスクをAIがこなす能力を測る点に新しさがある。",
+      "published": "2026-11-02T09:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIの性能や能力を同じ基準で測るためのテストや問題集のこと。",
+        "word": "ベンチマーク"
+      },
+      "title_en": "LifeVal",
+      "title_ja": "AIの日常タスク遂行能力を測る新基準LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "what": "OpenAIが日常の作業をAIがどれだけ支援できるか測定する基準LifeValを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "275d477eb3",
+      "impact": "大きな組織でのAI活用が一時的に足踏みしている現状を知ることができる。",
+      "new": "定期的な企業調査のデータから、これまで進んでいた大企業でのAI導入に減速の動きが見え始めたこと。",
+      "published": "2026-11-02T13:31:26Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "仕事の効率化などのために、人工知能の技術を実際の業務に取り入れて使うこと。",
+        "word": "AI導入"
+      },
+      "title_en": "The U.S. Census Bureau and “Super Intelligence”",
+      "title_ja": "大企業でのAI利用率が低下傾向に",
+      "url": "https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/",
+      "what": "米国の調査で、大企業におけるAIの利用率が低下していることが分かった。"
+    }
+  ],
+  "date": "2026-11-03",
+  "digest": [
+    "グーグルが新AIモデルや最新の取り組みを発表した",
+    "アンソロピックの社内AI利用額が人件費を上回った",
+    "大企業でAIの経済効果や利用率が低下している"
+  ],
+  "generated_at": "2026-11-02T23:54:26.026125Z",
+  "mascot_line": "今日は大ニュースの日！すごいのから面白い研究まで盛りだくさんだよ、一緒にチェックしようね！",
+  "stats": {
+    "candidates": 17,
+    "collected": 21,
+    "llm_calls": 12,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 17,
+    "seconds": 58.6,
+    "selected": 10
+  },
+  "weather": "thunder"
+}
