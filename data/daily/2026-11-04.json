@@ -1,0 +1,152 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b450560162",
+      "impact": "学校現場でAIの利用を受け入れるかどうかの判断が、検索サービスの利用に影響する。",
+      "new": "学校のAI導入方針によって、Googleの検索サービスが使えなくなる可能性がある点。",
+      "published": "2026-11-03T15:25:47Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Google will turn off search for schools that reject AI",
+      "title_ja": "GoogleがAIを拒否する学校の検索を停止へ",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "what": "Googleが、AI機能を拒否する学校に対して検索サービスの提供を停止する方針を示した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "91f7a94a3c",
+      "impact": "動画制作の時間が大幅に短縮され、滑らかな長編動画を手軽に作れるようになる。",
+      "new": "生成と学習、実行のプロセスを最適化し、品質を保ったまま高速に連続した動画を出力できる。",
+      "published": "2026-11-03T00:00:00Z",
+      "score": 3,
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "summary_only": false,
+      "term": {
+        "note": "AIを使ってテキストや指示から自動的に動画を作り出す技術のこと。",
+        "word": "動画生成"
+      },
+      "title_en": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+      "title_ja": "なめらかな長編動画を高速で作る新技術が登場",
+      "url": "https://arxiv.org/abs/2611.00859",
+      "what": "リアルタイムで長い動画を効率よく生成する新しい仕組みであるWave Forcingが提案された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "605a80a505",
+      "impact": "意図せず社外秘の情報や入力データが学習に使われる恐れがあるため、定期的な設定の確認が必要になる。",
+      "new": "自分で変更していないのに設定が勝手に元に戻っていたという点が新しい。",
+      "published": "2026-11-03T14:53:41Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが賢くなるために、利用者が入力したデータや会話の内容を読み込んで記憶すること。",
+        "word": "モデルの学習"
+      },
+      "title_en": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "title_ja": "OpenAIでデータ共有の設定が勝手に戻る事例が報告",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "what": "利用者がオフにしたはずのデータ共有設定が、知らないうちに再度有効になっていたという体験談が投稿された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "cbd9038ac7",
+      "impact": "仕事の一部をAIに任せて負担を減らすことができる。",
+      "new": "完成した成果物をそのまま返してくれる点が新しい。",
+      "published": "2026-11-03T06:48:10Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "NEXUPIRA",
+      "title_ja": "完了した仕事を提供するAIチームメイト登場",
+      "url": "https://www.producthunt.com/products/nexupira",
+      "what": "完了した仕事を提供するAIチームメイトが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7171bb50b5",
+      "impact": "郵便物の仕分けや片付けの手間を減らすことができる。",
+      "new": "メールが届くのと同時に自動で片付けを行う機能を持つ点。",
+      "published": "2026-11-03T05:37:15Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Corvo",
+      "title_ja": "メールボックスが届いた郵便を自動で整理する",
+      "url": "https://www.producthunt.com/products/corvo-3",
+      "what": "届いた郵便物を自動的に整理してくれるメールボックスが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0aa2e381d4",
+      "impact": "AIに任せきりにせず、安全に自分の意図通りAIエージェントを活用できるようになる。",
+      "new": "人間が管理を手放さずにAIエージェントと協力して作業を進められる点。",
+      "published": "2026-11-03T01:06:08Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて仕事を進めてくれるAIのプログラムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "One Roof",
+      "title_ja": "人間が主導権を握るAIエージェント構築ツール",
+      "url": "https://www.producthunt.com/products/one-roof",
+      "what": "人間が主導権を維持したまま、AIエージェントを構築する新しいツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "b5a30b7e2e",
+      "impact": "音声でAIと会話する際、手動で音楽を止める手間違えがなくなる。",
+      "new": "ChatGPTの音声機能と音楽アプリの連動がスムーズになる点が新しい。",
+      "published": "2026-11-02T23:37:57Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Oreja de Van Gogh",
+      "title_ja": "ChatGPTの音声中にApple Musicを自動停止",
+      "url": "https://www.producthunt.com/products/oreja-de-van-gogh",
+      "what": "ChatGPTが話すときにApple Musicを一時停止する機能が登場した。"
+    }
+  ],
+  "date": "2026-11-04",
+  "digest": [
+    "グーグルがAI拒否校へ検索停止方針",
+    "オープンAIで設定が勝手に戻る報告",
+    "長編動画の高速生成や便利ツール登場"
+  ],
+  "generated_at": "2026-11-03T22:20:51.171380Z",
+  "mascot_line": "きょうはおだやかなはれですね。便利なAIツールをいっしょにチェックしましょう。",
+  "stats": {
+    "candidates": 33,
+    "collected": 46,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 33,
+    "seconds": 219.3,
+    "selected": 7
+  },
+  "weather": "sunny"
+}
