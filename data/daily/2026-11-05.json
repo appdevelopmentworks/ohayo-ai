@@ -1,0 +1,141 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "68c44263a0",
+      "impact": "今後は古いシステムの安全性の見直しが必要になり、ソフトウェアの更新をこまめに行うことが重要になる。",
+      "new": "AIが人間には見つけにくい複雑なメモリの不具合を突く攻撃方法を短期間で見つけ出したこと。",
+      "published": "2026-11-04T11:52:17Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "プログラムの不具合やセキュリティ上の弱点のことで、不正アクセスなどに悪用されるおそれがある。",
+        "word": "脆弱性"
+      },
+      "title_en": "AI is forcing us to pay off 40 years of technical debt",
+      "title_ja": "AIで過去の古いシステムの見落としが明らかに",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "what": "AIを活用したセキュリティ調査により、多くのウェブサイトで使われるPHPに重大な脆弱性が発見された。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "68698a9cc7",
+      "impact": "自分の走る姿を簡単にSNSで共有できるようになる。",
+      "new": "ランニングの記録や映像を手軽にSNS用のシェア可能なリール動画にできる。",
+      "published": "2026-11-04T06:09:49Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "InstagramなどのSNSで投稿できる、短い縦長の動画のこと。",
+        "word": "リール"
+      },
+      "title_en": "Rungle",
+      "title_ja": "走る姿の写真や動画をSNS向けに編集できるツール",
+      "url": "https://www.producthunt.com/products/rungle",
+      "what": "走っている時の写真や動画を、SNS向けの短い動画に自動で変換できるツールである。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "7838c87736",
+      "impact": "専門的な調査や高度なプログラミング作業をAIに任せやすくなる。",
+      "new": "100万トークンの長文脈に対応し、コード作成や金融調査の能力が大きく向上した。",
+      "published": "2026-11-02T04:13:51Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "文字だけでなく、画像や音声など複数の種類のデータを同時に理解して処理できる機能のこと。",
+        "word": "マルチモーダル"
+      },
+      "title_en": "moonshotai/Kimi-K3.1-Pro",
+      "title_ja": "Moonshot AIが新モデル「Kimi-K3.1-Pro」を発表",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "what": "Moonshot AIがマルチモーダル対応の新モデル「Kimi-K3.1-Pro」を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "21ac869dd7",
+      "impact": "オンラインミーティングや電話で、言葉に詰まらずスムーズに話せるようになる。",
+      "new": "通話の最中に適切な言葉をささやいてくれる仕組みが新しい。",
+      "published": "2026-11-03T23:13:42Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "TellPip",
+      "title_ja": "通話中に何を話すべきか教えてくれる「TellPip」",
+      "url": "https://www.producthunt.com/products/tellpip",
+      "what": "通話中に何を話すべきかをこっそり教えてくれるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "4dad0a660e",
+      "impact": "ライブ配信の運営やコンテンツ作成の手間を減らすことができる。",
+      "new": "ChatGPTと連携してライブ配信を自動で実行できる点が新しい。",
+      "published": "2026-11-03T13:45:28Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "インターネットを通じて、リアルタイムで映像や音声を届ける仕組みのことです。",
+        "word": "ライブ配信"
+      },
+      "title_en": "LiveReacting for ChatGPT",
+      "title_ja": "ChatGPTを使った24時間ライブ配信機能",
+      "url": "https://www.producthunt.com/products/livereacting",
+      "what": "ChatGPTを使って事前収録した動画や24時間のライブ配信を行えるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "fa83090a9d",
+      "impact": "仕事を探すときの負担が減り、効率的に活動できるようになる。",
+      "new": "転職活動に特化したAIアシスタントを無料で利用できる。",
+      "published": "2026-11-03T07:57:55Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに目的を達成するため、自律的に考えて作業してくれるAIのことです。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Hira",
+      "title_ja": "無料で使える転職活動用の個人向けAIエージェント",
+      "url": "https://www.producthunt.com/products/hira",
+      "what": "仕事探しをサポートする無料の個人向けAIエージェントが登場した。"
+    }
+  ],
+  "date": "2026-11-05",
+  "digest": [
+    "AI調査でシステム脆弱性が明らかに",
+    "長文対応の新モデルや配信ツールが登場",
+    "SNS編集や転職支援の便利ツールも公開"
+  ],
+  "generated_at": "2026-11-04T22:40:43.437939Z",
+  "mascot_line": "おはようAI！今日は晴れでおだやかな一日だね。新しいツールを使って楽しくAIに触れよう！",
+  "stats": {
+    "candidates": 21,
+    "collected": 38,
+    "llm_calls": 8,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 21,
+    "seconds": 37.9,
+    "selected": 6
+  },
+  "weather": "sunny"
+}
