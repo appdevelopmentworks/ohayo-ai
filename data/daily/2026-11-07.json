@@ -1,0 +1,144 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "6f78e24cdb",
+      "impact": "SNS上の著名人を使った怪しい広告や詐欺への警戒が一層必要になる。",
+      "new": "内部文書からMetaが詐欺広告などで巨額の収益を得ていたと報じられた。",
+      "published": "2026-11-05T23:09:57Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AI技術を使って、実在の人物の顔や声を本物そっくりに作り出した偽の動画や音声のこと。",
+        "word": "ディープフェイク"
+      },
+      "title_en": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "title_ja": "有名人の偽動画広告、Metaが放置していると告発",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "what": "実業家のマーク・キューバンが、MetaがAIを使った詐欺広告を意図的に放置していると批判した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b58fee4edb",
+      "impact": "卒業生がAIを使いこなせる状態で社会に出てくるようになる。",
+      "new": "AIを活用した教育と学習を授業に取り入れている点。",
+      "published": "2026-11-05T17:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "最初からAIがある環境で育ち、当たり前に使いこなせる世代や状態のこと。",
+        "word": "AI-native"
+      },
+      "title_en": "Australian universities are creating AI-native graduates",
+      "title_ja": "オーストラリアの大学がChatGPTの導入を拡大",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "what": "オーストラリアの大学が学生の社会人向けにChatGPTの利用を広げている。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a21ba108a8",
+      "impact": "自分のドメインを使ったメールを手軽かつお得に持てるようになる。",
+      "new": "追加料金なしで、持っているすべてのドメインの本格的なメールが月額5ドルで使える。",
+      "published": "2026-11-05T18:55:10Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "インターネット上で自分のWebサイトやメールアドレスに使える、世界に一つだけのオリジナル名称のこと。",
+        "word": "独自ドメイン"
+      },
+      "title_en": "Plainmail",
+      "title_ja": "月額5ドルで独自ドメインのメールが使えるPlainmail",
+      "url": "https://www.producthunt.com/products/plainmail",
+      "what": "所有するすべてのドメインで月額5ドルの定額メールサービスを提供するPlainmailが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "646effa6c9",
+      "impact": "キーボード入力の手間が減り、日々の文章作成や作業がスムーズになる。",
+      "new": "パソコン内部で処理を行うため、無料で手軽に音声入力ができる。",
+      "published": "2026-11-05T17:51:26Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ユーザーの指示を理解して、自動で仕事や作業を進めてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Kivo",
+      "title_ja": "Macで使える無料の音声入力ツールが登場",
+      "url": "https://www.producthunt.com/products/kivo-4",
+      "what": "Macのあらゆるアプリで使える無料の音声入力AIツールが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7f879124f5",
+      "impact": "パソコンでの作業中に身近な感覚でAIを呼び出し利用できるようになる。",
+      "new": "AIがデスクトップの妖精として常駐する仕組みが新しい。",
+      "published": "2026-11-05T16:28:20Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "パソコンの画面や、画面上で作業する背景のスペースのこと。",
+        "word": "デスクトップ"
+      },
+      "title_en": "Wisp",
+      "title_ja": "デスクトップに住むAIアシスタント「Wisp」",
+      "url": "https://www.producthunt.com/products/wisp-9",
+      "what": "デスクトップ上で動く小さなAIアシスタントが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c079972798",
+      "impact": "自分の考えに対する別の意見や客観的な視点を手軽に得られるようになる。",
+      "new": "2つのAIが意見を交わし合うことで、多角的な視点を得られる点が新しい。",
+      "published": "2026-11-05T01:29:32Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "自律的に考え、指示された作業をこなすAIプログラムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Pressure",
+      "title_ja": "2つのAIがテーマについて討論するツール",
+      "url": "https://www.producthunt.com/products/pressure",
+      "what": "2つのAIエージェントにテーマについて討論させることができる。"
+    }
+  ],
+  "date": "2026-11-07",
+  "digest": [
+    "有名人の偽動画広告をMetaが放置していると告発された。",
+    "オーストラリアの大学でChatGPTの導入が拡大している。",
+    "新機能を持つ便利なAIツールやサービスが多数登場した。"
+  ],
+  "generated_at": "2026-11-06T22:09:39.730248Z",
+  "mascot_line": "おはよう！今日は穏やかな晴れだから、便利なAIツールを試しながら楽しく過ごそうね！",
+  "stats": {
+    "candidates": 24,
+    "collected": 31,
+    "llm_calls": 8,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 24,
+    "seconds": 37.6,
+    "selected": 6
+  },
+  "weather": "sunny"
+}
