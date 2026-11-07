@@ -1,144 +1,124 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-06T22:09:39.730248Z",
-  "weather": "sunny",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-07T20:57:04.296902Z",
+  "weather": "cloudy",
   "digest": [
-    "有名人の偽動画広告をMetaが放置していると告発された。",
-    "オーストラリアの大学でChatGPTの導入が拡大している。",
-    "新機能を持つ便利なAIツールやサービスが多数登場した。"
+    "インスタがパソコン向けの無料動画編集ツールを公開した。",
+    "アンソロピックでAIによる開発自動化や上場時の価値に注目。",
+    "人間とAIの共生モデルや音声通話のライブ化機能が登場した。"
   ],
-  "mascot_line": "おはよう！今日は穏やかな晴れだから、便利なAIツールを試しながら楽しく過ごそうね！",
+  "mascot_line": "きょうはくもり空だけど、新しい動画編集ツールや面白いAIのニュースがたくさんあるよ！",
   "articles": [
     {
-      "id": "6f78e24cdb",
-      "title_ja": "有名人の偽動画広告、Metaが放置していると告発",
-      "what": "実業家のマーク・キューバンが、MetaがAIを使った詐欺広告を意図的に放置していると批判した。",
-      "new": "内部文書からMetaが詐欺広告などで巨額の収益を得ていたと報じられた。",
-      "impact": "SNS上の著名人を使った怪しい広告や詐欺への警戒が一層必要になる。",
+      "id": "3a67e4fdf7",
+      "title_ja": "Instagramがパソコン向けの動画編集ソフトを公開",
+      "what": "InstagramがAI機能を持つパソコン向けの無料動画編集ツールを公開した。",
+      "new": "AIエージェントを活用した動画編集機能をパソコンで無料で使える点が新しい。",
+      "impact": "パソコンを使ってInstagram向けの動画編集を手軽に行えるようになる。",
       "term": {
-        "word": "ディープフェイク",
-        "note": "AI技術を使って、実在の人物の顔や声を本物そっくりに作り出した偽の動画や音声のこと。"
+        "word": "AIエージェント",
+        "note": "人間の指示を受けて、自分で考えて作業を自動で進めてくれるAIのこと。"
+      },
+      "category": "画像・動画",
+      "score": 4,
+      "url": "https://www.producthunt.com/products/instagram",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Instagram Edits for Desktop",
+      "published": "2026-11-06T00:46:05Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "3b972ecaa6",
+      "title_ja": "AnthropicでAIがAI開発を急加速させている可能性",
+      "what": "Anthropic社でAIの進化スピードがこれまでの約2倍に達したと報告された。",
+      "new": "AIが自身の研究開発を自動化することで、開発の速度が劇的に上がっている点。",
+      "impact": "AIの進化スピードがさらに早まり、私たちの仕事や生活への影響も急激に訪れる可能性がある。",
+      "term": {
+        "word": "Anthropic",
+        "note": "対話型AI「Claude」などを開発しているアメリカの主要なAI企業。"
       },
       "category": "注目トピック",
       "score": 4,
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "published": "2026-11-05T23:09:57Z",
+      "title_en": "AI is dramatically accelerating AI research",
+      "published": "2026-11-06T20:27:23Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "b58fee4edb",
-      "title_ja": "オーストラリアの大学がChatGPTの導入を拡大",
-      "what": "オーストラリアの大学が学生の社会人向けにChatGPTの利用を広げている。",
-      "new": "AIを活用した教育と学習を授業に取り入れている点。",
-      "impact": "卒業生がAIを使いこなせる状態で社会に出てくるようになる。",
+      "id": "a16bf7a454",
+      "title_ja": "Anthropicの株式上場での企業価値予想が低下",
+      "what": "Anthropicの株式上場での企業価値の見積もりが下方に圧力を受けている。",
+      "new": "株の購入希望者が評価する企業価値が1.1兆ドル程度と見られている点。",
+      "impact": "今後のAI関連企業の市場評価や上場計画に影響を与える可能性がある。",
       "term": {
-        "word": "AI-native",
-        "note": "最初からAIがある環境で育ち、当たり前に使いこなせる世代や状態のこと。"
+        "word": "IPO",
+        "note": "企業の株式を証券取引所に公開し、一般の投資家が売買できるようにすること。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Australian universities are creating AI-native graduates",
-      "published": "2026-11-05T17:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "published": "2026-11-06T16:54:36Z",
       "summary_only": true,
       "also_in": []
     },
     {
-      "id": "a21ba108a8",
-      "title_ja": "月額5ドルで独自ドメインのメールが使えるPlainmail",
-      "what": "所有するすべてのドメインで月額5ドルの定額メールサービスを提供するPlainmailが登場した。",
-      "new": "追加料金なしで、持っているすべてのドメインの本格的なメールが月額5ドルで使える。",
-      "impact": "自分のドメインを使ったメールを手軽かつお得に持てるようになる。",
+      "id": "ba30d0a56b",
+      "title_ja": "人間とAIが共生する新しい知能のあり方を提案",
+      "what": "人間を内側から支えるAIパートナーの概念と仕組みを提案した。",
+      "new": "機械の自立性ではなく個人の知能を高める拡張に焦点を当てた点。",
+      "impact": "個人の記憶や思考を常に支えるAIが普及し能力が高まる。",
       "term": {
-        "word": "独自ドメイン",
-        "note": "インターネット上で自分のWebサイトやメールアドレスに使える、世界に一つだけのオリジナル名称のこと。"
+        "word": "認知共生体",
+        "note": "人間の記憶や状況を理解し、思考や作業を常に助けてくれる相棒のようなAIシステムのこと。"
       },
-      "category": "便利なツール",
+      "category": "研究・論文",
       "score": 3,
-      "url": "https://www.producthunt.com/products/plainmail",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Plainmail",
-      "published": "2026-11-05T18:55:10Z",
-      "summary_only": true,
+      "url": "https://arxiv.org/abs/2611.05376",
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "title_en": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "published": "2026-11-06T00:00:00Z",
+      "summary_only": false,
       "also_in": []
     },
     {
-      "id": "646effa6c9",
-      "title_ja": "Macで使える無料の音声入力ツールが登場",
-      "what": "Macのあらゆるアプリで使える無料の音声入力AIツールが公開された。",
-      "new": "パソコン内部で処理を行うため、無料で手軽に音声入力ができる。",
-      "impact": "キーボード入力の手間が減り、日々の文章作成や作業がスムーズになる。",
+      "id": "dce7c54c27",
+      "title_ja": "音声チャットをライブビデオ通話に変える新機能",
+      "what": "Museを使った音声チャットをライブビデオ通話に変更できる機能が登場した。",
+      "new": "音声だけのやり取りをその場でリアルなビデオ通話へと手軽に切り替えられる。",
+      "impact": "オンラインでの対話や顧客対応の雰囲気がより臨場感のあるものになる。",
       "term": {
-        "word": "AIエージェント",
-        "note": "ユーザーの指示を理解して、自動で仕事や作業を進めてくれるAIのこと。"
+        "word": "リアルタイムアバター",
+        "note": "AIが人工的な人物の映像をその場でリアルタイムに生成して動かす技術のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/kivo-4",
+      "url": "https://www.producthunt.com/products/meta-ai",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Kivo",
-      "published": "2026-11-05T17:51:26Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "7f879124f5",
-      "title_ja": "デスクトップに住むAIアシスタント「Wisp」",
-      "what": "デスクトップ上で動く小さなAIアシスタントが登場した。",
-      "new": "AIがデスクトップの妖精として常駐する仕組みが新しい。",
-      "impact": "パソコンでの作業中に身近な感覚でAIを呼び出し利用できるようになる。",
-      "term": {
-        "word": "デスクトップ",
-        "note": "パソコンの画面や、画面上で作業する背景のスペースのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/wisp-9",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Wisp",
-      "published": "2026-11-05T16:28:20Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "c079972798",
-      "title_ja": "2つのAIがテーマについて討論するツール",
-      "what": "2つのAIエージェントにテーマについて討論させることができる。",
-      "new": "2つのAIが意見を交わし合うことで、多角的な視点を得られる点が新しい。",
-      "impact": "自分の考えに対する別の意見や客観的な視点を手軽に得られるようになる。",
-      "term": {
-        "word": "AIエージェント",
-        "note": "自律的に考え、指示された作業をこなすAIプログラムのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/pressure",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Pressure",
-      "published": "2026-11-05T01:29:32Z",
+      "title_en": "Muse Realtime Avatar",
+      "published": "2026-11-06T18:21:58Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 31,
-    "candidates": 24,
-    "ranked": 24,
-    "selected": 6,
-    "llm_calls": 8,
+    "collected": 13,
+    "candidates": 9,
+    "ranked": 9,
+    "selected": 5,
+    "llm_calls": 7,
     "providers": [
       "gemini"
     ],
-    "seconds": 37.6
+    "seconds": 34.3
   }
 }

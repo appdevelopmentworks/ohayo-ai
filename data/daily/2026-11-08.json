@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "3a67e4fdf7",
+      "impact": "パソコンを使ってInstagram向けの動画編集を手軽に行えるようになる。",
+      "new": "AIエージェントを活用した動画編集機能をパソコンで無料で使える点が新しい。",
+      "published": "2026-11-06T00:46:05Z",
+      "score": 4,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて作業を自動で進めてくれるAIのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Instagram Edits for Desktop",
+      "title_ja": "Instagramがパソコン向けの動画編集ソフトを公開",
+      "url": "https://www.producthunt.com/products/instagram",
+      "what": "InstagramがAI機能を持つパソコン向けの無料動画編集ツールを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "3b972ecaa6",
+      "impact": "AIの進化スピードがさらに早まり、私たちの仕事や生活への影響も急激に訪れる可能性がある。",
+      "new": "AIが自身の研究開発を自動化することで、開発の速度が劇的に上がっている点。",
+      "published": "2026-11-06T20:27:23Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "対話型AI「Claude」などを開発しているアメリカの主要なAI企業。",
+        "word": "Anthropic"
+      },
+      "title_en": "AI is dramatically accelerating AI research",
+      "title_ja": "AnthropicでAIがAI開発を急加速させている可能性",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "what": "Anthropic社でAIの進化スピードがこれまでの約2倍に達したと報告された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a16bf7a454",
+      "impact": "今後のAI関連企業の市場評価や上場計画に影響を与える可能性がある。",
+      "new": "株の購入希望者が評価する企業価値が1.1兆ドル程度と見られている点。",
+      "published": "2026-11-06T16:54:36Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": {
+        "note": "企業の株式を証券取引所に公開し、一般の投資家が売買できるようにすること。",
+        "word": "IPO"
+      },
+      "title_en": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "title_ja": "Anthropicの株式上場での企業価値予想が低下",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "what": "Anthropicの株式上場での企業価値の見積もりが下方に圧力を受けている。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "ba30d0a56b",
+      "impact": "個人の記憶や思考を常に支えるAIが普及し能力が高まる。",
+      "new": "機械の自立性ではなく個人の知能を高める拡張に焦点を当てた点。",
+      "published": "2026-11-06T00:00:00Z",
+      "score": 3,
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "summary_only": false,
+      "term": {
+        "note": "人間の記憶や状況を理解し、思考や作業を常に助けてくれる相棒のようなAIシステムのこと。",
+        "word": "認知共生体"
+      },
+      "title_en": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "title_ja": "人間とAIが共生する新しい知能のあり方を提案",
+      "url": "https://arxiv.org/abs/2611.05376",
+      "what": "人間を内側から支えるAIパートナーの概念と仕組みを提案した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "dce7c54c27",
+      "impact": "オンラインでの対話や顧客対応の雰囲気がより臨場感のあるものになる。",
+      "new": "音声だけのやり取りをその場でリアルなビデオ通話へと手軽に切り替えられる。",
+      "published": "2026-11-06T18:21:58Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "AIが人工的な人物の映像をその場でリアルタイムに生成して動かす技術のこと。",
+        "word": "リアルタイムアバター"
+      },
+      "title_en": "Muse Realtime Avatar",
+      "title_ja": "音声チャットをライブビデオ通話に変える新機能",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "what": "Museを使った音声チャットをライブビデオ通話に変更できる機能が登場した。"
+    }
+  ],
+  "date": "2026-11-08",
+  "digest": [
+    "インスタがパソコン向けの無料動画編集ツールを公開した。",
+    "アンソロピックでAIによる開発自動化や上場時の価値に注目。",
+    "人間とAIの共生モデルや音声通話のライブ化機能が登場した。"
+  ],
+  "generated_at": "2026-11-07T20:57:04.296902Z",
+  "mascot_line": "きょうはくもり空だけど、新しい動画編集ツールや面白いAIのニュースがたくさんあるよ！",
+  "stats": {
+    "candidates": 9,
+    "collected": 13,
+    "llm_calls": 7,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 9,
+    "seconds": 34.3,
+    "selected": 5
+  },
+  "weather": "cloudy"
+}
