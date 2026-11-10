@@ -1,0 +1,275 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "fc6b6a56df",
+      "impact": "専門的な資料の分析や複雑なシステムの開発作業をAIに任せられるようになる。",
+      "new": "複雑なプログラミングや科学研究などの高度なタスクを深く考えて実行できる。",
+      "published": "2026-11-10T16:03:47Z",
+      "score": 5,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "外部のプログラムからAIなどの機能やデータを呼び出して利用できるようにする仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "Gemini 4 Carbon is now available",
+      "title_ja": "Googleが最上位の高性能AI「Gemini 4 Carbon」を公開",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "what": "Googleが最高性能を誇る新モデル「Gemini 4 Carbon」の提供を始めた。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "b73105fe4e",
+      "impact": "スマホの操作や日常の作業がより自動化され、便利に使いこなせるようになる。",
+      "new": "文字起こし機能や、言葉で指示してカスタムウィジェットを作る機能などが追加された。",
+      "published": "2026-11-10T19:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "アプリを開かなくても、スマホのホーム画面上で最新情報を確認できる小さな表示枠のこと。",
+        "word": "ウィジェット"
+      },
+      "title_en": "Gemini Intelligence: New features, on more devices",
+      "title_ja": "Google、スマホ向けAI機能「Gemini Intelligence」を拡張",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "what": "Googleは、Android端末向けに「Gemini Intelligence」の新機能と対応機種の拡大を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "66ed14c641",
+      "impact": "仕事でPDFや画像編集、資料作りをする際にアプリを切り替える手間が減り、作業がスムーズになる。",
+      "new": "GoogleのサービスからAdobeのツールに直接アクセスでき、GeminiなどのAI機能も連携する点が新しい。",
+      "published": "2026-11-10T14:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleが開発した最先端のAIモデルや、それを使ったサービスの名称。",
+        "word": "Gemini"
+      },
+      "title_en": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "title_ja": "GoogleとAdobeが連携を強化しアプリが便利に",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "what": "GoogleとAdobeが提携を拡大し、それぞれのアプリやAI機能を相互に利用できるようにすると発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "5ca4dc7b6d",
+      "impact": "自社がAI上でどのように紹介されるかを確認し、ビジネスへの集客に活かせるようになる。",
+      "new": "ChatGPT上でビジネス情報を管理し、関心を実際の行動につなげられるようになった。",
+      "published": "2026-11-10T10:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Introducing Businesses in ChatGPT",
+      "title_ja": "ChatGPTで自社の情報管理や分析が可能に",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "what": "OpenAIがChatGPT内で自社の情報を管理し、表示状況を分析できる機能を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "feb2ba2115",
+      "impact": "低コストでAIを活用した業務効率化や自動化を進めやすくなる。",
+      "new": "低価格でありながら高い性能を持ち、長大なデータ処理や音声・動画の理解にも対応する。",
+      "published": "2026-11-10T07:28:21Z",
+      "score": 4,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "AIが文章を読み書きする際の単位のこと。",
+        "word": "トークン"
+      },
+      "title_en": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "title_ja": "Metaが小さくてコスト効率の高いAIモデル「Muse Ember」を発表",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "what": "Metaが、複雑な推論やエージェントの作業に特化した小型で効率的なAIモデル「Muse Ember」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "7da1b2b475",
+      "impact": "工場などの現場でロボットが単純作業を代わりに行えるようになり、人間の負担が減る可能性がある。",
+      "new": "従来のモデルより多様な作業をこなし、工場の生産ラインでの実証実験で96%の成功率を記録した点。",
+      "published": "2026-11-09T19:51:47Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "視覚情報や言語の指示を理解し、実際に体を動かす行動へとつなげる最先端のAI技術のこと。",
+        "word": "VLAモデル"
+      },
+      "title_en": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "title_ja": "Googleが新型ロボット用AI「Gemini Robotics 2.5」を発表",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "what": "Googleは、ロボットの学習速度や器用さを高める新型のAIモデル「Gemini Robotics 2.5」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "255b56db4a",
+      "impact": "非常に高度な処理ができる一方で、料金や処理時間に注意して利用する必要がある。",
+      "new": "AIの性能を測るArtificial Analysisの指数で、同価格帯の平均を大きく上回る高い知能を示した。",
+      "published": "2026-11-09T20:04:55Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが一度に読み込んで記憶できる文章やデータの量を表す広さのこと。",
+        "word": "コンテキストウィンドウ"
+      },
+      "title_en": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "title_ja": "Claude Fable 5.2が性能テストで65点を獲得",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "what": "Anthropic社のAIモデル「Claude Fable 5.2」が性能評価で過去最高の65点を記録した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "01a8528fa1",
+      "impact": "教育現場でのAIの使い方がわかりやすくなり、学びやすくなる。",
+      "new": "教師の支援やAIリテラシー向上に関する学びが共有されたこと。",
+      "published": "2026-11-10T09:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIの仕組みを理解し、正しく使いこなすための知識や能力のこと。",
+        "word": "AIリテラシー"
+      },
+      "title_en": "Closing the AI guidance gap in education",
+      "title_ja": "教育現場のAI活用を支援する取り組みが公開",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "what": "ThinkYoungの新しい調査とOpenAIの教育パートナーシップから得られた知見が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "3588ceed41",
+      "impact": "AIスキルを身につけることで、新しい仕事や大きなプロジェクトの獲得につながる。",
+      "new": "AI関連のプロジェクトで予算が増え、作業時間も長くなっていることがわかった。",
+      "published": "2026-11-10T07:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "会社に属さず、個人で仕事を受注して働くスタイルのことです。",
+        "word": "フリーランス"
+      },
+      "title_en": "Work at the Frontier: AI’s effect on freelance work",
+      "title_ja": "AIがフリーランスの仕事や予算に与える影響が明らかに",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "what": "OpenAIとUpworkがフリーランスの仕事に対するAIの影響を調査した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "54b050eabd",
+      "impact": "日常のアラーム設定をAIに任せて手軽に行えるようになる。",
+      "new": "チャットやAIの連携を通じて、音声やテキストでiPhoneのアラームを自動設定できる点が新しい。",
+      "published": "2026-11-10T00:23:22Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間のように自然な会話や文章作成ができる人気の高性能AIのこと。",
+        "word": "Claude"
+      },
+      "title_en": "Clive",
+      "title_ja": "AIがiPhoneのアラーム設定をしてくれるツール",
+      "url": "https://www.producthunt.com/products/clive",
+      "what": "ClaudeなどのAIを使ってiPhoneのアラームを設定できるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "6bd4d5a00d",
+      "impact": "家族とのやりとりや連絡がより便利になるかもしれない。",
+      "new": "家族のグループチャットでサポートをしてくれる機能がある。",
+      "published": "2026-11-09T21:40:46Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Kettle",
+      "title_ja": "家族のグループチャットを助けるKettle",
+      "url": "https://www.producthunt.com/products/kettle",
+      "what": "家族のグループチャットを助けるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "6b787a9f04",
+      "impact": "PCを使った説明動画やチュートリアルの作成が効率よくできるようになる。",
+      "new": "",
+      "published": "2026-11-09T19:44:36Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "MoreFrame",
+      "title_ja": "MacとWindowsで使える画面録画ツール",
+      "url": "https://www.producthunt.com/products/moreframe",
+      "what": ""
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "289513fe94",
+      "impact": "現地調査のあとの報告書づくりにかかる時間を大幅に減らすことができる。",
+      "new": "現場の写真と声の記録だけで、自動的に見やすい報告書にまとめることができる。",
+      "published": "2026-11-09T19:41:51Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "パソコンやスマホの機種に関係なく、同じ見た目で書類を表示できるファイル形式のこと。",
+        "word": "PDF"
+      },
+      "title_en": "Obsiva",
+      "title_ja": "写真と音声から検査レポートを作成するObsiva",
+      "url": "https://www.producthunt.com/products/obsiva",
+      "what": "サイトの写真と音声メモを組み合わせてPDFの検査レポートを作成できる。"
+    }
+  ],
+  "date": "2026-11-11",
+  "digest": [
+    "グーグルが最上位AI「Gemini 4 Carbon」を公開",
+    "各社から新モデルや便利なツールが多数発表された",
+    "教育や仕事など多様な分野でのAI活用が進む"
+  ],
+  "generated_at": "2026-11-10T22:24:35.080054Z",
+  "mascot_line": "今日は大ニュースの日！新しいAIモデルがたくさん登場して、とってもワクワクするね！",
+  "stats": {
+    "candidates": 35,
+    "collected": 43,
+    "llm_calls": 22,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 33,
+    "seconds": 128.7,
+    "selected": 13
+  },
+  "weather": "thunder"
+}
