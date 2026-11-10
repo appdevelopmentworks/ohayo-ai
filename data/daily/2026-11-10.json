@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "ffe8a09e96",
+      "impact": "複雑な開発作業やセキュリティ対策をより効率的かつ低コストで進められるようになる。",
+      "new": "コーディングや推論の能力が向上し、生成速度が最大30パーセント高速化した。",
+      "published": "2026-11-09T18:56:29Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが文章を読み書きするときの言葉の単位のこと。",
+        "word": "トークン"
+      },
+      "title_en": "Claude Fable 5.2 and Mythos 5.2",
+      "title_ja": "Anthropicが新モデルClaude Fable 5.2などを発表",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "what": "Anthropicが高難度な技術的課題に対応するClaude Fable 5.2とMythos 5.2を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "1b18e8c9ac",
+      "impact": "機密情報や個人情報を含むアプリをGeminiに接続している場合、人間の作業者に読まれる可能性がある。",
+      "new": "以前は人間のレビュー対象外と約束されていたが、更新されたヘルプやブログで目視確認のパイプラインに回ることが明記された。",
+      "published": "2026-11-09T18:24:38Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの性能向上や安全性の確認のために、人間のスタッフが実際にデータや会話の内容を目で見てチェックすること。",
+        "word": "人による目視確認（ヒューマンレビュー）"
+      },
+      "title_en": "Google Gemini routes personal Drive files and emails to human annotators",
+      "title_ja": "GoogleのGeminiで個人ファイルが人の目視確認に回る仕様に",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "what": "GoogleがGeminiと連携した個人のドライブやメールを人間の作業者が確認する仕組みへ変更した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f49487fb04",
+      "impact": "AIの動作が変わることで、これまで通りに仕事が進まなくなる可能性がある。",
+      "new": "モデル名は変わらないまま、11月3日から推論の仕方が大きく変化した。",
+      "published": "2026-11-09T07:04:25Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが質問や課題に対して、順序立てて考えたり答えを導き出したりする仕組みのこと。",
+        "word": "推論"
+      },
+      "title_en": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "title_ja": "Opus 5.5の推論パターンが変わったという指摘",
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "what": "利用者がOpus 5.5の推論の仕方が変わったと指摘した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b4717b7762",
+      "impact": "AI企業の財務状況や今後の動向を見極めるための異なる視点を知ることができる。",
+      "new": "データセンターの建設費は一時的なものであり、インフラが整えば支出は減ると指摘されている。",
+      "published": "2026-11-08T23:44:36Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの開発や運営に必要な大量のコンピュータを設置しておくための専用の建物のこと。",
+        "word": "データセンター"
+      },
+      "title_en": "I'm not convinced the AI bubble exists",
+      "title_ja": "AIバブルは本当に存在するのか？その懸念を検証",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "what": "AI産業の急成長や巨額の投資について、バブルではないとする見解が論じられた。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "6b51c4c77a",
+      "impact": "動画編集にかかる時間と手間を大きく減らすことができる。",
+      "new": "話す動画の編集作業をAIで効率化できる点が新しい。",
+      "published": "2026-11-08T13:34:07Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人物がカメラに向かって話している姿を撮影した動画のこと。",
+        "word": "トーキングヘッド動画"
+      },
+      "title_en": "ClipsPal",
+      "title_ja": "AIが話す動画を自動編集するツール「ClipsPal」",
+      "url": "https://www.producthunt.com/products/clipspal",
+      "what": "人物が話している動画の編集をAIが自動で行うツールが登場した。"
+    }
+  ],
+  "date": "2026-11-10",
+  "digest": [
+    "新モデルクロードフェイブル五点二などが発表され高速化",
+    "グーグルのジェミナイで個人ファイルが目視確認へ変更",
+    "オーパス五点五の推論変化や自動編集ツールが登場"
+  ],
+  "generated_at": "2026-11-10T00:43:28.919678Z",
+  "mascot_line": "おはよう！今日は少し雲が多いけれど、新しいモデルの発表でワクワクする一日になりそうだね！",
+  "stats": {
+    "candidates": 18,
+    "collected": 20,
+    "llm_calls": 8,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 18,
+    "seconds": 38.5,
+    "selected": 5
+  },
+  "weather": "cloudy"
+}

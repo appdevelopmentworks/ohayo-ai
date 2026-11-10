@@ -1,124 +1,124 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-07T20:57:04.296902Z",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T00:43:28.919678Z",
   "weather": "cloudy",
   "digest": [
-    "インスタがパソコン向けの無料動画編集ツールを公開した。",
-    "アンソロピックでAIによる開発自動化や上場時の価値に注目。",
-    "人間とAIの共生モデルや音声通話のライブ化機能が登場した。"
+    "新モデルクロードフェイブル五点二などが発表され高速化",
+    "グーグルのジェミナイで個人ファイルが目視確認へ変更",
+    "オーパス五点五の推論変化や自動編集ツールが登場"
   ],
-  "mascot_line": "きょうはくもり空だけど、新しい動画編集ツールや面白いAIのニュースがたくさんあるよ！",
+  "mascot_line": "おはよう！今日は少し雲が多いけれど、新しいモデルの発表でワクワクする一日になりそうだね！",
   "articles": [
     {
-      "id": "3a67e4fdf7",
-      "title_ja": "Instagramがパソコン向けの動画編集ソフトを公開",
-      "what": "InstagramがAI機能を持つパソコン向けの無料動画編集ツールを公開した。",
-      "new": "AIエージェントを活用した動画編集機能をパソコンで無料で使える点が新しい。",
-      "impact": "パソコンを使ってInstagram向けの動画編集を手軽に行えるようになる。",
+      "id": "ffe8a09e96",
+      "title_ja": "Anthropicが新モデルClaude Fable 5.2などを発表",
+      "what": "Anthropicが高難度な技術的課題に対応するClaude Fable 5.2とMythos 5.2を発表した。",
+      "new": "コーディングや推論の能力が向上し、生成速度が最大30パーセント高速化した。",
+      "impact": "複雑な開発作業やセキュリティ対策をより効率的かつ低コストで進められるようになる。",
       "term": {
-        "word": "AIエージェント",
-        "note": "人間の指示を受けて、自分で考えて作業を自動で進めてくれるAIのこと。"
+        "word": "トークン",
+        "note": "AIが文章を読み書きするときの言葉の単位のこと。"
       },
-      "category": "画像・動画",
+      "category": "新モデル",
       "score": 4,
-      "url": "https://www.producthunt.com/products/instagram",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Instagram Edits for Desktop",
-      "published": "2026-11-06T00:46:05Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "3b972ecaa6",
-      "title_ja": "AnthropicでAIがAI開発を急加速させている可能性",
-      "what": "Anthropic社でAIの進化スピードがこれまでの約2倍に達したと報告された。",
-      "new": "AIが自身の研究開発を自動化することで、開発の速度が劇的に上がっている点。",
-      "impact": "AIの進化スピードがさらに早まり、私たちの仕事や生活への影響も急激に訪れる可能性がある。",
-      "term": {
-        "word": "Anthropic",
-        "note": "対話型AI「Claude」などを開発しているアメリカの主要なAI企業。"
-      },
-      "category": "注目トピック",
-      "score": 4,
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "AI is dramatically accelerating AI research",
-      "published": "2026-11-06T20:27:23Z",
+      "title_en": "Claude Fable 5.2 and Mythos 5.2",
+      "published": "2026-11-09T18:56:29Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "a16bf7a454",
-      "title_ja": "Anthropicの株式上場での企業価値予想が低下",
-      "what": "Anthropicの株式上場での企業価値の見積もりが下方に圧力を受けている。",
-      "new": "株の購入希望者が評価する企業価値が1.1兆ドル程度と見られている点。",
-      "impact": "今後のAI関連企業の市場評価や上場計画に影響を与える可能性がある。",
+      "id": "1b18e8c9ac",
+      "title_ja": "GoogleのGeminiで個人ファイルが人の目視確認に回る仕様に",
+      "what": "GoogleがGeminiと連携した個人のドライブやメールを人間の作業者が確認する仕組みへ変更した。",
+      "new": "以前は人間のレビュー対象外と約束されていたが、更新されたヘルプやブログで目視確認のパイプラインに回ることが明記された。",
+      "impact": "機密情報や個人情報を含むアプリをGeminiに接続している場合、人間の作業者に読まれる可能性がある。",
       "term": {
-        "word": "IPO",
-        "note": "企業の株式を証券取引所に公開し、一般の投資家が売買できるようにすること。"
+        "word": "人による目視確認（ヒューマンレビュー）",
+        "note": "AIの性能向上や安全性の確認のために、人間のスタッフが実際にデータや会話の内容を目で見てチェックすること。"
       },
       "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "score": 4,
+      "url": "https://github.com/thisisme6598/gemini_files/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "published": "2026-11-06T16:54:36Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "ba30d0a56b",
-      "title_ja": "人間とAIが共生する新しい知能のあり方を提案",
-      "what": "人間を内側から支えるAIパートナーの概念と仕組みを提案した。",
-      "new": "機械の自立性ではなく個人の知能を高める拡張に焦点を当てた点。",
-      "impact": "個人の記憶や思考を常に支えるAIが普及し能力が高まる。",
-      "term": {
-        "word": "認知共生体",
-        "note": "人間の記憶や状況を理解し、思考や作業を常に助けてくれる相棒のようなAIシステムのこと。"
-      },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2611.05376",
-      "source": "hf_papers",
-      "source_name": "HF Daily Papers",
-      "title_en": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "published": "2026-11-06T00:00:00Z",
+      "title_en": "Google Gemini routes personal Drive files and emails to human annotators",
+      "published": "2026-11-09T18:24:38Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "dce7c54c27",
-      "title_ja": "音声チャットをライブビデオ通話に変える新機能",
-      "what": "Museを使った音声チャットをライブビデオ通話に変更できる機能が登場した。",
-      "new": "音声だけのやり取りをその場でリアルなビデオ通話へと手軽に切り替えられる。",
-      "impact": "オンラインでの対話や顧客対応の雰囲気がより臨場感のあるものになる。",
+      "id": "f49487fb04",
+      "title_ja": "Opus 5.5の推論パターンが変わったという指摘",
+      "what": "利用者がOpus 5.5の推論の仕方が変わったと指摘した。",
+      "new": "モデル名は変わらないまま、11月3日から推論の仕方が大きく変化した。",
+      "impact": "AIの動作が変わることで、これまで通りに仕事が進まなくなる可能性がある。",
       "term": {
-        "word": "リアルタイムアバター",
-        "note": "AIが人工的な人物の映像をその場でリアルタイムに生成して動かす技術のこと。"
+        "word": "推論",
+        "note": "AIが質問や課題に対して、順序立てて考えたり答えを導き出したりする仕組みのこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "published": "2026-11-09T07:04:25Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "b4717b7762",
+      "title_ja": "AIバブルは本当に存在するのか？その懸念を検証",
+      "what": "AI産業の急成長や巨額の投資について、バブルではないとする見解が論じられた。",
+      "new": "データセンターの建設費は一時的なものであり、インフラが整えば支出は減ると指摘されている。",
+      "impact": "AI企業の財務状況や今後の動向を見極めるための異なる視点を知ることができる。",
+      "term": {
+        "word": "データセンター",
+        "note": "AIの開発や運営に必要な大量のコンピュータを設置しておくための専用の建物のこと。"
+      },
+      "category": "注目トピック",
+      "score": 3,
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "I'm not convinced the AI bubble exists",
+      "published": "2026-11-08T23:44:36Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "6b51c4c77a",
+      "title_ja": "AIが話す動画を自動編集するツール「ClipsPal」",
+      "what": "人物が話している動画の編集をAIが自動で行うツールが登場した。",
+      "new": "話す動画の編集作業をAIで効率化できる点が新しい。",
+      "impact": "動画編集にかかる時間と手間を大きく減らすことができる。",
+      "term": {
+        "word": "トーキングヘッド動画",
+        "note": "人物がカメラに向かって話している姿を撮影した動画のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/meta-ai",
+      "url": "https://www.producthunt.com/products/clipspal",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Muse Realtime Avatar",
-      "published": "2026-11-06T18:21:58Z",
+      "title_en": "ClipsPal",
+      "published": "2026-11-08T13:34:07Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 13,
-    "candidates": 9,
-    "ranked": 9,
+    "collected": 20,
+    "candidates": 18,
+    "ranked": 18,
     "selected": 5,
-    "llm_calls": 7,
+    "llm_calls": 8,
     "providers": [
       "gemini"
     ],
-    "seconds": 34.3
+    "seconds": 38.5
   }
 }
