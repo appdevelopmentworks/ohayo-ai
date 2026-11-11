@@ -1,0 +1,266 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "a525fa830b",
+      "impact": "専門的な資料の分析や複雑なシステム開発の効率が大幅に向上する。",
+      "new": "複雑なプログラミングや科学的な調査など、高度な知能を必要とする作業に対応する。",
+      "published": "2026-11-10T16:07:15Z",
+      "score": 5,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの機能を外部のアプリやシステムから利用できるようにする仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "Gemini 4 Carbon is now available",
+      "title_ja": "Googleが最高性能のAIモデル「Gemini 4 Carbon」を公開",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "what": "Googleが最も強力な新AIモデル「Gemini 4 Carbon」を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "77d255b4e9",
+      "impact": "自分のパソコン上で安全に大規模なAIを手軽に動かせるようになる。",
+      "new": "複数のMacを繋げて性能を合わせ、大きなAIモデルを動かせる点新しい。",
+      "published": "2026-11-10T21:25:03Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "インターネット上のサーバーではなく、自分のパソコン上で直接AIを動かす仕組みのこと。",
+        "word": "ローカルAI"
+      },
+      "title_en": "Apple has new Mac app coming to make running local AI models easy",
+      "title_ja": "AppleがMacでAIを簡単に動かせる新アプリ「Harbor」を開発中",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "what": "Appleが、Macを個人のAIサーバーにする新しいアプリ「Harbor」を開発していることが分かった。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f101ffad2b",
+      "impact": "個人投資家も証券プラットフォームを通じて株式の購入に参加できる可能性がある。",
+      "new": "11月10日からロードショーが始まり、19日から株式の公開取引が開始される予定である。",
+      "published": "2026-11-11T15:11:59Z",
+      "score": 4,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "新規株式公開のこと。企業が株式を証券取引所に上場し、一般の投資家が売買できるようにすること。",
+        "word": "IPO"
+      },
+      "title_en": "Anthropic's IPO roadshow video",
+      "title_ja": "Anthropicが新規株式公開の予定を発表",
+      "url": "https://ipo.anthropic.com/us/#roadshow-video",
+      "what": "Anthropicがナスダックへの上場に向けたロードショー動画や財務情報を公開した。"
+    },
+    {
+      "also_in": [
+        "simonwillison"
+      ],
+      "category": "新モデル",
+      "id": "cce714811b",
+      "impact": "ツールの選択やポリシーの確認などをより速く低コストで行えるようになる。",
+      "new": "文章や画像などのマルチモーダルな入力に対し、文章を生成せず選択肢の確率を直接すばやく算出できる。",
+      "published": "2026-11-11T18:00:00Z",
+      "score": 3,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "文字だけでなく、画像や音声、動画など、さまざまな種類の情報を同時に理解して処理できる機能のこと。",
+        "word": "マルチモーダル"
+      },
+      "title_en": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "title_ja": "Googleが高速な判断に特化したGemini Decisions APIを発表",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "what": "Googleが高速で確実な判断を行うための新しいGemini Decisions APIを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "f8dd60bbf2",
+      "impact": "高精細な画像を待ち時間なしですぐに作成できるようになる。",
+      "new": "4K画像の作成にかかる時間が10秒という短さに短縮されたこと。",
+      "published": "2026-11-10T16:35:28Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "非常に高精細で、細部までくっきりと美しく表示できる画像のこと。",
+        "word": "4K画像"
+      },
+      "title_en": "MiniMax H3-Image",
+      "title_ja": "4K画像を10秒で作れるMiniMax H3-Image",
+      "url": "https://www.producthunt.com/products/minimax",
+      "what": "10秒という速さで高画質な4K画像を生成できるようになった。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "8d8bc38f54",
+      "impact": "専門外の分野でもAIを活用することで、個人で新しい調査や発見ができるようになる。",
+      "new": "専門知識がない個人でも、AIを複数使って短期間で遺跡の候補地を特定し行政に報告できた。",
+      "published": "2026-11-11T12:05:22Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "レーザー光を使って地上の形を正確に測る技術で、ジャングルに隠れた遺跡の調査に使われる。",
+        "word": "ライダー（Lidar）"
+      },
+      "title_en": "My AI agents found an unmapped Maya site",
+      "title_ja": "AIエージェントを使ってマヤ遺跡を発見した事例",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "what": "AIエージェントを使ってNASAのレーダーデータから未登録のマヤ遺跡を発見した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "bad6ee94c3",
+      "impact": "旅行やイベントの計画をグループで簡単にまとめて進められるようになる。",
+      "new": "リンクやファイルを入れAIに指示するかテンプレートを選ぶことで、旅の計画や投票などを簡単に作れる。",
+      "published": "2026-11-11T16:00:00Z",
+      "score": 3,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleの新しい実験的なサービスや機能を、一般ユーザーが試せる場所のことです。",
+        "word": "Google Labs"
+      },
+      "title_en": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "title_ja": "Googleがグループ向け共同作業ツール「Tabletop」を発表",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "what": "Googleが、グループでの計画や投票を一緒に行える新ツール「Tabletop」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "e879c6fc35",
+      "impact": "病気の原因となる遺伝子の違いや、細胞レベルでの仕組みの解明が進む。",
+      "new": "個別の細胞の種類や状態ごとに、DNAの配列がどう影響するかを予測できるようになった。",
+      "published": "2026-11-11T15:00:15Z",
+      "score": 3,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "DNAの配列の一部が変わること。病気や体質の違いの原因になる。",
+        "word": "DNA変異"
+      },
+      "title_en": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "title_ja": "Googleが細胞単位でDNAの働きを予測するAIを発表",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "what": "細胞ごとのDNA変異の影響を予測する次世代モデル「AlphaGenome 2」が発表された。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "1f1dbabb56",
+      "impact": "クリエイターや開発者が、より意図通りで詳細な画像を効率よく作成できるようになる。",
+      "new": "16メガピクセルの高精細な画像を効率よく生成でき、最大16枚の参考画像を使った編集に対応する。",
+      "published": "2026-11-03T06:34:36Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "誰でも自由に使えるように、仕組みやプログラムが公開されているソフトウェアのこと。",
+        "word": "オープンソース"
+      },
+      "title_en": "MiniMaxAI/MiniMax-H3-Image",
+      "title_ja": "MiniMaxが新しい画像生成AIモデルを公開",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "what": "MiniMaxAIが画像生成と編集ができる新しいオープンソースモデルを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f947426020",
+      "impact": "友人との約束を守るモチベーションになり、コミュニケーションが楽しくなる。",
+      "new": "友人同士の約束の管理とAIの生存を掛け合わせた仕組みが新しい。",
+      "published": "2026-11-11T05:07:26Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "複数の人で同時に共有して楽しむことができるAI機能のこと。",
+        "word": "マルチプレイAI"
+      },
+      "title_en": "bonds chat",
+      "title_ja": "友人と約束を破ると消えるマルチプレイAI",
+      "url": "https://www.producthunt.com/products/bonds-2",
+      "what": "友人との約束を破ると消えてしまうマルチプレイAIが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "bfc9b7db9f",
+      "impact": "家にあるブロックで新しい作品を手軽に作れるようになる。",
+      "new": "手元のレゴブロックの画像から、AIが形を認識して作り方を作れる点。",
+      "published": "2026-11-11T03:26:18Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "プラスチック製の組み立てるおもちゃのこと。",
+        "word": "レゴ"
+      },
+      "title_en": "Mister Blocks",
+      "title_ja": "レゴの写真を撮るとAIが作り方を教えてくれるツール",
+      "url": "https://www.producthunt.com/products/mister-blocks",
+      "what": "レゴの写真を撮影すると、AIが組み立て方を自動で提案する。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "e4928d4c7b",
+      "impact": "音声入力や文字起こしの待ち時間が短くなり、よりスムーズな操作ができるようになる。",
+      "new": "2900万のパラメータという小規模ながら、話している途中で言葉を出力できる点が新しい。",
+      "published": "2026-11-10T23:11:21Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の声を聞き取って、自動で文字に変換する技術のことです。",
+        "word": "音声認識"
+      },
+      "title_en": "Earlybird",
+      "title_ja": "言葉の途中で文字に変換する音声認識AI「Earlybird」",
+      "url": "https://www.producthunt.com/products/earlybird-5",
+      "what": "言葉が完全に終わる前に文字を出力する音声認識AIが登場した。"
+    }
+  ],
+  "date": "2026-11-12",
+  "digest": [
+    "グーグルが最高性能のAIモデルを公開した",
+    "アップルがMac用の新アプリを開発中である",
+    "アンソロピックが株式公開の予定を発表した"
+  ],
+  "generated_at": "2026-11-11T23:29:52.080877Z",
+  "mascot_line": "今日は大ニュースの日！すごい話題が盛りだくさんだから、一緒に楽しく見ていこうね！",
+  "stats": {
+    "candidates": 32,
+    "collected": 50,
+    "llm_calls": 18,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 32,
+    "seconds": 105.2,
+    "selected": 12
+  },
+  "weather": "thunder"
+}
