@@ -1,0 +1,142 @@
+{
+  "articles": [
+    {
+      "also_in": [
+        "deepmind",
+        "hn"
+      ],
+      "category": "新モデル",
+      "id": "ad614f81e4",
+      "impact": "複雑な質問や誤字があっても意図を汲み取り、より正確な情報を得やすくなる",
+      "new": "意図理解が向上し、複雑な質問や誤字にも対応して視覚的な回答を提供する",
+      "published": "2026-11-12T18:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "検索エンジンの内部処理で、ユーザーの質問を複数の関連する部分に分解し、それぞれについて同時に検索を行う技術のこと",
+        "word": "クエリファンアウト"
+      },
+      "title_en": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "title_ja": "Google検索にGemini 4 Hydrogen導入",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "what": "Google SearchがGemini 4 Hydrogenを搭載し、全ユーザーに提供を開始した"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "b06379671e",
+      "impact": "子どもがAIを利用する際の安全性が高まり、親や教育現場が安心できる環境が整う",
+      "new": "AIが子どもに与えるリスクと可能性を測る共通のツール開発を支援する",
+      "published": "2026-11-12T00:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIが子どもに与える影響を客観的に評価するための共通の基準や測定方法のこと",
+        "word": "リスク測定ツール"
+      },
+      "title_en": "Supporting research on AI and children’s safety",
+      "title_ja": "OpenAIが児童のAI安全研究に200万ドルを支援",
+      "url": "https://openai.com/index/children-first-declaration",
+      "what": "OpenAIがAIと子どもの安全性に関する研究に200万ドルを拠出"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "53bc56e14c",
+      "impact": "AIに航空券予約を代行させたい人は、United Airlinesの便が対象外になる点に注意が必要だ。",
+      "new": "セキュリティリスクや法規制違反の可能性を理由に、AIエージェントによる予約行為を禁止した点。",
+      "published": "2026-11-11T21:24:35Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "ユーザーの代わりに、Webサイト上で検索や購入などの作業を自動で行うAIツールのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "title_ja": "United AirlinesがAIによる航空券予約を禁止",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "what": "United Airlinesが、AIエージェントによる航空券予約をセキュリティ上の理由で禁止した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "620a8107fa",
+      "impact": "チームの業務効率化や作業の自動化が進む可能性がある",
+      "new": "複数のAIエージェントが協調して業務をこなす仕組み",
+      "published": "2026-11-11T19:38:45Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "複数のAIが役割分担して連携し、人間と同じようにチームで作業を行う仕組みのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Grok Bot 1.0",
+      "title_ja": "Grok Bot 1.0がチームと協調作業できるAIとして登場",
+      "url": "https://www.producthunt.com/products/grok",
+      "what": "Grok Bot 1.0が、チームメンバーとして一緒に働くAIとして公開された"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "bea3fc2e17",
+      "impact": "保存したブックマークから必要な情報を見つけやすくなる",
+      "new": "保存したブックマークに質問して検索できる機能",
+      "published": "2026-11-11T17:31:09Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Marqly 7.0",
+      "title_ja": "ブックマークに質問して検索できるMarqly 7.0",
+      "url": "https://www.producthunt.com/products/marqly",
+      "what": "保存したブックマークに質問して検索できるMarqly 7.0が登場"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a445dbe5d1",
+      "impact": "顧客対応の電話業務をAIに任せ、人手を削減できる可能性がある",
+      "new": "顧客への電話対応をAIエージェントが自動で実行する",
+      "published": "2026-11-11T13:19:50Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Insight7 Voice AI Agents",
+      "title_ja": "顧客対応の電話をAIが代行するサービス登場",
+      "url": "https://www.producthunt.com/products/insight7",
+      "what": "顧客への電話対応をAIエージェントが自動で行うサービスが公開された"
+    }
+  ],
+  "date": "2026-11-13",
+  "digest": [
+    "Google検索にGemini 4 Hydrogen導入",
+    "OpenAIが児童AI安全研究に200万ドル支援",
+    "United AirlinesがAI予約を禁止"
+  ],
+  "generated_at": "2026-11-12T22:45:20.552902Z",
+  "mascot_line": "今日は少し動きがあるね。新しい変化を見逃さないで、一緒にチェックしよう！",
+  "stats": {
+    "candidates": 18,
+    "collected": 34,
+    "llm_calls": 10,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 18,
+    "seconds": 193.6,
+    "selected": 6
+  },
+  "weather": "cloudy"
+}
