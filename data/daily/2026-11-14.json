@@ -1,0 +1,158 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "5bf4951adb",
+      "impact": "AIが代理でオンラインショッピングの支払いを済ませてくれるため、買い物の手間が減る。",
+      "new": "AIエージェントが既存のカード保護機能を使いながら安全に買い物を完了できるようになる。",
+      "published": "2026-11-13T15:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに自分で考えて作業を進めてくれるAIのことです。",
+        "word": "エージェント"
+      },
+      "title_en": "Introducing ChatGPT Wallet",
+      "title_ja": "OpenAIが「ChatGPT Wallet」を発表",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "what": "ChatGPTのAIがユーザーの承認を得て買い物などの決済を行える機能「ChatGPT Wallet」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "44da454e79",
+      "impact": "仕事でClaudeを使っている場合、一時的に接続しづらくなる可能性がある。",
+      "new": "現在、サービスの障害やエラーについて更新情報の通知を受け取れるようになっている。",
+      "published": "2026-11-13T10:18:13Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": null,
+      "title_en": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "title_ja": "Claude関連のサービスでエラーが多発",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "what": "Claudeのウェブ版や各種ツールでエラーが多く発生している。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "7838c87736",
+      "impact": "長文の読み込みや複雑なデータ分析の処理がより効率的になる。",
+      "new": "100万トークンの文脈長を持ち、コード作成や財務調査の能力が向上した。",
+      "published": "2026-11-02T04:13:51Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "文字だけでなく、画像や音声など複数の種類のデータを同時に理解して処理できる機能のこと。",
+        "word": "マルチモーダル"
+      },
+      "title_en": "moonshotai/Kimi-K3.1-Pro",
+      "title_ja": "Moonshot AIが新モデルKimi-K3.1-Proを公開",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "what": "Moonshot AIがマルチモーダル対応の新しいAIモデルKimi-K3.1-Proを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "14e5a7f70a",
+      "impact": "高機能な画像生成ツールを使って新しい画像を効率的に作れるようになる。",
+      "new": "ComfyUIで利用しやすいようにモデルファイルが再パッケージ化された。",
+      "published": "2026-11-08T20:37:23Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "画面上で部品をつなげて自分好みの画像生成ができるツールです。",
+        "word": "ComfyUI"
+      },
+      "title_en": "Comfy-Org/MiniMax-H3-Image",
+      "title_ja": "ComfyUIで使えるMiniMax-H3-Imageが登場",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "what": "画像生成AIモデルのMiniMax-H3-ImageがComfyUI向けに公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "e394b2ab00",
+      "impact": "オンライン会議中の作業や記録がスムーズになり、仕事の効率が上がる。",
+      "new": "会議に参加させながらその場で作業を進められる機能。",
+      "published": "2026-11-13T02:24:55Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Claude Meetings",
+      "title_ja": "会議に参加して作業を進めるClaude Meetings",
+      "url": "https://www.producthunt.com/products/claude",
+      "what": "通話にClaudeを追加して、話しながら作業を始められるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "2250172890",
+      "impact": "ゲームやナレーション制作などで、自分のパソコンやブラウザを使い手軽に音声合成や声の複製ができるようになる。",
+      "new": "わずか1億のパラメータで自然な音声生成や声のクローン作成ができ、端末やブラウザで軽快に動く。",
+      "published": "2026-11-09T05:03:57Z",
+      "score": 3,
+      "source": "hf_models",
+      "source_name": "HF Trending Models",
+      "summary_only": false,
+      "term": {
+        "note": "AIの頭の良さや複雑さを決める設定の数で、数が小さいほどパソコンなどで軽く動かしやすくなります。",
+        "word": "パラメータ"
+      },
+      "title_en": "Zyphra/ZONOS3-Mini",
+      "title_ja": "Zyphraが軽量な音声生成AIモデルを公開",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+      "what": "Zyphraが軽量なオープンソースの音声生成AIモデル「ZONOS3-Mini」を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "2dac544d71",
+      "impact": "気になるキーワードのトレンド変化を素早くキャッチし、仕事や情報収集に活かせる。",
+      "new": "Telegramや主要なAIツールと連携してキーワードのスパイクを検知できる点が新しい。",
+      "published": "2026-11-12T18:54:12Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "スマートフォンやパソコンで使える、メッセージのやり取りができるアプリのこと。",
+        "word": "Telegram"
+      },
+      "title_en": "GAtrends",
+      "title_ja": "キーワードの急上昇を通知するGAtrends",
+      "url": "https://www.producthunt.com/products/gatrends",
+      "what": "指定したキーワードの急上昇をTelegramやClaude、ChatGPTで通知するツールが登場した。"
+    }
+  ],
+  "date": "2026-11-14",
+  "digest": [
+    "OpenAIが「ChatGPT Wallet」を発表",
+    "Claude関連のサービスでエラーが多発",
+    "Moonshot AIが新モデルKimi-K3.1-Proを公開"
+  ],
+  "generated_at": "2026-11-13T22:41:56.617321Z",
+  "mascot_line": "今日はおだやかな日。ゆっくり読んでいこう",
+  "stats": {
+    "candidates": 19,
+    "collected": 30,
+    "llm_calls": 12,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 19,
+    "seconds": 79.5,
+    "selected": 7
+  },
+  "weather": "sunny"
+}
