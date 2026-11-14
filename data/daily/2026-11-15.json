@@ -1,0 +1,138 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c70e9f4491",
+      "impact": "自社の商品やサービスをより多くの顧客に知ってもらいやすくなる。",
+      "new": "ChatGPT上で直接ビジネスを発見してもらえる仕組みが提供された。",
+      "published": "2026-11-13T08:53:51Z",
+      "score": 4,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の質問に対して自然な文章で答えてくれるAIサービスのこと。",
+        "word": "ChatGPT"
+      },
+      "title_en": "Businesses in ChatGPT",
+      "title_ja": "ChatGPTで自社のビジネスを見つけてもらえる新機能",
+      "url": "https://www.producthunt.com/products/openai",
+      "what": "ChatGPTを通じて顧客が自分のビジネスを見つけられるようになった。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3572ade808",
+      "impact": "仕事やイベントで新しいグループ向けのAI体験を手軽に作れるようになる。",
+      "new": "AIを活用してインタラクティブなグループ体験を構築できる点が新しい。",
+      "published": "2026-11-13T11:39:17Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "グーグルが新しい実験的なサービスや機能を公開している場のこと。",
+        "word": "Google Labs"
+      },
+      "title_en": "Tabletop by Google Labs",
+      "title_ja": "Google Labsが対話型AI体験ツールを発表",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "what": "Google LabsがAIを使った対話型のグループ体験を作るツールを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b26717d449",
+      "impact": "今後の半導体供給や業界の価格に影響が出る可能性がある。",
+      "new": "資金提供と製品購入の関連性が指摘されている点。",
+      "published": "2026-11-14T02:52:59Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": {
+        "note": "AIの計算や画像処理を高速でおこなうための特別な半導体部品。",
+        "word": "GPU"
+      },
+      "title_en": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "title_ja": "NvidiaがAI企業への資金提供で不足を演出か",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "what": "NvidiaがAIスタートアップに資金を出して自社の半導体を買わせ、品薄を意図的に作り出したという疑惑が浮上した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "a1e895b935",
+      "impact": "歴史的な未公開の発見や研究の分析をAIが圧倒的な速さで進め、学術研究のスピードが大きく変わる可能性がある。",
+      "new": "人間には解読が難しかった古い速記文字の膨大なノートを、AIが短期間で読み込み全体をつなげて分析したこと。",
+      "published": "2026-11-13T17:30:10Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "文章を書いたり長文を読み解いたりすることが得意な、アメリカの企業が開発した対話型のAIサービス。",
+        "word": "Claude"
+      },
+      "title_en": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "title_ja": "AIが数学者の未公開ノートを解読し数百の定理を発見",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "what": "AIのClaudeが、歴史的な数学者ゲーデルの未公開ノートを短期間で読み解き、数百の証明された定理を発見した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "0b67abad11",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-13T15:08:44Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "title_ja": "AIがプログラミングを解決したのにソフトが変わらない理由",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "what": "Jonathan BlowがAIとプログラミングの現状について動画で語った。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "2f44ca0e01",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-13T11:13:46Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "AI is destroying the trust between writers and readers",
+      "title_ja": "AIが書き手と読み手の間の信頼を壊す",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "what": "AIの普及によって、書き手と読み手の間の信頼関係が損なわれている。"
+    }
+  ],
+  "date": "2026-11-15",
+  "digest": [
+    "ChatGPTの新機能で顧客が自社ビジネスを発見可能に",
+    "Google Labsが対話型AI体験ツールを発表",
+    "AIが数学者の未公開ノートを解読し定理を発見"
+  ],
+  "generated_at": "2026-11-14T21:33:33.758339Z",
+  "mascot_line": "おはようAI！今日は晴れでおだやかな一日だね。新しいツールや驚きの発見を一緒に楽しくチェックしよう！",
+  "stats": {
+    "candidates": 7,
+    "collected": 21,
+    "llm_calls": 10,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 7,
+    "seconds": 48.6,
+    "selected": 6
+  },
+  "weather": "sunny"
+}
