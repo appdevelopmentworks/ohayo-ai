@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "1cd6c3ec19",
+      "impact": "AIに対する極端な過大評価や誤った認識を見直し、冷静に技術と向き合うきっかけになる。",
+      "new": "プログラミング能力の高さからAIを「超人間的」と捉えて過大評価してしまう心理構造を指摘した。",
+      "published": "2026-11-14T13:36:17Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "能力が低い人ほど自分の実力を過大評価してしまう心理現象のこと。",
+        "word": "Dunning-Kruger"
+      },
+      "title_en": "The Claude Delusion",
+      "title_ja": "IT業界や富豪が陥るAIの誤解についての考察",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "what": "IT業界の成功者が自身の能力を過信しAIの進化に対して特別な意味を見出している現状について論じた。"
+    }
+  ],
+  "date": "2026-11-16",
+  "digest": [
+    "IT業界の成功者がAIの進化を過大評価する現状を考察",
+    "プログラミング能力の高さからAIを超人間的と捉える",
+    "AIに対する過度な誤解や心理構造について指摘した"
+  ],
+  "generated_at": "2026-11-15T21:52:33.345872Z",
+  "mascot_line": "おはようAI！おだやかな晴れの日、AIの話題を楽しく学んでいこうね！",
+  "stats": {
+    "candidates": 9,
+    "collected": 16,
+    "llm_calls": 3,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 9,
+    "seconds": 13.2,
+    "selected": 1
+  },
+  "weather": "sunny"
+}

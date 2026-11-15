@@ -1,138 +1,44 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-14T21:33:33.758339Z",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-15T21:52:33.345872Z",
   "weather": "sunny",
   "digest": [
-    "ChatGPTの新機能で顧客が自社ビジネスを発見可能に",
-    "Google Labsが対話型AI体験ツールを発表",
-    "AIが数学者の未公開ノートを解読し定理を発見"
+    "IT業界の成功者がAIの進化を過大評価する現状を考察",
+    "プログラミング能力の高さからAIを超人間的と捉える",
+    "AIに対する過度な誤解や心理構造について指摘した"
   ],
-  "mascot_line": "おはようAI！今日は晴れでおだやかな一日だね。新しいツールや驚きの発見を一緒に楽しくチェックしよう！",
+  "mascot_line": "おはようAI！おだやかな晴れの日、AIの話題を楽しく学んでいこうね！",
   "articles": [
     {
-      "id": "c70e9f4491",
-      "title_ja": "ChatGPTで自社のビジネスを見つけてもらえる新機能",
-      "what": "ChatGPTを通じて顧客が自分のビジネスを見つけられるようになった。",
-      "new": "ChatGPT上で直接ビジネスを発見してもらえる仕組みが提供された。",
-      "impact": "自社の商品やサービスをより多くの顧客に知ってもらいやすくなる。",
+      "id": "1cd6c3ec19",
+      "title_ja": "IT業界や富豪が陥るAIの誤解についての考察",
+      "what": "IT業界の成功者が自身の能力を過信しAIの進化に対して特別な意味を見出している現状について論じた。",
+      "new": "プログラミング能力の高さからAIを「超人間的」と捉えて過大評価してしまう心理構造を指摘した。",
+      "impact": "AIに対する極端な過大評価や誤った認識を見直し、冷静に技術と向き合うきっかけになる。",
       "term": {
-        "word": "ChatGPT",
-        "note": "人間の質問に対して自然な文章で答えてくれるAIサービスのこと。"
-      },
-      "category": "便利なツール",
-      "score": 4,
-      "url": "https://www.producthunt.com/products/openai",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Businesses in ChatGPT",
-      "published": "2026-11-13T08:53:51Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "3572ade808",
-      "title_ja": "Google Labsが対話型AI体験ツールを発表",
-      "what": "Google LabsがAIを使った対話型のグループ体験を作るツールを公開した。",
-      "new": "AIを活用してインタラクティブなグループ体験を構築できる点が新しい。",
-      "impact": "仕事やイベントで新しいグループ向けのAI体験を手軽に作れるようになる。",
-      "term": {
-        "word": "Google Labs",
-        "note": "グーグルが新しい実験的なサービスや機能を公開している場のこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/google-labs",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Tabletop by Google Labs",
-      "published": "2026-11-13T11:39:17Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "b26717d449",
-      "title_ja": "NvidiaがAI企業への資金提供で不足を演出か",
-      "what": "NvidiaがAIスタートアップに資金を出して自社の半導体を買わせ、品薄を意図的に作り出したという疑惑が浮上した。",
-      "new": "資金提供と製品購入の関連性が指摘されている点。",
-      "impact": "今後の半導体供給や業界の価格に影響が出る可能性がある。",
-      "term": {
-        "word": "GPU",
-        "note": "AIの計算や画像処理を高速でおこなうための特別な半導体部品。"
+        "word": "Dunning-Kruger",
+        "note": "能力が低い人ほど自分の実力を過大評価してしまう心理現象のこと。"
       },
       "category": "注目トピック",
       "score": 3,
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "published": "2026-11-14T02:52:59Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "a1e895b935",
-      "title_ja": "AIが数学者の未公開ノートを解読し数百の定理を発見",
-      "what": "AIのClaudeが、歴史的な数学者ゲーデルの未公開ノートを短期間で読み解き、数百の証明された定理を発見した。",
-      "new": "人間には解読が難しかった古い速記文字の膨大なノートを、AIが短期間で読み込み全体をつなげて分析したこと。",
-      "impact": "歴史的な未公開の発見や研究の分析をAIが圧倒的な速さで進め、学術研究のスピードが大きく変わる可能性がある。",
-      "term": {
-        "word": "Claude",
-        "note": "文章を書いたり長文を読み解いたりすることが得意な、アメリカの企業が開発した対話型のAIサービス。"
-      },
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-      "published": "2026-11-13T17:30:10Z",
+      "title_en": "The Claude Delusion",
+      "published": "2026-11-14T13:36:17Z",
       "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "0b67abad11",
-      "title_ja": "AIがプログラミングを解決したのにソフトが変わらない理由",
-      "what": "Jonathan BlowがAIとプログラミングの現状について動画で語った。",
-      "new": "",
-      "impact": "",
-      "term": null,
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "published": "2026-11-13T15:08:44Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "2f44ca0e01",
-      "title_ja": "AIが書き手と読み手の間の信頼を壊す",
-      "what": "AIの普及によって、書き手と読み手の間の信頼関係が損なわれている。",
-      "new": "",
-      "impact": "",
-      "term": null,
-      "category": "注目トピック",
-      "score": 3,
-      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI is destroying the trust between writers and readers",
-      "published": "2026-11-13T11:13:46Z",
-      "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 21,
-    "candidates": 7,
-    "ranked": 7,
-    "selected": 6,
-    "llm_calls": 10,
+    "collected": 16,
+    "candidates": 9,
+    "ranked": 9,
+    "selected": 1,
+    "llm_calls": 3,
     "providers": [
       "gemini"
     ],
-    "seconds": 48.6
+    "seconds": 13.2
   }
 }
