@@ -1,0 +1,272 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0bc322583e",
+      "impact": "お出かけや旅行の計画、お店探しがこれまでよりもスムーズになり時間の節約になる。",
+      "new": "AIに頼んで旅行の計画を立てたり、お店の予約や空き状況の確認ができるようになった。",
+      "published": "2026-11-16T14:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleマップ上でAIに話しかけて目的地やお店を探せる機能のこと。",
+        "word": "Ask Maps"
+      },
+      "title_en": "New Ask Maps features to help with holiday travel and prep",
+      "title_ja": "GoogleマップにAIで旅程作成や予約ができる新機能",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "what": "Googleマップに旅程作成や予約をAIがお手伝いする新機能が追加された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "3b862515ba",
+      "impact": "求人市場でAIに関する知識やスキルの重要性がさらに高まる。",
+      "new": "AI関連の記載が51.6%に達し、仕事の中心がAIエージェントなどの新しい技術へ移行している。",
+      "published": "2026-11-16T01:31:30Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間の指示を受けて、AIが自律的に考えて作業を実行する仕組みやシステムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "title_ja": "求人件数が過去12年で最低水準、AI関連は過半数に",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "what": "求人掲示板の投稿数が減少し続ける一方で、AIに関する記載が全体の過半数を超えた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "91e58e2ea9",
+      "impact": "ChatGPTを通じて高品質なメディアの記事を手軽に読めるようになるかもしれない。",
+      "new": "AIを活用してジャーナリズムを支援し、記事をChatGPTでよりアクセスしやすくする。",
+      "published": "2026-11-16T09:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "ルイ・ヴィトンなどを抱える世界的な高級ブランドグループのこと。",
+        "word": "LVMH"
+      },
+      "title_en": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "title_ja": "LVMHのメディア部門がOpenAIと提携",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "what": "LVMHのメディア部門がOpenAIと戦略的パートナーシップを結んだ。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "da5a45ac44",
+      "impact": "AI教育の導入が進む一方、過度な期待や学力への影響について慎重な検討が求められる。",
+      "new": "AI家庭教師アプリを使う学校の内部データから、多くの生徒が目標に届かない実態が判明した。",
+      "published": "2026-11-15T19:39:46Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが一人ひとりに合わせて学習内容を調整し、個別指導を行うためのソフトウェア。",
+        "word": "AI家庭教師アプリ"
+      },
+      "title_en": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "title_ja": "AIを活用する私立学校で半数の生徒が目標に届かず",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "what": "AIを活用した私立学校で、半数の生徒が学習速度の目標を達成できなかった。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f26f2a4dfd",
+      "impact": "科学研究の現場でAIを活用した分析や調査がよりスムーズに進むようになる。",
+      "new": "世界中の多くの研究者が最新の高性能なAIモデルを無料で利用できるようになること。",
+      "published": "2026-11-16T17:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIの開発企業が提供する、性能が高く最先端の機能を持った大規模なAIモデルのこと。",
+        "word": "フロンティアモデル"
+      },
+      "title_en": "Broadening access to AI for scientists",
+      "title_ja": "OpenAIが研究者向けに最新AIを無料で提供",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "what": "世界中の研究者二百万人に最新のAIを無料で提供するプログラムを拡大した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "b1c71d0787",
+      "impact": "オンラインサービスでの安全対策が強化され、より安心して利用できるようになる。",
+      "new": "児童の安全を守るための実用的なガイダンスや検出ツールが追加された。",
+      "published": "2026-11-16T17:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "title_ja": "OpenAIがオンラインの児童安全対策を強化",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "what": "児童の性的虐待や搾取を防ぐための新しいツールや手引き、提携を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f891bd93f3",
+      "impact": "先端の科学研究におけるAIの活用方法や、作業効率を上げるヒントを知ることができる。",
+      "new": "日々の作業での使い方や、仕事の効率がどう変わったかについての発見がまとめられている点。",
+      "published": "2026-11-16T12:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Science at the Frontier: How scientists use ChatGPT",
+      "title_ja": "科学者たちが研究でChatGPTをどう使っているかを公開",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "what": "1800人以上の科学者が研究でChatGPTをどのように使っているかについての調査結果が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "cfcc7acb02",
+      "impact": "医療ソフトと連携し、日々の医療業務の負担を減らすことができる。",
+      "new": "パソコンを操作するエージェントや、医療用プラグインが追加された。",
+      "published": "2026-11-16T06:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "ソフトウエアに追加して機能やできることを増やす仕組みのこと。",
+        "word": "プラグイン"
+      },
+      "title_en": "More ways to move care forward with ChatGPT for Healthcare",
+      "title_ja": "医療分野向けにChatGPTの新機能が登場",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "what": "OpenAIが医療分野向けの新しいChatGPTの機能を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "e3915f7e4c",
+      "impact": "若い世代が仕事で使えるAIの技術を身につけられるようになる。",
+      "new": "最大25,000人の若者が仕事に役立つAIスキルを学べるようになること。",
+      "published": "2026-11-16T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "The King’s Trust and OpenAI launch £1m partnership",
+      "title_ja": "OpenAIとThe King’s TrustがAI教育で提携",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "what": "イギリスの若い世代に向けて実践的なAIスキルを学ぶ100万ポンドのパートナーシップが開始された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "23ca9c0897",
+      "impact": "設計図面を作る作業が簡単になり、ものづくりのアイデアを素早く形にできるようになる。",
+      "new": "専門的な操作なしで、文章による説明だけでCADのデザインを得られる点。",
+      "published": "2026-11-15T23:41:27Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "コンピュータを使って建物や工業製品の設計図面を描くためのソフトやツールのこと。",
+        "word": "CAD"
+      },
+      "title_en": "LexiCAD",
+      "title_ja": "言葉で部品を説明してCAD設計図を作るLexiCAD",
+      "url": "https://www.producthunt.com/products/lexicad",
+      "what": "普通の言葉で部品を説明すると、CAD設計図を作成できるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "441edff772",
+      "impact": "毎日の予定調整やスケジュール管理がこれまでよりも便利になる。",
+      "new": "イベント機能や新しいアシスタント機能が追加された点が新しい。",
+      "published": "2026-11-15T14:46:35Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Cal.com v7",
+      "title_ja": "スケジュール管理ツールのCal.comが新機能を追加",
+      "url": "https://www.producthunt.com/products/cal",
+      "what": "スケジュール管理ツールのCal.comが新しい機能やアシスタント機能などを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "b0ef38f4c9",
+      "impact": "Macでの文章作成やメモ書きの作業がスムーズになる。",
+      "new": "AIに何でもお願いしながら文章を作成できる点。",
+      "published": "2026-11-15T12:25:03Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "簡単な記号を使って見出しや箇条書きなどの装飾ができる、文章の書き方のひとつ。",
+        "word": "マークダウン"
+      },
+      "title_en": "Glifa",
+      "title_ja": "Mac向けの何でも頼める文章編集ツール「Glifa」",
+      "url": "https://www.producthunt.com/products/glifa",
+      "what": "Macで使えるマークダウン形式の文章編集ツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "6040f07813",
+      "impact": "自分オリジナルの手書きフォントを手軽に作成してデザインに活かせる。",
+      "new": "文字や手書きのメモから直接独自のフォントを作り出せる点が新しい。",
+      "published": "2026-11-15T08:59:05Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "太さやスタイルの異なる複数のフォントをまとめたもののこと。",
+        "word": "フォントファミリー"
+      },
+      "title_en": "Punchcutter",
+      "title_ja": "手書き文字や文章からフォントを作成できる",
+      "url": "https://www.producthunt.com/products/punchcutter",
+      "what": "文章や手書きの文字をもとに、本物のフォントファミリーを作ることができる。"
+    }
+  ],
+  "date": "2026-11-17",
+  "digest": [
+    "グーグルマップに旅程作成や予約の機能が追加された",
+    "求人が減少する中でAI関連の記載が過半数を超えた",
+    "オッペンアイが研究者向けの無料提供や提携を発表した"
+  ],
+  "generated_at": "2026-11-17T00:51:10.831486Z",
+  "mascot_line": "きょうはくもり空だけど、新しいツールがたくさん登場してワクワクするね！いっしょにチェックしよう！",
+  "stats": {
+    "candidates": 28,
+    "collected": 31,
+    "llm_calls": 17,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 28,
+    "seconds": 99.3,
+    "selected": 13
+  },
+  "weather": "cloudy"
+}
