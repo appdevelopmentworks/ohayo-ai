@@ -1,0 +1,219 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "cb1d8f8bc8",
+      "impact": "日常の面倒な手続きや買い物の手間が減り、自由な時間を増やすことができる。",
+      "new": "AIが代わりに電話をかけたり、メールやカレンダーと連携して複雑な作業を自動でこなせるようになった点が新しい。",
+      "published": "2026-11-17T17:00:00Z",
+      "score": 5,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleが開発した、文章の作成や質問への回答が得意な人工知能のアシスタント。",
+        "word": "Gemini"
+      },
+      "title_en": "Put Gemini to work for you",
+      "title_ja": "Google、電話や買い物を代行する新機能のGeminiを無料公開",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "what": "Googleは、電話予約や買い物などを自動で代行してくれる新しいGeminiを無料公開した。"
+    },
+    {
+      "also_in": [
+        "hn",
+        "simonwillison"
+      ],
+      "category": "新モデル",
+      "id": "549a77347d",
+      "impact": "より手頃な価格で高性能なAIを仕事で活用できるようになる。",
+      "new": "",
+      "published": "2026-11-17T17:45:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "外部のシステムやアプリからAIの機能を利用できるようにする仕組み。",
+        "word": "API"
+      },
+      "title_en": "Introducing GPT-6.2 Astra and Sol",
+      "title_ja": "OpenAIが新しいAIモデルを発表",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "what": "OpenAIが新モデルのGPT-6.2 AstraとGPT-6.2 Solを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "c6c361c53b",
+      "impact": "営業担当者の毎日の事務作業や準備の時間が減り、効率よく仕事が進められるようになる。",
+      "new": "営業の顧客調査や提案書の準備、顧客情報の更新などがChatGPTでできるようになった。",
+      "published": "2026-11-17T08:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "本体のアプリに追加して、新しい機能を使えるようにする拡張機能のこと。",
+        "word": "プラグイン"
+      },
+      "title_en": "Introducing ChatGPT for Sales",
+      "title_ja": "ChatGPTに営業活動を支援する機能が登場",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "what": "ChatGPTに顧客調査や提案準備ができる新しい営業向けプラグインが追加された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "246f1a63c5",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-17T14:19:59Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "title_ja": "BaiduとXiaomiのCEOがAIの期待と現実の差に警鐘",
+      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "what": "BaiduとXiaomiの最高経営責任者が、AIへの過剰な期待と実際の利益の間のギャップが広がっていると警告した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "590cb0b9c5",
+      "impact": "サイバー攻撃への対策が強化され、社会インフラなどの重要なシステムがより安全になる。",
+      "new": "NATOなどの信頼できる防衛機関と協力し、重要なシステムを保護する取り組みを進めている点。",
+      "published": "2026-11-17T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "コンピュータやネットワークをインターネット上の脅威や攻撃から守ること。",
+        "word": "サイバー防衛"
+      },
+      "title_en": "Strengthening NATO and allied cyber defenses with AI",
+      "title_ja": "OpenAI、NATOのサイバー防衛をAIで支援",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "what": "OpenAIがNATOや同盟国のサイバー機関と協力し、AIを活用してシステムの弱点探しや修正テストを支援している。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0604bc2b50",
+      "impact": "法律に関する業務や調べものをAIが強力にサポートできるようになる。",
+      "new": "",
+      "published": "2026-11-17T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "法律分野の業務を支援するために開発されたAIシステムのこと。",
+        "word": "Astra for Law"
+      },
+      "title_en": "Astra for Law leads in legal intelligence",
+      "title_ja": "法律分野のAI評価でトップを獲得した新ツール",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "what": "法律分野の評価で首位となったAstra for Lawが提供開始された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "2bae8ee7dc",
+      "impact": "プログラミングの知識がなくても、誰でも簡単にオリジナルのゲームを作って公開できるようになる。",
+      "new": "作ったゲームを掲載できる独自のアプリストアを備えている点が新しい。",
+      "published": "2026-11-16T16:56:27Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "スマートフォンやパソコン向けの様々なアプリを集めて、ダウンロードできるようにしたお店のような場所のこと。",
+        "word": "アプリストア"
+      },
+      "title_en": "WispOS",
+      "title_ja": "無料のAIゲーム作成ツールWispOSが登場",
+      "url": "https://www.producthunt.com/products/wispos",
+      "what": "AIを使って無料でゲームを作ることができるプラットフォームが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a19c892da8",
+      "impact": "ECサイトの商品見栄えが良くなり、購入率の向上が期待できる。",
+      "new": "商品写真をアップロードするだけで、簡単に3DやARのデータを作れる。",
+      "published": "2026-11-16T14:16:03Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "現実の景色の中に、デジタルで作った立体などを重ね合わせて表示する技術のこと。",
+        "word": "AR"
+      },
+      "title_en": "BASE Studio",
+      "title_ja": "商品を自動で3DやARに変換するツール",
+      "url": "https://www.producthunt.com/products/base-studio",
+      "what": "商品写真を自動で3DやARに変換するサービスが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "4b23f09f19",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-16T14:15:05Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "VINC",
+      "title_ja": "映像制作のアイデアを形にするツールVINC",
+      "url": "https://www.producthunt.com/products/vinc",
+      "what": "映像制作のアイデアを形にするツールであるVINCが紹介された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "b68b49d351",
+      "impact": "個別の作業を減らし、効率的なデザインや制作ができるようになる。",
+      "new": "すべての成果物を個別に作るのではなく、システムを設計する仕組みが新しい。",
+      "published": "2026-11-16T08:11:08Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Superhands",
+      "title_ja": "システム設計で効率的な出力を行うSuperhands",
+      "url": "https://www.producthunt.com/products/stencil-by-superhands",
+      "what": "個別の出力ではなくシステム全体の設計を行うツールが登場した。"
+    }
+  ],
+  "date": "2026-11-18",
+  "digest": [
+    "Google、電話代行Geminiを無料公開",
+    "OpenAI、新モデルGPT-6.2を発表",
+    "Baidu、AI期待と現実の差に警鐘"
+  ],
+  "generated_at": "2026-11-17T23:52:08.494496Z",
+  "mascot_line": "今日も大ニュースが光る！ニュー助がしっかりお伝えします。",
+  "stats": {
+    "candidates": 24,
+    "collected": 32,
+    "llm_calls": 16,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 24,
+    "seconds": 73.5,
+    "selected": 10
+  },
+  "weather": "thunder"
+}
