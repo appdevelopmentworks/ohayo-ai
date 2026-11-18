@@ -1,0 +1,239 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "b898a1b212",
+      "impact": "ビジネスや研究における複雑な作業をAIが効率よくこなし、仕事や日常のデータ分析が便利になる。",
+      "new": "複雑なプログラミングや科学的な研究業務において、高い処理能力と低いウソの発生率を実現した。",
+      "published": "2026-11-18T21:35:43Z",
+      "score": 5,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "AIが一度に読み込んで記憶できるデータ量の大きさのこと。",
+        "word": "コンテキストウィンドウ"
+      },
+      "title_en": "Introducing Gemini 4 Neon",
+      "title_ja": "Googleが新モデル「Gemini 4 Neon」を発表",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "what": "Googleが、高度な知性と高速な処理を両立した新モデル「Gemini 4 Neon」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "695d1f9a1c",
+      "impact": "自分のサイトを見てもらうことが難しくなり、情報を届けるための工夫や対策を変える必要がある。",
+      "new": "検索結果にAIの答えが直接出るため、ユーザーがサイトを訪れる必要が減ったことが新しい影響。",
+      "published": "2026-11-18T00:17:58Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": {
+        "note": "検索エンジンを経由して自分のウェブサイトに人がやってくること。",
+        "word": "検索流入"
+      },
+      "title_en": "Google's AI answers reducing search traffic by 40%",
+      "title_ja": "GoogleのAI回答で検索流入が40%減少",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "what": "GoogleのAIによる回答が表示されることで、ウェブサイトへの検索からのアクセスが大きく減っている。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "50e3ea47cb",
+      "impact": "ブラウザ上でアイデアを形にした体験やゲームのような世界を簡単に作って共有できるようになる。",
+      "new": "テキストで指示してリアルタイムに世界を変化させたり、音声や音楽を組み合わせたりできるようになった。",
+      "published": "2026-11-18T18:13:42Z",
+      "score": 4,
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "summary_only": false,
+      "term": {
+        "note": "AIが現実世界の物理法則やルールを学習し、映像や空間を作り出す仕組みのこと。",
+        "word": "ワールドモデル"
+      },
+      "title_en": "Genie 4 is now available",
+      "title_ja": "Googleが対話しながら世界を作れる「Genie 4」公開",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "what": "Googleが新しいインタラクティブな世界モデル「Genie 4」などを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "8e6075d168",
+      "impact": "低価格なスマホを使っている人でも、AIアシスタントを手軽に利用できるようになる。",
+      "new": "アプリの設計を直すことで、性能の低い端末でもスムーズに動くようになった。",
+      "published": "2026-11-18T17:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "AIと音声で自然な会話や練習ができる機能のこと。",
+        "word": "Gemini Live"
+      },
+      "title_en": "The Gemini app is now available on lower-memory Android devices.",
+      "title_ja": "Androidの低メモリ端末でもGeminiアプリが利用可能に",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "what": "メモリが少ないAndroid端末でもGeminiアプリが使えるようになった。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f1feb2e4bb",
+      "impact": "個人の情報サイトの経営や運営が難しくなり、ネット上の情報発信の形が変わる。",
+      "new": "検索結果にAIが作った答えが直接表示されるようになり、サイトへの訪問者が減ったこと。",
+      "published": "2026-11-18T06:47:26Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "Google検索の上部にAIが自動で質問の答えをまとめて表示する機能のことです。",
+        "word": "AI Overviews"
+      },
+      "title_en": "AI is killing All About Berlin",
+      "title_ja": "GoogleのAI要約で個人サイトのアクセスが激減",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "what": "運営するベルリン情報サイトのアクセスがGoogleのAI機能により激減した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "e683d40fba",
+      "impact": "将来のAIの進化が私たちの社会や仕事の仕組みにどう影響するかを考えるきっかけになる。",
+      "new": "AIの能力向上に伴う社会の変化と人間のコントロールのあり方に焦点を当てている点。",
+      "published": "2026-11-18T10:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "The Silent Consensus",
+      "title_ja": "高度なAIが社会に与える影響と人々の統制について考察",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "what": "OpenAIの担当者が、より高度なAIが社会をどう変え、人々が組織をどう統制し続けられるかを検証した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "8b6ac2940f",
+      "impact": "AIサービスの安全性がどのように保たれているか理解できる。",
+      "new": "学習から運用までの一連の安全対策を包括的に公開した点。",
+      "published": "2026-11-18T06:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": {
+        "note": "AIの動作や目的を人間の意図や安全性の基準に合わせる調整のこと。",
+        "word": "モデルアライメント"
+      },
+      "title_en": "Managing frontier AI risk: From training to deployment",
+      "title_ja": "OpenAIが最先端AIのリスク管理手法を公開",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "what": "OpenAIが開発から公開までの最先端AIのリスク管理方法を説明した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "6cab9c8cd3",
+      "impact": "ChatGPTを通じて最新のフランスのニュースにアクセスしやすくなる。",
+      "new": "要約や抜粋を通じて、元の記事へのリンクとともにニュースがChatGPTに表示される。",
+      "published": "2026-11-18T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "title_ja": "仏紙フィガロがOpenAIと提携し記事を提供",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "what": "Le Groupe FigaroとOpenAIが提携し、ChatGPTで同紙の記事が読めるようになった。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7207d53392",
+      "impact": "音声を使ったやり取りや録音の文字起こしをスムーズに行えるようになる。",
+      "new": "ライブ通話や音声エージェント向けに音声からテキストへの変換ができる。",
+      "published": "2026-11-18T06:50:37Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "話した音声を自動で認識して、テキストの文字に変換する技術のこと。",
+        "word": "Speech-to-Text"
+      },
+      "title_en": "AssemblyAI-STT-3.7",
+      "title_ja": "通話や音声に対応する文字起こしツール",
+      "url": "https://www.producthunt.com/products/assemblyai",
+      "what": "リアルタイムの通話や音声エージェント、録音データの文字起こし機能を提供する。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "e4be9abd1c",
+      "impact": "パソコン作業を声と画面認識ですばやく自動化できるようになる。",
+      "new": "画面の視覚情報と音声による指示を組み合わせた高速な操作ができる。",
+      "published": "2026-11-17T22:02:24Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の代わりに複雑な作業や判断を自動でおこなってくれるAIのこと。",
+        "word": "エージェント"
+      },
+      "title_en": "Incredible Agents",
+      "title_ja": "画面を見て声で操作するAIが登場",
+      "url": "https://www.producthunt.com/products/incredible",
+      "what": "画面を見ながら声でエージェントを動かせる音声AIが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "b5e6547c9b",
+      "impact": "コストをかけずに同様のチャットボットを利用できるようになる。",
+      "new": "誰でも自由に使えるオープンソースで作られている点が新しい。",
+      "published": "2026-11-17T14:13:59Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "ソフトウェアの設計図が一般に公開されており、誰でも自由に改良や利用ができる仕組みのこと。",
+        "word": "オープンソース"
+      },
+      "title_en": "dusk bot",
+      "title_ja": "Grokの無料オープンソース代替版が登場",
+      "url": "https://www.producthunt.com/products/dusk-bot",
+      "what": "Grokの無料かつオープンソースの代替となるbotが公開された。"
+    }
+  ],
+  "date": "2026-11-19",
+  "digest": [
+    "Googleが新モデル「Gemini 4 Neon」発表",
+    "AI回答で検索流入が40%減少",
+    "対話で世界を作る「Genie 4」公開"
+  ],
+  "generated_at": "2026-11-18T23:25:04.489160Z",
+  "mascot_line": "今日は大ニュースが光る！ニュー助がしっかり案内します。",
+  "stats": {
+    "candidates": 31,
+    "collected": 39,
+    "llm_calls": 17,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 31,
+    "seconds": 78.0,
+    "selected": 11
+  },
+  "weather": "thunder"
+}
