@@ -1,0 +1,216 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "b2c084a412",
+      "impact": "仕事でのデータ分析やプログラミング作業がより正確になり、コストを抑えてAIを活用できるようになる。",
+      "new": "複雑な作業を効率よくこなす能力が高く、指示に従う精度やプログラミングの性能が向上した。",
+      "published": "2026-11-18T21:34:07Z",
+      "score": 5,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "異なるソフトウェアやプログラム同士をつなぐための仕組みのこと。",
+        "word": "API"
+      },
+      "title_en": "Gemini 4 Neon",
+      "title_ja": "Googleが新AIモデル「Gemini 4 Neon」を発表",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "what": "Googleがソフトウェア開発や科学研究などで高い性能を発揮するAIモデル「Gemini 4 Neon」を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "25c96fa5a2",
+      "impact": "AI企業の大規模な上場により、業界全体の資金調達や市場の動きに影響が出る可能性がある。",
+      "new": "",
+      "published": "2026-11-18T23:30:09Z",
+      "score": 4,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "企業が一般の投資家に向けて初めて株式を売り出し、証券取引所に上場させること。",
+        "word": "新規株式公開"
+      },
+      "title_en": "Anthropic prices initial public offering",
+      "title_ja": "Anthropicが株式公開の価格を発表",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "what": ""
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "bab1a902fa",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-19T17:02:40Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Anthropic’s Nasdaq debut",
+      "title_ja": "Anthropicがナスダックに上場",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "what": "Anthropicがナスダックへ上場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "a7f93bc5eb",
+      "impact": "専用のソフトがなくても、手軽にアニメーション制作を始められるようになる。",
+      "new": "インストール不要でブラウザから直接モーションデザインの作業ができる。",
+      "published": "2026-11-19T03:34:35Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "文字や図形、イラストなどを動かして表現するデザイン手法のこと。",
+        "word": "モーションデザイン"
+      },
+      "title_en": "Nuko",
+      "title_ja": "ブラウザで動くモーションデザインツール「Nuko」",
+      "url": "https://www.producthunt.com/products/nuko",
+      "what": "ブラウザ上でモーションデザインを作成できるツール「Nuko」が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "1228ab75d2",
+      "impact": "広告運用の手間や時間を減らし、個人でも効率よく宣伝ができるようになる。",
+      "new": "複数の専門AIがチームを組んで広告運用を行ってくれる。",
+      "published": "2026-11-19T00:52:42Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を受けて、自分で考えて仕事を進めてくれるAIのことです。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Adside",
+      "title_ja": "有料広告の運用を自動化するAIチーム「Adside」",
+      "url": "https://www.producthunt.com/products/adside",
+      "what": "専門的なAIエージェントのチームが有料広告の管理を代行する。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "da0c945328",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-18T12:03:30Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "HeyGen Avatar 6",
+      "title_ja": "HeyGenが自分そっくりのAIアバターモデルを公開",
+      "url": "https://www.producthunt.com/products/heygen",
+      "what": "HeyGenが自分の姿に似たAIアバターモデルを公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "32cca7ee57",
+      "impact": "AIの安全機能により、自社のセキュリティ対策が阻害される可能性がある",
+      "new": "AIの安全対策が正当なセキュリティ修正を妨げる事例を報告",
+      "published": "2026-11-19T16:30:18Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIモデルの内部に組み込まれた、危険な出力を防止するための制限機能のこと",
+        "word": "AI safeguards"
+      },
+      "title_en": "Fuck Your AI Safeguards",
+      "title_ja": "AIの安全機能がセキュリティ対策を妨げる問題",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "what": "開発者がClaude Codeでセキュリティ修正を試みたが、AIの安全機能により中断された"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "2adef6bfec",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-19T17:00:00Z",
+      "score": 3,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": null,
+      "title_en": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "title_ja": "GoogleがAI時代の創造性について対談動画公開",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "what": "GoogleがAI時代の好奇心と創造性について、Walter Isaacson氏との対談動画を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "84fa3a4888",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-19T00:00:00Z",
+      "score": 3,
+      "source": "hf_papers",
+      "source_name": "HF Daily Papers",
+      "summary_only": false,
+      "term": {
+        "note": "AIが動画を見ながら、必要なタイミングで質問したり、指示を待ったりと、人間とやり取りしながらタスクを進める仕組みのこと。",
+        "word": "対話型ストリーミング"
+      },
+      "title_en": "ALIVE: Making Streaming Video Models Interactive",
+      "title_ja": "動画AIが能動的に質問・協調できる新モデル発表",
+      "url": "https://arxiv.org/abs/2611.21366",
+      "what": "動画を見ながら能動的に監視し、ユーザーと対話しながらタスクをこなすAIモデルALIVEが提案された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "1e3880b2b8",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-19T03:05:34Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "指示を待つのではなく、AIが自らタスクを見つけて進めてくれる仕組みのこと。",
+        "word": "proactive"
+      },
+      "title_en": "Tecla",
+      "title_ja": "ToDoリスト形式の能動的AIエージェント「Tecla」登場",
+      "url": "https://www.producthunt.com/products/tecla-3",
+      "what": "ToDoリスト形式のインターフェースを持つ能動的AIエージェント「Tecla」が公開された。"
+    }
+  ],
+  "date": "2026-11-20",
+  "digest": [
+    "Googleが新AIモデル「Gemini 4 Neon」を発表",
+    "Anthropicが株式公開の価格を発表",
+    "Anthropicがナスダックに上場"
+  ],
+  "generated_at": "2026-11-19T23:37:06.551755Z",
+  "mascot_line": "今日はちょっと動きあり。気になるものからどうぞ",
+  "stats": {
+    "candidates": 26,
+    "collected": 37,
+    "llm_calls": 19,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 26,
+    "seconds": 272.6,
+    "selected": 10
+  },
+  "weather": "cloudy"
+}
