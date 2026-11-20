@@ -1,0 +1,158 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "ed33061e28",
+      "impact": "プログラミングや開発作業に向いているAIを選ぶ際の参考になる。",
+      "new": "16種類のコーディングテスト結果を難易度やコスト等を考慮して総合評価している。",
+      "published": "2026-11-19T23:35:35Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "人間の言葉を理解し、文章を作ったり考えたりするAIのこと。",
+        "word": "言語モデル"
+      },
+      "title_en": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "title_ja": "Gemini 4 Neonが開発力テストで1位を獲得",
+      "url": "https://git-aarvin.github.io/mei/",
+      "what": "言語モデルのエンジニアリング性能を測る指標でGemini 4 Neonが1位になった。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "be373132dc",
+      "impact": "量子力学と一般相対性理論を結びつける研究が進み、宇宙の仕組みの解明に近づく。",
+      "new": "AIが自身のコピー同士でチームを作り、20年以上解けなかった複雑な計算をやり遂げた点。",
+      "published": "2026-11-19T17:30:44Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "宇宙の非常に大きなものを説明する理論と、非常に小さなものを説明する理論を一つにまとめる究極の目標。",
+        "word": "量子重力理論"
+      },
+      "title_en": "Claude solves two open problems in the physics of black holes",
+      "title_ja": "Claudeがブラックホール物理学の未解決問題を2つ解決",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "what": "AIのClaudeが理論物理学のブラックホールに関する2つの未解決問題を解決した。"
+    },
+    {
+      "also_in": [],
+      "category": "研究・論文",
+      "id": "f4784c3040",
+      "impact": "将来的にAIが新薬開発のアイデア出しや複雑なデータの整理をサポートできるようになる。",
+      "new": "医薬品化学の研究から抽出した99の問題を使い、AIの推論や分子構造の把握力を細かく評価できる。",
+      "published": "2026-11-20T00:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが医薬品化学の複雑な課題をどれだけ正しく考えられるかを試すテストのこと。",
+        "word": "MedChemBench"
+      },
+      "title_en": "Can AI help scientists identify promising drug candidates?",
+      "title_ja": "AIの新薬開発力を試す新テストが登場",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "what": "AIが分子の構造を読み取り実験結果を解釈する能力を試すテストMedChemBenchを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7305ae9d4b",
+      "impact": "就職や転職の面接に向けて本番さながらの練習ができる。",
+      "new": "実際の面接のように声を使って練習ができる点。",
+      "published": "2026-11-20T03:48:51Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Interview Coach",
+      "title_ja": "声に出して仕事の面接練習ができるツール",
+      "url": "https://www.producthunt.com/products/interview-coach-3",
+      "what": "声に出して仕事の面接の練習ができるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3b295d6750",
+      "impact": "動画の内容が正しいかをその場で簡単に確認できるようになる。",
+      "new": "動画の再生に合わせて情報源付きの事実確認を行える点が新しい。",
+      "published": "2026-11-20T02:06:25Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "情報やニュースの内容が本当であるかどうかを調べ、確かめること。",
+        "word": "事実確認"
+      },
+      "title_en": "Fack’d",
+      "title_ja": "YouTubeの再生中に事実確認できるツール",
+      "url": "https://www.producthunt.com/products/fack-d",
+      "what": "YouTubeの動画再生中に事実確認ができるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "9cc42a3ce1",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-19T18:59:59Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Conversaflex",
+      "title_ja": "多言語チーム向けAI会話練習ツールが登場",
+      "url": "https://www.producthunt.com/products/conversaflex",
+      "what": "多言語チームのためのAI会話練習ツールが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f0f7276db4",
+      "impact": "移動中や外出先でもiPhoneから本格的なAIのサポートを受けられるようになる。",
+      "new": "スマートフォンだけでAIチームに実際の仕事を任せることができる。",
+      "published": "2026-11-19T12:24:03Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "複数のAIが役割分担をしながら、協力して仕事を進める仕組みのこと。",
+        "word": "AIチーム"
+      },
+      "title_en": "Stormi",
+      "title_ja": "iPhoneで働くAIチームアプリStormiが登場",
+      "url": "https://www.producthunt.com/products/stormi",
+      "what": "iPhone上で実際の作業を行うAIチーム機能を提供するアプリが公開された。"
+    }
+  ],
+  "date": "2026-11-21",
+  "digest": [
+    "ジェミニ4ネオンが開発力テストで1位を獲得しました。",
+    "クロードがブラックホール物理学の未解決問題を解決しました。",
+    "面接や事実確認など便利な新しいツールが多数登場しました。"
+  ],
+  "generated_at": "2026-11-20T23:09:09.287064Z",
+  "mascot_line": "きょうは晴れでおだやかな一日だね！新しいツールを使って楽しくAIを味方にしよう！",
+  "stats": {
+    "candidates": 27,
+    "collected": 37,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 27,
+    "seconds": 43.0,
+    "selected": 7
+  },
+  "weather": "sunny"
+}
