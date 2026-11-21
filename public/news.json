@@ -1,158 +1,85 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-20T23:09:09.287064Z",
-  "weather": "sunny",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-21T22:12:48.722302Z",
+  "weather": "cloudy",
   "digest": [
-    "ジェミニ4ネオンが開発力テストで1位を獲得しました。",
-    "クロードがブラックホール物理学の未解決問題を解決しました。",
-    "面接や事実確認など便利な新しいツールが多数登場しました。"
+    "Anthropic株急落でAI関連株が世界的に急落",
+    "65種のAI回答が一致し多様性喪失が示された",
+    "Google社員がAI拒否校への検索制限撤回を要求"
   ],
-  "mascot_line": "きょうは晴れでおだやかな一日だね！新しいツールを使って楽しくAIを味方にしよう！",
+  "mascot_line": "今日は少し揺れがありますが、ニュー助がしっかり支えますよ！",
   "articles": [
     {
-      "id": "ed33061e28",
-      "title_ja": "Gemini 4 Neonが開発力テストで1位を獲得",
-      "what": "言語モデルのエンジニアリング性能を測る指標でGemini 4 Neonが1位になった。",
-      "new": "16種類のコーディングテスト結果を難易度やコスト等を考慮して総合評価している。",
-      "impact": "プログラミングや開発作業に向いているAIを選ぶ際の参考になる。",
+      "id": "fda5004e84",
+      "title_ja": "Anthropicの株価下落を受けAI関連株が世界的に急落",
+      "what": "Anthropicの株価下落に伴い、AI関連企業や世界の株式市場が大きく値を下げた。",
+      "new": "史上最大級の新規株式公開をしたAnthropicの株価が乱高下し、テック株全体の売りにつながった。",
+      "impact": "世界的な株安や円高・ドル高の進行により、個人の資産運用や日本経済にも影響が及ぶ可能性がある。",
       "term": {
-        "word": "言語モデル",
-        "note": "人間の言葉を理解し、文章を作ったり考えたりするAIのこと。"
+        "word": "IPO",
+        "note": "新規株式公開のこと。企業が株を証券取引所に初めて上場し、一般の投資家が買えるようにすること。"
       },
-      "category": "研究・論文",
-      "score": 3,
-      "url": "https://git-aarvin.github.io/mei/",
+      "category": "注目トピック",
+      "score": 4,
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-      "published": "2026-11-19T23:35:35Z",
+      "title_en": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "published": "2026-11-20T13:29:59Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "be373132dc",
-      "title_ja": "Claudeがブラックホール物理学の未解決問題を2つ解決",
-      "what": "AIのClaudeが理論物理学のブラックホールに関する2つの未解決問題を解決した。",
-      "new": "AIが自身のコピー同士でチームを作り、20年以上解けなかった複雑な計算をやり遂げた点。",
-      "impact": "量子力学と一般相対性理論を結びつける研究が進み、宇宙の仕組みの解明に近づく。",
+      "id": "9d9e2c9f2c",
+      "title_ja": "65種のAIに同じ質問、答えは驚くほど一致",
+      "what": "65種のAIに日常の質問を繰り返し、回答が特定の答えに集中していることを調査した。",
+      "new": "65種のAIに同じ質問を繰り返し、回答が驚くほど一致し、多様性が失われていることを示した。",
+      "impact": "AIに人生の選択を聞くと、多くの人が同じ答えを受け取り、多様な視点を得られない可能性がある。",
       "term": {
-        "word": "量子重力理論",
-        "note": "宇宙の非常に大きなものを説明する理論と、非常に小さなものを説明する理論を一つにまとめる究極の目標。"
+        "word": "収束",
+        "note": "AIが過去の学習データから最も一般的・典型的なパターンを優先して生成する傾向のこと。"
       },
       "category": "研究・論文",
-      "score": 3,
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "score": 4,
+      "url": "https://a90.com/experiments/same-advice/",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Claude solves two open problems in the physics of black holes",
-      "published": "2026-11-19T17:30:44Z",
+      "title_en": "AI is giving everyone the same advice",
+      "published": "2026-11-20T16:58:05Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "f4784c3040",
-      "title_ja": "AIの新薬開発力を試す新テストが登場",
-      "what": "AIが分子の構造を読み取り実験結果を解釈する能力を試すテストMedChemBenchを発表した。",
-      "new": "医薬品化学の研究から抽出した99の問題を使い、AIの推論や分子構造の把握力を細かく評価できる。",
-      "impact": "将来的にAIが新薬開発のアイデア出しや複雑なデータの整理をサポートできるようになる。",
+      "id": "83f2b5d135",
+      "title_ja": "Google社員、AI拒否校への検索制限撤回を要求",
+      "what": "Google社員が、AIを使わない学校に検索エンジンの利用を制限する方針の撤回を求めた。",
+      "new": "AIツールを使わない学校に検索エンジンの利用を制限する方針を、社員が撤回を求めた。",
+      "impact": "学校がAIを使いたくない場合、検索機能も使えなくなる可能性があり、教育現場の選択肢が狭まる。",
       "term": {
-        "word": "MedChemBench",
-        "note": "AIが医薬品化学の複雑な課題をどれだけ正しく考えられるかを試すテストのこと。"
+        "word": "Gemini",
+        "note": "GoogleのAIモデルで、検索や教育ツールなどに組み込まれている。"
       },
-      "category": "研究・論文",
+      "category": "注目トピック",
       "score": 3,
-      "url": "https://openai.com/index/introducing-medchembench",
-      "source": "openai",
-      "source_name": "OpenAI News",
-      "title_en": "Can AI help scientists identify promising drug candidates?",
-      "published": "2026-11-20T00:00:00Z",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "title_en": "Google workers tell their employer not to punish schools that don't want AI",
+      "published": "2026-11-20T16:59:27Z",
       "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "7305ae9d4b",
-      "title_ja": "声に出して仕事の面接練習ができるツール",
-      "what": "声に出して仕事の面接の練習ができるツールが登場した。",
-      "new": "実際の面接のように声を使って練習ができる点。",
-      "impact": "就職や転職の面接に向けて本番さながらの練習ができる。",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/interview-coach-3",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Interview Coach",
-      "published": "2026-11-20T03:48:51Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "3b295d6750",
-      "title_ja": "YouTubeの再生中に事実確認できるツール",
-      "what": "YouTubeの動画再生中に事実確認ができるツールが登場した。",
-      "new": "動画の再生に合わせて情報源付きの事実確認を行える点が新しい。",
-      "impact": "動画の内容が正しいかをその場で簡単に確認できるようになる。",
-      "term": {
-        "word": "事実確認",
-        "note": "情報やニュースの内容が本当であるかどうかを調べ、確かめること。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/fack-d",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Fack’d",
-      "published": "2026-11-20T02:06:25Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "9cc42a3ce1",
-      "title_ja": "多言語チーム向けAI会話練習ツールが登場",
-      "what": "多言語チームのためのAI会話練習ツールが公開された。",
-      "new": "",
-      "impact": "",
-      "term": null,
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/conversaflex",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Conversaflex",
-      "published": "2026-11-19T18:59:59Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "f0f7276db4",
-      "title_ja": "iPhoneで働くAIチームアプリStormiが登場",
-      "what": "iPhone上で実際の作業を行うAIチーム機能を提供するアプリが公開された。",
-      "new": "スマートフォンだけでAIチームに実際の仕事を任せることができる。",
-      "impact": "移動中や外出先でもiPhoneから本格的なAIのサポートを受けられるようになる。",
-      "term": {
-        "word": "AIチーム",
-        "note": "複数のAIが役割分担をしながら、協力して仕事を進める仕組みのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/stormi",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "Stormi",
-      "published": "2026-11-19T12:24:03Z",
-      "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 37,
-    "candidates": 27,
-    "ranked": 27,
-    "selected": 7,
+    "collected": 15,
+    "candidates": 6,
+    "ranked": 6,
+    "selected": 3,
     "llm_calls": 9,
     "providers": [
-      "gemini"
+      "gemini",
+      "groq"
     ],
-    "seconds": 43.0
+    "seconds": 118.8
   }
 }
