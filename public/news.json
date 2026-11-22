@@ -1,85 +1,84 @@
 {
-  "date": "2026-11-22",
-  "generated_at": "2026-11-21T22:12:48.722302Z",
-  "weather": "cloudy",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-22T22:30:11.348745Z",
+  "weather": "sunny",
   "digest": [
-    "Anthropic株急落でAI関連株が世界的に急落",
-    "65種のAI回答が一致し多様性喪失が示された",
-    "Google社員がAI拒否校への検索制限撤回を要求"
+    "パソコンで動くAIチーム作成ツールが登場した。",
+    "AIが上司になり人間が部下として働くゲームが公開された。",
+    "マック向けの個人用知識とブックマーク管理ツールが出た。"
   ],
-  "mascot_line": "今日は少し揺れがありますが、ニュー助がしっかり支えますよ！",
+  "mascot_line": "おはようAI！今日は便利なツールがたくさん登場して、おだやかで楽しい一日になりそうだね！",
   "articles": [
     {
-      "id": "fda5004e84",
-      "title_ja": "Anthropicの株価下落を受けAI関連株が世界的に急落",
-      "what": "Anthropicの株価下落に伴い、AI関連企業や世界の株式市場が大きく値を下げた。",
-      "new": "史上最大級の新規株式公開をしたAnthropicの株価が乱高下し、テック株全体の売りにつながった。",
-      "impact": "世界的な株安や円高・ドル高の進行により、個人の資産運用や日本経済にも影響が及ぶ可能性がある。",
+      "id": "00d9a00720",
+      "title_ja": "デスクトップで動くAIチーム作成ツールoovi",
+      "what": "自分のパソコン上で動くAIのチームを作れるツールが登場した。",
+      "new": "デスクトップ環境で自分専用のAIチームを構築できる。",
+      "impact": "日常の作業をサポートするAIを自分のパソコンで手軽に活用できるようになる。",
       "term": {
-        "word": "IPO",
-        "note": "新規株式公開のこと。企業が株を証券取引所に初めて上場し、一般の投資家が買えるようにすること。"
+        "word": "デスクトップ",
+        "note": "普段使っているパソコンの画面や、その中で作業する場所のこと。"
       },
-      "category": "注目トピック",
-      "score": 4,
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-      "published": "2026-11-20T13:29:59Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "9d9e2c9f2c",
-      "title_ja": "65種のAIに同じ質問、答えは驚くほど一致",
-      "what": "65種のAIに日常の質問を繰り返し、回答が特定の答えに集中していることを調査した。",
-      "new": "65種のAIに同じ質問を繰り返し、回答が驚くほど一致し、多様性が失われていることを示した。",
-      "impact": "AIに人生の選択を聞くと、多くの人が同じ答えを受け取り、多様な視点を得られない可能性がある。",
-      "term": {
-        "word": "収束",
-        "note": "AIが過去の学習データから最も一般的・典型的なパターンを優先して生成する傾向のこと。"
-      },
-      "category": "研究・論文",
-      "score": 4,
-      "url": "https://a90.com/experiments/same-advice/",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "AI is giving everyone the same advice",
-      "published": "2026-11-20T16:58:05Z",
-      "summary_only": false,
-      "also_in": []
-    },
-    {
-      "id": "83f2b5d135",
-      "title_ja": "Google社員、AI拒否校への検索制限撤回を要求",
-      "what": "Google社員が、AIを使わない学校に検索エンジンの利用を制限する方針の撤回を求めた。",
-      "new": "AIツールを使わない学校に検索エンジンの利用を制限する方針を、社員が撤回を求めた。",
-      "impact": "学校がAIを使いたくない場合、検索機能も使えなくなる可能性があり、教育現場の選択肢が狭まる。",
-      "term": {
-        "word": "Gemini",
-        "note": "GoogleのAIモデルで、検索や教育ツールなどに組み込まれている。"
-      },
-      "category": "注目トピック",
+      "category": "便利なツール",
       "score": 3,
-      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "url": "https://www.producthunt.com/products/oovi",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "oovi",
+      "published": "2026-11-21T20:02:03Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "3c4f4993ad",
+      "title_ja": "AIが上司で人間が部下になるブラウザゲーム",
+      "what": "AIエージェントが上司となり人間がその部下として指示をこなすゲームが公開された。",
+      "new": "実際のAIモデルが上司役を務め、制限時間内に指示を実行して評価を受ける仕組みが新しい。",
+      "impact": "AIと働く感覚や、AIからの指示を受けて作業する体験をゲームとして手軽に楽しむことができる。",
+      "term": {
+        "word": "サブエージェント",
+        "note": "AIの指示を受けて特定の作業を実行する、下位のAIやプログラムのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://github.com/gulivan/worker755",
       "source": "hn",
       "source_name": "Hacker News",
-      "title_en": "Google workers tell their employer not to punish schools that don't want AI",
-      "published": "2026-11-20T16:59:27Z",
+      "title_en": "Show HN: I built a game where you are an LLM's subagent",
+      "published": "2026-11-22T13:56:58Z",
       "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "226b30a8c6",
+      "title_ja": "Mac向けの個人用ナレッジ・ブックマーク管理ツール",
+      "what": "Macで使える個人用の知識ベースとブックマーク管理ツールが登場した。",
+      "new": "個人内の情報やWebサイトのブックマークをまとめて管理できる。",
+      "impact": "散らかりがちな情報やブックマークを効率よく整理できるようになる。",
+      "term": {
+        "word": "パーソナルナレッジベース",
+        "note": "自分が得た情報やメモなどを個人でまとめて保管し、後から探しやすくする仕組みのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/resurf-2",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Resurf",
+      "published": "2026-11-21T16:21:36Z",
+      "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 15,
-    "candidates": 6,
-    "ranked": 6,
+    "collected": 13,
+    "candidates": 10,
+    "ranked": 10,
     "selected": 3,
-    "llm_calls": 9,
+    "llm_calls": 5,
     "providers": [
-      "gemini",
-      "groq"
+      "gemini"
     ],
-    "seconds": 118.8
+    "seconds": 25.1
   }
 }

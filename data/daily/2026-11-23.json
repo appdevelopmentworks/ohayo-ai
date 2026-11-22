@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "00d9a00720",
+      "impact": "日常の作業をサポートするAIを自分のパソコンで手軽に活用できるようになる。",
+      "new": "デスクトップ環境で自分専用のAIチームを構築できる。",
+      "published": "2026-11-21T20:02:03Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "普段使っているパソコンの画面や、その中で作業する場所のこと。",
+        "word": "デスクトップ"
+      },
+      "title_en": "oovi",
+      "title_ja": "デスクトップで動くAIチーム作成ツールoovi",
+      "url": "https://www.producthunt.com/products/oovi",
+      "what": "自分のパソコン上で動くAIのチームを作れるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3c4f4993ad",
+      "impact": "AIと働く感覚や、AIからの指示を受けて作業する体験をゲームとして手軽に楽しむことができる。",
+      "new": "実際のAIモデルが上司役を務め、制限時間内に指示を実行して評価を受ける仕組みが新しい。",
+      "published": "2026-11-22T13:56:58Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIの指示を受けて特定の作業を実行する、下位のAIやプログラムのこと。",
+        "word": "サブエージェント"
+      },
+      "title_en": "Show HN: I built a game where you are an LLM's subagent",
+      "title_ja": "AIが上司で人間が部下になるブラウザゲーム",
+      "url": "https://github.com/gulivan/worker755",
+      "what": "AIエージェントが上司となり人間がその部下として指示をこなすゲームが公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "226b30a8c6",
+      "impact": "散らかりがちな情報やブックマークを効率よく整理できるようになる。",
+      "new": "個人内の情報やWebサイトのブックマークをまとめて管理できる。",
+      "published": "2026-11-21T16:21:36Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "自分が得た情報やメモなどを個人でまとめて保管し、後から探しやすくする仕組みのこと。",
+        "word": "パーソナルナレッジベース"
+      },
+      "title_en": "Resurf",
+      "title_ja": "Mac向けの個人用ナレッジ・ブックマーク管理ツール",
+      "url": "https://www.producthunt.com/products/resurf-2",
+      "what": "Macで使える個人用の知識ベースとブックマーク管理ツールが登場した。"
+    }
+  ],
+  "date": "2026-11-23",
+  "digest": [
+    "パソコンで動くAIチーム作成ツールが登場した。",
+    "AIが上司になり人間が部下として働くゲームが公開された。",
+    "マック向けの個人用知識とブックマーク管理ツールが出た。"
+  ],
+  "generated_at": "2026-11-22T22:30:11.348745Z",
+  "mascot_line": "おはようAI！今日は便利なツールがたくさん登場して、おだやかで楽しい一日になりそうだね！",
+  "stats": {
+    "candidates": 10,
+    "collected": 13,
+    "llm_calls": 5,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 10,
+    "seconds": 25.1,
+    "selected": 3
+  },
+  "weather": "sunny"
+}
