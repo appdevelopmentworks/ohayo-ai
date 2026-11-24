@@ -1,84 +1,101 @@
 {
-  "date": "2026-11-23",
-  "generated_at": "2026-11-22T22:30:11.348745Z",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T03:21:43.815247Z",
   "weather": "sunny",
   "digest": [
-    "パソコンで動くAIチーム作成ツールが登場した。",
-    "AIが上司になり人間が部下として働くゲームが公開された。",
-    "マック向けの個人用知識とブックマーク管理ツールが出た。"
+    "グーグル検索が個人アプリと連携して便利に進化",
+    "会話を絶対に忘れない新しいAIパートナーが登場",
+    "独自のエンジンを持つブラウザと顧客探し支援機能"
   ],
-  "mascot_line": "おはようAI！今日は便利なツールがたくさん登場して、おだやかで楽しい一日になりそうだね！",
+  "mascot_line": "きょうは晴れでおだやかな一日！便利なAIツールをいっしょにチェックしようね！",
   "articles": [
     {
-      "id": "00d9a00720",
-      "title_ja": "デスクトップで動くAIチーム作成ツールoovi",
-      "what": "自分のパソコン上で動くAIのチームを作れるツールが登場した。",
-      "new": "デスクトップ環境で自分専用のAIチームを構築できる。",
-      "impact": "日常の作業をサポートするAIを自分のパソコンで手軽に活用できるようになる。",
+      "id": "39c2da17ce",
+      "title_ja": "Google検索が個人のアプリと連携して便利に",
+      "what": "Google検索やAI機能が個人のアプリと連携して一人ひとりに合わせた回答をする機能を発表した。",
+      "new": "Google WalletやDriveなどを安全に接続して、お金の管理や書類の情報も検索に活かせるようになった。",
+      "impact": "自分の状況に合った検索結果や提案がすぐに見つかり、調べ物の手間や時間が減る。",
       "term": {
-        "word": "デスクトップ",
-        "note": "普段使っているパソコンの画面や、その中で作業する場所のこと。"
+        "word": "Gemini app",
+        "note": "Googleが開発した対話型のAIサービスのこと。"
       },
       "category": "便利なツール",
-      "score": 3,
-      "url": "https://www.producthunt.com/products/oovi",
-      "source": "producthunt",
-      "source_name": "Product Hunt (AI)",
-      "title_en": "oovi",
-      "published": "2026-11-21T20:02:03Z",
-      "summary_only": true,
-      "also_in": []
-    },
-    {
-      "id": "3c4f4993ad",
-      "title_ja": "AIが上司で人間が部下になるブラウザゲーム",
-      "what": "AIエージェントが上司となり人間がその部下として指示をこなすゲームが公開された。",
-      "new": "実際のAIモデルが上司役を務め、制限時間内に指示を実行して評価を受ける仕組みが新しい。",
-      "impact": "AIと働く感覚や、AIからの指示を受けて作業する体験をゲームとして手軽に楽しむことができる。",
-      "term": {
-        "word": "サブエージェント",
-        "note": "AIの指示を受けて特定の作業を実行する、下位のAIやプログラムのこと。"
-      },
-      "category": "便利なツール",
-      "score": 3,
-      "url": "https://github.com/gulivan/worker755",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "title_en": "Show HN: I built a game where you are an LLM's subagent",
-      "published": "2026-11-22T13:56:58Z",
+      "score": 4,
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "title_en": "A more tailored Google Search that’s uniquely yours",
+      "published": "2026-11-23T17:00:00Z",
       "summary_only": false,
       "also_in": []
     },
     {
-      "id": "226b30a8c6",
-      "title_ja": "Mac向けの個人用ナレッジ・ブックマーク管理ツール",
-      "what": "Macで使える個人用の知識ベースとブックマーク管理ツールが登場した。",
-      "new": "個人内の情報やWebサイトのブックマークをまとめて管理できる。",
-      "impact": "散らかりがちな情報やブックマークを効率よく整理できるようになる。",
+      "id": "26b7d3dabd",
+      "title_ja": "完全独立型の新しいウェブブラウザがアルファ版を公開",
+      "what": "新しいウェブブラウザLadybirdが、macOSとLinux向けに初のアルファ版を公開した。",
+      "new": "既存のブラウザの仕組みを流用せず、ゼロから独自に開発されたブラウザエンジンを使用している。",
+      "impact": "将来的に大企業の管理下にない独立した選択肢として、ウェブ閲覧の自由度が高まる可能性がある。",
       "term": {
-        "word": "パーソナルナレッジベース",
-        "note": "自分が得た情報やメモなどを個人でまとめて保管し、後から探しやすくする仕組みのこと。"
+        "word": "ブラウザエンジン",
+        "note": "ウェブサイトの表示や仕組みを読み込んで画面に映し出すための核心部分のこと。"
       },
       "category": "便利なツール",
       "score": 3,
-      "url": "https://www.producthunt.com/products/resurf-2",
+      "url": "https://ladybird.org",
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "title_en": "Ladybird's first alpha release",
+      "published": "2026-11-23T21:46:35Z",
+      "summary_only": false,
+      "also_in": []
+    },
+    {
+      "id": "f830330325",
+      "title_ja": "会話を絶対に忘れないAIパートナーが登場",
+      "what": "あなたの話した内容を絶対に忘れないAIコンパニオンが登場した。",
+      "new": "これまでの会話の記憶をしっかりと保持し続けられる点が新しい。",
+      "impact": "過去のやり取りを踏まえたスムーズな対話やサポートが受けられるようになる。",
+      "term": {
+        "word": "AIコンパニオン",
+        "note": "人間のパートナーのように会話や相談相手になってくれるAIのこと。"
+      },
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/ashwa",
       "source": "producthunt",
       "source_name": "Product Hunt (AI)",
-      "title_en": "Resurf",
-      "published": "2026-11-21T16:21:36Z",
+      "title_en": "Ashwa",
+      "published": "2026-11-22T20:25:10Z",
+      "summary_only": true,
+      "also_in": []
+    },
+    {
+      "id": "ba5b2a74f4",
+      "title_ja": "Omi Workが次の100人の顧客を見つける機能を提供",
+      "what": "Omi Workがビジネスの顧客探しを支援する機能を発表した。",
+      "new": "製品開発に加え、次の100人の顧客を見つけ出す機能が加わったこと。",
+      "impact": "自社のサービスや商品を広げたい個人事業主の営業活動が効率的になる。",
+      "term": null,
+      "category": "便利なツール",
+      "score": 3,
+      "url": "https://www.producthunt.com/products/omi-work",
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "title_en": "Omi Work",
+      "published": "2026-11-22T08:35:25Z",
       "summary_only": true,
       "also_in": []
     }
   ],
   "stats": {
-    "collected": 13,
-    "candidates": 10,
-    "ranked": 10,
-    "selected": 3,
-    "llm_calls": 5,
+    "collected": 22,
+    "candidates": 21,
+    "ranked": 21,
+    "selected": 4,
+    "llm_calls": 7,
     "providers": [
       "gemini"
     ],
-    "seconds": 25.1
+    "seconds": 32.9
   }
 }

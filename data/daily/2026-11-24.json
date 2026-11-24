@@ -1,0 +1,101 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "39c2da17ce",
+      "impact": "自分の状況に合った検索結果や提案がすぐに見つかり、調べ物の手間や時間が減る。",
+      "new": "Google WalletやDriveなどを安全に接続して、お金の管理や書類の情報も検索に活かせるようになった。",
+      "published": "2026-11-23T17:00:00Z",
+      "score": 4,
+      "source": "google_ai",
+      "source_name": "Google AI (The Keyword)",
+      "summary_only": false,
+      "term": {
+        "note": "Googleが開発した対話型のAIサービスのこと。",
+        "word": "Gemini app"
+      },
+      "title_en": "A more tailored Google Search that’s uniquely yours",
+      "title_ja": "Google検索が個人のアプリと連携して便利に",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "what": "Google検索やAI機能が個人のアプリと連携して一人ひとりに合わせた回答をする機能を発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "26b7d3dabd",
+      "impact": "将来的に大企業の管理下にない独立した選択肢として、ウェブ閲覧の自由度が高まる可能性がある。",
+      "new": "既存のブラウザの仕組みを流用せず、ゼロから独自に開発されたブラウザエンジンを使用している。",
+      "published": "2026-11-23T21:46:35Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "ウェブサイトの表示や仕組みを読み込んで画面に映し出すための核心部分のこと。",
+        "word": "ブラウザエンジン"
+      },
+      "title_en": "Ladybird's first alpha release",
+      "title_ja": "完全独立型の新しいウェブブラウザがアルファ版を公開",
+      "url": "https://ladybird.org",
+      "what": "新しいウェブブラウザLadybirdが、macOSとLinux向けに初のアルファ版を公開した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "f830330325",
+      "impact": "過去のやり取りを踏まえたスムーズな対話やサポートが受けられるようになる。",
+      "new": "これまでの会話の記憶をしっかりと保持し続けられる点が新しい。",
+      "published": "2026-11-22T20:25:10Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間のパートナーのように会話や相談相手になってくれるAIのこと。",
+        "word": "AIコンパニオン"
+      },
+      "title_en": "Ashwa",
+      "title_ja": "会話を絶対に忘れないAIパートナーが登場",
+      "url": "https://www.producthunt.com/products/ashwa",
+      "what": "あなたの話した内容を絶対に忘れないAIコンパニオンが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "ba5b2a74f4",
+      "impact": "自社のサービスや商品を広げたい個人事業主の営業活動が効率的になる。",
+      "new": "製品開発に加え、次の100人の顧客を見つけ出す機能が加わったこと。",
+      "published": "2026-11-22T08:35:25Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Omi Work",
+      "title_ja": "Omi Workが次の100人の顧客を見つける機能を提供",
+      "url": "https://www.producthunt.com/products/omi-work",
+      "what": "Omi Workがビジネスの顧客探しを支援する機能を発表した。"
+    }
+  ],
+  "date": "2026-11-24",
+  "digest": [
+    "グーグル検索が個人アプリと連携して便利に進化",
+    "会話を絶対に忘れない新しいAIパートナーが登場",
+    "独自のエンジンを持つブラウザと顧客探し支援機能"
+  ],
+  "generated_at": "2026-11-24T03:21:43.815247Z",
+  "mascot_line": "きょうは晴れでおだやかな一日！便利なAIツールをいっしょにチェックしようね！",
+  "stats": {
+    "candidates": 21,
+    "collected": 22,
+    "llm_calls": 7,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 21,
+    "seconds": 32.9,
+    "selected": 4
+  },
+  "weather": "sunny"
+}
