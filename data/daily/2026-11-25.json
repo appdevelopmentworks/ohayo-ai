@@ -1,0 +1,235 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "3c6728c1bf",
+      "impact": "医療や環境分野で、狙った働きをするタンパク質を言葉の指示で効率よく開発できるようになる。",
+      "new": "専門モデルを使わず、言葉の指示だけで多様なタンパク質の設計や結合の予測ができる点が新しい。",
+      "published": "2026-11-24T13:00:00Z",
+      "score": 4,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": false,
+      "term": {
+        "note": "生体内で化学反応を起こしたり体を守ったりする、アミノ酸が鎖状につながってできた物質。",
+        "word": "タンパク質"
+      },
+      "title_en": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title_ja": "GPT-6が専門モデルを使わず新たなタンパク質を設計",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "what": "GPT-6モデルが推論とコードを使い、専門的な生物学モデルなしで新しいタンパク質の形や配列を設計できることを示した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "ef8096d74f",
+      "impact": "利用者が自分専用のAIツールを自由に使えず、企業の都合に左右されるリスクが高まる。",
+      "new": "有料のAIが開発企業のルールや制限を優先し、利用者の正当な要望を拒否する場合があること。",
+      "published": "2026-11-24T12:40:15Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "AIが自律的に判断して仕事や作業をこなしてくれる仕組みやプログラムのこと。",
+        "word": "LLM agents"
+      },
+      "title_en": "LLM agents work for their parent companies, not for you",
+      "title_ja": "AIエージェントが利用者の味方とは限らない理由",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "what": "AIが企業の意図や制限に従い、ユーザーの自由な作業を制限する問題点が指摘された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "e213ef04a8",
+      "impact": "音楽業界でAI生成曲の規制や人間による芸術を重視する動きがさらに広がる可能性がある。",
+      "new": "音楽配信プラットフォームとして初めてAI音楽を完全に排除する方針を打ち出したこと。",
+      "published": "2026-11-24T16:12:38Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "アーティストや音質にこだわりを持つ人気の音楽配信サービスの一つ。",
+        "word": "Tidal"
+      },
+      "title_en": "Tidal bans AI-generated music",
+      "title_ja": "音楽配信のTidalが全AI生成曲の禁止を発表",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "what": "音楽配信サービスのTidalが完全なAI生成曲の配信を来月開始から禁止すると発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "002bc4ff24",
+      "impact": "AI企業による社会への影響や民主主義への懸念がさらに高まる可能性がある。",
+      "new": "AI企業の社員が酒席で政府転覆を話題にしているという著名物理学者による証言が報じられた。",
+      "published": "2026-11-24T17:10:45Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "米国の大手人工知能開発企業のひとつ。",
+        "word": "Anthropic"
+      },
+      "title_en": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+      "title_ja": "Anthropicの社員が世界征服を語ると物理学者が主張",
+      "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+      "what": "マサチューセッツ工科大学の教授が、Anthropicの社員が世界征服について公然と語っていると述べた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "f3aa9260f1",
+      "impact": "専門知識がなくても、AIを使うことで高度なデータ分析や新しい発見に参加できるようになる。",
+      "new": "専門家ではない個人がAIを活用して膨大な宇宙データを分析し、専門家による調査につながる成果を出したこと。",
+      "published": "2026-11-24T11:00:00Z",
+      "score": 3,
+      "source": "openai",
+      "source_name": "OpenAI News",
+      "summary_only": false,
+      "term": {
+        "note": "太陽系の外にある、ほかの星のまわりを回っている惑星のこと。",
+        "word": "系外惑星"
+      },
+      "title_en": "Searching for distant planets with Astra",
+      "title_ja": "アマチュア天文家がAIを使って新しい惑星の候補を発見",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "what": "アマチュア天文家がAIツールを使い、公開された望遠鏡のデータから新しい惑星の候補を見つけた。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "098ae5a505",
+      "impact": "開発の効率化が進む一方で、エージェントの自律動作に対する安全性の管理や人間の判断がより重要になる。",
+      "new": "コーディングエージェントの日常的な利用や、大規模な開発現場での活用事例が報告された。",
+      "published": "2026-11-24T23:02:07Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": false,
+      "term": {
+        "note": "人間の指示を受けて、プログラムの作成や修正を自動で行うAIのこと。",
+        "word": "コーディングエージェント"
+      },
+      "title_en": "Three LLM inflection points in twelve months",
+      "title_ja": "AIエンジニア会議で語られたAI活用の最前線",
+      "url": "https://ai.engineer/code/2026",
+      "what": "AI Engineer Code Summit 2026での講演や議論の話題が紹介された。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "01cdd83d3c",
+      "impact": "歴史の調査や資料の分析をAIが素早く手伝えるようになる。",
+      "new": "わずかな指示だけで、公開資料を使いわずか22分で謎を解いた点。",
+      "published": "2026-11-24T16:53:59Z",
+      "score": 3,
+      "source": "simonwillison",
+      "source_name": "Simon Willison's Weblog",
+      "summary_only": true,
+      "term": {
+        "note": "歴史的な謎の解明などに使われた人工知能モデルのこと。",
+        "word": "GPT-6.2 Astra"
+      },
+      "title_en": "GPT 6.2 Astra Solves a Historical Mystery",
+      "title_ja": "GPT-6.2 Astraが歴史の謎を自律的に解明",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "what": "歴史研究で、AIが匿名の古いスケッチブックの作者を特定した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0f94804220",
+      "impact": "自分の好みに合わせた柔軟なスケジュール管理ができるようになる。",
+      "new": "多様なスケジュールやレイアウト、スタイルに対応する機能を持つ。",
+      "published": "2026-11-24T06:26:55Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Agenda Hero Magic Labs",
+      "title_ja": "あらゆる予定やレイアウトに対応するAgenda Hero Magic Labs",
+      "url": "https://www.producthunt.com/products/agenda-hero-magic",
+      "what": "スケジュール管理ツールであるAgenda Hero Magic Labsが紹介された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "702ed13958",
+      "impact": "",
+      "new": "",
+      "published": "2026-11-24T01:33:35Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Pinned",
+      "title_ja": "今夜の行き先をAIに相談できるPinned",
+      "url": "https://www.producthunt.com/products/pinned",
+      "what": "友達と今夜どこに行くべきか都市に尋ねることができる。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "8683b50fa2",
+      "impact": "見やすい製品紹介やデモ動画を簡単につくれるようになる。",
+      "new": "AIが自動で録画した画面を編集する機能を持っている。",
+      "published": "2026-11-23T21:22:27Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "画面録画をおしゃれでで見やすく編集できる人気のソフトのこと。",
+        "word": "スクリーンスタジオ"
+      },
+      "title_en": "tday.com",
+      "title_ja": "画面録画をきれいに編集できるAIツール",
+      "url": "https://www.producthunt.com/products/tday",
+      "what": "AIを使って画面録画をきれいに編集できるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "7544d6de3d",
+      "impact": "Macでの作業効率が向上し、AIをよりスムーズに活用できる。",
+      "new": "前の作業の続きからAIを使える点が新しい。",
+      "published": "2026-11-23T13:39:26Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": null,
+      "title_en": "Astrolabio",
+      "title_ja": "MacでAIの作業をそのまま引き継げるツール",
+      "url": "https://www.producthunt.com/products/astrolabio",
+      "what": "Mac上でAIとの作業の続きをすぐに始められるツールが登場した。"
+    }
+  ],
+  "date": "2026-11-25",
+  "digest": [
+    "新モデルが新たなタンパク質を設計し歴史の謎も解明",
+    "音楽配信でAI生成曲の禁止やAIの制限問題が浮上",
+    "宇宙データの分析や便利なAIツールも続々と登場"
+  ],
+  "generated_at": "2026-11-25T01:27:06.577702Z",
+  "mascot_line": "きょうは晴れでおだやかな一日だね！すてきなAIツールといっしょに楽しくニュースを見ていこう！",
+  "stats": {
+    "candidates": 29,
+    "collected": 36,
+    "llm_calls": 13,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 29,
+    "seconds": 62.9,
+    "selected": 11
+  },
+  "weather": "sunny"
+}
