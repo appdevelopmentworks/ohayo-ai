@@ -1,0 +1,125 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "e06efe7d5d",
+      "impact": "個人事業主でも質の高いプロモーション動画を簡単に作れるようになる。",
+      "new": "映画レベルの映像を作り出せる大規模な動画生成モデルである点。",
+      "published": "2026-11-25T05:35:39Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "AIの頭脳の大きさを表す言葉で、非常に多くのデータ処理ができる。",
+        "word": "480Bモデル"
+      },
+      "title_en": "MAGI-2",
+      "title_ja": "映画のような動画を作れる480BモデルMAGI-2",
+      "url": "https://www.producthunt.com/products/magi-1",
+      "what": "Sand AIがシネマティックな動画生成を行う480Bモデルを発表した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0a2be49a6b",
+      "impact": "電話予約や問い合わせなどの面倒な電話業務をAIに任せられるようになる。",
+      "new": "メッセージのやり取りだけでなく、実際の音声通話を行ってくれる点が新しい。",
+      "published": "2026-11-24T11:19:56Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "人間の指示を理解して、パソコンやスマホの作業を自動でお手伝いしてくれるAIのことです。",
+        "word": "AIアシスタント"
+      },
+      "title_en": "Hai",
+      "title_ja": "代わりに電話をかけてくれるAIアシスタント",
+      "url": "https://www.producthunt.com/products/hai-4",
+      "what": "AIが実際に電話のやり取りをしてくれるアシスタントが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "新モデル",
+      "id": "a58808d0bc",
+      "impact": "自分の手書き文字のスタイルをAIに学習させたり、テキストから手軽にイラストを作成できるようになる。",
+      "new": "文字やスケッチのデータをもとに、テキストから自然な手書き文字やイラストを描き出すことができる。",
+      "published": "2026-11-25T00:54:49Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "文章や画像などの流れを読み解き、次に続く言葉や絵を予測するAIの仕組みのこと。",
+        "word": "Transformer"
+      },
+      "title_en": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "title_ja": "手書き文字やイラストを描く小型AI「PenGPT」",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "what": "テキストから手書き文字やイラストを生成する小型AIモデル「PenGPT」が公開された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "0df785bff5",
+      "impact": "買い物の際に効率よく目当てのセール品を探し出せるようになる。",
+      "new": "実際のセール商品をスワイプ操作で簡単に次々と見ていくことができる。",
+      "published": "2026-11-24T22:25:40Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "自分のネットショップを簡単に作ることができる世界中で人気のサービスです。",
+        "word": "Shopify"
+      },
+      "title_en": "Hold'em",
+      "title_ja": "Shopifyのブラックフライデーセール品を探せるツール",
+      "url": "https://www.producthunt.com/products/hold-em",
+      "what": "Shopifyのブラックフライデーセールの商品をスワイプして探せるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "489daac076",
+      "impact": "仕事で使うAIとの情報共有がスムーズになり業務効率が上がる。",
+      "new": "人とAIが情報を共有し記憶を保持できる仕組みが新しい。",
+      "published": "2026-11-24T20:30:45Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "自律的に考え、人間の代わりにさまざまな作業を実行してくれるAIプログラムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "MemoryWorks",
+      "title_ja": "人とAIの記憶を共有するMemoryWorks",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "what": "人間とAIエージェントのための会社の記憶を管理するツールが登場した。"
+    }
+  ],
+  "date": "2026-11-26",
+  "digest": [
+    "映画級の動画生成モデルMAGI-2登場",
+    "電話代行や記憶共有など新ツール続々",
+    "手書き風イラスト描ける小型AI公開"
+  ],
+  "generated_at": "2026-11-26T01:01:33.800891Z",
+  "mascot_line": "今日は穏やかな一日ですね。新しいAIツールで、あなたの毎日を少しだけ快適にしてみませんか？",
+  "stats": {
+    "candidates": 21,
+    "collected": 32,
+    "llm_calls": 10,
+    "providers": [
+      "gemini",
+      "groq"
+    ],
+    "ranked": 21,
+    "seconds": 133.3,
+    "selected": 5
+  },
+  "weather": "sunny"
+}
