@@ -1,0 +1,164 @@
+{
+  "articles": [
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "244a3e8cb4",
+      "impact": "これまでと同じプランでも利用できる量が減り、計画的な利用が必要になる。",
+      "new": "Astraは40パーセント、Solは25パーセント早く利用制限に達するようになった。",
+      "published": "2026-11-26T03:36:58Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "OpenAIが提供するAIモデルの名称です。",
+        "word": "GPT-6.2"
+      },
+      "title_en": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "title_ja": "GPT-6.2の利用制限が早まるミスを修正",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "what": "料金設定のミスにより、GPT-6.2の一部の利用枠が割引されていた問題が修正された。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "19f2f984a8",
+      "impact": "仕事で写真編集をする際に、編集ソフトのAI機能によって信頼性が損なわれるリスクを防げる。",
+      "new": "最新の更新でAI機能が勝手に使われ、写真がAI生成だと記録されてしまう恐れがあるため。",
+      "published": "2026-11-25T21:18:02Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "ファイルに埋め込まれる、撮影日時や編集履歴などの付加的な情報のこと。",
+        "word": "メタデータ"
+      },
+      "title_en": "The New York Times warns photographers not to update Photoshop over AI features",
+      "title_ja": "NYタイムズが写真家にPhotoshopの更新を控えるよう警告",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "what": "The New York Timesがフリーランスの写真家に対し、最新のPhotoshopに更新しないよう要請した。"
+    },
+    {
+      "also_in": [],
+      "category": "注目トピック",
+      "id": "c83866a1db",
+      "impact": "過度な期待を抑え、医療分野におけるAIの現実的な進捗を冷静に見極められる。",
+      "new": "現時点でAIが人命を救い病気を根治した実績がないことを調査した。",
+      "published": "2026-11-26T17:16:41Z",
+      "score": 3,
+      "source": "hn",
+      "source_name": "Hacker News",
+      "summary_only": false,
+      "term": {
+        "note": "アメリカの政府機関で、医薬品や食品が安全で効果があるかを審査して承認する組織。",
+        "word": "FDA"
+      },
+      "title_en": "Tracking Diseases Cured by AI",
+      "title_ja": "AIが完全に治した病気の数はまだゼロ",
+      "url": "https://diseasescuredbyai.com/",
+      "what": "AIが発見した新薬で承認され病気を治した例はまだ一件もない。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "5eef6337fd",
+      "impact": "使う機器が変わっても同じAIの記憶を使えるため作業をスムーズに続けられる。",
+      "new": "異なるデバイス間でAIの記憶をそのまま共有できるようになる点が新しい。",
+      "published": "2026-11-26T07:58:18Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "指示した作業を自律的に考えて進めてくれるAIのプログラムのこと。",
+        "word": "AIエージェント"
+      },
+      "title_en": "Claude-Mem Cloud Sync",
+      "title_ja": "AIの記憶を別の端末でも同期できるツールが登場",
+      "url": "https://www.producthunt.com/products/claude-mem",
+      "what": "端末を変えてもAIアシスタントの記憶を引き継げるクラウド同期機能が登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "画像・動画",
+      "id": "3809f14649",
+      "impact": "動画編集にかかる手間と時間を大幅に減らすことができる。",
+      "new": "AIに指示を出すだけで動画の編集作業を行える点が新しい。",
+      "published": "2026-11-26T05:09:09Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "AIが監督のように動画の編集方針を考えて作業を進めてくれる機能です。",
+        "word": "AIディレクター"
+      },
+      "title_en": "Superframes",
+      "title_ja": "AIが動画編集を指示通りに行うSuperframes",
+      "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
+      "what": "AIディレクターへの指示で動画全体を編集できるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "3f36f46272",
+      "impact": "作業しながら画面の隅で気軽にAIへ質問できるようになる。",
+      "new": "画面下のタスクバー上で、棒人間が手軽に疑問に答えてくれる点。",
+      "published": "2026-11-25T23:52:43Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "パソコンの画面の端に表示され、開いているアプリや機能が並んでいる部分のこと。",
+        "word": "タスクバー"
+      },
+      "title_en": "Doodle",
+      "title_ja": "タスクバーの棒人間が質問に答えるDoodle",
+      "url": "https://www.producthunt.com/products/doodle-5",
+      "what": "パソコンのタスクバーにいる棒人間が質問に答えてくれるツールが登場した。"
+    },
+    {
+      "also_in": [],
+      "category": "便利なツール",
+      "id": "1ac560e589",
+      "impact": "対面での打ち合わせの記録や振り返りが楽になる。",
+      "new": "対面での会議に対応している点が新しい。",
+      "published": "2026-11-25T21:33:47Z",
+      "score": 3,
+      "source": "producthunt",
+      "source_name": "Product Hunt (AI)",
+      "summary_only": true,
+      "term": {
+        "note": "会議の音声を自動で聞き取り、要約や記録を作ってくれるAIツールのこと。",
+        "word": "AI Notetaker"
+      },
+      "title_en": "MeetFolks",
+      "title_ja": "対面会議の音声を記録するAIツール",
+      "url": "https://www.producthunt.com/products/meetfolks",
+      "what": "対面で行う会議のメモをAIが作成するツールが登場した。"
+    }
+  ],
+  "date": "2026-11-27",
+  "digest": [
+    "利用制限のミスを修正した問題や新薬の効果について",
+    "写真へのAI機能の記録を防ぐ警告や新しいツールについて",
+    "会議の記録や動画編集を行う新しい機能について"
+  ],
+  "generated_at": "2026-11-27T01:02:05.957045Z",
+  "mascot_line": "きょうもおだやかなはれ天気！すてきなニュースをチェックしてね！",
+  "stats": {
+    "candidates": 30,
+    "collected": 38,
+    "llm_calls": 9,
+    "providers": [
+      "gemini"
+    ],
+    "ranked": 26,
+    "seconds": 45.8,
+    "selected": 7
+  },
+  "weather": "sunny"
+}
